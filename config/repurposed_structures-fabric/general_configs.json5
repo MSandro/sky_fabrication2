@@ -53,7 +53,7 @@
 		   How rare are Nether Cities in Nether biomes.
 		   1 for spawning in most chunks and 1001 for none.
 		*/
-		"cityNetherAverageChunkDistance": 800
+		"cityNetherAverageChunkDistance": 900
 	},
 	"RSDungeonsConfig": {
 		"attemptsPerChunk": {
@@ -144,7 +144,7 @@
 			   Spawn attempts per chunk.
 			   0 for no Dungeons at all and 1000 for max spawnrate.
 			*/
-			"netherDungeonAttemptsPerChunk": 4,
+			"netherDungeonAttemptsPerChunk": 1,
 			/* 
 			   
 			   
@@ -221,7 +221,7 @@
 			   Minimum Y height that this dungeon can spawn at.
 			   Note: The dungeon will spawn between min and max y height set in config.
 			*/
-			"endDungeonMinHeight": 2,
+			"endDungeonMinHeight": 1,
 			/* 
 			   
 			   
@@ -536,7 +536,7 @@
 			   How often Mineshafts will spawn.
 			   0 for no Mineshafts and 1000 for max spawnrate.
 			*/
-			"endMineshaftSpawnrate": 60,
+			"endMineshaftSpawnrate": 10,
 			/* 
 			   
 			   
@@ -932,7 +932,7 @@
 		   How rare are Nether Pyramids in Nether.
 		   1 for spawning in most chunks and 1001 for none.
 		*/
-		"pyramidNetherAverageChunkDistance": 300,
+		"pyramidNetherAverageChunkDistance": 800,
 		/* 
 		   
 		   
@@ -953,7 +953,7 @@
 		   How rare are End Pyramid in End biomes.
 		   1 for spawning in most chunks and 1001 for none.
 		*/
-		"pyramidEndAverageChunkDistance": 68,
+		"pyramidEndAverageChunkDistance": 500,
 		/* 
 		   
 		   
@@ -1014,7 +1014,7 @@
 		   How rare are Nether Ruins in Nether category biomes.
 		   1 for spawning in most chunks and 1001 for none.
 		*/
-		"ruinsNetherAverageChunkDistance": 300,
+		"ruinsNetherAverageChunkDistance": 800,
 		/* 
 		   
 		   
@@ -1037,28 +1037,28 @@
 		   How rare are End Shipwreck in End Highlands biomes.
 		   1 for spawning in most chunks and 1001 for none.
 		*/
-		"endShipwreckAverageChunkDistance": 24,
+		"endShipwreckAverageChunkDistance": 300,
 		/* 
 		   
 		   
 		   How rare are Nether Bricks Shipwreck in any non-warped or non-crimson Nether biome.
 		   1 for spawning in most chunks and 1001 for none.
 		*/
-		"netherBricksShipwreckAverageChunkDistance": 300,
+		"netherBricksShipwreckAverageChunkDistance": 800,
 		/* 
 		   
 		   
 		   How rare are Crimson Shipwreck in Crimson Nether biome.
 		   1 for spawning in most chunks and 1001 for none.
 		*/
-		"crimsonShipwreckAverageChunkDistance": 300,
+		"crimsonShipwreckAverageChunkDistance": 800,
 		/* 
 		   
 		   
 		   How rare are Warped Shipwreck in Warped Nether biome.
 		   1 for spawning in most chunks and 1001 for none.
 		*/
-		"warpedShipwreckAverageChunkDistance": 300
+		"warpedShipwreckAverageChunkDistance": 800
 	},
 	"RSStrongholdsConfig": {
 		"nether": {
@@ -1077,7 +1077,7 @@
 			   1 for spawning in most chunks and 1001 for no spawn.
 			   Note: Eyes of Ender will work and show the closest Nether Stronghold too.
 			*/
-			"netherStrongholdAverageChunkDistance": 400,
+			"netherStrongholdAverageChunkDistance": 900,
 			/* 
 			   
 			   
@@ -1108,7 +1108,7 @@
 			   1 for spawning in most chunks and 10001 for no spawn.
 			   Note: Eyes of Ender will work and show the closest End Stronghold too.
 			*/
-			"endStrongholdAverageChunkDistance": 130,
+			"endStrongholdAverageChunkDistance": 500,
 			/* 
 			   
 			   
@@ -1137,35 +1137,35 @@
 		   How rare are Nether Temples in Nether Wastelands.
 		   1 for spawning in most chunks and 1001 for none.
 		*/
-		"netherWastelandTempleAverageChunkDistance": 100,
+		"netherWastelandTempleAverageChunkDistance": 500,
 		/* 
 		   
 		   
 		   How rare are Nether Basalt Temples in Nether Basalt Delta biomes.
 		   1 for spawning in most chunks and 1001 for none.
 		*/
-		"netherBasaltTempleAverageChunkDistance": 100,
+		"netherBasaltTempleAverageChunkDistance": 500,
 		/* 
 		   
 		   
 		   How rare are Nether Crimson Temples in Nether Crimson Forest.
 		   1 for spawning in most chunks and 1001 for none.
 		*/
-		"netherCrimsonTempleAverageChunkDistance": 100,
+		"netherCrimsonTempleAverageChunkDistance": 500,
 		/* 
 		   
 		   
 		   How rare are Nether Crimson Temples in Nether Warped Forest.
 		   1 for spawning in most chunks and 1001 for none.
 		*/
-		"netherWarpedTempleAverageChunkDistance": 100,
+		"netherWarpedTempleAverageChunkDistance": 500,
 		/* 
 		   
 		   
 		   How rare are Nether Soul Temples in Nether Soul Sand Valley.
 		   1 for spawning in most chunks and 1001 for none.
 		*/
-		"netherSoulTempleAverageChunkDistance": 100
+		"netherSoulTempleAverageChunkDistance": 500
 	},
 	"RSVillagesConfig": {
 		"spawnrate": {
@@ -1231,14 +1231,14 @@
 			   How rare are Crimson Village in Crimson Forest biomes.
 			   1 for spawning in most chunks and 1001 for none.
 			*/
-			"crimsonVillageAverageChunkDistance": 100,
+			"crimsonVillageAverageChunkDistance": 500,
 			/* 
 			   
 			   
 			   How rare are Warped Village in Warped Forest biomes.
 			   1 for spawning in most chunks and 1001 for none.
 			*/
-			"warpedVillageAverageChunkDistance": 100,
+			"warpedVillageAverageChunkDistance": 500,
 			/* 
 			   
 			   
@@ -1334,7 +1334,7 @@
 		   Chance of a well generating in a chunk is 1/rarityPerChunk.
 		   1 for spawning in every chunk and 10000 for no wells.
 		*/
-		"netherWellRarityPerChunk": 250,
+		"netherWellRarityPerChunk": 500,
 		/* 
 		   
 		   

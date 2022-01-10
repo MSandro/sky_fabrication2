@@ -4,6 +4,7 @@
 
 onEvent('recipes', event => {
   event.remove({output: 'minecraft:end_portal_frame'});
+  event.remove({output: 'rswires:red_alloy_compound'});
   event.remove({output: 'valley:crate_bamboo'});
   event.remove({output: 'blockus:oak_small_logs'});
   event.remove({output: 'blockus:charcoal_block'});

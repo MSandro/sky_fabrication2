@@ -1042,7 +1042,7 @@ hash = "0787ec5312d68e7625d9039b37845a85b00f0b6585b256ef479749edeb661b81"
 
 [[files]]
 file = "config/repurposed_structures-fabric/general_configs.json5"
-hash = "5243ea2122ce2174f147b6c1b6aea4d02db55c2943211487815f980f5a7323a5"
+hash = "af84b7890c246b82cc45295c18f73b62f7741a0022f233981d9e63d721d01ac8"
 
 [[files]]
 file = "config/repurposed_structures-fabric/natural_mob_spawning_configs.json5"
@@ -2038,7 +2038,7 @@ hash = "24bd4228df35c26c32a3248419f62f284f79f20e41f956f7e1cc3cdc9ea688b9"
 
 [[files]]
 file = "kubejs/server_scripts/main_recipes.js"
-hash = "40d7b63be821b3d0170038c9ddbab7e79f7b8892f82e1dda3c379296d8da90b0"
+hash = "ff59c67b0a425f9f1d3f8ee3b2472c08d93812960fabbe36cad0171eeb2773ef"
 
 [[files]]
 file = "kubejs/server_scripts/recipetypes/blockus/shaped.js"
@@ -2085,10 +2085,6 @@ file = "kubejs/server_scripts/recipetypes/techreborn/shaped.js"
 hash = "394373d57b551985205153fd1e0ad5a51c37c2acc64c2fb4c32e47482a0d300f"
 
 [[files]]
-file = "kubejs/server_scripts/scheduler.js_disabled"
-hash = "e2ab87b9a846b8f5ba9ccee867a0d3ad447195348739fab147375aa4616ee9bd"
-
-[[files]]
 file = "kubejs/server_scripts/script.js"
 hash = "d070ffe6d65d8b8f047e79353b0ba3834b94d0b59b74c4d46026dbb16286c901"
 
@@ -2102,7 +2098,7 @@ hash = "ac3fc1d8331ca688a8bc88dad7fca99f69a4e92330f54f3053d9b9c1125ab436"
 
 [[files]]
 file = "kubejs/server_scripts/void.js"
-hash = "754f1a02669f7e0ab402eec8750967ae5a6a23edacb2b5d5d4369c2837da7dae"
+hash = "c50a9bb12810181907c290b35861e1b7bae8f7717e0a7b2b598ccc74de97000a"
 
 [[files]]
 file = "kubejs/server_scripts/wooden_chests.js"
@@ -3080,6 +3076,16 @@ metafile = true
 [[files]]
 file = "mods/structure-world.toml"
 hash = "d16589204c98a1df7a12959fc5c9931b961319cd3ebdd2c0078c10c7181e7e42"
+metafile = true
+
+[[files]]
+file = "mods/styled-chat.toml"
+hash = "d0db8ff3916fda3ba045356bb363b3310106224d24113a99abd4a52e361303d8"
+metafile = true
+
+[[files]]
+file = "mods/styled-player-list.toml"
+hash = "147f4db6ef1b7ccb85ac68940c301bd74d26ac7fb23e6a07f314c7eda2f872a0"
 metafile = true
 
 [[files]]
