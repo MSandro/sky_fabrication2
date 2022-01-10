@@ -1,0 +1,9 @@
+{
+  "block": "betterend:mossy_glowshroom_cap",
+  "dim": "skyutils:skyutils",
+  "ignitionType": "ITEM",
+  "ignitionSource": "minecraft:amethyst_shard",
+  "r": 102,
+  "g": 179,
+  "b": 255
+}

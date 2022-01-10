@@ -1,0 +1,10 @@
+{
+  "targets": [
+    "ENTITY_ON_INTERACT"
+  ],
+  "items": [
+    "minecraft:bowl",
+    "minecraft:saddle",
+    "minecraft:chest"
+  ]
+}

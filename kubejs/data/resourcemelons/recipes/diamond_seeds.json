@@ -1,0 +1,23 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+	"r#r",
+	"#M#",
+	"r#r"
+  ],
+  "key": {
+	"#": {
+	  "item": "minecraft:diamond_block"
+	},
+	"r": {
+	  "item": "botania:terrasteel_nugget"
+	},
+	"M": {
+	  "item": "kubejs:melon_infusion_crystal"
+	}
+  },
+  "result": {
+	"item": "resourcemelons:diamond_seeds",
+	"count": 1
+  }
+}

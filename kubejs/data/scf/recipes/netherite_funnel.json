@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "funnels",
+  "pattern": [
+    "CXC",
+    "CSC",
+    "CRC"
+  ],
+  "key": {
+    "S": {
+      "item": "scf:diamond_funnel"
+    },
+	"X": {
+      "item": "minecraft:nether_star"
+    },
+    "C": {
+      "item": "minecraft:netherite_block"
+    },
+    "R": {
+      "item": "modern_industrialization:stainless_steel_rod_magnetic"
+    }
+  },
+  "result": {
+    "item": "scf:netherite_funnel",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+name = "Grass Bypass"
+filename = "grass-pass-1.17-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3328/770/grass-pass-1.17-1.0.0.jar"
+hash-format = "murmur2"
+hash = "3443183535"
+
+[update]
+[update.curseforge]
+file-id = 3328770
+project-id = 418819

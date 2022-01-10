@@ -1,0 +1,13 @@
+name = "Steed Stopper"
+filename = "steedstopper-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3039/148/steedstopper-1.0.1.jar"
+hash-format = "murmur2"
+hash = "3875255836"
+
+[update]
+[update.curseforge]
+file-id = 3039148
+project-id = 403432

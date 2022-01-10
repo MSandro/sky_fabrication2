@@ -1,0 +1,13 @@
+name = "MAmbience"
+filename = "Mambience-3.2.0+1.17.1.jar"
+side = "client"
+
+[download]
+url = "https://edge.forgecdn.net/files/3531/617/Mambience-3.2.0+1.17.1.jar"
+hash-format = "murmur2"
+hash = "1754416977"
+
+[update]
+[update.curseforge]
+file-id = 3531617
+project-id = 317590

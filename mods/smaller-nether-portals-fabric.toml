@@ -1,0 +1,13 @@
+name = "Smaller Nether Portals (Fabric)"
+filename = "smallernetherportals-fabric_1.17.x-1.8.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3461/999/smallernetherportals-fabric_1.17.x-1.8.jar"
+hash-format = "murmur2"
+hash = "1390153289"
+
+[update]
+[update.curseforge]
+file-id = 3461999
+project-id = 528061

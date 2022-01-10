@@ -1,0 +1,13 @@
+name = "Kambrik"
+filename = "Kambrik-2.4.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3533/404/Kambrik-2.4.2.jar"
+hash-format = "murmur2"
+hash = "4219549584"
+
+[update]
+[update.curseforge]
+file-id = 3533404
+project-id = 455585

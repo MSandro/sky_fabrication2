@@ -1,0 +1,12 @@
+{
+  "type": "skyutils:skyutils_type",
+  "generator": {
+    "biome_source": {
+      "seed": 0,
+      "type": "minecraft:vanilla_layered"
+    },
+    "seed": 0,
+    "settings": "minecraft:floating_islands",
+    "type": "skyutils:skyblock_island"
+  }
+}

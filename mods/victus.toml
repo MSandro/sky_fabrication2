@@ -1,0 +1,13 @@
+name = "Victus - Custom Hearts"
+filename = "victus-0.1.4+1.17.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3540/903/victus-0.1.4+1.17.1.jar"
+hash-format = "murmur2"
+hash = "155150183"
+
+[update]
+[update.curseforge]
+file-id = 3540903
+project-id = 534492

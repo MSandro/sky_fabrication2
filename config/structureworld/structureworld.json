@@ -1,0 +1,26 @@
+{
+  "createPlatformPermissionLevel": 0,
+  "teleportToPlatformPermissionLevel": 0,
+  "platformDistanceRadius": 1000,
+  "structureWorldConfigs": [
+    {
+      "structureIdentifier": "simple_tree",
+      "biomeIdentifier": "minecraft:plains",
+      "structureOffset": [
+        -2,
+        0,
+        -2
+      ],
+      "playerSpawnOffset": [
+        0,
+        8,
+        0
+      ],
+      "fillmentBlockIdentifier": "minecraft:air",
+      "topBedrockEnabled": false,
+      "bottomBedrockEnabled": false,
+      "isBedrockFlat": false,
+      "overridingDefault": true
+    }
+  ]
+}

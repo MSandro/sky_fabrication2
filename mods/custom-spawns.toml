@@ -1,0 +1,13 @@
+name = "Custom Spawns [Fabric]"
+filename = "custom-spawns-0.5.1+1.17.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3537/384/custom-spawns-0.5.1+1.17.jar"
+hash-format = "murmur2"
+hash = "3202875718"
+
+[update]
+[update.curseforge]
+file-id = 3537384
+project-id = 416243

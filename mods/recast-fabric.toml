@@ -1,0 +1,13 @@
+name = "Recast (Fabric)"
+filename = "recast-fabric_1.17.x-1.5.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3501/441/recast-fabric_1.17.x-1.5.jar"
+hash-format = "murmur2"
+hash = "1244734172"
+
+[update]
+[update.curseforge]
+file-id = 3501441
+project-id = 539600

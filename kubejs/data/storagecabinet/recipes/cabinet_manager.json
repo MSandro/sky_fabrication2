@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ARA",
+    "ACA",
+    "AAA"  ],
+  "key": {
+    "A": [
+      {
+        "item": "minecraft:cobblestone"
+      }
+    ],
+    "C": [
+      {
+        "item": "storagecabinet:storagecabinet_wood"
+      }
+    ],
+    "R": [
+      {
+        "item": "simple_pipes:pipe_wooden_item"
+      }
+    ]
+  },
+  "result": {
+    "item": "storagecabinet:cabinet_manager"
+  }
+}

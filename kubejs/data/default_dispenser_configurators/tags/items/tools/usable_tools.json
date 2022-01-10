@@ -1,0 +1,7 @@
+{
+  "values": [
+    "#default_dispenser_configurators:tools/axes",
+    "#default_dispenser_configurators:tools/hoes",
+    "#default_dispenser_configurators:tools/shovels"
+  ]
+}

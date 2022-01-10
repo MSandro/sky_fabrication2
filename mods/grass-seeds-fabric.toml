@@ -1,0 +1,13 @@
+name = "Grass Seeds (Fabric)"
+filename = "grassseeds-fabric_1.17.x-1.6.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3467/765/grassseeds-fabric_1.17.x-1.6.jar"
+hash-format = "murmur2"
+hash = "2266478363"
+
+[update]
+[update.curseforge]
+file-id = 3467765
+project-id = 530225

@@ -1,0 +1,109 @@
+{
+  "fatigue": {
+    //The fatigue counter's position. Accepted values: TOP_CENTER, TOP_LEFT, TOP_RIGHT, BOTTOM_CENTER, BOTTOM_LEFT, BOTTOM_RIGHT.
+    "displayFatigue": "BOTTOM_RIGHT",
+    //Simplifies the numerical fatigue counter to words
+    "simpleFatigueDisplay": false,
+    //The ETA and multiplier display position in Somnia's sleep gui. Accepted values: right, center, left.
+    "displayETASleep": "left",
+    //Fatigue is incremented by this number every tick
+    "fatigueRate": 0.00208,
+    //Fatigue is decreased by this number while you sleep (every tick)
+    "fatigueReplenishRate": 0.00833,
+    //Enables fatigue side effects
+    "fatigueSideEffects": true,
+    //The required amount of fatigue to sleep
+    "minimumFatigueToSleep": 20.0,
+    //Definitions of each side effect stage in order:
+    //min fatigue, max fatigue, potion ID, duration, amplifier.
+    //For a permanent effect, set the duration to -1.
+
+    "sideEffectStages": [
+      {
+        "minFatigue": 70,
+        "maxFatigue": 80,
+        "potionId": "minecraft:nausea",
+        "duration": 150,
+        "amplifier": 0
+      },
+      {
+        "minFatigue": 80,
+        "maxFatigue": 90,
+        "potionId": "minecraft:slowness",
+        "duration": 300,
+        "amplifier": 2
+      },
+      {
+        "minFatigue": 90,
+        "maxFatigue": 95,
+        "potionId": "minecraft:poison",
+        "duration": 200,
+        "amplifier": 1
+      },
+      {
+        "minFatigue": 95,
+        "maxFatigue": 100,
+        "potionId": "minecraft:slowness",
+        "duration": -1,
+        "amplifier": 3
+      }
+    ],
+    //Definitions of fatigue replenishing items.
+    //Each entry consist of an item registry name, the amount of fatigue it replenishes,
+    //and a fatigue rate modifier.
+
+    "replenishingItems": [
+      {
+        "item": "mod:item",
+        "fatigueToReplenish": 10.0,
+        "fatigueRateModifier": 0.00208
+      }
+    ]
+  },
+  "logic": {
+    //If the time difference (mc) between multiplied ticking is greater than this,
+    //the simulation multiplier is lowered. Otherwise, it's increased.
+    //Lowering this number might slow down simulation and improve performance.
+    //Don't mess around with it if you don't know what you're doing.
+    //Range: 1 ~ 50.
+
+    "delta": 50.0,
+    //Minimum tick speed multiplier, activated during sleep
+    "baseMultiplier": 1.0,
+    //Maximum tick speed multiplier, activated during sleep
+    "multiplierCap": 100.0
+  },
+  "options": {
+    //Slightly slower sleep start/end
+    "fading": true,
+    //Let the player sleep even when there are monsters nearby
+    "ignoreMonsters": false,
+    //Deafens you while you're asleep. Mob sounds are confusing with the level sped up
+    "muteSoundWhenSleeping": false,
+    //Allows you to sleep with armor equipped
+    "sleepWithArmor": false,
+    //Provides an enhanced sleeping gui
+    "somniaGui": true,
+    //The display position of the clock in somnia's enhanced sleeping gui. Accepted values: right, center, left.
+    "somniaGuiClockPosition": "right",
+    //The item used to select wake time
+    "wakeTimeSelectItem": "minecraft:clock",
+    "easterEgg": true
+  },
+  "performance": {
+    //Disables mob spawning while you sleep
+    "disableCreatureSpawning": false,
+    //Disable rendering while you're asleep
+    "disableRendering": false
+  },
+  "timings": {
+    //Specifies the start of the period in which the player can enter sleep. Range: 0 ~ 24000.
+    "enterSleepStart": 0,
+    //Specifies the end of the period in which the player can enter sleep. Range: 0 ~ 24000.
+    "enterSleepEnd": 24000,
+    //Specifies the start of the valid sleep period. Range: 0 ~ 24000.
+    "validSleepStart": 0,
+    //Specifies the end of the valid sleep period. Range: 0 ~ 24000.
+    "validSleepEnd": 24000
+  }
+}

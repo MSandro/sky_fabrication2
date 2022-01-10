@@ -1,0 +1,13 @@
+name = "Random Bone Meal Flowers (Fabric)"
+filename = "randombonemealflowers-fabric_1.17.x-1.7.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3538/80/randombonemealflowers-fabric_1.17.x-1.7.jar"
+hash-format = "murmur2"
+hash = "3108847947"
+
+[update]
+[update.curseforge]
+file-id = 3538080
+project-id = 539610

@@ -1,0 +1,10 @@
+{
+  "targets": [
+    "PLACE_BLOCK"
+  ],
+  "items": [
+    "#default_dispenser_configurators:falling_block_items",
+    "#minecraft:rails",
+    "minecraft:ladder"
+  ]
+}

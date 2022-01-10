@@ -1,0 +1,13 @@
+name = "Help Wanted (Forge and Fabric)"
+filename = "helpwanted_Fabric-1.1.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3514/453/helpwanted_Fabric-1.1.2.jar"
+hash-format = "murmur2"
+hash = "3579778329"
+
+[update]
+[update.curseforge]
+file-id = 3514453
+project-id = 476415

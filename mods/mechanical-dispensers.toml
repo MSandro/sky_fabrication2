@@ -1,0 +1,13 @@
+name = "Mechanical Dispensers"
+filename = "MechanicalDispensers-3.6.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3507/21/MechanicalDispensers-3.6.jar"
+hash-format = "murmur2"
+hash = "747080775"
+
+[update]
+[update.curseforge]
+file-id = 3507021
+project-id = 517886

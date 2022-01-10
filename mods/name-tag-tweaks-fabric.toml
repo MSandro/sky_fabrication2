@@ -1,0 +1,13 @@
+name = "Name Tag Tweaks (Fabric)"
+filename = "nametagtweaks-fabric_1.17.x-1.7.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3502/158/nametagtweaks-fabric_1.17.x-1.7.jar"
+hash-format = "murmur2"
+hash = "1634859657"
+
+[update]
+[update.curseforge]
+file-id = 3502158
+project-id = 539820

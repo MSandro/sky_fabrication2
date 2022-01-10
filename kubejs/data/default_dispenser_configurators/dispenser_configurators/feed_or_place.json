@@ -1,0 +1,10 @@
+{
+  "targets": [
+    "ENTITY_ON_INTERACT",
+    "PLACE_BLOCK"
+  ],
+  "items": [
+    "minecraft:warped_fungus",
+    "minecraft:hay_block"
+  ]
+}

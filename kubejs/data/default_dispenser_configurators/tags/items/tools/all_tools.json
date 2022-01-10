@@ -1,0 +1,7 @@
+{
+  "values": [
+    "#default_dispenser_configurators:tools/usable_tools",
+    "#default_dispenser_configurators:tools/pickaxes",
+    "#default_dispenser_configurators:tools/swords"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "GGG",
+        "GXG",
+        "GIG"
+    ],
+    "key": {
+        "G": {
+            "item": "minecraft:glass"
+        },
+		"X": {
+            "item": "botania:fertilizer"
+        },
+        "I": {
+            "item": "techreborn:refined_iron_ingot"
+        }
+    },
+    "result": {
+        "item": "plantinajar:plant_jar",
+        "count": 1
+    }
+}

@@ -1,0 +1,13 @@
+name = "Datapack Portals"
+filename = "datapackportals-1.1.0-1.17.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3539/402/datapackportals-1.1.0-1.17.jar"
+hash-format = "murmur2"
+hash = "4280518766"
+
+[update]
+[update.curseforge]
+file-id = 3539402
+project-id = 423140

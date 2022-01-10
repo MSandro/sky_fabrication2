@@ -1,0 +1,13 @@
+name = "MoreCommands"
+filename = "MoreCommands-3.9.1_1.16.4-1.18.1.jar"
+side = "server"
+
+[download]
+url = "https://edge.forgecdn.net/files/3573/617/MoreCommands-3.9.1_1.16.4-1.18.1.jar"
+hash-format = "murmur2"
+hash = "4028336066"
+
+[update]
+[update.curseforge]
+file-id = 3573617
+project-id = 250823

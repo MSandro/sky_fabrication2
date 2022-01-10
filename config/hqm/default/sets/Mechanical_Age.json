@@ -1,0 +1,287 @@
+{
+  "name": "Mechanical Age",
+  "quests": [
+    {
+      "uuid": "d2a1df4a-b351-4125-87c6-caa77f426a5c",
+      "name": "I need dust!",
+      "description": "Use the Crack Hammer to get dusts from ingots.",
+      "x": 182,
+      "y": 100,
+      "bigicon": true,
+      "icon": {
+        "id": "resourceful_tools:crack_hammer",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "resourceful_tools:crack_hammer",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:iron_ingot",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a6493aa4-cd33-471d-8148-be32b35e0ec3",
+      "name": "Iron Funnel",
+      "description": "Now you are able to upgrade to a Iron Cobblestone Funnel!",
+      "x": 131,
+      "y": 103,
+      "icon": {
+        "id": "scf:iron_funnel",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "scf:iron_funnel",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d2a1df4a-b351-4125-87c6-caa77f426a5c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:iron_ore",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e3d66976-e339-44a2-8a80-a7afdc32e06d",
+      "name": "Copper",
+      "description": "Your are good to go for bronze, but first you need some tin and a smeltery. But with the Iron Funnel you will get Quartz and Redstone too.",
+      "x": 83,
+      "y": 103,
+      "icon": {
+        "id": "minecraft:copper_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:quartz",
+                "Count": 8
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a6493aa4-cd33-471d-8148-be32b35e0ec3"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:redstone",
+          "Count": 32
+        },
+        {
+          "id": "minecraft:quartz",
+          "Count": 32
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9e112896-81bb-4eed-858e-a7293cb9e777",
+      "name": "Greenhouse",
+      "description": "This is a one block greenhouse. It automatically outputs the results in a chest below.",
+      "x": 131,
+      "y": 146,
+      "icon": {
+        "id": "plantinajar:plant_jar",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "plantinajar:plant_jar",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a6493aa4-cd33-471d-8148-be32b35e0ec3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:potato",
+          "Count": 64
+        },
+        {
+          "id": "minecraft:cobblestone",
+          "Count": 64
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "387a550b-6321-43ec-8e28-1784fc572dfe",
+      "name": "Build a Smeltary",
+      "description": "To make bronze and electrum you need a smeltary made out of blackstone.",
+      "x": 35,
+      "y": 103,
+      "icon": {
+        "id": "alloy_forgery:polished_blackstone_forge_controller",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "alloy_forgery:polished_blackstone_forge_controller",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e3d66976-e339-44a2-8a80-a7afdc32e06d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "modern_industrialization:bronze_large_plate",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4c636b43-0242-4c39-9964-48badd7703ab",
+      "name": "Brnze",
+      "description": "A large amount of bronze will open the door to the Steam Age for you.",
+      "x": 88,
+      "y": 52,
+      "icon": {
+        "id": "modern_industrialization:bronze_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "techreborn:bronze_ingot",
+                "Count": 64
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1adc409f-9abb-453c-98ae-0e1b530d9247"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "modern_industrialization:guidebook",
+          "Count": 1
+        },
+        {
+          "id": "modern_industrialization:bucket_steam",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1adc409f-9abb-453c-98ae-0e1b530d9247",
+      "name": "Gold Funnel",
+      "description": "Now that you are able to craft Electrum, you should be able to craft a Gold Funnel.\nIt provides you with a small amount of gold. But you now also have access to tin and nickel.",
+      "x": 35,
+      "y": 52,
+      "icon": {
+        "id": "scf:gold_funnel",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "scf:gold_funnel",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "387a550b-6321-43ec-8e28-1784fc572dfe"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:gold_block",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "techreborn:bronze_ingot",
+          "Count": 16
+        },
+        {
+          "id": "techreborn:bronze_ingot",
+          "Count": 64
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "In this chapter you will be shown how to generate and use mechanical energy."
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "G#G",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "#": {
+      "item": "barrenisles:vase"
+    }
+  },
+  "result": {
+    "item": "barrenisles:gold_vase",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+name = "BetterSleeping"
+filename = "bettersleeping-0.4.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3138/57/bettersleeping-0.4.0.jar"
+hash-format = "murmur2"
+hash = "73511819"
+
+[update]
+[update.curseforge]
+file-id = 3138057
+project-id = 323726

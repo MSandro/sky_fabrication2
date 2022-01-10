@@ -1,0 +1,16 @@
+{
+	"bypassVehicleMovedTooQuicklyTest": true,
+	"bypassVehicleMovedWronglyTest": true,
+	"bypassVehiclePositionRevertingLogic": true,
+	"reproduceOnBypassVehicleMovedTooQuicklyTest": false,
+	"reproduceOnBypassVehicleMovedWronglyTest": false,
+	"logOnBypassVehicleMovedTooQuicklyTest": false,
+	"logOnBypassVehicleMovedWronglyTest": false,
+	"logOnBypassVehiclePositionRevertingLogic": false,
+	"bypassPlayerMovedTooQuicklyTest": true,
+	"bypassPlayerMovedWronglyTest": true,
+	"reproduceOnBypassPlayerMovedTooQuicklyTest": false,
+	"reproduceOnBypassPlayerMovedWronglyTest": false,
+	"logOnBypassPlayerMovedTooQuicklyTest": false,
+	"logOnBypassPlayerMovedWronglyTest": false
+}

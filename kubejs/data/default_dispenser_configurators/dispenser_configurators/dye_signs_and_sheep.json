@@ -1,0 +1,9 @@
+{
+  "targets": [
+    "BLOCK_USE",
+    "USE_ON_ENTITY"
+  ],
+  "items": [
+    "#default_dispenser_configurators:dyes"
+  ]
+}

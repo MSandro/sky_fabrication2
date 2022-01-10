@@ -1,0 +1,1131 @@
+{
+  "name": "The Beginning",
+  "quests": [
+    {
+      "uuid": "1fd0d74d-0787-4272-8e37-738cfabcefee",
+      "name": "Sieving",
+      "description": "You can sieve dirt to get resources!",
+      "x": 176,
+      "y": 59,
+      "icon": {
+        "id": "simpletech:sieve",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "simpletech:sieve",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "141a2108-64b1-40d5-babc-6319427f3d23"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:dirt",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2d0d7bf0-24e0-4fc4-b775-03008775a5bd",
+      "name": "Fishing",
+      "description": "Use a fishing rod.",
+      "x": 118,
+      "y": 57,
+      "icon": {
+        "id": "minecraft:fishing_rod",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:fishing_rod",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "03a56f3c-6047-4b85-9f44-5a8dffb0cf5b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:cod",
+          "Count": 32
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "474ca567-e806-443a-8fff-549c56ff7f0d",
+      "name": "Mass Storage",
+      "description": "You can use Storage Cabinets for mass storage like the good old Storage Drawers.",
+      "x": 23,
+      "y": 57,
+      "icon": {
+        "id": "storagecabinet:storagecabinet_wood",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "storagecabinet:storagecabinet_wood",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "f8a70eb4-0bd2-42d7-bfbc-ccc6a2cc8357"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "storagecabinet:storagecabinet_iron",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f5ce0160-9186-4c38-991a-2f8f9cdf1f9c",
+      "name": "Get Snow",
+      "description": "Of course you have to wait for winter to be able to shovel snow. The weather will change depending on the season. Many plants won\u0027t grow in winter so be prepared.",
+      "x": 261,
+      "y": 141,
+      "icon": {
+        "id": "minecraft:snowball",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:snowball",
+                "Count": 1
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "seasons:greenhouse_glass",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6cfead65-22e2-46ca-98a6-57f47e9591dd"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "seasons:season_calendar",
+          "Count": 1
+        },
+        {
+          "id": "seasons:greenhouse_glass",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fafda5e5-fd9f-4116-b771-628da1d9f573",
+      "name": "Other Seeds",
+      "description": "Maybe you would like to get some other seeds? Then simply use bonemeal on grass blocks to grow grass and break it.",
+      "x": 274,
+      "y": 183,
+      "icon": {
+        "id": "minecraft:wheat_seeds",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wheat_seeds",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b9217202-2ae7-4349-9b00-3e4d861c69bb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:potato",
+          "Count": 4
+        },
+        {
+          "id": "minecraft:grass_block",
+          "Count": 64
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:pumpkin_seeds",
+          "Count": 4
+        },
+        {
+          "id": "minecraft:melon_seeds",
+          "Count": 4
+        },
+        {
+          "id": "minecraft:beetroot_seeds",
+          "Count": 4
+        },
+        {
+          "id": "minecraft:wheat_seeds",
+          "Count": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b9217202-2ae7-4349-9b00-3e4d861c69bb",
+      "name": "Farming",
+      "description": "It is importent to know where to get more natural resources.\nBy hammering Grass Blocks you can get e.g. saplings, seeds, bamboo and more. Try to hammer gravel, sand and clay to get other stuff.",
+      "x": 228,
+      "y": 183,
+      "icon": {
+        "id": "minecraft:stone_hoe",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:spruce_sapling",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:jungle_sapling",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:melon_seeds",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:pumpkin_seeds",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:beetroot_seeds",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:sugar_cane",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:sweet_berries",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:kelp",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:cactus",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6cfead65-22e2-46ca-98a6-57f47e9591dd"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:bone_meal",
+          "Count": 64
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "080861f0-908e-499f-a66d-7d6de5771fd6",
+      "name": "Multiplying Dirt",
+      "description": "You can craft Coarse Dirt with Dirt and Gravel to multiply your dirt. By using a hoe on it you can convert it back to dirt. Currently it doesn\u0027t make much sense, but once your Cobblestone Generator is ready, this Info could be helpful.",
+      "x": 228,
+      "y": 56,
+      "icon": {
+        "id": "minecraft:dirt",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:coarse_dirt",
+                "Count": 1
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6cfead65-22e2-46ca-98a6-57f47e9591dd"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:gravel",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1a0d6aff-f6b7-4737-a4e2-ecc47a46799a",
+      "name": "Animals",
+      "description": "Start to build a large area with grass blocks, to have some animals. You should start breeding animals early.",
+      "x": 184,
+      "y": 183,
+      "icon": {
+        "id": "minecraft:egg",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "advancements": [
+            {
+              "name": "Bread a animal",
+              "icon": {
+                "id": "minecraft:wheat",
+                "Count": 1
+              },
+              "adv_name": "minecraft:husbandry/breed_an_animal"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b9217202-2ae7-4349-9b00-3e4d861c69bb"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:white_wool",
+          "Count": 8
+        },
+        {
+          "id": "minecraft:leather",
+          "Count": 8
+        },
+        {
+          "id": "minecraft:feather",
+          "Count": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "181c8d1a-7b89-475b-ae8c-d7bb26fa46b1",
+      "name": "Claim your Island [Server]",
+      "description": "If you are playing on a server, protect your island with the /flan command. Every 30 seconds you get a new claimable block.\n\n/flan addClaim all",
+      "x": 114,
+      "y": 183,
+      "icon": {
+        "id": "storagecabinet:key",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CHECKBOX",
+          "longDescription": "If you don\u0027t like to protect your island with commands, you can craft a Claim Anchor."
+        }
+      ],
+      "prerequisites": [
+        "78e0bb1a-aa78-4b17-9655-3dd6f4bc25f6"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6cfead65-22e2-46ca-98a6-57f47e9591dd",
+      "name": "Hammer Time",
+      "description": "Craft a Wooden Hammer and hammer oak logs, grass blocks and more!",
+      "x": 228,
+      "y": 102,
+      "icon": {
+        "id": "skyutils:wooden_hammer",
+        "Count": 1,
+        "tag": {
+          "Damage": 9
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "skyutils:wooden_hammer",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "skyutils:pebble",
+                "Count": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "minecraft:gravel",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:sand",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:clay_ball",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "skyutils:woodchips",
+                "Count": 1
+              },
+              "required": 12
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "141a2108-64b1-40d5-babc-6319427f3d23"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "skyutils:iron_hammer",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:cobblestone",
+          "Count": 8
+        },
+        {
+          "id": "minecraft:gravel",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:sand",
+          "Count": 32
+        },
+        {
+          "id": "minecraft:clay",
+          "Count": 48
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9be11381-5371-4cb7-9c7a-2b666485e3b5",
+      "name": "Terrain Slimes",
+      "description": "You will need a large area of grass blocks. Don\u0027t light it out! Maybe build it on a deeper layer to protect you against mobs. Not green slimes can rarely drop ores and other stuff.",
+      "x": 176,
+      "y": 141,
+      "icon": {
+        "id": "minecraft:slime_ball",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Terrain Slime",
+              "icon": {
+                "id": "minecraft:slime_ball",
+                "Count": 1
+              },
+              "mob": "terrarianslimes:green_slime",
+              "kills": 1
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "terrarianslimes:green_gel",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "141a2108-64b1-40d5-babc-6319427f3d23"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:slime_block",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9c495618-9e43-43d1-8160-2fd8921794a7",
+      "name": "Water",
+      "description": "You\u0027re going to make a cobblestone generator. To do this, you first need water.",
+      "x": 288,
+      "y": 13,
+      "icon": {
+        "id": "skyutils:water_crucible",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "skyutils:condenser",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "skyutils:water_crucible",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "8689e6b7-3270-4e83-b9ab-65ea038a31db"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:cobblestone",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:dirt",
+          "Count": 32
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b9854752-bb7d-4390-95af-55733aedbaa6",
+      "name": "Pipes",
+      "description": "Use Pipes to transport items and fluids.",
+      "x": 23,
+      "y": 16,
+      "icon": {
+        "id": "simple_pipes:pipe_wooden_item",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "simple_pipes:pipe_wooden_item",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "474ca567-e806-443a-8fff-549c56ff7f0d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "simple_pipes:pipe_stone_item",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3c0b0756-1ef2-4277-a133-3ebc5e11dac9",
+      "name": "More Wood and Saplings",
+      "description": "Plant a Sapling and craft a Crafting Slab. By breaking leaves with a stick you can get much more saplings!\n\nTipp:\nSpam-Sneak near your saplings to accelerate growth.",
+      "x": 73,
+      "y": 102,
+      "icon": {
+        "id": "improved-stations:crafting_station_slab",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "improved-stations:crafting_station_slab",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:oak_slab",
+                "Count": 1
+              },
+              "required": 36
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "f7c91b76-43ab-4471-9964-e806d7b494c1"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:oak_sapling",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "141a2108-64b1-40d5-babc-6319427f3d23",
+      "name": "Getting Grass",
+      "description": "By Composting Saplings you can get Grass Blocks! You should have some more places to grow trees!\n\nTipp: With the Crook you can get more saplings from leaves!",
+      "x": 176,
+      "y": 102,
+      "icon": {
+        "id": "minecraft:composter",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:grass_block",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c2e1428a-301d-4881-8074-afae089a474b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:grass_block",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:bone_meal",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f7c91b76-43ab-4471-9964-e806d7b494c1",
+      "name": "First Wood and Saplings",
+      "description": "Start by collecting some Wood and Saplings!\n\nTipp:\nonce you have a stick, use it to get much more saplings!",
+      "x": 73,
+      "y": 142,
+      "icon": {
+        "id": "minecraft:oak_sapling",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:oak_sapling",
+                "Count": 1
+              },
+              "required": 2,
+              "precision": "TAG_NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:stick",
+                "Count": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "minecraft:oak_log",
+                "Count": 1
+              },
+              "required": 4,
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "78e0bb1a-aa78-4b17-9655-3dd6f4bc25f6"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:oak_log",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f8a70eb4-0bd2-42d7-bfbc-ccc6a2cc8357",
+      "name": "Storage",
+      "description": "Don\u0027t forget to store your items savely on your island in an chest!",
+      "x": 23,
+      "y": 102,
+      "icon": {
+        "id": "minecraft:chest",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "charm:oak_chest",
+                "Count": 1
+              },
+              "required": 2,
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3c0b0756-1ef2-4277-a133-3ebc5e11dac9"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "expandedstorage:iron_barrel",
+          "Count": 1
+        },
+        {
+          "id": "storagecabinet:storagecabinet_iron",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "03a56f3c-6047-4b85-9f44-5a8dffb0cf5b",
+      "name": "Mob-Farm",
+      "description": "Build a Mob Farm and kill some monsters!",
+      "x": 73,
+      "y": 57,
+      "icon": {
+        "id": "minecraft:rotten_flesh",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Zombie",
+              "icon": {
+                "id": "minecraft:zombie_head",
+                "Count": 1
+              },
+              "mob": "minecraft:zombie",
+              "kills": 1
+            },
+            {
+              "name": "Skeleton",
+              "icon": {
+                "id": "minecraft:skeleton_skull",
+                "Count": 1
+              },
+              "mob": "minecraft:skeleton",
+              "kills": 1
+            },
+            {
+              "name": "Creeper",
+              "icon": {
+                "id": "minecraft:creeper_head",
+                "Count": 1
+              },
+              "mob": "minecraft:creeper",
+              "kills": 1
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:rotten_flesh",
+                "Count": 1
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "minecraft:gunpowder",
+                "Count": 1
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "minecraft:bone",
+                "Count": 1
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3c0b0756-1ef2-4277-a133-3ebc5e11dac9"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:rotten_flesh",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:bone",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:gunpowder",
+          "Count": 8
+        },
+        {
+          "id": "minecraft:ender_pearl",
+          "Count": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "78e0bb1a-aa78-4b17-9655-3dd6f4bc25f6",
+      "name": "Welcome to Sky FABRICation 2",
+      "description": "Thanks for playing my modpack!\n\nTipp:\nTo mine multiple blocks, hold down the Diggus Maximus EXCAVATE key (bound to ~ by default, configurable in the Mod Menu) while mining a block",
+      "x": 70,
+      "y": 180,
+      "bigicon": true,
+      "icon": {
+        "id": "kubejs:skyfabrication_logo",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "LOCATION",
+          "locations": [
+            {
+              "name": "Visit your own island!",
+              "x": 0,
+              "y": 100,
+              "z": 0,
+              "dim": "minecraft:overworld",
+              "radius": -1,
+              "visible": "NONE",
+              "icon": {
+                "id": "kubejs:skyfabrication_logo",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": [
+        "locki unlock inventory @p",
+        "/item replace entity @p container.1 with air",
+        "/item replace entity @p container.2 with air"
+      ]
+    },
+    {
+      "uuid": "c2e1428a-301d-4881-8074-afae089a474b",
+      "name": "Get more Saplings",
+      "description": "Craft a Wooden Crook.",
+      "x": 124,
+      "y": 102,
+      "icon": {
+        "id": "crookedcrooks:wooden_crook",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "crookedcrooks:wooden_crook",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3c0b0756-1ef2-4277-a133-3ebc5e11dac9"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:oak_sapling",
+          "Count": 16
+        },
+        {
+          "id": "crookedcrooks:iron_crook",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8689e6b7-3270-4e83-b9ab-65ea038a31db",
+      "name": "Kiln",
+      "description": "Craft a Kiln to cook raw crucibles.\nUse Charcoal Blocks as fuel.",
+      "x": 288,
+      "y": 57,
+      "icon": {
+        "id": "skyutils:kiln",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "skyutils:kiln",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "skyutils:raw_crucible",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "skyutils:crucible",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5b355462-9f25-4861-9625-853875d245c3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "skyutils:crucible",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:charcoal",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0c26933a-1a05-4850-a152-02971feeb47c",
+      "name": "Falling in the Void",
+      "description": "You don\u0027t have to be frightened if you fall into the void. You will then fall back onto your island from above. Now that you can keep your items safe, feel free to try it out.",
+      "x": 23,
+      "y": 143,
+      "icon": {
+        "id": "minecraft:skeleton_skull",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DEATH",
+          "deaths": 1
+        }
+      ],
+      "prerequisites": [
+        "f8a70eb4-0bd2-42d7-bfbc-ccc6a2cc8357"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:oak_slab",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5b355462-9f25-4861-9625-853875d245c3",
+      "name": "Smelting",
+      "description": "Craft a Furnace!",
+      "x": 288,
+      "y": 102,
+      "icon": {
+        "id": "minecraft:furnace",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:furnace",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6cfead65-22e2-46ca-98a6-57f47e9591dd"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:charcoal",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:stone",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "This chapter guides you through the early game. You will learn how to get the most important resources and learn, among other things, which tools will make it easier for you to enlarge your island."
+}

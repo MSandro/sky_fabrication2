@@ -1,0 +1,51 @@
+{
+  "disabledPoppets": [],
+  "enableCurses": true,
+  "altarDistributionRadius": 24,
+  "silverSize": 6,
+  "silverMaxHeight": 48,
+  "silverCount": 5,
+  "saltSize": 12,
+  "saltMaxHeight": 96,
+  "saltCount": 6,
+  "owlBiomeCategories": [
+    "taiga"
+  ],
+  "owlWeight": 10,
+  "owlMinGroupCount": 1,
+  "owlMaxGroupCount": 1,
+  "ravenBiomeCategories": [
+    "plains",
+    "forest"
+  ],
+  "ravenWeight": 10,
+  "ravenMinGroupCount": 1,
+  "ravenMaxGroupCount": 1,
+  "snakeBiomeCategories": [
+    "plains",
+    "savanna",
+    "desert"
+  ],
+  "snakeWeight": 6,
+  "snakeMinGroupCount": 1,
+  "snakeMaxGroupCount": 1,
+  "toadBiomeCategories": [
+    "jungle",
+    "swamp"
+  ],
+  "toadWeight": 5,
+  "toadMinGroupCount": 1,
+  "toadMaxGroupCount": 1,
+  "ghostWeight": 5,
+  "ghostMinGroupCount": 1,
+  "ghostMaxGroupCount": 1,
+  "vampireWeight": 5,
+  "vampireMinGroupCount": 1,
+  "vampireMaxGroupCount": 1,
+  "werewolfWeight": 5,
+  "werewolfMinGroupCount": 1,
+  "werewolfMaxGroupCount": 1,
+  "hellhoundWeight": 1,
+  "hellhoundMinGroupCount": 0,
+  "hellhoundMaxGroupCount": 1
+}

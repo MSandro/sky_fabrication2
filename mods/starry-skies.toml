@@ -1,0 +1,13 @@
+name = "Starry Skies"
+filename = "starryskies-1.3.0-1.17.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3493/830/starryskies-1.3.0-1.17.1.jar"
+hash-format = "murmur2"
+hash = "2055157635"
+
+[update]
+[update.curseforge]
+file-id = 3493830
+project-id = 427486

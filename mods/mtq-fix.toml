@@ -1,0 +1,13 @@
+name = "MTQ Fix Fabric"
+filename = "mtq-fix-0.2.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3490/514/mtq-fix-0.2.2.jar"
+hash-format = "murmur2"
+hash = "3752074606"
+
+[update]
+[update.curseforge]
+file-id = 3490514
+project-id = 535845

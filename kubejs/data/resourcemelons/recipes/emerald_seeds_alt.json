@@ -1,0 +1,23 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+	"#r#",
+	"rMr",
+	"#r#"
+  ],
+  "key": {
+	"#": {
+	  "item": "minecraft:emerald_block"
+	},
+	"r": {
+	  "item": "botania:terrasteel_nugget"
+	},
+	"M": {
+	  "item": "kubejs:melon_infusion_crystal"
+	}
+  },
+  "result": {
+	"item": "resourcemelons:emerald_seeds",
+	"count": 1
+  }
+}

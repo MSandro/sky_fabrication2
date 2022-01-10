@@ -1,0 +1,13 @@
+name = "PlayerAbilityLib"
+filename = "pal-1.4.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3523/233/pal-1.4.0.jar"
+hash-format = "murmur2"
+hash = "3307914695"
+
+[update]
+[update.curseforge]
+file-id = 3523233
+project-id = 359522

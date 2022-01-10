@@ -1,0 +1,12 @@
+{
+  "builtinServers": [
+    {
+      "name": "Official Server",
+      "address": "sky-fabrication2.g.akliz.net"
+    },
+    {
+      "name": "Official Server (Atlantica)",
+      "address": "mc.atlantica.us:21565"
+    }
+  ]
+}

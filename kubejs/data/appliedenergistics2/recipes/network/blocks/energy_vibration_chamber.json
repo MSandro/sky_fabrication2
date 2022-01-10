@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:iron_ingots"
+    },
+    "b": {
+      "item": "modern_industrialization:basic_machine_hull"
+    },
+    "c": {
+      "item": "appliedenergistics2:energy_acceptor"
+    }
+  },
+  "result": {
+    "item": "appliedenergistics2:vibration_chamber"
+  }
+}

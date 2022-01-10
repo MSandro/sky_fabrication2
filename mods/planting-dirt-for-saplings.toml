@@ -1,0 +1,13 @@
+name = "Planting dirt for saplings"
+filename = "AutoPlanter-17.1-fabric.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3350/386/AutoPlanter-17.1-fabric.jar"
+hash-format = "murmur2"
+hash = "1072980655"
+
+[update]
+[update.curseforge]
+file-id = 3350386
+project-id = 289078

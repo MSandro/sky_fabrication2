@@ -1,0 +1,13 @@
+name = "Resource Melons"
+filename = "resource-melons-2.1.0+fabric-mc1.17.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3533/822/resource-melons-2.1.0+fabric-mc1.17.jar"
+hash-format = "murmur2"
+hash = "1111204256"
+
+[update]
+[update.curseforge]
+file-id = 3533822
+project-id = 308848

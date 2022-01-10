@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "funnels",
+  "pattern": [
+    "CXC",
+    "CSC",
+    "CGC"
+  ],
+  "key": {
+
+    "S": {
+      "item": "scf:gold_funnel"
+    },
+    "C": {
+      "item": "minecraft:diamond_block"
+    },
+    "X": {
+      "item": "lifts:diamond_structure"
+    },
+    "G": {
+      "item": "modern_industrialization:invar_rotary_blade"
+    }
+  },
+  "result": {
+    "item": "scf:diamond_funnel",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+name = "Dispenser Configurator"
+filename = "dispenser-configurator-1.2-b1+MC1.17-1.17.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3557/135/dispenser-configurator-1.2-b1+MC1.17-1.17.1.jar"
+hash-format = "murmur2"
+hash = "1242684860"
+
+[update]
+[update.curseforge]
+file-id = 3557135
+project-id = 417718

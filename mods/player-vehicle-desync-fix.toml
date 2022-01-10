@@ -1,0 +1,13 @@
+name = "Player Vehicle Desync Fix"
+filename = "player-vehicle-desync-fix-0.2.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3490/516/player-vehicle-desync-fix-0.2.2.jar"
+hash-format = "murmur2"
+hash = "540681458"
+
+[update]
+[update.curseforge]
+file-id = 3490516
+project-id = 535864

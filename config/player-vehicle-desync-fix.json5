@@ -1,0 +1,9 @@
+{
+	"vehicleDesyncTicksLimit": 1,
+	"sendEntityPassengersSetS2CPacketOnDesyncFoundInServer": true,
+	"logOnDesyncTicksExceedLimit": true,
+	"logOnDesyncFoundInServer": true,
+	"cancelStartRidingIfVehicleToRideIsTooFarAwayInClient": true,
+	"expandAmountForFindingVehicleNearby": 10.0,
+	"logOnVehicleToRideIsTooFarAwayInClient": true
+}

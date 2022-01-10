@@ -1,0 +1,13 @@
+name = "Zombie Villagers From Spawner (Fabric)"
+filename = "zombievillagersfromspawner-fabric_1.17.x-1.6.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3462/669/zombievillagersfromspawner-fabric_1.17.x-1.6.jar"
+hash-format = "murmur2"
+hash = "1652449949"
+
+[update]
+[update.curseforge]
+file-id = 3462669
+project-id = 528285

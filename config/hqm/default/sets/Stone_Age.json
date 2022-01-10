@@ -1,0 +1,817 @@
+{
+  "name": "Stone Age",
+  "quests": [
+    {
+      "uuid": "6133bc8e-4a1b-4241-9787-73f80f45387d",
+      "name": "Other Tools",
+      "description": "with this tools you can get additional resources!",
+      "x": 143,
+      "y": 45,
+      "icon": {
+        "id": "resourceful_tools:hand_pick",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "resourceful_tools:hand_tiller",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "resourceful_tools:hand_pick",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "resourceful_tools:hook_knife",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "8760d36a-dc50-4077-83a2-16aa2b4caa0d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "resourceful_tools:crack_hammer",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "resourceful_tools:glass_placer",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8760d36a-dc50-4077-83a2-16aa2b4caa0d",
+      "name": "Cobblestone Funnels",
+      "description": "Craft a Cobblestone Funnel and place it between your Water and Lava source! It will generate blocks under it.",
+      "x": 105,
+      "y": 45,
+      "icon": {
+        "id": "scf:cobblestone_funnel",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "scf:cobblestone_funnel",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "dc5f6388-2fdb-4b69-bec9-bb1dac4ac46b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:iron_nugget",
+          "Count": 8
+        },
+        {
+          "id": "minecraft:coal",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e2f01995-afb6-4bbd-a72b-ce9c444fa0b3",
+      "name": "Enchantments",
+      "description": "Craft a Enchantment Table",
+      "x": 172,
+      "y": 107,
+      "icon": {
+        "id": "minecraft:enchanting_table",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:enchanting_table",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "031bec0e-1b73-46a0-93c1-f32a015e0f2f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:book",
+          "Count": 4
+        },
+        {
+          "id": "charm:oak_bookshelf",
+          "Count": 5
+        },
+        {
+          "id": "minecraft:experience_bottle",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "665fe1bb-7f2c-4f64-9fe4-97ea5ad21ad7",
+      "name": "Nether Traveling",
+      "description": "Use a Glider and Slime Boots to travel savely in the nether.",
+      "x": 60,
+      "y": 45,
+      "icon": {
+        "id": "kibe:white_glider",
+        "Count": 1,
+        "tag": {}
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "kibe:white_glider",
+                "Count": 1,
+                "tag": {}
+              },
+              "precision": "TAG_NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "kibe:slime_boots",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3cfc8d3a-8bf0-44a7-ba4d-e7f33490a1eb"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:nether_gold_ore",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:glowstone_dust",
+          "Count": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6e19f74c-2e3b-45e2-8a34-7044bc54bfc2",
+      "name": "Nether Star",
+      "description": "No rush. Prepare yourself well before you fight the wither.",
+      "x": 22,
+      "y": 90,
+      "icon": {
+        "id": "minecraft:nether_star",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:nether_star",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "afad031a-780a-437b-8661-be8718d64b1b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "bewitchment:athame",
+          "Count": 1,
+          "tag": {
+            "Damage": 0,
+            "Enchantments": [
+              {
+                "lvl": 5,
+                "id": "minecraft:sharpness"
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:wither_skeleton_skull",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "afad031a-780a-437b-8661-be8718d64b1b",
+      "name": "Nether Resources",
+      "description": "Collect some resources in the nether. Explore a ruined portal, a bastion and a fortress to optain some items.",
+      "x": 22,
+      "y": 45,
+      "icon": {
+        "id": "minecraft:nether_wart",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "advancements": [
+            {
+              "name": "Bastion",
+              "icon": {
+                "id": "minecraft:basalt",
+                "Count": 1
+              },
+              "adv_name": "minecraft:nether/find_bastion"
+            },
+            {
+              "name": "Fortress",
+              "icon": {
+                "id": "minecraft:nether_bricks",
+                "Count": 1
+              },
+              "adv_name": "minecraft:nether/find_fortress"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:netherrack",
+                "Count": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "minecraft:basalt",
+                "Count": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "minecraft:polished_blackstone_bricks",
+                "Count": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "minecraft:soul_sand",
+                "Count": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "minecraft:magma_block",
+                "Count": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "minecraft:nether_wart",
+                "Count": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "minecraft:red_mushroom",
+                "Count": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "minecraft:glowstone_dust",
+                "Count": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "minecraft:blaze_rod",
+                "Count": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "minecraft:magma_cream",
+                "Count": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "minecraft:fire_charge",
+                "Count": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "minecraft:gold_block",
+                "Count": 1
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "665fe1bb-7f2c-4f64-9fe4-97ea5ad21ad7"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:obsidian",
+          "Count": 8
+        },
+        {
+          "id": "minecraft:gold_nugget",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:lava_bucket",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3f6f3efe-ce86-4def-9d87-d1e33eaf039d",
+      "name": "Building Time",
+      "description": "With an Stuff of Building, you can place multiple blocks in a row. It can be very usefull to expand your island.",
+      "x": 105,
+      "y": 189,
+      "icon": {
+        "id": "wands:stone_wand",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "wands:stone_wand",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "788dcf4a-0dbf-48ed-a482-37b63f6138d3"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:cobblestone",
+          "Count": 16
+        },
+        {
+          "id": "wands:iron_wand",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dc5f6388-2fdb-4b69-bec9-bb1dac4ac46b",
+      "name": "Your first Lava",
+      "description": "You should already know the Kiln, it can smelt 16 Cobblestone into one crucible of lava. You need a Block of Charcoal as Fuel!",
+      "x": 105,
+      "y": 92,
+      "icon": {
+        "id": "skyutils:lava_crucible",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "skyutils:lava_crucible",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "788dcf4a-0dbf-48ed-a482-37b63f6138d3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:stone_shovel",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "minecraft:stone_hoe",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "minecraft:stone_pickaxe",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "gateofbabylon:stone_broadsword",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "60c8b3a4-9533-4650-b7c7-b6df3949ad4c",
+      "name": "Block Breaker",
+      "description": "A Block Breaker can be very helpfull for automating your ore production.",
+      "x": 209,
+      "y": 147,
+      "icon": {
+        "id": "kibe:breaker",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "kibe:breaker",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "031bec0e-1b73-46a0-93c1-f32a015e0f2f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "skyutils:diamond_hammer",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "minecraft:diamond",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "94a873ee-6be7-4ed2-80f7-f6f0771cfd5a",
+      "name": "Shears",
+      "description": "Craft shears to get leaves from trees. Compost them or do what ever you like.",
+      "x": 20,
+      "y": 147,
+      "icon": {
+        "id": "minecraft:shears",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:shears",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "15d1a8ca-584d-433c-90bf-c1a4a0281307"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:oak_leaves",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "109b8e0b-d288-4c56-9bb0-019acbf6ce40",
+      "name": "Chisel",
+      "description": "There are two types of Chisels, one can be used to get different types of blocks, and the Simple Iron Chisel can be used to change the shape of a  block.",
+      "x": 60,
+      "y": 184,
+      "icon": {
+        "id": "bitsandchisels:iron_chisel",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bitsandchisels:iron_chisel",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "chisel:chisel",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "15d1a8ca-584d-433c-90bf-c1a4a0281307"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "bitsandchisels:blueprint",
+          "Count": 1
+        },
+        {
+          "id": "bitsandchisels:wrench",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "788dcf4a-0dbf-48ed-a482-37b63f6138d3",
+      "name": "Cobblestone",
+      "description": "It is important that you have already collected a good amount of Cobblestone in order to proceed here.",
+      "x": 102,
+      "y": 144,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:cobblestone",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:cobblestone",
+                "Count": 1
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6cfead65-22e2-46ca-98a6-57f47e9591dd"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:charcoal",
+          "Count": 9
+        },
+        {
+          "id": "minecraft:cobblestone",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:iron_nugget",
+          "Count": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3cfc8d3a-8bf0-44a7-ba4d-e7f33490a1eb",
+      "name": "The Nether",
+      "description": "You will need to produce 10 buckets of lava to cast a nether portal. Do it carefully because you practically cannot mine the obsidian blocks at the moment.",
+      "x": 60,
+      "y": 92,
+      "icon": {
+        "id": "minecraft:obsidian",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "Enter the Nether!",
+          "advancements": [
+            {
+              "name": "The Nether",
+              "icon": {
+                "id": "minecraft:netherrack",
+                "Count": 1
+              },
+              "adv_name": "minecraft:story/enter_the_nether"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "15d1a8ca-584d-433c-90bf-c1a4a0281307",
+        "dc5f6388-2fdb-4b69-bec9-bb1dac4ac46b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:piglin_spawn_egg",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "031bec0e-1b73-46a0-93c1-f32a015e0f2f",
+      "name": "Diamond Nuggets",
+      "description": "Craft some Coal or Charcoal Blocks, place them down and use the hammer to get diamond nuggets.",
+      "x": 172,
+      "y": 147,
+      "icon": {
+        "id": "skyutils:diamond_nugget",
+        "Count": 1
+      },
+      "parentrequirement": 1,
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "skyutils:diamond_nugget",
+                "Count": 1
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "788dcf4a-0dbf-48ed-a482-37b63f6138d3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "skyutils:diamond_nugget",
+          "Count": 4
+        },
+        {
+          "id": "skyutils:charcoal_block",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "15d1a8ca-584d-433c-90bf-c1a4a0281307",
+      "name": "Your first Iron",
+      "description": "By hammering gravel you will get some iron nuggets.",
+      "x": 60,
+      "y": 147,
+      "icon": {
+        "id": "minecraft:iron_nugget",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_nugget",
+                "Count": 1
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "788dcf4a-0dbf-48ed-a482-37b63f6138d3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:iron_ingot",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "In this Age you will get many cobblestones and farm your first iron and gold."
+}

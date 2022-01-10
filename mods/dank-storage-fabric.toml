@@ -1,0 +1,13 @@
+name = "Dank Storage Fabric"
+filename = "dankstorage-2.2.2-1.17.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3555/503/dankstorage-2.2.2-1.17.1.jar"
+hash-format = "murmur2"
+hash = "2798230393"
+
+[update]
+[update.curseforge]
+file-id = 3555503
+project-id = 400619

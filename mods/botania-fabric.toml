@@ -1,0 +1,13 @@
+name = "Botania (Fabric)"
+filename = "Botania-1.17.1-422-FABRIC.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3551/111/Botania-1.17.1-422-FABRIC.jar"
+hash-format = "murmur2"
+hash = "1620518340"
+
+[update]
+[update.curseforge]
+file-id = 3551111
+project-id = 421839

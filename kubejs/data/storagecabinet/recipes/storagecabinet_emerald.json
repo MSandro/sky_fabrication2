@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ACA",
+    "AXA",
+    "ACA"  ],
+  "key": {
+    "A": [
+      {
+        "item": "minecraft:emerald"
+      }
+    ],
+    "C": [
+      {
+        "item": "minecraft:chest"
+      }
+	],
+    "X": [
+      {
+        "item": "storagecabinet:storagecabinet_diamond"
+      }
+    ]
+  },
+  "result": {
+    "item": "storagecabinet:storagecabinet_emerald"
+  }
+}

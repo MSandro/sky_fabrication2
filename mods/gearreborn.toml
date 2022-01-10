@@ -1,0 +1,13 @@
+name = "Gear Reborn"
+filename = "GearReborn-1.17-0.1.10.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3462/743/GearReborn-1.17-0.1.10.jar"
+hash-format = "murmur2"
+hash = "614243351"
+
+[update]
+[update.curseforge]
+file-id = 3462743
+project-id = 418539

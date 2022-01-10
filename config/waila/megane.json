@@ -1,0 +1,74 @@
+{
+  "configVersion": 3,
+  "inventory": {
+    "enabled": true,
+    "itemCount": true,
+    "nbt": false,
+    "maxWidth": 9,
+    "maxHeight": 3,
+    "blacklist": []
+  },
+  "entityInventory": {
+    "enabled": true,
+    "itemCount": true,
+    "nbt": false,
+    "maxWidth": 9,
+    "maxHeight": 3,
+    "blacklist": []
+  },
+  "energy": {
+    "enabled": true,
+    "expandWhenSneak": false,
+    "colors": {
+      "megane": 7408640,
+      "indrev": 3885790,
+      "techreborn": 8390656,
+      "agape_space": 7408640,
+      "spatialharvesters": 7408640,
+      "enhanced_quarries": 7408640,
+      "modern_industrialization": 11993088
+    },
+    "units": {
+      "megane": "E",
+      "indrev": "LF",
+      "techreborn": "E",
+      "agape_space": "E",
+      "spatialharvesters": "E",
+      "enhanced_quarries": "E",
+      "modern_industrialization": "EU"
+    },
+    "blacklist": [
+      "appliedenergistics2:energy_acceptor"
+    ]
+  },
+  "fluid": {
+    "enabled": true,
+    "expandWhenSneak": false,
+    "colors": {
+      "megane:default": 855385,
+      "minecraft:lava": 13916690,
+      "minecraft:water": 4159204,
+      "modern_industrialization:steam": 15658734,
+      "modern_industrialization:creosote": 6512720,
+      "modern_industrialization:lubricant": 16761856,
+      "modern_industrialization:raw_synthetic_oil": 5131846,
+      "modern_industrialization:synthetic_oil": 5000268
+    },
+    "blacklist": []
+  },
+  "progress": {
+    "enabled": true,
+    "showWhenZero": false,
+    "blacklist": []
+  },
+  "effect": {
+    "enabled": true,
+    "level": true,
+    "roman": false,
+    "hidden": false,
+    "blacklist": []
+  },
+  "catchServerErrors": true,
+  "spawnEgg": true,
+  "playerHead": true
+}

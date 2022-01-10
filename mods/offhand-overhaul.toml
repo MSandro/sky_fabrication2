@@ -1,0 +1,13 @@
+name = "Offhand Overhaul"
+filename = "offhandoverhaul-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3524/867/offhandoverhaul-1.2.0.jar"
+hash-format = "murmur2"
+hash = "3590960235"
+
+[update]
+[update.curseforge]
+file-id = 3524867
+project-id = 494447

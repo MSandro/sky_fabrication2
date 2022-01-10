@@ -1,0 +1,13 @@
+name = "Enhanced Quarries (Fabric)"
+filename = "EnhancedQuarries-1.18-1.2.0_RC9.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3581/773/EnhancedQuarries-1.18-1.2.0_RC9.jar"
+hash-format = "murmur2"
+hash = "2702118448"
+
+[update]
+[update.curseforge]
+file-id = 3581773
+project-id = 528338

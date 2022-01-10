@@ -1,0 +1,13 @@
+name = "Simple BC Pipes"
+filename = "simplepipes-all-0.6.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3540/962/simplepipes-all-0.6.2.jar"
+hash-format = "murmur2"
+hash = "4283840346"
+
+[update]
+[update.curseforge]
+file-id = 3540962
+project-id = 318004

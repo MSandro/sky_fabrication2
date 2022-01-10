@@ -1,0 +1,17 @@
+type = hud
+
+customization-meta {
+  backgroundimage = config/slightguimodifications/background.png
+  renderorder = foreground
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  action = editprogressbar
+  barcolor = #000000
+}
+

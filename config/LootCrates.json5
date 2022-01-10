@@ -1,0 +1,6 @@
+{
+	"ChestCratesAreIndestructible": true,
+	"ShulkerCratesAreIndestructible": false,
+	"ChestCratesKeepTheirInventory": false,
+	"ShulkerCratesKeepTheirInventory": true
+}

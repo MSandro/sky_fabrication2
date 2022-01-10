@@ -1,0 +1,96 @@
+{
+  "file": "Apple Trees Rev. - Config. File",
+  "Recipes": [
+    {
+      "_comment": "Declare if you Want to Craft Golden Apple Saplings | [Default: false]",
+      "craftGoldAppleSapling": false
+    },
+    {
+      "_comment": "Declare if you Want to Craft Emerald Apple Saplings | [Default: false]",
+      "craftEmeraldAppleSapling": false
+    },
+    {
+      "_comment": "Declare if you Want to Craft Notch Apples | [Default: false]",
+      "craftNotchApple": false
+    }
+  ],
+  "Plants Config": [
+    {
+      "_comment": "Declare if you want to Allow Right Click Harvest on Any Apple plant | [Default: true]",
+      "useEasyHarvest": true
+    },
+    {
+      "_comment": "Declare if you Want to Allow the use of Bonemeal on Any Apple Plant (Override Individual Options) | [Default: true]",
+      "allowBonemeal": true
+    },
+    {
+      "_comment": "Declare if you Want to Allow the use of Bonemeal on Apple Plants | [Default: true]",
+      "allowAppleBonemeal": true
+    },
+    {
+      "_comment": "Declare if you Want to Allow the use of Bonemeal on Golden Apple Plants | [Default: true]",
+      "allowGoldenBonemeal": true
+    },
+    {
+      "_comment": "Declare if you Want to Allow the use of Bonemeal on Emerald Apple Plants | [Default: true]",
+      "allowEmeraldBonemeal": true
+    }
+  ],
+  "World loot": [
+    {
+      "_comment": "Declare if you Want to Allow lootable Content on Chests | [Default: true]",
+      "allowWorldLoot": true
+    }
+  ],
+  "Apple Tree Gen": [
+    {
+      "_comment": "Declare if you Want to Allow Apple trees Generation | [Default: true]",
+      "allowAppleGen": true
+    },
+    {
+      "_comment": "Register the biomes to generate Apple Trees | [Default: [plains, sunflower_plains, flower_forest, forest, dark_forest, wooded_mountains]]",
+      "AppleLocations": "[plains, sunflower_plains, flower_forest, forest, dark_forest, wooded_mountains]"
+    },
+    {
+      "_comment": "Register the chance values to generate Apple Trees | [Default: [18, 16, 1, 6, 7, 12]]",
+      "AppleChances": "[18, 16, 1, 6, 7, 12]"
+    }
+  ],
+  "Golden Tree Gen": [
+    {
+      "_comment": "Declare if you Want to Allow Golden trees Generation | [Default: false]",
+      "allowGoldenGen": false
+    },
+    {
+      "_comment": "Register the biomes to generate Golden Trees | [Default: []]",
+      "GoldenLocations": "[]"
+    },
+    {
+      "_comment": "Register the chance values to generate Golden Trees | [Default: []]",
+      "GoldenChances": "[]"
+    }
+  ],
+  "Emerald Tree Gen": [
+    {
+      "_comment": "Declare if you Want to Allow Emerald trees Generation | [Default: true]",
+      "allowEmeraldGen": true
+    },
+    {
+      "_comment": "Register the biomes to generate Emerald Trees | [Default: [flower_forest]]",
+      "EmeraldLocations": "[flower_forest]"
+    },
+    {
+      "_comment": "Register the chance values to generate Emerald Trees | [Default: [75]]",
+      "EmeraldChances": "[75]"
+    }
+  ],
+  "Biome config": [
+    {
+      "_comment": "Declare Apple Forest Chance to be Spawned on the overworld | Range: [0.1 - 10.0] | [Default: 0.5]",
+      "BiomeChance": 0.5
+    },
+    {
+      "_comment": "[minecraft:ocean, minecraft:plains, minecraft:desert, minecraft:mountains, minecraft:forest, minecraft:taiga, minecraft:swamp, minecraft:river, minecraft:nether_wastes, minecraft:the_end, minecraft:frozen_ocean, minecraft:frozen_river, minecraft:snowy_tundra, minecraft:snowy_mountains, minecraft:mushroom_fields, minecraft:mushroom_field_shore, minecraft:beach, minecraft:desert_hills, minecraft:wooded_hills, minecraft:taiga_hills, minecraft:mountain_edge, minecraft:jungle, minecraft:jungle_hills, minecraft:jungle_edge, minecraft:deep_ocean, minecraft:stone_shore, minecraft:snowy_beach, minecraft:birch_forest, minecraft:birch_forest_hills, minecraft:dark_forest, minecraft:snowy_taiga, minecraft:snowy_taiga_hills, minecraft:giant_tree_taiga, minecraft:giant_tree_taiga_hills, minecraft:wooded_mountains, minecraft:savanna, minecraft:savanna_plateau, minecraft:badlands, minecraft:wooded_badlands_plateau, minecraft:badlands_plateau, minecraft:small_end_islands, minecraft:end_midlands, minecraft:end_highlands, minecraft:end_barrens, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:cold_ocean, minecraft:deep_warm_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_cold_ocean, minecraft:deep_frozen_ocean, minecraft:the_void, minecraft:sunflower_plains, minecraft:desert_lakes, minecraft:gravelly_mountains, minecraft:flower_forest, minecraft:taiga_mountains, minecraft:swamp_hills, minecraft:ice_spikes, minecraft:modified_jungle, minecraft:modified_jungle_edge, minecraft:tall_birch_forest, minecraft:tall_birch_hills, minecraft:dark_forest_hills, minecraft:snowy_taiga_mountains, minecraft:giant_spruce_taiga, minecraft:giant_spruce_taiga_hills, minecraft:modified_gravelly_mountains, minecraft:shattered_savanna, minecraft:shattered_savanna_plateau, minecraft:eroded_badlands, minecraft:modified_wooded_badlands_plateau, minecraft:modified_badlands_plateau, minecraft:bamboo_jungle, minecraft:bamboo_jungle_hills, minecraft:soul_sand_valley, minecraft:crimson_forest, minecraft:warped_forest, minecraft:basalt_deltas, minecraft:dripstone_caves, minecraft:lush_caves]"
+    }
+  ]
+}

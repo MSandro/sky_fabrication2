@@ -1,0 +1,13 @@
+name = "Carrier"
+filename = "carrier-1.8.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3528/672/carrier-1.8.2.jar"
+hash-format = "murmur2"
+hash = "779060085"
+
+[update]
+[update.curseforge]
+file-id = 3528672
+project-id = 409184

@@ -1,0 +1,13 @@
+name = "SimpleTech for Fabric"
+filename = "simpletech-0.0.7.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3492/560/simpletech-0.0.7.jar"
+hash-format = "murmur2"
+hash = "3316182247"
+
+[update]
+[update.curseforge]
+file-id = 3492560
+project-id = 517746

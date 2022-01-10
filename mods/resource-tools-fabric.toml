@@ -1,0 +1,13 @@
+name = "Resource Tools [FABRIC]"
+filename = "ResourcefulTools-Fabric-1.17.1-1.1.23.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3533/415/ResourcefulTools-Fabric-1.17.1-1.1.23.jar"
+hash-format = "murmur2"
+hash = "2428473545"
+
+[update]
+[update.curseforge]
+file-id = 3533415
+project-id = 379040

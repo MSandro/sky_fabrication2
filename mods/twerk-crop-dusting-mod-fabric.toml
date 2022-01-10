@@ -1,0 +1,13 @@
+name = "Twerk / Crop Dusting Mod [FABRIC]"
+filename = "Twerk_Mod-fabric-1.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3446/378/Twerk_Mod-fabric-1.0.jar"
+hash-format = "murmur2"
+hash = "1051991266"
+
+[update]
+[update.curseforge]
+file-id = 3446378
+project-id = 522786

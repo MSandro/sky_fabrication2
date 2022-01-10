@@ -1,0 +1,23 @@
+////////////////////////
+/// Made by MSandro  ///
+////////////////////////
+
+var countdown = 1;
+
+events.listen("server.load", function (event) {
+    event.server.schedule(MINUTE * 2.5, function (callback) {
+        event.server.runCommand("/say Hello!");
+        callback.reschedule();
+    });
+
+    event.server.schedule(SECOND * 10, function (callback) {
+        event.server.sendMessage(countdown + "...");
+        countdown--;
+
+        if (countdown > 0) {
+            callback.reschedule(SECOND);
+        } else {
+            event.server.sendMessage("Literally nothing happens!");
+        }
+    });
+});

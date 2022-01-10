@@ -1,0 +1,13 @@
+name = "Paradise Lost - The Aether Reborn"
+filename = "paradise-lost-1.17.1-1.6.3.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3597/67/paradise-lost-1.17.1-1.6.3.2.jar"
+hash-format = "murmur2"
+hash = "2123912663"
+
+[update]
+[update.curseforge]
+file-id = 3597067
+project-id = 418680

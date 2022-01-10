@@ -1,0 +1,13 @@
+name = "Sky Villages [Fabric]"
+filename = "SkyVillages-1.0.1.1-1.17.1-fabric.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3541/124/SkyVillages-1.0.1.1-1.17.1-fabric.jar"
+hash-format = "murmur2"
+hash = "237820840"
+
+[update]
+[update.curseforge]
+file-id = 3541124
+project-id = 545483

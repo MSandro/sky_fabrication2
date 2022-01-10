@@ -1,0 +1,4 @@
+{
+  "sortModsComment": "Whether to initially sort mods by dependencies",
+  "sortMods": false
+}

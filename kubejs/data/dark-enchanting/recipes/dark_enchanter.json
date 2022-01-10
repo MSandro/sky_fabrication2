@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["EGE","GDG","CCC"],"key":{"E":{"item":"minecraft:emerald"},"G":{"item":"botania:dragonstone"},"D":{"item":"minecraft:enchanting_table"},"C":{"item":"minecraft:crying_obsidian"}},"result":{"item":"dark-enchanting:dark_enchanter"}}

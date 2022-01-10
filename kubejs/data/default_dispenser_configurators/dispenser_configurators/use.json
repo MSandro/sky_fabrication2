@@ -1,0 +1,12 @@
+{
+
+  "items": [
+    "#default_dispenser_configurators:non_breeding_plantable",
+    "#default_dispenser_configurators:feeding_plantable",
+    "#default_dispenser_configurators:grown",
+    "#default_dispenser_configurators:just_feeding",
+    "things:bater_wucket",
+    "default_dispenser_configurators:tools/usable_tools"
+  ]
+
+}

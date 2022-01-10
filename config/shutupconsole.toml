@@ -1,0 +1,31 @@
+# The configuration file for Shut Up Console
+
+[shutupconsole]
+# If a log message has one of these phrases, it will be filtered out from logging
+phrases = [
+  "composter",
+  "custom value! This will be removed in 1.18 snapshots",
+  "Registered plugin provider",
+  "Invalid block",
+  "Exception loading blockstate definition",
+  "Unable to resolve texture reference",
+  "Created:",
+  "Using missing texture",
+  "Ambiguity between arguments",
+  "Registered custom recipe handler for type",
+  "Failed to parse recipe",
+  "server_scripts:",
+  "ForkJoinPool.commonPool-worker-",
+  "ForkJoinPool-1-worker-",
+  "Found validation problem in",
+  "[ModuleLoader] Running",
+  "Saving chunks for level",
+  "bclib is incompatible with RecipeConfidence.",
+  "Found reference to unknown structure",
+  "	- "
+]
+
+# If a log message matches one of these regex patterns, it will be filtered out from logging
+regex = [
+ "[main/ERROR]: \n"
+]

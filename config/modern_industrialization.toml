@@ -1,0 +1,10 @@
+generateOres = true
+blacklistedOres = []
+copperSurgenerationFactor = 4
+spawnWithGuideBook = false
+respawnWithGuideBook = false
+disableFuelTooltips = false
+disableItemTagTooltips = false
+newVersionMessage = false
+colorWaterLava = true
+enableDebugCommands = false

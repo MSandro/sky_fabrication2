@@ -1,0 +1,13 @@
+name = "Lifts"
+filename = "lifts-1.4-BETA+1.17.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3545/38/lifts-1.4-BETA+1.17.jar"
+hash-format = "murmur2"
+hash = "2856656483"
+
+[update]
+[update.curseforge]
+file-id = 3545038
+project-id = 451554

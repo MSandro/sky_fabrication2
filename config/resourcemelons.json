@@ -1,0 +1,62 @@
+{
+  "growth": {
+    "requireCatalyst": true,
+    "requireNoSky": true,
+    "baseGrowthChance": 50.0,
+    "revert": {
+      "enabled": true,
+      "value": 8
+    },
+    "growthChanceModifiers": {
+      "secondaryCatalysts": {
+        "enabled": true,
+        "value": 0.75
+      },
+      "moisture": {
+        "enabled": true,
+        "value": 0.1
+      },
+      "light": {
+        "enabled": true,
+        "value": 0.1
+      },
+      "skyLight": {
+        "enabled": true,
+        "value": 0.1
+      },
+      "allSecondaryCatalysts": {
+        "enabled": true,
+        "value": 1.5
+      }
+    },
+    "fertilizable": true,
+    "fertilizerOverrideRequirements": true
+  },
+  "consumption": {
+    "resourceChance": 1,
+    "dropSeeds": {
+      "enabled": true,
+      "value": 50
+    },
+    "foodComponent": {
+      "alwaysEdible": true,
+      "hunger": 2,
+      "saturationModifier": 0.3,
+      "snack": false
+    },
+    "dispensers": {
+      "eating": {
+        "enabled": true,
+        "value": 1.0
+      },
+      "dropSeeds": {
+        "enabled": false,
+        "value": 10.0
+      }
+    }
+  },
+  "misc": {
+    "debugItemEnabled": false,
+    "creativeTabEnabled": true
+  }
+}
