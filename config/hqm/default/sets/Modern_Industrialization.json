@@ -130,6 +130,42 @@
       "commandrewards": []
     },
     {
+      "uuid": "8481500c-149d-4306-a5d5-aedd59825c1a",
+      "name": "Mixing",
+      "description": "Craft a Mixer.",
+      "x": 22,
+      "y": 99,
+      "icon": {
+        "id": "modern_industrialization:bronze_mixer",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "modern_industrialization:bronze_mixer",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "35879e4d-2e65-473b-818b-76decb9b7e47"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "modern_industrialization:uncooked_steel_dust",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "fad79351-6e4c-4d6a-a5c9-47d8535b942c",
       "name": "Replicator",
       "description": "The replicator can use UU-Matter to produce Items.",
@@ -166,42 +202,6 @@
         {
           "id": "modern_industrialization:bucket_uu_matter",
           "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "8481500c-149d-4306-a5d5-aedd59825c1a",
-      "name": "Mixing",
-      "description": "Craft a Mixer.",
-      "x": 22,
-      "y": 99,
-      "icon": {
-        "id": "modern_industrialization:bronze_mixer",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "modern_industrialization:bronze_mixer",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "35879e4d-2e65-473b-818b-76decb9b7e47"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "modern_industrialization:uncooked_steel_dust",
-          "Count": 2
         }
       ],
       "rewardchoice": [],
@@ -1088,21 +1088,10 @@
       "description": "This is a one block greenhouse. It automatically outputs the results in a chest below.\n\nSorry, it often does not work with saplings.",
       "x": 84,
       "y": 19,
-      "icon": {
-        "id": "plantinajar:plant_jar",
-        "Count": 1
-      },
       "tasks": [
         {
           "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "plantinajar:plant_jar",
-                "Count": 1
-              }
-            }
-          ]
+          "items": []
         }
       ],
       "prerequisites": [

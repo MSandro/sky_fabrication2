@@ -686,7 +686,7 @@ hash = "a7c0bbfe3e230252dbd326fdab5a64db5f32dfca353dec46012507bd285fcb6b"
 
 [[files]]
 file = "config/hqm/default/sets/Magical_Stuff.json"
-hash = "cec0c5454804fc016c55c617cb72d12cb041212dd29ffe4163d51eaa69e9b721"
+hash = "7466e74d24ab47e0ffc7f80144174d8df9cd63cd03f4c2dff26afc087ea279c4"
 
 [[files]]
 file = "config/hqm/default/sets/Mechanical_Age.json"
@@ -694,7 +694,7 @@ hash = "8b682ee47a9eb56427894e8662b9fda9ae063e7efd50e83d362040b258d54ebe"
 
 [[files]]
 file = "config/hqm/default/sets/Modern_Industrialization.json"
-hash = "3e29eddfaa47abeb2d58ff9d1d75b2f9fddfc7ee43803bf6af04c6ce72f67429"
+hash = "5f39a422ab487c1c05cd23b90653191fce2a3d8a84a5caf990a139e050a8a70a"
 
 [[files]]
 file = "config/hqm/default/sets/Other_Technologies.json"
@@ -714,7 +714,7 @@ hash = "9a9f0f8e4eb2977a3c380b472dca03f4de527d3b0eabb28e2e8066e10d563d8b"
 
 [[files]]
 file = "config/hqm/default/sets/The_Beginning.json"
-hash = "46860defea63b8c87b37e10f128b611325313fafe2c67e329f2a9be7235ce944"
+hash = "3c82ef3f1db88c1069a8a57fc9d4cb73e264d46c53426469989179db2ba693e2"
 
 [[files]]
 file = "config/hqm/front.png"
@@ -2194,6 +2194,11 @@ hash = "e94106876c50dc73d8f39f4439718603a24c2008c62e62d218c5c28e3b196f74"
 metafile = true
 
 [[files]]
+file = "mods/badstdout.toml"
+hash = "3dc47a8e88788c3f575f748332275feca4fe4b93b3bbb1849d93a9118f253c56"
+metafile = true
+
+[[files]]
 file = "mods/balm-fabric.toml"
 hash = "27dda1396042b4f92edcaabc4577e6f7ad1256cb9472abf193d5e06eee2efd2d"
 metafile = true
@@ -2495,7 +2500,7 @@ metafile = true
 
 [[files]]
 file = "mods/flan.toml"
-hash = "6853ddd70513015a20608315341a54ec351e59bf98cc41435ed3967304d632de"
+hash = "16304211648b192a854fce5e1f8519ab4b06e190cf980777b73345c87a90a6d3"
 metafile = true
 
 [[files]]
