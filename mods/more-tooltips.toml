@@ -1,6 +1,6 @@
 name = "More Tooltips"
 filename = "%5B1.17.1%5D MoreTooltips-1.0.2.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://edge.forgecdn.net/files/3422/939/%5B1.17.1%5D MoreTooltips-1.0.2.jar"

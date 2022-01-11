@@ -22,7 +22,10 @@ phrases = [
   "Saving chunks for level",
   "bclib is incompatible with RecipeConfidence.",
   "Found reference to unknown structure",
-  "	- "
+  "~ ",
+  "Running ",
+  "Can't remove Log4J2 JNDI substitution Lookup"
+  "null"
 ]
 
 # If a log message matches one of these regex patterns, it will be filtered out from logging

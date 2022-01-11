@@ -1,6 +1,6 @@
 name = "Smooth Boot (Fabric)"
 filename = "smoothboot-fabric-1.16.5-1.6.0.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://edge.forgecdn.net/files/3248/104/smoothboot-fabric-1.16.5-1.6.0.jar"

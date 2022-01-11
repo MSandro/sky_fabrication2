@@ -1086,7 +1086,7 @@ hash = "170f1954f85c2fffba13b88491350adafc2c11263b124737bab5954fd2b72180"
 
 [[files]]
 file = "config/shutupconsole.toml"
-hash = "85c7d5e2146a0abf98b125e73661a2425ecb2aff434284c67ed68f891c4a011a"
+hash = "66621ba98cbafe210bf4783fbb4daa0b0c6f74dd9d96b1cf82e592737eb4c74b"
 
 [[files]]
 file = "config/simplerauth-cache.json"
@@ -2125,7 +2125,7 @@ metafile = true
 
 [[files]]
 file = "mods/advancements-enlarger.toml"
-hash = "2be72d6a4aaafb3237855823530a96a4edfd022873629422537c5a1031823879"
+hash = "ef0f797a28676959f3df625274c3df4754767580d27c66a30cae1497febf00c5"
 metafile = true
 
 [[files]]
@@ -2280,7 +2280,7 @@ metafile = true
 
 [[files]]
 file = "mods/builtin-servers.toml"
-hash = "4d9ac4031c626eb7bb9e3a1e8b557c5bdbc460febefbba249fbe9085f8630504"
+hash = "11a180c692c535591fe9a2423c0874c989674a2d3b944b957ae72536defe0ff8"
 metafile = true
 
 [[files]]
@@ -2315,7 +2315,7 @@ metafile = true
 
 [[files]]
 file = "mods/cleanview-fabric.toml"
-hash = "440a9378f7910982cb93db1da9887a82f55729ea6c549a78507ea06beb970e4f"
+hash = "03cb5109d21385c606a8b5d7ff4d843345166459f7f7fa1b1a923d90f5efc956"
 metafile = true
 
 [[files]]
@@ -2350,7 +2350,7 @@ metafile = true
 
 [[files]]
 file = "mods/continuity.toml"
-hash = "085fe63a5eb184f27fa75481047de205138e2b23951ea319ce17b2edfb7a5fd4"
+hash = "8198c6d03e0dbc989fd373aa5fd4ad9a769b1e02f2ed826f47ad4423467af4d2"
 metafile = true
 
 [[files]]
@@ -2410,12 +2410,12 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.toml"
-hash = "a3c3d4f35494103eb96d62ad1e63932d4407c90b7878fdb1d2d1f75e26da1ce4"
+hash = "2d1219abfed5e3f1388b9512d9ed4c441979437d80b652230e79cae3d52aaf10"
 metafile = true
 
 [[files]]
 file = "mods/enhanced-block-entities.toml"
-hash = "15122ef9ddae952b8b99d79556b1dc726f9a9c9c09a57ba03de8bad3ff4a4ab4"
+hash = "c460e4a8258164206ea865024b32734f39532a88e83df92347264b80fe295101"
 metafile = true
 
 [[files]]
@@ -2575,7 +2575,7 @@ metafile = true
 
 [[files]]
 file = "mods/i-know-what-im-doing.toml"
-hash = "17b17c1e6c1130b7d5d7728287bf607a72f39c4cc77dd149a518de34b5eca5a3"
+hash = "6f60f12ca5569c6b2c6011b53f004ce6ad3e9393b6cf314f2a5b6a36b0a00dbb"
 metafile = true
 
 [[files]]
@@ -2590,7 +2590,7 @@ metafile = true
 
 [[files]]
 file = "mods/indium.toml"
-hash = "63fd94202dbec36cd058b0cd9b34e3464e4f96b3262b4013e5456a269809ddfd"
+hash = "eb2d972bc14e401a584dfce6e06bdd41da6fd8629432a6db6bc2efa4adf17af1"
 metafile = true
 
 [[files]]
@@ -2655,7 +2655,7 @@ metafile = true
 
 [[files]]
 file = "mods/lambdynamiclights.toml"
-hash = "2b0756538b98e29702e74d8f194b70eb8c472fa086e5a3084d903347cef4d623"
+hash = "97f2bb8fd9b7d6daed1f50144859b2875b5c6e60edee6ed6e90e9dcd4dca83b8"
 metafile = true
 
 [[files]]
@@ -2680,7 +2680,7 @@ metafile = true
 
 [[files]]
 file = "mods/light-overlay.toml"
-hash = "99dd1808be62aa4a8af5e43c3946b76965cfae3830280a0f6ee9d4dfe5ebe712"
+hash = "d061b79d74a906f22b9f50bf95fba710029d0329097063709dcf9581f6a5a52c"
 metafile = true
 
 [[files]]
@@ -2745,7 +2745,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.toml"
-hash = "3af260ca28e4c1c1a56bbe496a43ac757b49123f33468131d3589df4c8591033"
+hash = "fe5ce30097f8d61e81e9921b8b7bb6305008ceff5d3b3feb0d312067d16309d9"
 metafile = true
 
 [[files]]
@@ -2755,7 +2755,7 @@ metafile = true
 
 [[files]]
 file = "mods/more-tooltips.toml"
-hash = "e4af16fa0c002c2778fdc57669b60b9fa750a8bf0de001d6daed0208d82e2dc6"
+hash = "6dd9aeb6adefe6351fcb9c3ade269c7d9b9b88a856882846daf9b33a2e7fb27c"
 metafile = true
 
 [[files]]
@@ -2805,7 +2805,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-potion-offset.toml"
-hash = "497343aea45b8f9c81a059f3c2724c2aef668cf05104ebac898fa0461ba98349"
+hash = "2a62650a3789d55793aea2d7bcbb7e32efaee80764d251761e683297e9134532"
 metafile = true
 
 [[files]]
@@ -2815,12 +2815,12 @@ metafile = true
 
 [[files]]
 file = "mods/offhand-overhaul.toml"
-hash = "699766771b43a09de6ec1af62cdec2f6b0a1284b586bd1dbb3e204e12833aa17"
+hash = "c3afdf6418de17db91122186da1b0d74cfd231deb1fdc2f01f322f557271be05"
 metafile = true
 
 [[files]]
 file = "mods/ok-zoomer.toml"
-hash = "5b17699a5edf9b5d8d53f67181bfe6e7a635b3f7c6681a3b55d47f0333ac7ae3"
+hash = "655ef7e4dbff1d44b3bd7ec7d68dbdf4a9cfd8947838c1eaa7303227fda9b0f2"
 metafile = true
 
 [[files]]
@@ -2940,7 +2940,7 @@ metafile = true
 
 [[files]]
 file = "mods/right-click-clear.toml"
-hash = "468b7e554b194c89497c732a125ad6a27fa17680ba95c171bfed4514fce48684"
+hash = "df1ec88685e7dd4d87282367d3b7a49be8bf2a10d31d4a14fab60ac825591742"
 metafile = true
 
 [[files]]
@@ -2975,7 +2975,7 @@ metafile = true
 
 [[files]]
 file = "mods/shut-up-console.toml"
-hash = "2982cca2303d297c31c0614d7b49c9623589721141bf0dc40c994c8711e0cc85"
+hash = "ac0a569754597f5024bc0e9d035d27fe9323bbea05d3e275236127a864743786"
 metafile = true
 
 [[files]]
@@ -3005,7 +3005,7 @@ metafile = true
 
 [[files]]
 file = "mods/slight-gui-modifications.toml"
-hash = "5b33de3c55d5c60d41ac57d72b7697b6e6ad8795de481895b3f0d11e2e0d974a"
+hash = "4368d0386ce9bb7f558500549eb61cf677f530e53fc204561bdd4f8848fb7085"
 metafile = true
 
 [[files]]
@@ -3015,7 +3015,7 @@ metafile = true
 
 [[files]]
 file = "mods/smooth-boot.toml"
-hash = "50643f42ce49a49dab5a766245eed97c9acb6e4c84cd59524a10d13b0d2092f6"
+hash = "b6e5dae72f792d2c41042883b04283355e6e9dee6ca7558bf51a0ebb855bc8dc"
 metafile = true
 
 [[files]]
@@ -3080,17 +3080,17 @@ metafile = true
 
 [[files]]
 file = "mods/structure-world.toml"
-hash = "d16589204c98a1df7a12959fc5c9931b961319cd3ebdd2c0078c10c7181e7e42"
+hash = "5f797e387882dd992855ccb2366d22a75768958c65318e1b24d4f665cf51232d"
 metafile = true
 
 [[files]]
 file = "mods/styled-chat.toml"
-hash = "d0db8ff3916fda3ba045356bb363b3310106224d24113a99abd4a52e361303d8"
+hash = "b2b7fc0b91ec00fe392c8b1d60575da9eb35fa923b4fed9382129577f36a6a85"
 metafile = true
 
 [[files]]
 file = "mods/styled-player-list.toml"
-hash = "147f4db6ef1b7ccb85ac68940c301bd74d26ac7fb23e6a07f314c7eda2f872a0"
+hash = "0a9204fc024ea1d642c9d3466594abb3c2631f1b24437df82e72556f4aff9cb5"
 metafile = true
 
 [[files]]
@@ -3145,7 +3145,7 @@ metafile = true
 
 [[files]]
 file = "mods/tooltipfix.toml"
-hash = "a68996a8acfc3d77101278e0fe5ec9c908ca5a077faeb8974ca7e896f1b65fb0"
+hash = "be2c52f2889c2f0420ddf31b6bb2666b2f17f79241ac8e3f4a71506af5912bde"
 metafile = true
 
 [[files]]
@@ -3205,7 +3205,7 @@ metafile = true
 
 [[files]]
 file = "mods/wmitaf.toml"
-hash = "17e21fa298aeeec2458cf3d933099f4127af904214c4cc5cd49647f76630d861"
+hash = "296d124dbc810b32f27e9c6c6746bc4430e1e028ee76e01b9d6310ec3714e04e"
 metafile = true
 
 [[files]]
@@ -3235,7 +3235,7 @@ metafile = true
 
 [[files]]
 file = "mods/yosbr.toml"
-hash = "25ba1f543d497256054d05bbbab6e0c4f5aa9796cd53191d4b381297fd98c81d"
+hash = "c4a7a34adefe0527060ab7e840f38330d6d462811ef32fadab80df39be985529"
 metafile = true
 
 [[files]]
