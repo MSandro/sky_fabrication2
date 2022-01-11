@@ -2195,7 +2195,7 @@ metafile = true
 
 [[files]]
 file = "mods/badstdout.toml"
-hash = "3dc47a8e88788c3f575f748332275feca4fe4b93b3bbb1849d93a9118f253c56"
+hash = "5409e4d95bc1dfa3d007ae612068ed30df5e9acefe4b88836bd90c94f61e0715"
 metafile = true
 
 [[files]]
@@ -2880,7 +2880,7 @@ metafile = true
 
 [[files]]
 file = "mods/pling.toml"
-hash = "54987d483bb1f9c550b07be46861e40ba95d0854522c45a4a9f44f08b9de342b"
+hash = "58bade3d3437cfe7b7201b57fe529b3d63563037ea2980316cd6e9444d8a38c5"
 metafile = true
 
 [[files]]
