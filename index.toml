@@ -1086,7 +1086,7 @@ hash = "170f1954f85c2fffba13b88491350adafc2c11263b124737bab5954fd2b72180"
 
 [[files]]
 file = "config/shutupconsole.toml"
-hash = "66621ba98cbafe210bf4783fbb4daa0b0c6f74dd9d96b1cf82e592737eb4c74b"
+hash = "fecd8d86f8efdb98e6706cca0ab816b768e3aa18e692f8cd3c6b4e33cf3d367f"
 
 [[files]]
 file = "config/simplerauth-cache.json"
@@ -2520,7 +2520,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.toml"
-hash = "c35b3df7d799d55d995e7cd2551e32bf6c48a8e2497995f955432efd20284f38"
+hash = "61eb2d5e90f074f9c459e6f8cc1299f372ec016f7a2854457c041d3b0df33fda"
 metafile = true
 
 [[files]]
