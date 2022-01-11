@@ -2,13 +2,14 @@
   "name": "Magical Stuff",
   "quests": [
     {
-      "uuid": "aae2c7a0-23c6-490b-8d4e-e10c92df5150",
-      "name": "Brewing",
-      "description": "It is possible to brew growing and shrinking potions. Try it out!",
-      "x": 288,
-      "y": 86,
+      "uuid": "d13791c0-a58f-4b79-bb17-16ca98ce24b0",
+      "name": "Little Helpers",
+      "description": "Schmucks can do some work for you, but they also often do what they want.",
+      "x": 172,
+      "y": 36,
+      "bigicon": true,
       "icon": {
-        "id": "minecraft:brewing_stand",
+        "id": "schmucks:schmuck",
         "Count": 1
       },
       "tasks": [
@@ -17,43 +18,27 @@
           "items": [
             {
               "item": {
-                "id": "minecraft:potion",
-                "Count": 1,
-                "tag": {
-                  "Potion": "extraalchemy:shrinking"
-                }
+                "id": "schmucks:schmuck",
+                "Count": 1
               }
             },
             {
               "item": {
-                "id": "minecraft:potion",
-                "Count": 1,
-                "tag": {
-                  "Potion": "extraalchemy:growing"
-                }
+                "id": "schmucks:control_wand",
+                "Count": 1
               }
             }
           ]
         }
       ],
       "prerequisites": [
-        "afad031a-780a-437b-8661-be8718d64b1b"
+        "03a56f3c-6047-4b85-9f44-5a8dffb0cf5b"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "minecraft:potion",
-          "Count": 8,
-          "tag": {
-            "Potion": "extraalchemy:shrinking_long"
-          }
-        },
-        {
-          "id": "minecraft:potion",
-          "Count": 8,
-          "tag": {
-            "Potion": "extraalchemy:growing_long"
-          }
+          "id": "schmucks:magic",
+          "Count": 64
         }
       ],
       "rewardchoice": [],
@@ -110,14 +95,13 @@
       "commandrewards": []
     },
     {
-      "uuid": "d13791c0-a58f-4b79-bb17-16ca98ce24b0",
-      "name": "Little Helpers",
-      "description": "Schmucks can do some work for you, but they also often do what they want.",
-      "x": 172,
-      "y": 36,
-      "bigicon": true,
+      "uuid": "aae2c7a0-23c6-490b-8d4e-e10c92df5150",
+      "name": "Brewing",
+      "description": "It is possible to brew growing and shrinking potions. Try it out!",
+      "x": 288,
+      "y": 86,
       "icon": {
-        "id": "schmucks:schmuck",
+        "id": "minecraft:brewing_stand",
         "Count": 1
       },
       "tasks": [
@@ -126,27 +110,43 @@
           "items": [
             {
               "item": {
-                "id": "schmucks:schmuck",
-                "Count": 1
+                "id": "minecraft:potion",
+                "Count": 1,
+                "tag": {
+                  "Potion": "extraalchemy:shrinking"
+                }
               }
             },
             {
               "item": {
-                "id": "schmucks:control_wand",
-                "Count": 1
+                "id": "minecraft:potion",
+                "Count": 1,
+                "tag": {
+                  "Potion": "extraalchemy:growing"
+                }
               }
             }
           ]
         }
       ],
       "prerequisites": [
-        "03a56f3c-6047-4b85-9f44-5a8dffb0cf5b"
+        "afad031a-780a-437b-8661-be8718d64b1b"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "schmucks:magic",
-          "Count": 64
+          "id": "minecraft:potion",
+          "Count": 8,
+          "tag": {
+            "Potion": "extraalchemy:shrinking_long"
+          }
+        },
+        {
+          "id": "minecraft:potion",
+          "Count": 8,
+          "tag": {
+            "Potion": "extraalchemy:growing_long"
+          }
         }
       ],
       "rewardchoice": [],
