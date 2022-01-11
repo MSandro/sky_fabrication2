@@ -1,6 +1,6 @@
 name = "Styled Player List"
 filename = "styledplayerlist-2.1.2.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://edge.forgecdn.net/files/3495/536/styledplayerlist-2.1.2.jar"

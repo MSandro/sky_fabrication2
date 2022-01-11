@@ -1,6 +1,6 @@
 name = "Indium"
 filename = "indium-1.0.1+mc1.17.1.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://edge.forgecdn.net/files/3535/202/indium-1.0.1+mc1.17.1.jar"

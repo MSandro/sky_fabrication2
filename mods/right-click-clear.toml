@@ -1,6 +1,6 @@
 name = "Right Click Clear"
 filename = "right-click-clear-2.0.3.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://edge.forgecdn.net/files/3329/364/right-click-clear-2.0.3.jar"

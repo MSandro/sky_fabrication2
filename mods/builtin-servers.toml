@@ -1,6 +1,6 @@
 name = "Builtin Servers"
 filename = "builtin-servers-1.0.1-BETA+1.17.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://edge.forgecdn.net/files/3342/144/builtin-servers-1.0.1-BETA+1.17.jar"

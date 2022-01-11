@@ -1,6 +1,6 @@
 name = "No Potion Offset (Fabric/Forge)"
 filename = "no-potion-offset-1.0.2.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://edge.forgecdn.net/files/3119/667/no-potion-offset-1.0.2.jar"

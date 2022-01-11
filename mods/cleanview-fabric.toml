@@ -1,6 +1,6 @@
 name = "CleanView (Fabric)"
 filename = "CleanView-1.17.1-v1-fabric.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://edge.forgecdn.net/files/3381/19/CleanView-1.17.1-v1-fabric.jar"
