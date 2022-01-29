@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DID",
+    "DBD",
+    "DID"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "I": {
+      "item": "modern_industrialization:steel_ingot"
+    },
+    "B": {
+      "item": "botania:blaze_block"
+    }
+  },
+  "result": {
+    "item": "blockus:legacy_nether_reactor_core",
+    "count": 1
+  }
+}

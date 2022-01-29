@@ -1,0 +1,81 @@
+{
+  "type": "bigbenchtheory:crafting_shaped",
+  "pattern": [
+    "ABCDA",
+    "AEFGA",
+    "HIJKL",
+    "MNOPQ",
+    "RSTUV"
+  ],
+  "key": {
+    "A": {
+      "item": "appliedenergistics2:sky_stone_block"
+    },
+    "B": {
+      "item": "valley:stone_mossy"
+    },
+    "C": {
+      "item": "modern_industrialization:lignite_coal_block"
+    },
+    "D": {
+      "item": "minecraft:rooted_dirt"
+    },
+    "E": {
+      "item": "blockus:limestone"
+    },
+    "F": {
+      "item": "compress:compressed_amethyst_block_1"
+    },
+    "G": {
+      "item": "blockus:bluestone"
+    },
+    "H": {
+      "item": "indrev:nikolite_ore"
+    },
+    "I": {
+      "item": "compress:compressed_calcite_2"
+    },
+    "J": {
+      "item": "modern_industrialization:quantum_machine_hull"
+    },
+    "K": {
+      "item": "compress:compressed_dripstone_block_2"
+    },
+    "L": {
+      "item": "minecraft:deepslate_diamond_ore"
+    },
+    "M": {
+      "item": "minecraft:deepslate_lapis_ore"
+    },
+    "N": {
+      "item": "resourceful_tools:dirt_triple"
+    },
+    "O": {
+      "item": "minecraft:tuff"
+    },
+    "P": {
+      "item": "compress:compressed_red_sand_3"
+    },
+    "Q": {
+      "item": "minecraft:deepslate_emerald_ore"
+    },
+    "R": {
+      "item": "minecraft:deepslate_redstone_ore"
+    },
+    "S": {
+      "item": "minecraft:deepslate_gold_ore"
+    },
+    "T": {
+      "item": "minecraft:deepslate_copper_ore"
+    },
+    "U": {
+      "item": "minecraft:deepslate_iron_ore"
+    },
+    "V": {
+      "item": "minecraft:deepslate_coal_ore"
+    }
+  },
+  "result": {
+    "item": "kubejs:sky_island_activator"
+  }
+}

@@ -1,0 +1,13 @@
+name = "Extreme sound muffler (Fabric) Official"
+filename = "extremesoundmuffler-3.22_fabric-1.17.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3604/460/extremesoundmuffler-3.22_fabric-1.17.1.jar"
+hash-format = "murmur2"
+hash = "1576737744"
+
+[update]
+[update.curseforge]
+file-id = 3604460
+project-id = 566140

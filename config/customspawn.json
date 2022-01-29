@@ -1,6 +1,6 @@
 {
   "chunkConstant": 17,
-  "rareSpawnTicksToWait": 400,
+  "rareSpawnTicksToWait": 200,
   "hostileSpawning1_18": false,
   "monsterGroup": {
     "capacity": 50,
@@ -12,7 +12,7 @@
   "creatureGroup": {
     "capacity": 20,
     "peaceful": true,
-    "rare": false,
+    "rare": true,
     "immediateDespawnRange": 256,
     "despawnStartRange": 64
   },

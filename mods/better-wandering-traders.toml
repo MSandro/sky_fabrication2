@@ -1,0 +1,13 @@
+name = "Better Wandering Traders"
+filename = "better-wandering-trader-1.7.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3373/949/better-wandering-trader-1.7.0.jar"
+hash-format = "murmur2"
+hash = "3698986409"
+
+[update]
+[update.curseforge]
+file-id = 3373949
+project-id = 384109

@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "IGI",
+      "XRX",
+      "XZX"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "R": {
+        "item": "modern_industrialization:basic_machine_hull"
+      },
+      "X": {
+          "item": "minecraft:blaze_rod"
+      },
+      "Z": {
+        "item": "agape_space:part_engine_crude"
+      },
+      "G": {
+        "item": "techreborn:cell",
+        "data": {
+          "require": {
+            "fluid": "techreborn:heliumplasma"
+          }
+        }
+      }
+    },
+    "result": {
+      "item": "agape_space:rocket_ship_box",
+      "count": 1
+    }
+  }

@@ -1,0 +1,17 @@
+{
+  "type": "modern_industrialization:electrolyzer",
+  "eu": 40,
+  "duration": 6000,
+  "item_inputs": [
+    {
+      "item": "modern_industrialization:singularity",
+      "amount": 1
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "modern_industrialization:uu_matter",
+      "amount": 100
+    }
+  ]
+}

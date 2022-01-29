@@ -52,7 +52,8 @@
       "modern_industrialization:creosote": 6512720,
       "modern_industrialization:lubricant": 16761856,
       "modern_industrialization:raw_synthetic_oil": 5131846,
-      "modern_industrialization:synthetic_oil": 5000268
+      "modern_industrialization:synthetic_oil": 5000268,
+      "modern_industrialization:oxygen": 3315442
     },
     "blacklist": []
   },

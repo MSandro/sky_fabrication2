@@ -1,0 +1,99 @@
+{
+    "lava_input": ["minecraft:lava_bucket"],
+    "water_input": ["minecraft:water_bucket"],
+    "lava_output": ["minecraft:bucket"],
+    "water_output": ["minecraft:bucket"],
+    "funnels": {
+        "cobblestone": {
+            "speed": 60,
+            "uses_per_lava": 100,
+            "uses_per_water": -1,
+            "generates": [
+                {"block": "minecraft:cobblestone", "weight": 4},
+                {"block": "minecraft:stone", "weight": 4},
+                {"block": "minecraft:coal_ore", "weight": 2},
+                {"block": "minecraft:copper_ore", "weight": 1},
+                {"block": "minecraft:iron_ore", "weight": 1}
+            ]
+        },
+        "copper": {
+            "speed": 30,
+            "uses_per_lava": 50,
+            "uses_per_water": -1,
+            "generates": [
+                {"block": "minecraft:cobblestone", "weight": 6},
+                {"block": "minecraft:stone","weight": 6},
+                {"block": "minecraft:coal_ore","weight": 4},
+                {"block": "minecraft:copper_ore", "weight": 3},
+                {"block": "minecraft:iron_ore", "weight": 2},
+                {"block": "minecraft:redstone_ore", "weight": 1},
+                {"block": "minecraft:nether_quartz_ore", "weight": 1},
+                {"block": "minecraft:gold_ore", "weight": 1}
+            ]
+        },
+        "iron": {
+            "speed": 60,
+            "uses_per_lava": 100,
+            "uses_per_water": -1,
+            "generates": [
+                {"block": "minecraft:cobblestone", "weight": 6},
+                {"block": "minecraft:stone", "weight": 6},
+                {"block": "minecraft:coal_ore", "weight": 4},
+                {"block": "minecraft:copper_ore", "weight": 2},
+                {"block": "minecraft:iron_ore", "weight": 3},
+                {"block": "minecraft:redstone_ore", "weight": 1},
+                {"block": "minecraft:nether_quartz_ore", "weight": 1},
+                {"block": "minecraft:gold_ore", "weight": 1}
+            ]
+        },
+        "gold": {
+            "speed": 45,
+            "uses_per_lava": 25,
+            "uses_per_water": -1,
+            "generates": [
+                {"block": "minecraft:cobblestone", "weight": 10},
+                {"block": "minecraft:stone", "weight": 10},
+                {"block": "minecraft:coal_ore", "weight": 6},
+                {"block": "minecraft:copper_ore", "weight": 4},
+                {"block": "minecraft:iron_ore", "weight": 4},
+                {"block": "minecraft:redstone_ore", "weight": 2},
+                {"block": "minecraft:nether_quartz_ore", "weight": 3},
+                {"block": "minecraft:gold_ore", "weight": 3},
+                {"block": "minecraft:diamond_ore", "weight": 1}
+            ]
+        },
+        "diamond": {
+            "speed": 30,
+            "uses_per_lava": 10,
+            "uses_per_water": -1,
+            "generates": [
+                {"block": "minecraft:cobblestone", "weight": 5},
+                {"block": "minecraft:stone", "weight": 5},
+                {"block": "minecraft:coal_ore", "weight": 3},
+                {"block": "minecraft:copper_ore", "weight": 2},
+                {"block": "minecraft:iron_ore", "weight": 2},
+                {"block": "minecraft:redstone_ore", "weight": 2},
+                {"block": "minecraft:nether_quartz_ore", "weight": 4},
+                {"block": "minecraft:gold_ore", "weight": 2},
+                {"block": "minecraft:diamond_ore", "weight": 2}
+            ]
+        },
+        "netherite": {
+            "speed": 20,
+            "uses_per_lava": 5,
+            "uses_per_water": -1,
+            "generates": [
+                {"block": "minecraft:cobblestone", "weight": 40},
+                {"block": "minecraft:stone", "weight": 40},
+                {"block": "minecraft:coal_ore", "weight": 20},
+                {"block": "minecraft:copper_ore", "weight": 16},
+                {"block": "minecraft:iron_ore", "weight": 16},
+                {"block": "minecraft:redstone_ore", "weight": 8},
+                {"block": "minecraft:nether_quartz_ore", "weight": 12},
+                {"block": "minecraft:gold_ore", "weight": 12},
+                {"block": "minecraft:diamond_ore", "weight": 4},
+                {"block": "minecraft:ancient_debris", "weight": 1}
+            ]
+        }
+    }
+}

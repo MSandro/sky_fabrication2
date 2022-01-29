@@ -1,0 +1,13 @@
+name = "Minimal Menu"
+filename = "minimalmenu-1.17-0.0.8.jar"
+side = "client"
+
+[download]
+url = "https://edge.forgecdn.net/files/3361/892/minimalmenu-1.17-0.0.8.jar"
+hash-format = "murmur2"
+hash = "652923539"
+
+[update]
+[update.curseforge]
+file-id = 3361892
+project-id = 405795

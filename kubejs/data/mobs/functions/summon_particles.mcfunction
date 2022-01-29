@@ -1,0 +1,12 @@
+particle witch ~ ~ ~ 0 0 0 0.1 5 force
+execute if entity @s[tag=1] facing entity @e[tag=1,tag=summon,sort=nearest,limit=1] feet unless entity @e[tag=1,tag=summon,sort=nearest,limit=1,distance=..0.4] run summon armor_stand ^ ^ ^0.5 {NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["particles","1"],DisabledSlots:4144959}
+execute if entity @s[tag=1] at @e[tag=1,tag=summon,sort=nearest,limit=1,distance=..0.5] run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["particles","1"],DisabledSlots:4144959}
+execute if entity @s[tag=2] facing entity @e[tag=2,tag=summon,sort=nearest,limit=1] feet unless entity @e[tag=2,tag=summon,sort=nearest,limit=1,distance=..0.4] run summon armor_stand ^ ^ ^0.5 {NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["particles","2"],DisabledSlots:4144959}
+execute if entity @s[tag=2] at @e[tag=2,tag=summon,sort=nearest,limit=1,distance=..0.5] run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["particles","2"],DisabledSlots:4144959}
+execute if entity @s[tag=3] facing entity @e[tag=3,tag=summon,sort=nearest,limit=1] feet unless entity @e[tag=3,tag=summon,sort=nearest,limit=1,distance=..0.4] run summon armor_stand ^ ^ ^0.5 {NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["particles","3"],DisabledSlots:4144959}
+execute if entity @s[tag=3] at @e[tag=3,tag=summon,sort=nearest,limit=1,distance=..0.5] run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["particles","3"],DisabledSlots:4144959}
+execute if entity @s[tag=4] facing entity @e[tag=4,tag=summon,sort=nearest,limit=1] feet unless entity @e[tag=4,tag=summon,sort=nearest,limit=1,distance=..0.4] run summon armor_stand ^ ^ ^0.5 {NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["particles","4"],DisabledSlots:4144959}
+execute if entity @s[tag=4] at @e[tag=4,tag=summon,sort=nearest,limit=1,distance=..0.5] run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["particles","4"],DisabledSlots:4144959}
+execute if entity @s[tag=5] facing entity @e[tag=5,tag=summon,sort=nearest,limit=1] feet unless entity @e[tag=5,tag=summon,sort=nearest,limit=1,distance=..0.4] run summon armor_stand ^ ^ ^0.5 {NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["particles","5"],DisabledSlots:4144959}
+execute if entity @s[tag=5] at @e[tag=5,tag=summon,sort=nearest,limit=1,distance=..0.5] run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["particles","5"],DisabledSlots:4144959}
+kill @s

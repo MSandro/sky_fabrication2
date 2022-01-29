@@ -2,11 +2,1058 @@
   "name": "Stone Age",
   "quests": [
     {
+      "uuid": "7ad5803e-4b4a-4796-8007-12e4a3a73473",
+      "name": "Auto-Collect \u0026 Release",
+      "description": "There are a few ways to auto pick up Exp and Items. Most likly you use Hoppers. But you can also use some Items from the Mod \"Kibe\".",
+      "x": 255,
+      "y": 154,
+      "icon": {
+        "id": "kibe:vacuum_hopper",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "kibe:vacuum_hopper",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "kibe:xp_shower",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "kibe:xp_drain",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "kibe:trash_can",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a6493aa4-cd33-471d-8148-be32b35e0ec3",
+        "265fec52-bbe7-4988-9ace-f6e926477549"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:iron_block",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "Count": 10
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "aae2c7a0-23c6-490b-8d4e-e10c92df5150",
+      "name": "Brewing",
+      "description": "It is possible to brew growing and shrinking potions. Try it out!",
+      "x": 94,
+      "y": 14,
+      "icon": {
+        "id": "minecraft:brewing_stand",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:potion",
+                "Count": 1,
+                "tag": {
+                  "Potion": "extraalchemy:shrinking"
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:potion",
+                "Count": 1,
+                "tag": {
+                  "Potion": "extraalchemy:growing"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "afad031a-780a-437b-8661-be8718d64b1b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:potion",
+          "Count": 2,
+          "tag": {
+            "Potion": "extraalchemy:shrinking_long"
+          }
+        },
+        {
+          "id": "minecraft:potion",
+          "Count": 1,
+          "tag": {
+            "Potion": "extraalchemy:growing_long"
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a7c70ba8-36c5-4791-b5c7-45811f55f72b",
+      "name": "Small Furnace Upgrade",
+      "description": "The Fabric Furnace is a tiny bit of an upgrade to the normal Vanilla one. Go ahead and try it.",
+      "x": 141,
+      "y": 109,
+      "icon": {
+        "id": "fabric-furnaces:fabric_furnace",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "hqm.taskType.detect.title",
+          "items": [
+            {
+              "item": {
+                "id": "fabric-furnaces:fabric_furnace",
+                "Count": 1
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "788dcf4a-0dbf-48ed-a482-37b63f6138d3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:obsidian",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "64eec84f-2ece-482b-a96c-a350c46968d2",
+      "name": "Using the Netherstar",
+      "description": "Since you finally got ur FIRST Netherstar, you are now able to build a Beacon.",
+      "x": 18,
+      "y": 91,
+      "icon": {
+        "id": "minecraft:beacon",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:beacon",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6e19f74c-2e3b-45e2-8a34-7044bc54bfc2"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:obsidian",
+          "Count": 3
+        },
+        {
+          "id": "minecraft:wither_skeleton_skull",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f46a5bf9-c1c1-4792-8b1b-4683bc11590c",
+      "name": "Enchantment Table Upgrade",
+      "description": "Craft 15 Bookshelfs to upgrade your Enchantment table. Place them with one block space around the Table to increase the level.",
+      "x": 253,
+      "y": 14,
+      "icon": {
+        "id": "minecraft:bookshelf",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bookshelf",
+                "Count": 1
+              },
+              "required": 15,
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e2f01995-afb6-4bbd-a72b-ce9c444fa0b3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:lapis_lazuli",
+          "Count": 12
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f4715ab8-6637-4a54-b928-5708cb8fd9cc",
+      "name": "Loading Chunks",
+      "description": "With the Chunk Loader you are able to load a 1x1 to 5x5 Area. You can configure it in the Chunk Loader itself. It keeps the selected Chunks loaded, when ur ONLINE but not close.",
+      "x": 296,
+      "y": 66,
+      "icon": {
+        "id": "kibe:chunk_loader",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "kibe:chunk_loader",
+                "Count": 1
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "822dc5ae-99c1-4a45-9151-b2b2e64d9041",
+        "a173b0d4-6bc4-4634-8d0e-c8556b64fb06"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "kibe:wither_proof_block",
+          "Count": 4
+        },
+        {
+          "id": "minecraft:diamond",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c69677b7-ed24-42dd-8cfe-363d7ed9a58b",
+      "name": "Heart Aspects",
+      "description": "You can improve your heart bar by using aspects. They are having different abilities. Learn how it works in the Guide Book.",
+      "x": 143,
+      "y": 14,
+      "icon": {
+        "id": "victus:victus_journal",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "victus:victus_journal",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:splash_potion",
+                "Count": 1,
+                "tag": {
+                  "Potion": "victus:heartbleed"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae2c7a0-23c6-490b-8d4e-e10c92df5150"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "victus:blank_heart_aspect",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "265fec52-bbe7-4988-9ace-f6e926477549",
+      "name": "Automate ur Mobtower",
+      "description": "In this quest, you will require a lot of Lamps, e.G. Redstone Lamps or any light Source that you can turn off and on. You also need Redstone. \nMaybe something Wireless?",
+      "x": 213,
+      "y": 154,
+      "icon": {
+        "id": "wireless_redstone:transmitter",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "hqm.taskType.detect.title",
+          "items": [
+            {
+              "item": {
+                "id": "wireless_redstone:transmitter",
+                "Count": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "wireless_redstone:receiver",
+                "Count": 1
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "199510ac-8115-419b-ad58-86dda93edc1d",
+        "a6493aa4-cd33-471d-8148-be32b35e0ec3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:diamond",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:totem_of_undying",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "269ccad9-50b6-4332-9c00-28df852e2abc",
+      "name": "Tired of Fans?",
+      "description": "Fans are a great way of pushing unwanted Guests away. Tho, there are Conveyer Belts... They might a bit more expensive, but they got 3 variants! Slow, Fast, Express.",
+      "x": 172,
+      "y": 154,
+      "icon": {
+        "id": "kibe:regular_conveyor_belt",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "hqm.taskType.detect.title",
+          "items": [
+            {
+              "item": {
+                "id": "kibe:regular_conveyor_belt",
+                "Count": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "kibe:fast_conveyor_belt",
+                "Count": 1
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "kibe:express_conveyor_belt",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "265fec52-bbe7-4988-9ace-f6e926477549"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "kibe:regular_conveyor_belt",
+          "Count": 4
+        },
+        {
+          "id": "kibe:fast_conveyor_belt",
+          "Count": 2
+        },
+        {
+          "id": "kibe:express_conveyor_belt",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dc5f6388-2fdb-4b69-bec9-bb1dac4ac46b",
+      "name": "Your first Lava",
+      "description": "You should already know the Kiln, it can smelt 16 Cobblestone into one Crucible of lava. You need a Block of Charcoal as Fuel!\n\nDon\u0027t forget to add the Crucible in the left slot.",
+      "x": 105,
+      "y": 92,
+      "icon": {
+        "id": "skyutils:lava_crucible",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "skyutils:lava_crucible",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "788dcf4a-0dbf-48ed-a482-37b63f6138d3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:stone_shovel",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "minecraft:stone_pickaxe",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "gateofbabylon:stone_broadsword",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "minecraft:stone_axe",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "199510ac-8115-419b-ad58-86dda93edc1d",
+      "name": "Upgrade ur Mobtower",
+      "description": "You are able to get a lot of Cobble now. Go ahead and upgrade your Mob farm to a Mob Tower! In a Mob Tower, hostile Mobs usally fall from a high spot so they only got half a heart of HP left!",
+      "x": 188,
+      "y": 115,
+      "icon": {
+        "id": "minecraft:zombie_head",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Zombie",
+              "icon": {
+                "id": "minecraft:zombie_head",
+                "Count": 1
+              },
+              "mob": "minecraft:zombie",
+              "kills": 15
+            },
+            {
+              "name": "Skeleton",
+              "icon": {
+                "id": "minecraft:skeleton_skull",
+                "Count": 1
+              },
+              "mob": "minecraft:skeleton",
+              "kills": 15
+            },
+            {
+              "name": "Enderman",
+              "icon": {
+                "id": "minecraft:ender_pearl",
+                "Count": 1
+              },
+              "mob": "minecraft:enderman",
+              "kills": 4
+            },
+            {
+              "name": "Creeper",
+              "icon": {
+                "id": "minecraft:creeper_head",
+                "Count": 1
+              },
+              "mob": "minecraft:creeper",
+              "kills": 15
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "abeab500-d003-4c81-a61d-956202888baf"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "kibe:iron_spikes",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "109b8e0b-d288-4c56-9bb0-019acbf6ce40",
+      "name": "Chisel",
+      "description": "There are two types of Chisels, one can be used to get different types of blocks, and the Simple Iron Chisel can be used to change the shape of a block.",
+      "x": 47,
+      "y": 189,
+      "icon": {
+        "id": "bitsandchisels:iron_chisel",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bitsandchisels:iron_chisel",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "chisel:chisel",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "782d5d8f-4033-4708-ac3b-0105d776434e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "bitsandchisels:blueprint",
+          "Count": 1
+        },
+        {
+          "id": "bitsandchisels:wrench",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "60c8b3a4-9533-4650-b7c7-b6df3949ad4c",
+      "name": "Block Breaker",
+      "description": "A Block Breaker can be very helpful for automating your Block farming. Craft one and place it down in the right direction.",
+      "x": 221,
+      "y": 82,
+      "icon": {
+        "id": "kibe:breaker",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "kibe:breaker",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5ffe524a-5d1a-4b57-aa2e-04fec7786eb6"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "skyutils:diamond_hammer",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "minecraft:diamond",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "788dcf4a-0dbf-48ed-a482-37b63f6138d3",
+      "name": "Cobblestone",
+      "description": "It is important that you have already collected a good amount of Cobblestone in order to proceed here.",
+      "x": 120,
+      "y": 144,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:cobblestone",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:cobblestone",
+                "Count": 1
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6cfead65-22e2-46ca-98a6-57f47e9591dd"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:charcoal",
+          "Count": 9
+        },
+        {
+          "id": "minecraft:cobblestone",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:iron_nugget",
+          "Count": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3cfc8d3a-8bf0-44a7-ba4d-e7f33490a1eb",
+      "name": "The Nether",
+      "description": "You will need to produce 10 buckets of lava to cast a Nether Portal. Do it carefully because you practically cannot mine the obsidian blocks at the moment.",
+      "x": 60,
+      "y": 92,
+      "icon": {
+        "id": "minecraft:obsidian",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "Enter the Nether!",
+          "advancements": [
+            {
+              "name": "The Nether",
+              "icon": {
+                "id": "minecraft:netherrack",
+                "Count": 1
+              },
+              "adv_name": "minecraft:story/enter_the_nether"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "dc5f6388-2fdb-4b69-bec9-bb1dac4ac46b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:piglin_spawn_egg",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e26cf50c-752c-44fe-8bdd-d0bb7d57a155",
+      "name": "Villagers",
+      "description": "Cure a Zombie Villager.",
+      "x": 124,
+      "y": 39,
+      "icon": {
+        "id": "minecraft:golden_apple",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "advancements": [
+            {
+              "name": "Zombie Doctor",
+              "icon": {
+                "id": "minecraft:golden_apple",
+                "Count": 1
+              },
+              "adv_name": "minecraft:story/cure_zombie_villager"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae2c7a0-23c6-490b-8d4e-e10c92df5150"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:emerald",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:lectern",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:grindstone",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e5bfd0f0-b048-4d10-9eac-bee044100792",
+      "name": "Witherproofed",
+      "description": "The \"Kibe\" Mod also provides a good amount of Witherproofed Items. Go ahead, check them out and decide, which ones you prefer.",
+      "x": 18,
+      "y": 14,
+      "icon": {
+        "id": "kibe:wither_proof_block",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "kibe:wither_proof_block",
+                "Count": 1
+              },
+              "required": 40
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "282c5daf-1b6c-4eff-b2a2-465597cd1a8c",
+        "afad031a-780a-437b-8661-be8718d64b1b"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e64523d1-bf31-4872-9fd5-ede969d5f4e5",
+      "name": "Beacon upgrading",
+      "description": "Its possible to farm urself iron now with the Funnels. Go ahead and craft a basis Beacon Platform out of Iron Blocks.",
+      "x": 40,
+      "y": 122,
+      "icon": {
+        "id": "minecraft:iron_block",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_block",
+                "Count": 1
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "64eec84f-2ece-482b-a96c-a350c46968d2"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "resourceful_tools:nether_star_fragment",
+          "Count": 7
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "031bec0e-1b73-46a0-93c1-f32a015e0f2f",
+      "name": "Diamond Nuggets",
+      "description": "Place down the Coal or Charcoal Blocks and use the Hammer to get diamond nuggets.",
+      "x": 186,
+      "y": 45,
+      "icon": {
+        "id": "skyutils:diamond_nugget",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "skyutils:diamond_nugget",
+                "Count": 1
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "beae45a2-ed99-4971-a3d4-be6f114dfdb2"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "skyutils:diamond_nugget",
+          "Count": 4
+        },
+        {
+          "id": "skyutils:charcoal_block",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "15d1a8ca-584d-433c-90bf-c1a4a0281307",
+      "name": "Your first Iron",
+      "description": "By hammering gravel you will get some Iron nuggets.",
+      "x": 63,
+      "y": 147,
+      "icon": {
+        "id": "minecraft:iron_nugget",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_nugget",
+                "Count": 1
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "788dcf4a-0dbf-48ed-a482-37b63f6138d3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:iron_ingot",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "782d5d8f-4033-4708-ac3b-0105d776434e",
+      "name": "Iron Ingots",
+      "description": "With Hammering Gravel you should now have a few pieces of Iron Nuggets. Either use those or craft some Ingots!",
+      "x": 16,
+      "y": 147,
+      "icon": {
+        "id": "minecraft:iron_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ingot",
+                "Count": 1
+              },
+              "required": 9
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "15d1a8ca-584d-433c-90bf-c1a4a0281307"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:iron_ingot",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "73facbad-d604-469d-a5fb-cece20e6a2c2",
+      "name": "Diamond Spikes",
+      "description": "I know, you are already tired of reading this, but the Gold Spikes are\u0027nt the end yet. Theres a tiny better Spike.. The Diamond ones. The even drop \"only Player\" Drops.",
+      "x": 288,
+      "y": 115,
+      "icon": {
+        "id": "kibe:diamond_spikes",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "hqm.taskType.detect.title",
+          "items": [
+            {
+              "item": {
+                "id": "kibe:diamond_spikes",
+                "Count": 1
+              },
+              "required": 18
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "822dc5ae-99c1-4a45-9151-b2b2e64d9041",
+        "b70f17fb-103c-4707-a5d4-d671c4322aeb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "kibe:gold_spikes",
+          "Count": 5
+        },
+        {
+          "id": "minecraft:diamond",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "beae45a2-ed99-4971-a3d4-be6f114dfdb2",
+      "name": "Coal Blocks",
+      "description": "Soon enough you will need a huge amount of either Charcoal- or Coal-Blocks. Go and craft some.",
+      "x": 154,
+      "y": 45,
+      "icon": {
+        "id": "minecraft:coal_block",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "blockus:charcoal_block",
+                "Count": 1
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "8760d36a-dc50-4077-83a2-16aa2b4caa0d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:coal_block",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "6133bc8e-4a1b-4241-9787-73f80f45387d",
       "name": "Other Tools",
       "description": "with this tools you can get additional resources!",
-      "x": 143,
-      "y": 45,
+      "x": 90,
+      "y": 123,
       "icon": {
         "id": "resourceful_tools:hand_pick",
         "Count": 1,
@@ -49,7 +1096,7 @@
         }
       ],
       "prerequisites": [
-        "8760d36a-dc50-4077-83a2-16aa2b4caa0d"
+        "788dcf4a-0dbf-48ed-a482-37b63f6138d3"
       ],
       "optionlinks": [],
       "reward": [
@@ -72,11 +1119,52 @@
       "commandrewards": []
     },
     {
+      "uuid": "df4ee3e0-36ce-4368-9206-1082a6c700ab",
+      "name": "Cursed Earth",
+      "description": "Yes, you are reading it right. We also added Cursed Earth! If you might not know what it does... It has a high chance to spawn hostile Mobs. But beware, it doesn`t like sunlight!",
+      "x": 242,
+      "y": 188,
+      "icon": {
+        "id": "kibe:cursed_droplets",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "kibe:cursed_droplets",
+                "Count": 1
+              },
+              "required": 15
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "265fec52-bbe7-4988-9ace-f6e926477549"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "kibe:cursed_dirt",
+          "Count": 1
+        },
+        {
+          "id": "kibe:cursed_droplets",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "8760d36a-dc50-4077-83a2-16aa2b4caa0d",
       "name": "Cobblestone Funnels",
-      "description": "Craft a Cobblestone Funnel and place it between your Water and Lava source! It will generate blocks under it.",
-      "x": 105,
-      "y": 45,
+      "description": "Craft a Cobblestone Funnel and place it between your Water and Lava source! It will generate blocks below it.",
+      "x": 129,
+      "y": 72,
       "icon": {
         "id": "scf:cobblestone_funnel",
         "Count": 1
@@ -114,9 +1202,9 @@
     {
       "uuid": "e2f01995-afb6-4bbd-a72b-ce9c444fa0b3",
       "name": "Enchantments",
-      "description": "Craft a Enchantment Table",
-      "x": 172,
-      "y": 107,
+      "description": "Craft a Enchantment Table and place it down.",
+      "x": 220,
+      "y": 14,
       "icon": {
         "id": "minecraft:enchanting_table",
         "Count": 1
@@ -135,7 +1223,7 @@
         }
       ],
       "prerequisites": [
-        "031bec0e-1b73-46a0-93c1-f32a015e0f2f"
+        "5ffe524a-5d1a-4b57-aa2e-04fec7786eb6"
       ],
       "optionlinks": [],
       "reward": [
@@ -156,11 +1244,72 @@
       "commandrewards": []
     },
     {
+      "uuid": "07c00414-d21b-4741-adbf-8ce0c9653792",
+      "name": "Explore the Kibe Mod",
+      "description": "The Mod \"Kibe\" has much more to investigate. Go ahead and check for urself.",
+      "x": 192,
+      "y": 187,
+      "icon": {
+        "id": "kibe:kibe",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "kibe:fluid_hopper",
+                "Count": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "kibe:void_bucket",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "kibe:cobblestone_generator_mk1",
+                "Count": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "kibe:magnet",
+                "Count": 1,
+                "tag": {}
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "265fec52-bbe7-4988-9ace-f6e926477549"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:iron_ingot",
+          "Count": 4
+        },
+        {
+          "id": "skyutils:charcoal_block",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "665fe1bb-7f2c-4f64-9fe4-97ea5ad21ad7",
       "name": "Nether Traveling",
       "description": "Use a Glider and Slime Boots to travel savely in the nether.",
       "x": 60,
-      "y": 45,
+      "y": 53,
       "icon": {
         "id": "kibe:white_glider",
         "Count": 1,
@@ -209,11 +1358,105 @@
       "commandrewards": []
     },
     {
+      "uuid": "5ffe524a-5d1a-4b57-aa2e-04fec7786eb6",
+      "name": "Real Diamonds!",
+      "description": "With the Nuggets you are now able to craft urself an endless amount of Diamonds! Of course, you will need the Coal first..",
+      "x": 221,
+      "y": 45,
+      "icon": {
+        "id": "minecraft:diamond",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "hqm.taskType.detect.title",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:diamond",
+                "Count": 1
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "031bec0e-1b73-46a0-93c1-f32a015e0f2f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:coal_block",
+          "Count": 15
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "58937f20-15e3-459f-9779-0361d2d2cc6d",
+      "name": "Missing Ender Stuff?",
+      "description": "You are playing on a Fabric based Modpack. Meaning, there are\u0027nt as many mods as on Forge.\nDo you wonder where the Ender Chest or Tank or Pouch has gone to?\n\nWell... KIBE! Use ur Nether experience.",
+      "x": 95,
+      "y": 62,
+      "icon": {
+        "id": "kibe:entangled_chest",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "hqm.taskType.detect.title",
+          "items": [
+            {
+              "item": {
+                "id": "kibe:entangled_chest",
+                "Count": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "kibe:entangled_tank",
+                "Count": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "kibe:entangled_bag",
+                "Count": 1
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "afad031a-780a-437b-8661-be8718d64b1b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:obsidian",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:diamond",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "6e19f74c-2e3b-45e2-8a34-7044bc54bfc2",
       "name": "Nether Star",
-      "description": "No rush. Prepare yourself well before you fight the wither.",
-      "x": 22,
-      "y": 90,
+      "description": "No rush. Prepare yourself well before you fight the wither.\n\nMaybe don\u0027t spawn it in your base without any Witherproofed Items.",
+      "x": 18,
+      "y": 57,
       "icon": {
         "id": "minecraft:nether_star",
         "Count": 1
@@ -232,26 +1475,13 @@
         }
       ],
       "prerequisites": [
-        "afad031a-780a-437b-8661-be8718d64b1b"
+        "e5bfd0f0-b048-4d10-9eac-bee044100792"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "bewitchment:athame",
-          "Count": 1,
-          "tag": {
-            "Damage": 0,
-            "Enchantments": [
-              {
-                "lvl": 5,
-                "id": "minecraft:sharpness"
-              }
-            ]
-          }
-        },
-        {
           "id": "minecraft:wither_skeleton_skull",
-          "Count": 1
+          "Count": 2
         }
       ],
       "rewardchoice": [],
@@ -260,9 +1490,9 @@
     {
       "uuid": "afad031a-780a-437b-8661-be8718d64b1b",
       "name": "Nether Resources",
-      "description": "Collect some resources in the nether. Explore a ruined portal, a bastion and a fortress to optain some items.",
-      "x": 22,
-      "y": 45,
+      "description": "Collect some resources in the nether. Explore a ruined portal, a bastion and a fortress to obtain some items.",
+      "x": 60,
+      "y": 14,
       "icon": {
         "id": "minecraft:nether_wart",
         "Count": 1
@@ -332,7 +1562,7 @@
                 "id": "minecraft:nether_wart",
                 "Count": 1
               },
-              "required": 16
+              "required": 64
             },
             {
               "item": {
@@ -346,21 +1576,21 @@
                 "id": "minecraft:glowstone_dust",
                 "Count": 1
               },
-              "required": 16
+              "required": 48
             },
             {
               "item": {
                 "id": "minecraft:blaze_rod",
                 "Count": 1
               },
-              "required": 4
+              "required": 8
             },
             {
               "item": {
                 "id": "minecraft:magma_cream",
                 "Count": 1
               },
-              "required": 4
+              "required": 16
             },
             {
               "item": {
@@ -374,7 +1604,14 @@
                 "id": "minecraft:gold_block",
                 "Count": 1
               },
-              "required": 2
+              "required": 24
+            },
+            {
+              "item": {
+                "id": "minecraft:obsidian",
+                "Count": 1
+              },
+              "required": 6
             }
           ]
         }
@@ -403,9 +1640,9 @@
     {
       "uuid": "3f6f3efe-ce86-4def-9d87-d1e33eaf039d",
       "name": "Building Time",
-      "description": "With an Stuff of Building, you can place multiple blocks in a row. It can be very usefull to expand your island.",
-      "x": 105,
-      "y": 189,
+      "description": "With an Wand you can place multiple blocks in a row. It can be very usefull to expand your island. Using the hotkey (V by default) you can change the Wand-Mode.",
+      "x": 86,
+      "y": 188,
       "icon": {
         "id": "wands:stone_wand",
         "Count": 1,
@@ -450,13 +1687,13 @@
       "commandrewards": []
     },
     {
-      "uuid": "dc5f6388-2fdb-4b69-bec9-bb1dac4ac46b",
-      "name": "Your first Lava",
-      "description": "You should already know the Kiln, it can smelt 16 Cobblestone into one crucible of lava. You need a Block of Charcoal as Fuel!",
-      "x": 105,
-      "y": 92,
+      "uuid": "a173b0d4-6bc4-4634-8d0e-c8556b64fb06",
+      "name": "Better Enchanting",
+      "description": "The Dark Enchanter allows you to select the enchantment of your choice and more.",
+      "x": 296,
+      "y": 14,
       "icon": {
-        "id": "skyutils:lava_crucible",
+        "id": "dark-enchanting:dark_enchanter",
         "Count": 1
       },
       "tasks": [
@@ -465,7 +1702,7 @@
           "items": [
             {
               "item": {
-                "id": "skyutils:lava_crucible",
+                "id": "dark-enchanting:dark_enchanter",
                 "Count": 1
               }
             }
@@ -473,50 +1710,27 @@
         }
       ],
       "prerequisites": [
-        "788dcf4a-0dbf-48ed-a482-37b63f6138d3"
+        "f46a5bf9-c1c1-4792-8b1b-4683bc11590c",
+        "822dc5ae-99c1-4a45-9151-b2b2e64d9041"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "minecraft:stone_shovel",
-          "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
-        },
-        {
-          "id": "minecraft:stone_hoe",
-          "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
-        },
-        {
-          "id": "minecraft:stone_pickaxe",
-          "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
-        },
-        {
-          "id": "gateofbabylon:stone_broadsword",
-          "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "id": "minecraft:experience_bottle",
+          "Count": 8
         }
       ],
       "rewardchoice": [],
       "commandrewards": []
     },
     {
-      "uuid": "60c8b3a4-9533-4650-b7c7-b6df3949ad4c",
-      "name": "Block Breaker",
-      "description": "A Block Breaker can be very helpfull for automating your ore production.",
-      "x": 209,
-      "y": 147,
+      "uuid": "55b50ac3-eb21-4e26-98c0-29bb945a0bff",
+      "name": "Big Torch",
+      "description": "With the Nether avaible and Diamonds now, you can get urself a Big Torch. A big Torch prevents hostile Mobs from spawning. \nVanilla Torches can be placed inside to increase the range. \n\nIMPORTANT! Don`t keep the Big Torch in range of ur Mobfarm/Tower!!",
+      "x": 264,
+      "y": 45,
       "icon": {
-        "id": "kibe:breaker",
+        "id": "kibe:big_torch",
         "Count": 1
       },
       "tasks": [
@@ -525,7 +1739,7 @@
           "items": [
             {
               "item": {
-                "id": "kibe:breaker",
+                "id": "kibe:big_torch",
                 "Count": 1
               }
             }
@@ -533,20 +1747,92 @@
         }
       ],
       "prerequisites": [
-        "031bec0e-1b73-46a0-93c1-f32a015e0f2f"
+        "5ffe524a-5d1a-4b57-aa2e-04fec7786eb6"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "skyutils:diamond_hammer",
-          "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "id": "minecraft:ender_pearl",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7ee34bbb-ae3b-4ebd-914a-85ed5b74d5a2",
+      "name": "Breaker Automation",
+      "description": "Build an Repeating redstone signal. E.g. by crafting an Timer or Redstone Timer or any other kind of redstone clock.\nYou get Redstone and Quartz either in the Nether or from the next Funnels.",
+      "x": 260,
+      "y": 82,
+      "icon": {
+        "id": "kibe:redstone_timer",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "kibe:redstone_timer",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "60c8b3a4-9533-4650-b7c7-b6df3949ad4c",
+        "61281bf3-2ca2-44dd-a59b-43aa10e7dfd0"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:redstone",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "abeab500-d003-4c81-a61d-956202888baf",
+      "name": "Cobble Floor",
+      "description": "The Cobblestone Funnel gives you a great amount of different building Blocks. Go ahead and change ur Wood Floor into a Stony one. \nEither with Slabs or normal blocks. \nWith this, Fire spread should´nt worry you anymore!",
+      "x": 188,
+      "y": 72,
+      "icon": {
+        "id": "minecraft:cobblestone_slab",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "hqm.taskType.detect.title",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:cobblestone_slab",
+                "Count": 1
+              },
+              "required": 192
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "8760d36a-dc50-4077-83a2-16aa2b4caa0d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "skyutils:charcoal_block",
+          "Count": 4
         },
         {
-          "id": "minecraft:diamond",
-          "Count": 1
+          "id": "minecraft:coal_block",
+          "Count": 4
         }
       ],
       "rewardchoice": [],
@@ -556,8 +1842,8 @@
       "uuid": "94a873ee-6be7-4ed2-80f7-f6f0771cfd5a",
       "name": "Shears",
       "description": "Craft shears to get leaves from trees. Compost them or do what ever you like.",
-      "x": 20,
-      "y": 147,
+      "x": 16,
+      "y": 188,
       "icon": {
         "id": "minecraft:shears",
         "Count": 1,
@@ -582,7 +1868,7 @@
         }
       ],
       "prerequisites": [
-        "15d1a8ca-584d-433c-90bf-c1a4a0281307"
+        "782d5d8f-4033-4708-ac3b-0105d776434e"
       ],
       "optionlinks": [],
       "reward": [
@@ -595,13 +1881,56 @@
       "commandrewards": []
     },
     {
-      "uuid": "109b8e0b-d288-4c56-9bb0-019acbf6ce40",
-      "name": "Chisel",
-      "description": "There are two types of Chisels, one can be used to get different types of blocks, and the Simple Iron Chisel can be used to change the shape of a  block.",
-      "x": 60,
-      "y": 184,
+      "uuid": "b70f17fb-103c-4707-a5d4-d671c4322aeb",
+      "name": "Gold Spikes",
+      "description": "You feel some power in the Iron Spikes? Well, it would be even better to have Gold Spikes. You get a lot of EXP for free! Maybe use a collection Item aswell..",
+      "x": 239,
+      "y": 115,
       "icon": {
-        "id": "bitsandchisels:iron_chisel",
+        "id": "kibe:gold_spikes",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "hqm.taskType.detect.title",
+          "items": [
+            {
+              "item": {
+                "id": "kibe:gold_spikes",
+                "Count": 1
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1adc409f-9abb-453c-98ae-0e1b530d9247",
+        "199510ac-8115-419b-ad58-86dda93edc1d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:gold_ingot",
+          "Count": 6
+        },
+        {
+          "id": "trapexpansion:fan",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a8ba3db9-9e29-4c45-ba38-ee486bee88cf",
+      "name": "Upgrade your Tools",
+      "description": "Since you are able to get Cobblestone now, its wise to upgrade your wooden Tools into stone Tools.\n",
+      "x": 123,
+      "y": 193,
+      "icon": {
+        "id": "minecraft:stone_shovel",
         "Count": 1,
         "tag": {
           "Damage": 0
@@ -613,7 +1942,7 @@
           "items": [
             {
               "item": {
-                "id": "bitsandchisels:iron_chisel",
+                "id": "minecraft:stone_shovel",
                 "Count": 1,
                 "tag": {
                   "Damage": 0
@@ -622,190 +1951,73 @@
             },
             {
               "item": {
-                "id": "chisel:chisel",
-                "Count": 1
+                "id": "minecraft:stone_pickaxe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:stone_axe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:stone_hoe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "crookedcrooks:stone_crook",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "gateofbabylon:stone_broadsword",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "gateofbabylon:stone_shield",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
               }
             }
           ]
         }
       ],
       "prerequisites": [
-        "15d1a8ca-584d-433c-90bf-c1a4a0281307"
+        "788dcf4a-0dbf-48ed-a482-37b63f6138d3"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "bitsandchisels:blueprint",
-          "Count": 1
-        },
-        {
-          "id": "bitsandchisels:wrench",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "788dcf4a-0dbf-48ed-a482-37b63f6138d3",
-      "name": "Cobblestone",
-      "description": "It is important that you have already collected a good amount of Cobblestone in order to proceed here.",
-      "x": 102,
-      "y": 144,
-      "bigicon": true,
-      "icon": {
-        "id": "minecraft:cobblestone",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:cobblestone",
-                "Count": 1
-              },
-              "required": 32
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "6cfead65-22e2-46ca-98a6-57f47e9591dd"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "minecraft:charcoal",
-          "Count": 9
+          "id": "minecraft:stone",
+          "Count": 12
         },
         {
           "id": "minecraft:cobblestone",
-          "Count": 16
-        },
-        {
-          "id": "minecraft:iron_nugget",
-          "Count": 8
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "3cfc8d3a-8bf0-44a7-ba4d-e7f33490a1eb",
-      "name": "The Nether",
-      "description": "You will need to produce 10 buckets of lava to cast a nether portal. Do it carefully because you practically cannot mine the obsidian blocks at the moment.",
-      "x": 60,
-      "y": 92,
-      "icon": {
-        "id": "minecraft:obsidian",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "ADVANCEMENT",
-          "longDescription": "Enter the Nether!",
-          "advancements": [
-            {
-              "name": "The Nether",
-              "icon": {
-                "id": "minecraft:netherrack",
-                "Count": 1
-              },
-              "adv_name": "minecraft:story/enter_the_nether"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "15d1a8ca-584d-433c-90bf-c1a4a0281307",
-        "dc5f6388-2fdb-4b69-bec9-bb1dac4ac46b"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:piglin_spawn_egg",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "031bec0e-1b73-46a0-93c1-f32a015e0f2f",
-      "name": "Diamond Nuggets",
-      "description": "Craft some Coal or Charcoal Blocks, place them down and use the hammer to get diamond nuggets.",
-      "x": 172,
-      "y": 147,
-      "icon": {
-        "id": "skyutils:diamond_nugget",
-        "Count": 1
-      },
-      "parentrequirement": 1,
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "skyutils:diamond_nugget",
-                "Count": 1
-              },
-              "required": 5
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "788dcf4a-0dbf-48ed-a482-37b63f6138d3"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "skyutils:diamond_nugget",
-          "Count": 4
-        },
-        {
-          "id": "skyutils:charcoal_block",
-          "Count": 16
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "15d1a8ca-584d-433c-90bf-c1a4a0281307",
-      "name": "Your first Iron",
-      "description": "By hammering gravel you will get some iron nuggets.",
-      "x": 60,
-      "y": 147,
-      "icon": {
-        "id": "minecraft:iron_nugget",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:iron_nugget",
-                "Count": 1
-              },
-              "required": 32
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "788dcf4a-0dbf-48ed-a482-37b63f6138d3"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:iron_ingot",
-          "Count": 4
+          "Count": 12
         }
       ],
       "rewardchoice": [],

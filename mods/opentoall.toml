@@ -1,0 +1,13 @@
+name = "OpenToALL"
+filename = "opentoall-1.0.1.jar"
+side = "client"
+
+[download]
+url = "https://edge.forgecdn.net/files/3435/335/opentoall-1.0.1.jar"
+hash-format = "murmur2"
+hash = "2312423521"
+
+[update]
+[update.curseforge]
+file-id = 3435335
+project-id = 518611
