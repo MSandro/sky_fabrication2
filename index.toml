@@ -2790,7 +2790,7 @@ metafile = true
 
 [[files]]
 file = "mods/death-backup-fabric.toml"
-hash = "341533c4953baadbff5bb6cd73e8a15d0d4d9476a95b8764ea45fd53fd5081db"
+hash = "cff379f226ec671d739a2ac1c6e7e74e242f8ea3d3a68a89a3f6ec29907d78b3"
 metafile = true
 
 [[files]]
@@ -3021,6 +3021,11 @@ metafile = true
 [[files]]
 file = "mods/inmis.toml"
 hash = "19a657731829006cd8abd82e47a0df39e6a86b37dc27e5bd51cbaa6495db7039"
+metafile = true
+
+[[files]]
+file = "mods/inv-view.toml"
+hash = "af9528dbbb4bb056e6d6ce2b8b68da7fd01910e0a3685753069739223b9f9a72"
 metafile = true
 
 [[files]]
@@ -3290,7 +3295,7 @@ metafile = true
 
 [[files]]
 file = "mods/plan-player-analytics.toml"
-hash = "9fd4ffbce6613175f8bef59d61353a1b7aec3ca78e293fd24dc929b5ba4a6210"
+hash = "3e5140ff9cb1d71ead1d3f48e90599bc7161944ac70c165cc5945fd0600d490f"
 metafile = true
 
 [[files]]
