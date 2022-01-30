@@ -21,6 +21,10 @@ file = "config/MechanicalDispensers/PlantableBlocks.yml"
 hash = "5fd0b5c6083b1e5186e83eaf98784d395bc84a21d011a98b3742b5d7ec79fe7d"
 
 [[files]]
+file = "config/MoreCommands/SERVERONLY.txt"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "config/MouseTweaks.cfg"
 hash = "11ba09a6771da982f9bdc906cb50b803804ab4d627566c85fc5ce9a7c4a72d68"
 
@@ -1195,6 +1199,26 @@ hash = "9914e54c3026db2deb64a743b9f6d64f99a01ede7532be2c3506e779834d22a4"
 [[files]]
 file = "config/sync.json"
 hash = "725671c27f63d94cb97125f6aa2f007858c7cc47f95b8a572849b44f8ca83ad2"
+
+[[files]]
+file = "config/tatters/skyblocks/default.json"
+hash = "5fe7bb2e08cd4e210a30396cf519a6c0326cfc8d97234f502ba34c9b37a52198"
+
+[[files]]
+file = "config/tatters/skyblocks/example-lobby.json"
+hash = "4cdd90ded00d7cfd26b9325b64c751fe379da9d09e5d7fd09ee554a179bfe73e"
+
+[[files]]
+file = "config/tatters/skyblocks/stone.json"
+hash = "d062ce5fa63a9666beb2c0214c514d71a38e46f0a3f4938abbba830e1639cc0d"
+
+[[files]]
+file = "config/tatters/skyblocks/traditional.json"
+hash = "eb7d0271a18aef59a53b12e9c4f9b6ace2018a045955f7a7d1e872767077cab3"
+
+[[files]]
+file = "config/tatters/tatters.json"
+hash = "aa90b3ac2bdf193437a030411303b42c40360091d18f3c913c498a652985110c"
 
 [[files]]
 file = "config/techreborn/generators.json"
@@ -2721,7 +2745,7 @@ metafile = true
 
 [[files]]
 file = "mods/compress-em.toml"
-hash = "bab8c222247fbcdd9adcbac2547d47b91553cb78307402517f3d96672fe7fea2"
+hash = "ba5eba5f0ea1f9582f3cecd7bea477ad4945129763b3ba3de95a446ff7f78ee0"
 metafile = true
 
 [[files]]
@@ -3666,4 +3690,4 @@ metafile = true
 
 [[files]]
 file = "server.properties"
-hash = "5f0ad3718a54eb4a4bfe2818cb53a08a1795a7c3addcb56ded010c9b140a2f11"
+hash = "bc978b3413bb88712579dd7ff853398f8f8dd49e6d74a404ed7baa81c6c95994"
