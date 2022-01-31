@@ -1,0 +1,13 @@
+name = "[FABRIC] Compress 'em - Blocks & Items"
+filename = "compress-em-v1.5.jar"
+side = "both"
+
+[download]
+url = "https://media.forgecdn.net/files/3481/571/compress-em-%5bv1.5%5d.jar"
+hash-format = "murmur2"
+hash = "4010209833"
+
+[update]
+[update.curseforge]
+file-id = 3481571
+project-id = 508359

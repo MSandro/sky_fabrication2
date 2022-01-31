@@ -1,0 +1,18 @@
+{
+  "type": "botania:terra_plate",
+  "mana": 100000,
+  "ingredients": [
+    {
+      "item": "minecraft:glow_ink_sac"
+    },
+    {
+      "item": "appliedenergistics2:light_blue_lumen_paint_ball"
+    },
+    {
+      "item": "the_aether:crystal_sapling"
+    }
+  ],
+  "result": {
+    "item": "betterend:mossy_glowshroom_sapling"
+  }
+}

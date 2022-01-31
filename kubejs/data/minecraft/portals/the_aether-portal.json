@@ -1,0 +1,9 @@
+{
+  "block": "blockus:legacy_nether_reactor_core",
+  "dim": "the_aether:the_aether",
+  "ignitionType": "ITEM",
+  "ignitionSource": "techreborn:diamond_grinding_head",
+  "r": 64,
+  "g": 64,
+  "b": 255
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  "PIP",
+  "IRI",
+  "PIP"
+  ],
+  "key": {
+    "I": {
+      "item": "botania:terrasteel_ingot"
+    },
+    "R": {
+      "item": "bewitchment:heavy_sigil"
+    },
+    "P": {
+      "item": "modern_industrialization:supraconductor_ingot"
+    }
+  },
+  "result": {
+    "item": "croparia:elematilius"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "type": "bigbenchtheory:crafting_shaped",
+  "pattern": [
+    "ABCDE",
+    "PQVQF",
+    "ORURG",
+    "NSTSH",
+    "MLKJI"
+  ],
+  "key": {
+    "A": {
+      "item": "the_aether:honey_nettle"
+    },
+    "B": {
+      "item": "the_aether:ataraxia"
+    },
+    "C": {
+      "item": "the_aether:flaxweave"
+    },
+    "D": {
+      "item": "the_aether:ancient_flower"
+    },
+    "E": {
+      "item": "the_aether:aether_grass_flowering"
+    },
+    "F": {
+      "item": "the_aether:blue_berry"
+    },
+    "G": {
+      "item": "the_aether:aether_fern"
+    },
+    "H": {
+      "item": "botania:terrasteel_ingot"
+    },
+    "I": {
+      "item": "the_aether:crystal_log"
+    },
+    "J": {
+      "item": "the_aether:zanite_gemstone"
+    },
+    "K": {
+      "item": "the_aether:gravitite_gemstone"
+    },
+    "L": {
+      "item": "the_aether:ambrosium_shard"
+    },
+    "M": {
+      "item": "the_aether:golden_oak_log"
+    },
+    "N": {
+      "item": "techreborn:scrap_box"
+    },
+    "O": {
+      "item": "the_aether:aether_bush"
+    },
+    "P": {
+      "item": "the_aether:cloudsbluff"
+    },
+    "Q": {
+      "item": "the_aether:golden_aercloud"
+    },
+    "R": {
+      "item": "the_aether:blue_aercloud"
+    },
+    "S": {
+      "item": "the_aether:cold_aercloud"
+    },
+    "T": {
+      "item": "the_aether:moa_meat_cooked"
+    },
+    "U": {
+      "item": "conjuring:soul_slice"
+    },
+    "V": {
+      "item": "the_aether:blue_gummy_swet"
+    }
+  },
+  "result": {
+    "item": "the_aether:crow_eye"
+  }
+}

@@ -1,0 +1,13 @@
+name = "Croparia v3 [FORGE/FABRIC]"
+filename = "croparia-mod-1.17.1-0.0.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3515/357/croparia-mod-1.17.1-0.0.4.jar"
+hash-format = "murmur2"
+hash = "3871225581"
+
+[update]
+[update.curseforge]
+file-id = 3515357
+project-id = 250235

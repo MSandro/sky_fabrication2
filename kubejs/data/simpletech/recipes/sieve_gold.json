@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PSP",
+    "PSP",
+    "T T"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:gold_block"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "T": {
+      "item": "modern_industrialization:gold_rod"
+    }
+  },
+  "result": {
+    "item": "simpletech:sieve_gold"
+  }
+}

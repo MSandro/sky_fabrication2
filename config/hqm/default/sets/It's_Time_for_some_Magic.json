@@ -1,0 +1,1192 @@
+{
+  "name": "It\u0027s Time for some Magic",
+  "quests": [
+    {
+      "uuid": "55f779bb-3f3c-421e-9dc1-cf396100a236",
+      "name": "Protection against Demons",
+      "description": "Before you start summoning the Demons, you require some Special kind of Armor.\nPlease also check out the ",
+      "x": 268,
+      "y": 153,
+      "icon": {
+        "id": "bewitchment:besmirched_robes",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bewitchment:besmirched_wool",
+                "Count": 1
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "bewitchment:besmirched_hat",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "bewitchment:besmirched_robes",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "bewitchment:besmirched_pants",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7f265cf0-83a2-481d-b9fd-ac54823a6ba0"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "bewitchment:besmirched_wool",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7b8297dc-f341-42bd-8dbe-0ee62f0a2d92",
+      "name": "Botania",
+      "description": "Botania is a tech mod in essence. The theme is natural magic, revolving around flora.",
+      "x": 135,
+      "y": 184,
+      "bigicon": true,
+      "icon": {
+        "id": "botania:lexicon",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:lexicon",
+                "Count": 1
+              },
+              "precision": "TAG_NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "botania:fertilizer",
+                "Count": 1,
+                "tag": {}
+              },
+              "required": 8,
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "df4ee3e0-36ce-4368-9206-1082a6c700ab"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:bone_meal",
+          "Count": 16
+        },
+        {
+          "id": "botania:fertilizer",
+          "Count": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1b40b1f6-93ea-48ad-a20a-bb628886f35c",
+      "name": "Deep Learner",
+      "description": "After choosing a category, you will need to create a Deep Learner. Deep Learner is what you will be using to collect data about the mobs you want to learn. After crafting one, right-click it and put your Data Model in one of the slots.",
+      "x": 16,
+      "y": 12,
+      "icon": {
+        "id": "dml-refabricated:deep_learner",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "dml-refabricated:deep_learner",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2c5ace32-5dae-497f-b7c6-645ed9cb96fb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:zombie_spawn_egg",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e01ef49a-f912-42b6-bb2a-114dde55cd76",
+      "name": "Trial Keystone",
+      "description": "You will need a special device to put your key to be able to start a trial. In other words, you need to craft a Trial Keystone. The Trial Key used in the crafting has no effect, so I\u0027s suggest you to use an Unbound one.",
+      "x": 52,
+      "y": 45,
+      "icon": {
+        "id": "dml-refabricated:trial_keystone",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "dml-refabricated:trial_keystone",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1e3067fc-2d32-4bb3-854c-878fa6a9059e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:golden_apple",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f9321b1a-93e2-4703-bf35-6f63ba97668c",
+      "name": "Become a Werewolf/Vampire",
+      "description": "Or just don`t. Its up to you. Either way, you will have benefits AND negativ effects in becoming one.\n\nBoth dislike Silver Items. Vampires can tranform. Werewolf aswell.\nDon\u0027t forget your Poppet!\n\nCheck the Chapter \"Curses\" and then Susceptibility. You need to curse yourself with it, then you got to be killed by a Vampire or Werewolf.",
+      "x": 267,
+      "y": 121,
+      "icon": {
+        "id": "bewitchment:besmirched_hood",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bewitchment:white_coffin",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "bewitchment:dragons_blood_resin",
+                "Count": 1
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b8c1fb08-e348-45f3-9ee3-b29d605340a4"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1c46a9b6-e54d-48a5-94de-dfb69a20ff16",
+      "name": "The System Glitch",
+      "description": "Start the fight by right clicking with your bound key on the Trail Keystone. You need a very large area of full blocks around it. Don\u0027t use burnable materials like wood!",
+      "x": 87,
+      "y": 45,
+      "icon": {
+        "id": "dml-refabricated:physically_condensed_matrix_fragment",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "System Glitch",
+              "icon": {
+                "id": "dml-refabricated:physically_condensed_matrix_fragment",
+                "Count": 1
+              },
+              "mob": "dml-refabricated:system_glitch",
+              "kills": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e01ef49a-f912-42b6-bb2a-114dde55cd76"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "dml-refabricated:pristine_matter_zombie",
+          "Count": 4
+        },
+        {
+          "id": "dml-refabricated:physically_condensed_matrix_fragment",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "01e5c5a2-d4aa-4557-acb0-53a9d12689e2",
+      "name": "Get a new Farm",
+      "description": "For this Mod you require a farm with Belladonna, Garlic, Mandrake and Aconite. You will need Salt and Silver aswell. \nSalt acts like a invisible Wall for Mobs. \nYou can place it down like Redstone.",
+      "x": 212,
+      "y": 188,
+      "icon": {
+        "id": "bewitchment:garlic",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bewitchment:belladonna",
+                "Count": 1
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "bewitchment:mandrake_root",
+                "Count": 1
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "bewitchment:aconite",
+                "Count": 1
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9ff78967-78bf-46f5-982e-2e0fa6d00031"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "bewitchment:silver_ingot",
+          "Count": 12
+        },
+        {
+          "id": "modern_industrialization:silver_ingot",
+          "Count": 12
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "79233cbc-b1f7-4b5d-ae73-9080c75c71b2",
+      "name": "Time in a Bottle",
+      "description": "This item can store Time and increase the speed of many blocks like Machines or Crops.",
+      "x": 138,
+      "y": 144,
+      "icon": {
+        "id": "timeinabottle:time_in_a_bottle",
+        "Count": 1,
+        "tag": {
+          "timeData": {}
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "timeinabottle:time_in_a_bottle",
+                "Count": 1,
+                "tag": {
+                  "timeData": {}
+                }
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7b8297dc-f341-42bd-8dbe-0ee62f0a2d92"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "bewitchment:chalk",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "bewitchment:fiery_chalk",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "bewitchment:eldritch_chalk",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "bewitchment:golden_chalk",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": [
+        "/clear @p timeinabottle:time_in_a_bottle"
+      ]
+    },
+    {
+      "uuid": "e3e40799-7db3-4e3f-af94-5cd0f973744e",
+      "name": "Summoning and Contracts",
+      "description": "The moment of truth is there. You got ur Armor and maybe the required Items to summon a Demon or whatever Mob avaible.\nPlease check into the \"Rituals\" Chapter for further Info.\n\nOnce summoned, you can trade with a Demon and maybe get a chance to get into a Contract with them. There are different benefits, please check out the \"Contracts\" Section.",
+      "x": 235,
+      "y": 153,
+      "icon": {
+        "id": "bewitchment:demon_spawn_egg",
+        "Count": 1,
+        "tag": {}
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:diamond",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "bewitchment:snake_tongue",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "bewitchment:demon_horn",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "55f779bb-3f3c-421e-9dc1-cf396100a236"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "bewitchment:taglock",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "aca0bea3-fa53-448e-b82b-3153b152f75d",
+      "name": "The Altar and Cauldron",
+      "description": "Get urself an Altar and place a piece of Carpet, Skull and Sword on it. \nYou need a Witch Cauldron too. \nPlace a heat Source below it.\nThe Altar is ur power Source. Always keep it in Range.\n\nVery Important: \nPlease check out the \"Brewing\" Chapter in the Book.\n\nWood Ash \u003d Clears\nWater \u003d normal Usage",
+      "x": 272,
+      "y": 188,
+      "icon": {
+        "id": "bewitchment:stone_witch_altar",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bewitchment:stone_witch_altar",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:red_carpet",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "bewitchment:witch_cauldron",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "bewitchment:iron_candelabra",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:golden_sword",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:skeleton_skull",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "464c41d0-1b0e-4753-a156-0e503c94371f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "bewitchment:silver_ingot",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "464c41d0-1b0e-4753-a156-0e503c94371f",
+      "name": "Wood Ash",
+      "description": "You will need some Ash pretty soon. Get urself a Campfire, lit it and some Bark. Place the Bark on the Bonefires corners and wait.",
+      "x": 242,
+      "y": 188,
+      "icon": {
+        "id": "bewitchment:wood_ash",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bewitchment:wood_ash",
+                "Count": 1
+              },
+              "required": 24
+            },
+            {
+              "item": {
+                "id": "bewitchment:oak_bark",
+                "Count": 1
+              },
+              "required": 24,
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:campfire",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "01e5c5a2-d4aa-4557-acb0-53a9d12689e2"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "bewitchment:silver_ingot",
+          "Count": 4
+        },
+        {
+          "id": "bewitchment:juniper_sapling",
+          "Count": 2
+        },
+        {
+          "id": "bewitchment:elder_sapling",
+          "Count": 2
+        },
+        {
+          "id": "bewitchment:cypress_sapling",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2c5ace32-5dae-497f-b7c6-645ed9cb96fb",
+      "name": "Data Modules",
+      "description": "DaTo get started with the mod you will need a Blank Data Model. Data Models are chips where you will store the information of mobs you learn. ",
+      "x": 52,
+      "y": 12,
+      "icon": {
+        "id": "dml-refabricated:data_model_zombie",
+        "Count": 1,
+        "tag": {}
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "dml-refabricated:data_model_zombie",
+                "Count": 1,
+                "tag": {}
+              },
+              "precision": "TAG_NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "dml-refabricated:data_model_skeleton",
+                "Count": 1,
+                "tag": {}
+              },
+              "precision": "TAG_NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "dml-refabricated:data_model_end",
+                "Count": 1,
+                "tag": {}
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d21df207-31ba-4655-9f90-64452372f9ae"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "dml-refabricated:data_model_overworld",
+          "Count": 1,
+          "tag": {}
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bb24da27-93a1-489d-adcb-803ecb3823c0",
+      "name": "Conjuring",
+      "description": "This is a mod which allows you to create mob farms with mob spawners. Craft the Guide Book and learn how to use the mod.",
+      "x": 117,
+      "y": 9,
+      "bigicon": true,
+      "icon": {
+        "id": "conjuring:conjurer",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "conjuring:enchiridion",
+                "Count": 1,
+                "tag": {}
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "df4ee3e0-36ce-4368-9206-1082a6c700ab"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "conjuring:conjuration_essence",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b7e5d957-50b4-47fc-82d3-9d828868e3f0",
+      "name": "Demon drops",
+      "description": "Once done with trading or going into a Contract, you might kill ur Demon. He drops some useful Items you will need to progress.",
+      "x": 198,
+      "y": 153,
+      "icon": {
+        "id": "bewitchment:hellish_bauble",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Demon",
+              "icon": {
+                "id": "bewitchment:hellish_bauble",
+                "Count": 1
+              },
+              "mob": "bewitchment:demon",
+              "kills": 1
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bewitchment:demon_heart",
+                "Count": 1
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e3e40799-7db3-4e3f-af94-5cd0f973744e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "bewitchment:wood_ash",
+          "Count": 16
+        },
+        {
+          "id": "bewitchment:snake_tongue",
+          "Count": 12
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "375624ad-b842-43f1-a1f9-3c0d08ca5f82",
+      "name": "Rituals (read careful)",
+      "description": "This is a Magic Mod, that means, you need to prepare a few Things to get into Rituals.\nUse ur Cauldron to do some Brewing and then get urself Chalks.\nChalks are needed for the Ritual Circles.\nCheck out the \"Ritual\" Chapter in the Book.",
+      "x": 301,
+      "y": 188,
+      "icon": {
+        "id": "bewitchment:chalk",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bewitchment:grim_elixir",
+                "Count": 1
+              },
+              "required": 6
+            },
+            {
+              "item": {
+                "id": "bewitchment:cleansing_balm",
+                "Count": 1
+              },
+              "required": 6
+            },
+            {
+              "item": {
+                "id": "bewitchment:heaven_extract",
+                "Count": 1
+              },
+              "required": 6
+            },
+            {
+              "item": {
+                "id": "bewitchment:fiery_serum",
+                "Count": 1
+              },
+              "required": 6
+            },
+            {
+              "item": {
+                "id": "bewitchment:earth_ichor",
+                "Count": 1
+              },
+              "required": 6
+            },
+            {
+              "item": {
+                "id": "bewitchment:aqua_cerate",
+                "Count": 1
+              },
+              "required": 6
+            },
+            {
+              "item": {
+                "id": "bewitchment:chalk",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "bewitchment:golden_chalk",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "bewitchment:fiery_chalk",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "bewitchment:eldritch_chalk",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "bewitchment:waystone",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aca0bea3-fa53-448e-b82b-3153b152f75d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "bewitchment:oak_bark",
+          "Count": 24
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "011de5a3-5017-47dc-bd89-547485ec9d11",
+      "name": "Loot Fabricator",
+      "description": "Loot Fabricator is the machine you will be using to turn Pristine Matter into something useful. You can put those inside a Loot Fabricator and wait until it turns into mob loot.\n\n",
+      "x": 121,
+      "y": 45,
+      "icon": {
+        "id": "dml-refabricated:loot_fabricator",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "dml-refabricated:loot_fabricator",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1c46a9b6-e54d-48a5-94de-dfb69a20ff16"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "dml-refabricated:pristine_matter_zombie",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1e3067fc-2d32-4bb3-854c-878fa6a9059e",
+      "name": "Trial Key",
+      "description": "Trial Keys are what you will be using to getting the attention of the System Glitch for a fight.\nNow just put the unbound Trial Key in the crafting table next to a Data Model.",
+      "x": 16,
+      "y": 45,
+      "icon": {
+        "id": "dml-refabricated:trial_key",
+        "Count": 1,
+        "tag": {}
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "dml-refabricated:trial_key",
+                "Count": 1,
+                "tag": {}
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1b40b1f6-93ea-48ad-a20a-bb628886f35c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "indrev:steel_chestplate",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9ff78967-78bf-46f5-982e-2e0fa6d00031",
+      "name": "Bewitchment",
+      "description": "Start by collecting some basic resources by breaking Sand and hammering Gras. \n\nPlease read the Book careful.\nWe can\u0027t explain all of the Mod via Quests.",
+      "x": 174,
+      "y": 185,
+      "bigicon": true,
+      "icon": {
+        "id": "bewitchment:book_of_shadows",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bewitchment:mandrake_seeds",
+                "Count": 1
+              },
+              "required": 24
+            },
+            {
+              "item": {
+                "id": "bewitchment:aconite_seeds",
+                "Count": 1
+              },
+              "required": 24
+            },
+            {
+              "item": {
+                "id": "bewitchment:belladonna_seeds",
+                "Count": 1
+              },
+              "required": 24
+            },
+            {
+              "item": {
+                "id": "bewitchment:garlic",
+                "Count": 1
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "bewitchment:salt",
+                "Count": 1
+              },
+              "required": 12
+            },
+            {
+              "item": {
+                "id": "bewitchment:taglock",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "df4ee3e0-36ce-4368-9206-1082a6c700ab"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "bewitchment:book_of_shadows",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7f265cf0-83a2-481d-b9fd-ac54823a6ba0",
+      "name": "Demon Summons",
+      "description": "You may ask yourself, \"how do I spawn in Demons?\"... Well, you should give the Nether a visit and look out for a Hellhound. He drops some specific Item you will need to unlock them.",
+      "x": 301,
+      "y": 153,
+      "icon": {
+        "id": "bewitchment:hellhound_spawn_egg",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Hellhounds",
+              "icon": {
+                "id": "bewitchment:hellhound_spawn_egg",
+                "Count": 1
+              },
+              "mob": "bewitchment:hellhound",
+              "kills": 4
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bewitchment:demon_horn",
+                "Count": 1
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "375624ad-b842-43f1-a1f9-3c0d08ca5f82"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "bewitchment:demon_horn",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b8c1fb08-e348-45f3-9ee3-b29d605340a4",
+      "name": "Poppet Protection",
+      "description": "You will need an Poppet for yourself as protection. This is mandatory to become a Werewolf OR a Vampire.",
+      "x": 235,
+      "y": 121,
+      "icon": {
+        "id": "bewitchment:death_protection_poppet",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bewitchment:death_protection_poppet",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "756180a7-ce2c-445b-a1d0-5fc68d436638"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "bewitchment:chalk",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "bewitchment:snake_tongue",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d21df207-31ba-4655-9f90-64452372f9ae",
+      "name": "\"Deep Mob\" Mod Intro",
+      "description": "This mod allows you to collect mob drops with a very unique way. Sorry there is no ingame guide yet. But visit the official Wiki if you need help.",
+      "x": 87,
+      "y": 12,
+      "icon": {
+        "id": "dml-refabricated:soot_redstone",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "dml-refabricated:soot_redstone",
+                "Count": 1
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "bb24da27-93a1-489d-adcb-803ecb3823c0"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "dml-refabricated:soot_redstone",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "756180a7-ce2c-445b-a1d0-5fc68d436638",
+      "name": "Braze yourself",
+      "description": "A good and useful Item is the Brazier. You can get a lot of other Benefits from it. \nYou can even create Curses with it.\nFor further help, please check out the \"Tools\" and \"Curses\" Sections.",
+      "x": 198,
+      "y": 121,
+      "icon": {
+        "id": "bewitchment:brazier",
+        "Count": 1,
+        "tag": {}
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bewitchment:brazier",
+                "Count": 1,
+                "tag": {}
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b7e5d957-50b4-47fc-82d3-9d828868e3f0"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "bewitchment:demon_horn",
+          "Count": 2,
+          "tag": {}
+        },
+        {
+          "id": "bewitchment:dragons_blood_sapling",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "This chapter works well as a filler. Feel free to drop by here in between to do a few tasks in which you get to know a few magical aspects."
+}

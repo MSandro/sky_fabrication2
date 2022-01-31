@@ -1,0 +1,10 @@
+{
+  "replace": true,
+  "block": "minecraft:glowstone",
+  "dim": "minecraft:overworld",
+  "ignitionType": "FLUID",
+  "ignitionSource": "minecraft:water",
+  "r": 102,
+  "g": 179,
+  "b": 255
+}

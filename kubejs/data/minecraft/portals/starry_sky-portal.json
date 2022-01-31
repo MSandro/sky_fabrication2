@@ -1,0 +1,9 @@
+{
+  "block": "the_aether:zanite_block",
+  "dim": "starry_sky:starry_sky",
+  "ignitionType": "ITEM",
+  "ignitionSource": "the_aether:crow_eye",
+  "r": 64,
+  "g": 64,
+  "b": 255
+}

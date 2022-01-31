@@ -1,0 +1,1749 @@
+{
+  "name": "Age of Storage",
+  "quests": [
+    {
+      "uuid": "17da5a49-9be1-4b1a-97af-53e5404916ea",
+      "name": "Wireless Terminal",
+      "description": "The basic Wireless Termial requires a direct view to a Crafting Therminal. Right-Click it once your stational tereminal is highlightet.",
+      "x": 16,
+      "y": 129,
+      "icon": {
+        "id": "toms_storage:ts.wireless_terminal",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "toms_storage:ts.wireless_terminal",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "405587eb-b5d1-4637-a80e-a2da0644a642"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "valley:netherite_nugget",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "79242b9f-27b0-40da-aeb7-c93a796b05b2",
+      "name": "Patter me around",
+      "description": "There are Blank Patterns in AE2 aswell. These are the Items where you save the \"Recipes\" to used in Autocrafting.",
+      "x": 190,
+      "y": 189,
+      "icon": {
+        "id": "appliedenergistics2:blank_pattern",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:blank_pattern",
+                "Count": 1
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6f427e4b-aeae-40fb-8e72-73d42b56ba70"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "appliedenergistics2:certus_quartz_dust",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "363feefd-97df-43e5-ac04-29b4968d1103",
+      "name": "Expanded Storage",
+      "description": "As the Modname says, you are going to need to expand! In Chests and Barrels, not Size, I guess..\nAnyways, go ahead and check the new Storages out.",
+      "x": 112,
+      "y": 43,
+      "icon": {
+        "id": "expandedstorage:iron_chest",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "hqm.taskType.detect.title",
+          "items": [
+            {
+              "item": {
+                "id": "expandedstorage:iron_chest",
+                "Count": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "expandedstorage:iron_barrel",
+                "Count": 1
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "expandedstorage:gold_chest",
+                "Count": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "expandedstorage:gold_barrel",
+                "Count": 1
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "expandedstorage:diamond_chest",
+                "Count": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "expandedstorage:diamond_barrel",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "expandedstorage:obsidian_chest",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "expandedstorage:obsidian_barrel",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "expandedstorage:netherite_chest",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "expandedstorage:netherite_barrel",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "expandedstorage:chest_mutator",
+                "Count": 1,
+                "tag": {
+                  "mode": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c23a0b76-728e-4d20-8f67-bfcf84313795"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:diamond",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "037a6501-2c67-47b2-b9ab-73cfe1cc6d01",
+      "name": "Import/Export",
+      "description": "You can interact with the network with Import and Export Buses. But there are more.",
+      "x": 187,
+      "y": 10,
+      "icon": {
+        "id": "appliedenergistics2:item_import_bus",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item_import_bus",
+                "Count": 1
+              },
+              "required": 6
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item_export_bus",
+                "Count": 1
+              },
+              "required": 6
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item_storage_bus",
+                "Count": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:cable_item_interface",
+                "Count": 1
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5d95388c-b556-4cf7-9ba6-68bd017a893d",
+        "2dd52a99-9b98-439f-bda3-26d30de1f353"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item_interface",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2dd52a99-9b98-439f-bda3-26d30de1f353",
+      "name": "Inscriber",
+      "description": "The Inscriber is a machine which allows you to craft Processors. To be able to do this, you need some Inscriber Presses first.",
+      "x": 229,
+      "y": 10,
+      "icon": {
+        "id": "appliedenergistics2:logic_processor_press",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:logic_processor_press",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:calculation_processor_press",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:engineering_processor_press",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:silicon_press",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:inscriber",
+                "Count": 1
+              },
+              "required": 6
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5d95388c-b556-4cf7-9ba6-68bd017a893d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "appliedenergistics2:silicon",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "405587eb-b5d1-4637-a80e-a2da0644a642",
+      "name": "Storage Terminal",
+      "description": "A Storage Terminal can be used to access your Storage Network. Later you can upgrade to an Crafting Terminal.",
+      "x": 16,
+      "y": 194,
+      "icon": {
+        "id": "toms_storage:ts.storage_terminal",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "toms_storage:ts.storage_terminal",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3e8e005c-2fec-497b-9cef-51f0af74c2c6"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:iron_ingot",
+          "Count": 8
+        },
+        {
+          "id": "minecraft:coal",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a8c8b090-ec15-4570-baff-c2ee6a317f11",
+      "name": "Level Emitter",
+      "description": "It can output a redstone signal if a amount of a defined item was reached. E.g. if you have less than 100 seeds in your system, it should activate your wheat farm.",
+      "x": 134,
+      "y": 171,
+      "icon": {
+        "id": "toms_storage:ts.level_emitter",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "toms_storage:ts.level_emitter",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0de2be7e-0c4c-4155-9d94-ef73d078d0cc"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "rswires:red_alloy_wire",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e8a03918-4353-4b9b-bfe6-94babc3c675c",
+      "name": "ME Controller",
+      "description": "The ME Controller is the Core of your Storage Network. Each Side supports 32 connections.",
+      "x": 298,
+      "y": 10,
+      "icon": {
+        "id": "appliedenergistics2:controller",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:controller",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5d95388c-b556-4cf7-9ba6-68bd017a893d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "appliedenergistics2:fluix_smart_dense_cable",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9557600f-0215-400f-9e11-33c2f616594b",
+      "name": "Managing Cabinets",
+      "description": "Ok, for real this time... BUT only if you really don`t want to go with Tom\u0027s. There is a Manager and a Key..",
+      "x": 138,
+      "y": 11,
+      "icon": {
+        "id": "storagecabinet:key",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "hqm.taskType.detect.title",
+          "items": [
+            {
+              "item": {
+                "id": "storagecabinet:key",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "storagecabinet:cabinet_manager",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7c668e89-298e-4cfd-a63b-d008c1590848"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "skyutils:charcoal_block",
+          "Count": 5
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4855171c-8680-4ad3-bf53-347a19567cab",
+      "name": "Crafting Terminal",
+      "description": "To acces your items you should place a Crafting Terminal.",
+      "x": 71,
+      "y": 194,
+      "icon": {
+        "id": "toms_storage:ts.crafting_terminal",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "toms_storage:ts.crafting_terminal",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "405587eb-b5d1-4637-a80e-a2da0644a642"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "storagecabinet:storagecabinet_iron",
+          "Count": 1
+        },
+        {
+          "id": "expandedstorage:iron_barrel",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a16198ee-14e1-4a60-8fce-c3c0852b723a",
+      "name": "Upgrading Cabinets",
+      "description": "As some other Mods do have, this Mod got Upgrades too. You should\u0027ve got some already in the previous Quest. Make use of them.",
+      "x": 138,
+      "y": 140,
+      "icon": {
+        "id": "storagecabinet:storagecabinet_iron_upgrade",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "hqm.taskType.detect.title",
+          "items": [
+            {
+              "item": {
+                "id": "storagecabinet:storagecabinet_iron_upgrade",
+                "Count": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "storagecabinet:storagecabinet_gold_upgrade",
+                "Count": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "storagecabinet:storagecabinet_diamond_upgrade",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "storagecabinet:storagecabinet_emerald_upgrade",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7c668e89-298e-4cfd-a63b-d008c1590848"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "storagecabinet:storagecabinet_gold",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f6b58308-b9d9-4fb0-b0de-6902b1e2acb8",
+      "name": "AE2 Quartz",
+      "description": "In this Mod you will pretty much need Quartz for everything. Nether Quartz isn`t enough anymore. You can find it in the the Sky Island Dimension.",
+      "x": 226,
+      "y": 144,
+      "bigicon": true,
+      "icon": {
+        "id": "appliedenergistics2:certus_quartz_dust",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:certus_quartz_dust",
+                "Count": 1
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:quartz_ore",
+                "Count": 1
+              },
+              "required": 12
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6dca97ac-931e-485f-a2d3-270892184045"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "appliedenergistics2:charged_certus_quartz_crystal",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4005d99d-82c4-4235-bf96-809d447e5788",
+      "name": "Need Energy?",
+      "description": "AE2 has a different kind of Energy input. Usally it worked together with RF. Since we use a lot of MI Power, you might need a Converter and some Battery.",
+      "x": 298,
+      "y": 52,
+      "icon": {
+        "id": "appliedenergistics2:energy_acceptor",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:energy_acceptor",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:energy_cell",
+                "Count": 1,
+                "tag": {}
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:dense_energy_cell",
+                "Count": 1,
+                "tag": {}
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5d95388c-b556-4cf7-9ba6-68bd017a893d",
+        "e8a03918-4353-4b9b-bfe6-94babc3c675c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "appliedenergistics2:charged_certus_quartz_crystal",
+          "Count": 2
+        },
+        {
+          "id": "appliedenergistics2:blank_pattern",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0de2be7e-0c4c-4155-9d94-ef73d078d0cc",
+      "name": "Input/Output",
+      "description": "The Inventory Hopper lets you insert or extract items. If the big side of the hopper is facing your chest, cou can extract items out of it into your network.",
+      "x": 104,
+      "y": 192,
+      "icon": {
+        "id": "toms_storage:ts.inventory_hopper_basic",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "toms_storage:ts.inventory_hopper_basic",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c23a0b76-728e-4d20-8f67-bfcf84313795"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "toms_storage:ts.inventory_proxy",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b44221fe-5abf-41aa-8638-930e658d4d89",
+      "name": "Terminals",
+      "description": "With Terminals you can acces your ME-System and craft within it.",
+      "x": 174,
+      "y": 124,
+      "icon": {
+        "id": "appliedenergistics2:crafting_terminal",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:crafting_terminal",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:interface_terminal",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:fluid_terminal",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:pattern_terminal",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5d95388c-b556-4cf7-9ba6-68bd017a893d",
+        "dcab49af-a9da-4f05-99aa-18be4021a470"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "appliedenergistics2:blank_pattern",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6f427e4b-aeae-40fb-8e72-73d42b56ba70",
+      "name": "Auto-Crafting",
+      "description": "With the ME System you can start Auto-Crafting. You need Crafting Storages aswell as an Assembler and Interface to work.",
+      "x": 190,
+      "y": 156,
+      "icon": {
+        "id": "appliedenergistics2:1k_crafting_storage",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:1k_crafting_storage",
+                "Count": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:crafting_accelerator",
+                "Count": 1
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:molecular_assembler",
+                "Count": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item_interface",
+                "Count": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:fluid_interface",
+                "Count": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:4k_crafting_storage",
+                "Count": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:16k_crafting_storage",
+                "Count": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:64k_crafting_storage",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5d95388c-b556-4cf7-9ba6-68bd017a893d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "appliedenergistics2:speed_card",
+          "Count": 1
+        },
+        {
+          "id": "appliedenergistics2:4k_crafting_storage",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dcab49af-a9da-4f05-99aa-18be4021a470",
+      "name": "Wireless Access",
+      "description": "You can acces the network with a Wireless Terminal.",
+      "x": 174,
+      "y": 82,
+      "icon": {
+        "id": "ae2wtlib:wireless_crafting_terminal",
+        "Count": 1,
+        "tag": {}
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ae2wtlib:wireless_crafting_terminal",
+                "Count": 1,
+                "tag": {}
+              },
+              "precision": "TAG_NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:wireless_access_point",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5d95388c-b556-4cf7-9ba6-68bd017a893d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "appliedenergistics2:wireless_booster",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2ec0b561-cf04-4549-bb1a-ed616a3d5b35",
+      "name": "Don\u0027t break Cabinets",
+      "description": "Unless... You use a Dolly. This awesome Item let`s you carry the Cabinets. So don`t worry, you dont have to break them to replace.",
+      "x": 94,
+      "y": 11,
+      "icon": {
+        "id": "storagecabinet:dolly",
+        "Count": 1,
+        "tag": {}
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "hqm.taskType.detect.title",
+          "items": [
+            {
+              "item": {
+                "id": "storagecabinet:dolly",
+                "Count": 1,
+                "tag": {}
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9557600f-0215-400f-9e11-33c2f616594b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:diamond",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fea7c419-4287-4199-8ef3-ab711aa68424",
+      "name": "Cover your Cables",
+      "description": "Did you know that you can also cover the cables of Tom\u0027s Storage? Its a perfect way to keep your Style.",
+      "x": 69,
+      "y": 80,
+      "icon": {
+        "id": "toms_storage:ts.inventory_cable_framed",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "hqm.taskType.detect.title",
+          "items": [
+            {
+              "item": {
+                "id": "toms_storage:ts.inventory_cable_framed",
+                "Count": 1
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c23a0b76-728e-4d20-8f67-bfcf84313795"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "toms_storage:ts.paint_kit",
+          "Count": 2,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4a0afe1a-17f2-47e5-9d96-ed2a559c2145",
+      "name": "Fluix Crystals",
+      "description": "To get Fluix Dust, you have to drop Nether Quartz, Redstone and Charged Certus Quartz in water to get Fluix Dust. Proceed those into Seeds and Crystals.",
+      "x": 266,
+      "y": 147,
+      "icon": {
+        "id": "appliedenergistics2:fluix_crystal_seed",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:fluix_crystal_seed",
+                "Count": 1
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:certus_crystal_seed",
+                "Count": 1
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:fluix_crystal",
+                "Count": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:certus_quartz_crystal",
+                "Count": 1
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "f6b58308-b9d9-4fb0-b0de-6902b1e2acb8",
+        "6d2d4808-6cfa-476d-a568-18d7408eb2fd"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "appliedenergistics2:fluix_crystal_seed",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9abefd7f-90ae-4555-94a3-f23068fb9770",
+      "name": "ME Drive/Storage",
+      "description": "You will need an ME Drive to use Storage Cells. There are a few different kinds.",
+      "x": 298,
+      "y": 82,
+      "icon": {
+        "id": "appliedenergistics2:drive",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:drive",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:1k_item_storage_cell",
+                "Count": 1,
+                "tag": {}
+              },
+              "required": 6
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:1k_fluid_storage_cell",
+                "Count": 1,
+                "tag": {}
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:4k_item_storage_cell",
+                "Count": 1,
+                "tag": {}
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:4k_fluid_storage_cell",
+                "Count": 1,
+                "tag": {}
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:16k_item_storage_cell",
+                "Count": 1,
+                "tag": {}
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:16k_fluid_storage_cell",
+                "Count": 1,
+                "tag": {}
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:64k_item_storage_cell",
+                "Count": 1,
+                "tag": {}
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:64k_fluid_storage_cell",
+                "Count": 1,
+                "tag": {}
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5d95388c-b556-4cf7-9ba6-68bd017a893d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "appliedenergistics2:1k_item_cell_component",
+          "Count": 6
+        },
+        {
+          "id": "appliedenergistics2:1k_fluid_cell_component",
+          "Count": 6
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5d95388c-b556-4cf7-9ba6-68bd017a893d",
+      "name": "Standard Cables",
+      "description": "The Cables in AE2 are a bit special. The Smart ones allow you to actually see the ACTIVE connections it hasm, Non Smart ones don\u0027t. If it\u0027s no problem for you, go ahead and use the normal ones.",
+      "x": 229,
+      "y": 82,
+      "icon": {
+        "id": "appliedenergistics2:fluix_glass_cable",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:fluix_glass_cable",
+                "Count": 1
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:fluix_covered_cable",
+                "Count": 1
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:fluix_covered_dense_cable",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "f6b58308-b9d9-4fb0-b0de-6902b1e2acb8"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "appliedenergistics2:fluix_smart_cable",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e676f4f9-9df7-49e1-af84-c72b8051c043",
+      "name": "Try smart, not hard",
+      "description": "Smart Cables are a HUGE help if you are lost in counting ur connections. You should switch fast to Smart Cables. There are Dens Cables, holding 32 Channels.",
+      "x": 298,
+      "y": 116,
+      "icon": {
+        "id": "appliedenergistics2:fluix_smart_dense_cable",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:fluix_smart_dense_cable",
+                "Count": 1
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5d95388c-b556-4cf7-9ba6-68bd017a893d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "appliedenergistics2:capacity_card",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3e8e005c-2fec-497b-9cef-51f0af74c2c6",
+      "name": "Basic Storage Network",
+      "description": "Tom\u0027s Simple Storage Network could help you to find your items. Now you have access to Quartz, so lets build this Wooden Storage Network.",
+      "x": 43,
+      "y": 167,
+      "icon": {
+        "id": "toms_storage:ts.inventory_connector",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "toms_storage:ts.inventory_cable",
+                "Count": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "toms_storage:ts.inventory_connector",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c23a0b76-728e-4d20-8f67-bfcf84313795"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "toms_storage:ts.inventory_cable",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f0debb02-3313-46a5-b0fa-90b4ff88c8c4",
+      "name": "Storage Units",
+      "description": "The Mod \"Tech Reborn\" has a very good Set of Storing 1 specific Item. E.g Cobble or whatever. You might want to check it out. Yes, you can combine it with Tom\u0027s.",
+      "x": 40,
+      "y": 24,
+      "bigicon": true,
+      "icon": {
+        "id": "techreborn:crude_storage_unit",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "hqm.taskType.detect.title",
+          "items": [
+            {
+              "item": {
+                "id": "techreborn:crude_storage_unit",
+                "Count": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "techreborn:basic_storage_unit",
+                "Count": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "techreborn:advanced_storage_unit",
+                "Count": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "techreborn:industrial_storage_unit",
+                "Count": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "techreborn:quantum_storage_unit",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3e8e005c-2fec-497b-9cef-51f0af74c2c6",
+        "06069920-c477-4447-98d6-ae99535e137b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "techreborn:basic_storage_unit",
+          "Count": 1
+        },
+        {
+          "id": "expandedstorage:iron_to_gold_conversion_kit",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1130adb3-01d6-4594-a975-b3c3ab0d7d14",
+      "name": "Linking your Chests",
+      "description": "You can connect every storage container like chests, barrels, ... to the storrage network by placing a Inventory Cable Connector next to it.",
+      "x": 109,
+      "y": 130,
+      "icon": {
+        "id": "toms_storage:ts.inventory_cable_connector",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "toms_storage:ts.inventory_cable_connector",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c23a0b76-728e-4d20-8f67-bfcf84313795"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "toms_storage:ts.inventory_cable",
+          "Count": 8
+        },
+        {
+          "id": "toms_storage:ts.inventory_cable_connector",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c23a0b76-728e-4d20-8f67-bfcf84313795",
+      "name": "Welcome to Tom`s Storage",
+      "description": "Glad that you reached out to this point! You unlocked Tom´s Storage it seems. Its a great mod for an early System Sorting. You will need some Cables to begin with.",
+      "x": 66,
+      "y": 127,
+      "bigicon": true,
+      "icon": {
+        "id": "toms_storage:ts.inventory_cable",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "hqm.taskType.detect.title",
+          "items": [
+            {
+              "item": {
+                "id": "toms_storage:ts.inventory_cable",
+                "Count": 1
+              },
+              "required": 12
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "11e5e891-1b9c-45fd-915e-b6392e6bdfff"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "toms_storage:ts.inventory_cable",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "831501cb-26a9-4fac-aa7e-15ef9fab1115",
+      "name": "Sky Stone",
+      "description": "You can travel around the Starry Skies Dim to find a Sky Stone Sphere. This Material is useful to start with AE2.",
+      "x": 266,
+      "y": 10,
+      "icon": {
+        "id": "appliedenergistics2:sky_stone_block",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:sky_stone_block",
+                "Count": 1
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e8a03918-4353-4b9b-bfe6-94babc3c675c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "appliedenergistics2:certus_quartz_wrench",
+          "Count": 1
+        },
+        {
+          "id": "appliedenergistics2:sky_stone_chest",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "03a64d92-6b5c-4a01-a0db-705f2a741ced",
+      "name": "Expanded Upgrades",
+      "description": "Of course, this Mod got upgrades aswell. Theres actually a few of them, but you can craft the ones you wish to.",
+      "x": 74,
+      "y": 43,
+      "icon": {
+        "id": "expandedstorage:iron_to_gold_conversion_kit",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "hqm.taskType.detect.title",
+          "items": [
+            {
+              "item": {
+                "id": "expandedstorage:iron_to_gold_conversion_kit",
+                "Count": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "expandedstorage:gold_to_diamond_conversion_kit",
+                "Count": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "expandedstorage:diamond_to_obsidian_conversion_kit",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "expandedstorage:obsidian_to_netherite_conversion_kit",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "expandedstorage:wood_to_iron_conversion_kit",
+                "Count": 1,
+                "tag": {}
+              },
+              "required": 6
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "363feefd-97df-43e5-ac04-29b4968d1103"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:gold_ingot",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:diamond",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0eef2be6-4a15-495f-8315-1288497bc293",
+      "name": "Wireless Terminal",
+      "description": "Craft a Advanced Wireless Terminal. It has a range of 64 blocks.",
+      "x": 16,
+      "y": 66,
+      "icon": {
+        "id": "toms_storage:ts.adv_wireless_terminal",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "toms_storage:ts.adv_wireless_terminal",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "17da5a49-9be1-4b1a-97af-53e5404916ea"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "expandedstorage:diamond_barrel",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6fedf053-45a1-464d-baf7-9ce2897b0687",
+      "name": "Charge me, please",
+      "description": "Charged Certus Quartz is pretty rare. You can use normal Certus Quartz and drop it into a powered Charger. Of course, you need a Charger first.",
+      "x": 229,
+      "y": 191,
+      "icon": {
+        "id": "appliedenergistics2:charger",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:charged_certus_quartz_crystal",
+                "Count": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:charger",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "f6b58308-b9d9-4fb0-b0de-6902b1e2acb8"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "appliedenergistics2:blank_pattern",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2921ea7f-0db8-49cc-a1f9-867cc493cbc7",
+      "name": "Cover ur Cables",
+      "description": "Within AE2 there are Cover Facades. You can simply craft almost any Cover Design if you use 4 Anchors together in a 3x3 Grid or higher. Check out the usages for \"Sky Stone Block\" Page 3.",
+      "x": 172,
+      "y": 40,
+      "icon": {
+        "id": "appliedenergistics2:cable_anchor",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:cable_anchor",
+                "Count": 1
+              },
+              "required": 24
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:facade",
+                "Count": 1,
+                "tag": {
+                  "item": "appliedenergistics2:smooth_sky_stone_block"
+                }
+              },
+              "required": 12,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5d95388c-b556-4cf7-9ba6-68bd017a893d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "appliedenergistics2:cable_anchor",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7c668e89-298e-4cfd-a63b-d008c1590848",
+      "name": "Storage Cabinets",
+      "description": "If, for whatever reason, you dislike Tom\u0027s Storage, you can use the Storage Cabinet aswell. \nThese are perfect to store a large Amount of the same Item. \n\nHINT: You can sync the Cabinets with Tom\u0027s.",
+      "x": 138,
+      "y": 89,
+      "icon": {
+        "id": "storagecabinet:storagecabinet_wood",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "hqm.taskType.detect.title",
+          "items": [
+            {
+              "item": {
+                "id": "storagecabinet:storagecabinet_wood",
+                "Count": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "storagecabinet:storagecabinet_iron",
+                "Count": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "storagecabinet:storagecabinet_gold",
+                "Count": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "storagecabinet:storagecabinet_diamond",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "storagecabinet:storagecabinet_emerald",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c23a0b76-728e-4d20-8f67-bfcf84313795"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "storagecabinet:storagecabinet_gold_upgrade",
+          "Count": 1
+        },
+        {
+          "id": "storagecabinet:storagecabinet_iron_upgrade",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6d2d4808-6cfa-476d-a568-18d7408eb2fd",
+      "name": "Speed my growth up",
+      "description": "With AE2 you are forced to go for Seed breeding. You need some (5 work at max) Crystal Growth Accelerators. Each of them speeds up the Growth a lot. Place 4 around a Water source (middle Spot). Then drop it in.",
+      "x": 247,
+      "y": 115,
+      "icon": {
+        "id": "appliedenergistics2:quartz_growth_accelerator",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:quartz_growth_accelerator",
+                "Count": 1
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5d95388c-b556-4cf7-9ba6-68bd017a893d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "appliedenergistics2:certus_quartz_dust",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "You are tired of dropping all ur Items into random Chests and dislike a pure Chest Universe? Well.. Theres help for that."
+}

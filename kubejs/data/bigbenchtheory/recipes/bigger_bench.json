@@ -1,0 +1,21 @@
+{
+  "type": "bigbenchtheory:crafting_shaped",
+  "pattern": [
+    "#####",
+    "#####",
+    "##D##",
+    "#####",
+    "#####"
+  ],
+  "key": {
+    "#": {
+      "item": "bigbenchtheory:big_bench"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "item": "bigbenchtheory:bigger_bench"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ISI",
+    "SPS",
+    "ISI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:copper_ingot"
+    },
+    "P": {
+      "item": "croparia:croparia2"
+    },
+    "S": {
+      "tag": "c:seeds"
+    },
+    "P": [
+      {
+        "item": "minecraft:wheat_seeds"
+      },
+      {
+        "item": "minecraft:pumpkin_seeds"
+      },
+      {
+        "item": "minecraft:melon_seeds"
+      },
+      {
+        "item": "minecraft:beetroot_seeds"
+      }
+    ]
+  },
+  "result": {
+    "item": "croparia:seed_crop_copper"
+  }
+}

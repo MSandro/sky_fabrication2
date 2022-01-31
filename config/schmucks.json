@@ -3,7 +3,7 @@
   "shortTemperChance": 5,
   "leatherHelmetChance": 10,
   "jobRange": 8,
-  "wandIndexEntity": 0,
+  "wandIndexEntity": 2,
   "wandIndexRange": 0,
   "wandRange": 32,
   "wandRenderDistance": 2048,

@@ -25,12 +25,12 @@
 	   If true nether portals in Starry Sky lead to Scary Sky, if false portals do not form.
 	   Default: true
 	*/
-	"enableNetherPortalsToStarryNether": true,
+	"enableNetherPortalsToStarryNether": false,
 	/* 
 	   If true end portals in Starry Sky lead to Scarcy Sky, if false to the vanilla end.
 	   Default: true
 	*/
-	"enableEndPortalsToStarryEnd": true,
+	"enableEndPortalsToStarryEnd": false,
 	/* 
 	   The '/sphere' command lists all the data of the closest sphere (position, blocks, ...)
 	   Default: 0
@@ -45,46 +45,46 @@
 	   high values can result in small lag spikes every time a new system is generated. (but less spikes in total)
 	   Default: 50
 	*/
-	"systemSizeChunks": 50,
+	"systemSizeChunks": 10,
 	/* 
 	   How many spheres a system can contain max.
 	   Some will fail because of distance restrictions
 	   so it's not an exact value
 	   Default: 2000
 	*/
-	"sphereDensityOverworld": 2000,
+	"sphereDensityOverworld": 10,
 	/* 
 	   How much empty blocks should be enforced between individual spheres.
 	   If the distance is too low generation of that one sphere will be cancelled.
 	   Default: 10
 	*/
-	"minDistanceBetweenSpheresOverworld": 10,
+	"minDistanceBetweenSpheresOverworld": 32,
 	/* 
 	   How many spheres a system can contain max.
 	   Some will fail because of distance restrictions
 	   so it's not an exact value
 	   Default: 2500
 	*/
-	"sphereDensityNether": 2500,
+	"sphereDensityNether": 10,
 	/* 
 	   How much empty blocks should be enforced between individual spheres.
 	   If the distance is too low generation of that one sphere will be cancelled.
 	   Default: 10
 	*/
-	"minDistanceBetweenSpheresNether": 7,
+	"minDistanceBetweenSpheresNether": 16,
 	/* 
 	   How many spheres a system can contain max.
 	   Some will fail because of distance restrictions
 	   so it's not an exact value
 	   Default: 1500
 	*/
-	"sphereDensityEnd": 1500,
+	"sphereDensityEnd": 10,
 	/* 
 	   How much empty blocks should be enforced between individual spheres.
 	   If the distance is too low generation of that one sphere will be cancelled.
 	   Default: 10
 	*/
-	"minDistanceBetweenSpheresEnd": 8,
+	"minDistanceBetweenSpheresEnd": 16,
 	/* 
 	   If (or how high) there should be a world floor.
 	   When set to  1 there will the specified BottomBlock at y=1 and the floor block up to the floor height
@@ -92,7 +92,7 @@
 	   When set to  0 there will be no ground, only void
 	   Default: 3 (2 layers water, 1 layer bedrock)
 	*/
-	"floorHeightOverworld": 3,
+	"floorHeightOverworld": 0,
 	/* 
 	   The block generating at y>1 (if floorHeight > 1)
 	   Default: WATER
@@ -146,7 +146,7 @@
 	/* 
 	   Enable Astromine Integration
 	*/
-	"generateAstromineSpheroids": true,
+	"generateAstromineSpheroids": false,
 	/* 
 	   Enable Industrial Revolution Integration
 	*/
@@ -162,31 +162,31 @@
 	/* 
 	   Enable Tech Reborn Integration
 	*/
-	"generateTechRebornSpheroids": true,
+	"generateTechRebornSpheroids": false,
 	/* 
 	   Enable Sakura Rosea Integration
 	*/
-	"generateSakuraRoseaSpheroids": true,
+	"generateSakuraRoseaSpheroids": false,
 	/* 
 	   Enable Terrestria Integration
 	*/
-	"generateTerrestriaSpheroids": true,
+	"generateTerrestriaSpheroids": false,
 	/* 
 	   Enable Traverse Integration
 	*/
-	"generateTraverseSpheroids": true,
+	"generateTraverseSpheroids": false,
 	/* 
 	   Enable Sandwichable Integration
 	*/
-	"generateSandwichableSpheroids": true,
+	"generateSandwichableSpheroids": false,
 	/* 
 	   Enable Biomes You Go Integration
 	*/
-	"generateBYGSpheroids": true,
+	"generateBYGSpheroids": false,
 	/* 
 	   Enable Unearthed Integration
 	*/
-	"generateUnearthedSpheroids": true,
+	"generateUnearthedSpheroids": false,
 	/* 
 	   Enable Blockus Integration
 	*/
@@ -194,7 +194,7 @@
 	/* 
 	   Enable Mythic Metals Integration
 	*/
-	"generateMythicMetalsSpheroids": true,
+	"generateMythicMetalsSpheroids": false,
 	/* 
 	   Enable BetterNether Integration
 	*/
@@ -206,17 +206,17 @@
 	/* 
 	   Enable Cinderscapes Integration
 	*/
-	"generateCinderscapesSpheroids": true,
+	"generateCinderscapesSpheroids": false,
 	/* 
 	   Enable Ecotones Integration
 	*/
-	"generateEcotonesSpheroids": true,
+	"generateEcotonesSpheroids": false,
 	/* 
 	   Enable Woods And Mires Integration
 	*/
-	"generateWoodsAndMiresSpheroids": true,
+	"generateWoodsAndMiresSpheroids": false,
 	/* 
 	   Enable Biome Makeover Integration
 	*/
-	"generateBiomeMakeoverSpheroids": true
+	"generateBiomeMakeoverSpheroids": false
 }

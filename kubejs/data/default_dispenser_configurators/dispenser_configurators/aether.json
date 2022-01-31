@@ -1,0 +1,9 @@
+{
+	"targets": [
+      "USE_ON_ENTITY"
+    ],
+	"items": [
+		"minecraft:water_bucket"
+	],
+	"exclusive": true
+}

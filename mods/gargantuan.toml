@@ -1,0 +1,13 @@
+name = "Gargantuan"
+filename = "Gargantuan-1.1.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3583/376/Gargantuan-1.1.4.jar"
+hash-format = "murmur2"
+hash = "4131662245"
+
+[update]
+[update.curseforge]
+file-id = 3583376
+project-id = 501658

@@ -1,0 +1,13 @@
+name = "Plan | Player Analytics"
+filename = "PlanFabric-5.4-dev-build-1555.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3630/8/PlanFabric-5.4-dev-build-1555.jar"
+hash-format = "murmur2"
+hash = "4135507218"
+
+[update]
+[update.curseforge]
+file-id = 3630008
+project-id = 508727

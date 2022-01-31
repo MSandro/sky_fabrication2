@@ -14,24 +14,71 @@ onEvent('rei.information', event => {
   event.add('skyutils:netherite_hammer', 'Hammering', ['Dirt or Grass Blocks -> Pebbles', 'Cobblestone or Stone -> Gravel ->', 'Sand -> Clay', 'Wood Logs -> Saw Dust', 'Coal / Charcoal Block -> small chance to get Diamond Nuggets']);
 })
 
-onEvent('jei.hide.items', event => {
-	// Hide items in JEI here
-	event.hide('scf:tin_funnel')
-	event.hide('scf:copper_funnel')
-	event.hide('scf:silver_funnel')
-	event.hide('scf:bronze_funnel')
-	event.hide('valley:rg_axe')
-	event.hide('valley:rg_boots')
-	event.hide('valley:rg_chestplate')
-	event.hide('valley:rg_helmet')
-	event.hide('valley:rg_hoe')
-	event.hide('valley:rg_leggings')
-	event.hide('valley:rg_pickaxe')
-	event.hide('valley:rg_shovel')
-	event.hide('valley:rg_sword')
-})
-
 const DELETED_ITEMS = [
+	"spatialharvesters:ore_harvester_1",
+	"spatialharvesters:ore_harvester_2",
+	"spatialharvesters:ore_harvester_3",
+	"spatialharvesters:ore_harvester_4",
+	"spatialharvesters:ore_harvester_5",
+	"spatialharvesters:ore_harvester_6",
+	"spatialharvesters:ore_harvester_7",
+	"spatialharvesters:ore_harvester_8",
+	"kubejs:skyfabrication_logo",
+	"simpletech:sieve_auto",
+	"simpletech:sieve",
+	"scf:tin_funnel",
+	"scf:copper_funnel",
+	"scf:silver_funnel",
+	"scf:bronze_funnel",
+	"valley:rg_axe",
+	"valley:rg_boots",
+	"valley:rg_chestplate",
+	"valley:rg_helmet",
+	"valley:rg_hoe",
+	"valley:rg_leggings",
+	"valley:rg_pickaxe",
+	"valley:rg_shovel",
+	"valley:rg_sword",
+	"compress:compressed_dirt_1",
+	"compress:compressed_dirt_2",
+	"compress:compressed_dirt_3",
+	"compress:compressed_dirt_4",
+	"compress:compressed_dirt_5",
+	"compress:compressed_gravel_1",
+	"compress:compressed_gravel_2",
+	"compress:compressed_gravel_3",
+	"compress:compressed_gravel_4",
+	"compress:compressed_gravel_5",
+	"compress:compressed_sand_1",
+	"compress:compressed_sand_2",
+	"compress:compressed_sand_3",
+	"compress:compressed_sand_4",
+	"compress:compressed_sand_5",
+	"compress:compressed_cobblestone_1",
+	"compress:compressed_cobblestone_2",
+	"compress:compressed_cobblestone_3",
+	"compress:compressed_cobblestone_4",
+	"compress:compressed_cobblestone_5",
+	"compress:compressed_andesite_1",
+	"compress:compressed_andesite_2",
+	"compress:compressed_andesite_3",
+	"compress:compressed_andesite_4",
+	"compress:compressed_andesite_5",
+	"compress:compressed_diorite_1",
+	"compress:compressed_diorite_2",
+	"compress:compressed_diorite_3",
+	"compress:compressed_diorite_4",
+	"compress:compressed_diorite_5",
+	"compress:compressed_granite_1",
+	"compress:compressed_granite_2",
+	"compress:compressed_granite_3",
+	"compress:compressed_granite_4",
+	"compress:compressed_granite_5",
+	"compress:compressed_netherrack_1",
+	"compress:compressed_netherrack_2",
+	"compress:compressed_netherrack_3",
+	"compress:compressed_netherrack_4",
+	"compress:compressed_netherrack_5",
 	"ringsofascension:ring_luck",
 	"ringsofascension:ring_regeneration",
 	"ringsofascension:ring_hungerless",

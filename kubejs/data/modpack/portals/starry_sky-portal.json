@@ -1,9 +1,0 @@
-{
-  "block": "the_aether:zanite_block",
-  "dim": "starry_sky:starry_sky",
-  "ignitionType": "ITEM",
-  "ignitionSource": "the_aether:swet_ball",
-  "r": 102,
-  "g": 179,
-  "b": 255
-}
