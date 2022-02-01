@@ -1130,7 +1130,7 @@ hash = "53edd49d3e9cb39f87dc7f6fe3b3f0f48984650a28aac735909246034229da6a"
 
 [[files]]
 file = "config/slightguimodifications/cts.groovy"
-hash = "5ad62ae985de750ab96cb556bccd84794a07c9f0181144e5d33f74d7dec68336"
+hash = "eae57741cbe102428061310f0e1b850d94bc93248a3708b237ce8f3c6af9a832"
 
 [[files]]
 file = "config/slightguimodifications/slider.png"
@@ -3385,7 +3385,7 @@ metafile = true
 
 [[files]]
 file = "mods/roughly-enough-items.toml"
-hash = "a11db12169d220ae076e52a6ae4d67ff040c574e1180cc86f013e32250588bf7"
+hash = "43523c71048b87f748afa27909cb629f94bd8b2d4b441082d27dca027e1e5456"
 metafile = true
 
 [[files]]
