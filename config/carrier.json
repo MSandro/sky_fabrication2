@@ -4,7 +4,17 @@
   "hungerExhaustion": 0.05,
   "type": "WHITELIST",
   "list": [
-    "minecraft:*",
+    "minecraft:chest",
+    "minecraft:barrel",
+    "minecraft:shulker_box",
+    "minecraft:lectern",
+    "minecraft:jukebox",
+    "minecraft:furnace",
+    "minecraft:dispenser",
+    "minecraft:dropper",
+    "minecraft:hopper",
+    "minecraft:smoker",
+    "minecraft:blast_furnace",
     "expandedstorage:*",
     "charm:*"
   ]

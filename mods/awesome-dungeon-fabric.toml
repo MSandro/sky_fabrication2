@@ -1,13 +1,13 @@
 name = "Awesome Dungeon - Fabric"
-filename = "AwesomeDungeonFabric-1.17.1-2.0.4.jar"
+filename = "AwesomeDungeonFabric-1.17.1-2.0.5.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3605/284/AwesomeDungeonFabric-1.17.1-2.0.4.jar"
+url = "https://edge.forgecdn.net/files/3631/184/AwesomeDungeonFabric-1.17.1-2.0.5.jar"
 hash-format = "murmur2"
-hash = "3007530440"
+hash = "3183445890"
 
 [update]
 [update.curseforge]
-file-id = 3605284
+file-id = 3631184
 project-id = 530309

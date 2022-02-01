@@ -45,8 +45,8 @@
       "uuid": "c7e52861-59fd-4a6b-88fd-c63ccced6dba",
       "name": "Assembler",
       "description": "Craft an Assembler.",
-      "x": 136,
-      "y": 181,
+      "x": 140,
+      "y": 182,
       "icon": {
         "id": "modern_industrialization:assembler",
         "Count": 1
@@ -65,7 +65,7 @@
         }
       ],
       "prerequisites": [
-        "463ed2c3-3b62-4d93-9af2-9213d98a5ad2"
+        "9a31b6cf-8650-4100-ae1d-4da6faf8f9d9"
       ],
       "optionlinks": [],
       "reward": [
@@ -85,7 +85,7 @@
       "uuid": "7ec6b5dc-6d24-4ea8-8242-bd29d163c8db",
       "name": "Harvesters",
       "description": "There are several types of harvesters, like the ore harvester, the loot harvester and much more. You need at least one Space Ripper connected to the Harvester. They consumes a lot of energy.",
-      "x": 92,
+      "x": 95,
       "y": 101,
       "icon": {
         "id": "spatialharvesters:ore_harvester_1",
@@ -398,8 +398,8 @@
       "uuid": "eed71b2d-73a5-45ed-81e6-b8607412c0e8",
       "name": "Centrifuge",
       "description": "Craft a Centrifuge and provide it with power.",
-      "x": 60,
-      "y": 186,
+      "x": 56,
+      "y": 182,
       "icon": {
         "id": "modern_industrialization:centrifuge",
         "Count": 1
@@ -438,7 +438,7 @@
       "uuid": "efdf4849-6df9-48b9-a63d-1f312b686ebc",
       "name": "Assembling Machine",
       "description": "You should immediately use the 2 Advanced Circuits for an Assembling Machine, with which you can then make more of them.",
-      "x": 136,
+      "x": 181,
       "y": 68,
       "icon": {
         "id": "techreborn:assembly_machine",
@@ -458,7 +458,6 @@
         }
       ],
       "prerequisites": [
-        "463ed2c3-3b62-4d93-9af2-9213d98a5ad2",
         "eec624c2-8678-42b8-a155-8cfd4521a473"
       ],
       "optionlinks": [],
@@ -476,10 +475,49 @@
       "commandrewards": []
     },
     {
+      "uuid": "4d39ae44-402c-4b61-bb37-a07513035abf",
+      "name": "Basic Machine Hull",
+      "description": "The Basic Machine Hull is the core of many LV Machines. Very soon I will be able to build a Turbine to produce Electricity.",
+      "x": 137,
+      "y": 66,
+      "bigicon": true,
+      "icon": {
+        "id": "modern_industrialization:basic_machine_hull",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "modern_industrialization:basic_machine_hull",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "08999bb2-3d0d-4de2-9203-c53ef92a1970",
+        "822dc5ae-99c1-4a45-9151-b2b2e64d9041"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "modern_industrialization:basic_machine_hull",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "dcf63421-c294-4a19-a254-68f546ad03c6",
-      "name": "Electricity Age",
+      "name": "Tech Reborn",
       "description": "Let\u0027s start with Tech Reborn. The Standard Machine Casing is needed for several recipes.",
-      "x": 175,
+      "x": 181,
       "y": 182,
       "icon": {
         "id": "techreborn:basic_machine_casing",
@@ -520,8 +558,8 @@
       "uuid": "4d5e2946-032c-4aaf-9660-3df50380631a",
       "name": "Extractor",
       "description": "Extract rubber from rubber trees.",
-      "x": 211,
-      "y": 103,
+      "x": 215,
+      "y": 104,
       "icon": {
         "id": "techreborn:extractor",
         "Count": 1
@@ -561,7 +599,7 @@
       "name": "Electrolyzer",
       "description": "Build a Electrolyzer.",
       "x": 20,
-      "y": 186,
+      "y": 182,
       "icon": {
         "id": "modern_industrialization:electrolyzer",
         "Count": 1
@@ -596,7 +634,7 @@
       "uuid": "885ceed4-0172-4188-bd01-4ebab8bd10a3",
       "name": "Space Travel Preparations",
       "description": "If you want to go into space, you have to prepare. Start by melting some dirt into oxide.",
-      "x": 233,
+      "x": 257,
       "y": 68,
       "icon": {
         "id": "agape_space:life_support_o2",
@@ -671,9 +709,9 @@
     {
       "uuid": "d4589cff-c624-4d3f-8abf-a7afa8ec8a9d",
       "name": "The End",
-      "description": "In the Sky Islands Dimension you can search for the end stronghold by using one of the 12 Eye types which you have to find in the world.\n\nTo activate the End Portal you have to find one of all 12 differend eye types.\n\nWith 4 End Crystals you can summon the ender Dragon.",
-      "x": 268,
-      "y": 23,
+      "description": "Search for the end portal by throwing one of these Eye types in the Sky Islands Dimension.\nTo activate the End Portal you have to collect each of them.\nWith 4 End Crystals you can summon the Ender Dragon.",
+      "x": 289,
+      "y": 22,
       "bigicon": true,
       "icon": {
         "id": "minecraft:end_portal_frame",
@@ -681,10 +719,87 @@
       },
       "tasks": [
         {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "endrem:rogue_eye",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "endrem:guardian_eye",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "endrem:magical_eye",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "endrem:witch_eye",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "endrem:wither_eye",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "endrem:end_crystal_eye",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "endrem:black_eye",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "endrem:cold_eye",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "endrem:corrupted_eye",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "endrem:lost_eye",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "endrem:nether_eye",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "endrem:old_eye",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
           "type": "ADVANCEMENT",
           "advancements": [
             {
-              "name": "The End",
+              "name": "Enter The End",
               "icon": {
                 "id": "minecraft:end_stone",
                 "Count": 1
@@ -763,8 +878,8 @@
       "uuid": "6dca97ac-931e-485f-a2d3-270892184045",
       "name": "Sky Islands",
       "description": "In this Dim you can dicover many Biomes and Strutures. The Portal frame has to be build out of Mossy Glowshroom Caps. The Mossy Glowshroom Sapling can grow on End Moss. To ignite it, right click with the \"\" Item. It\u0027s the Quests reward.",
-      "x": 231,
-      "y": 26,
+      "x": 254,
+      "y": 25,
       "icon": {
         "id": "bitsandchisels:bits_block",
         "Count": 1,
@@ -9011,7 +9126,14 @@
       "tasks": [
         {
           "type": "DETECT",
-          "items": []
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:sky_island_activator",
+                "Count": 1
+              }
+            }
+          ]
         }
       ],
       "prerequisites": [
@@ -9032,8 +9154,8 @@
       "uuid": "468baaf2-4d83-4fc8-8559-d763aa5c5b37",
       "name": "Recycler",
       "description": "If you have some crap in your storage system, you may whant to recycle it.",
-      "x": 136,
-      "y": 31,
+      "x": 181,
+      "y": 29,
       "icon": {
         "id": "techreborn:recycler",
         "Count": 1
@@ -9072,7 +9194,7 @@
       "uuid": "e3985655-864d-4f63-aceb-5a4828cf0969",
       "name": "Generators",
       "description": "Extra Generators offers a lot of Generator types.",
-      "x": 175,
+      "x": 181,
       "y": 142,
       "icon": {
         "id": "extragenerators:burnable_generator",
@@ -9218,7 +9340,7 @@
       "name": "Electric Blast Furnace",
       "description": "Build a Electric Blast Furnace.",
       "x": 95,
-      "y": 186,
+      "y": 182,
       "icon": {
         "id": "modern_industrialization:electric_blast_furnace",
         "Count": 1
@@ -9237,7 +9359,7 @@
         }
       ],
       "prerequisites": [
-        "9a31b6cf-8650-4100-ae1d-4da6faf8f9d9"
+        "c7e52861-59fd-4a6b-88fd-c63ccced6dba"
       ],
       "optionlinks": [],
       "reward": [
@@ -9257,8 +9379,8 @@
       "uuid": "4f112fc8-60fd-4a24-821d-6c753f75f873",
       "name": "Dimensional Applicator",
       "description": "This Block can be used to get a permanent effect.",
-      "x": 92,
-      "y": 66,
+      "x": 95,
+      "y": 65,
       "icon": {
         "id": "spatialharvesters:dimensional_applicator",
         "Count": 1,
@@ -9359,9 +9481,9 @@
     {
       "uuid": "9a31b6cf-8650-4100-ae1d-4da6faf8f9d9",
       "name": "Polarizer",
-      "description": "You can use the Polarizer to make Magnetic Rods.",
-      "x": 95,
-      "y": 140,
+      "description": "You can use the Polarizer to make Magnetic Rods much cheaper.",
+      "x": 140,
+      "y": 147,
       "icon": {
         "id": "modern_industrialization:polarizer",
         "Count": 1
@@ -9396,8 +9518,8 @@
       "uuid": "b0d16e09-2d85-4ca2-86e3-f4e543910adc",
       "name": "Angel Ring",
       "description": "This Item can grant you creative Flight.",
-      "x": 191,
-      "y": 26,
+      "x": 217,
+      "y": 25,
       "icon": {
         "id": "kibe:angel_ring",
         "Count": 1,
@@ -9423,7 +9545,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "iron-jetpacks:netherite_thruster",
+          "id": "iron-jetpacks:gold_thruster",
           "Count": 1
         }
       ],
@@ -9433,10 +9555,9 @@
     {
       "uuid": "463ed2c3-3b62-4d93-9af2-9213d98a5ad2",
       "name": "Steam Turbine",
-      "description": "Craft a Steam Turbine. This block allows you to produce your first Electric Energy.\n\nUse the reward to get an Assembling Machine from Tech Reborn! It should not be used for anything else!",
-      "x": 133,
-      "y": 137,
-      "bigicon": true,
+      "description": "Craft a Steam Turbine. This block allows you to produce your first Electric Energy.",
+      "x": 140,
+      "y": 112,
       "icon": {
         "id": "modern_industrialization:lv_steam_turbine",
         "Count": 1
@@ -9462,10 +9583,6 @@
         {
           "id": "modern_industrialization:rubber_sheet",
           "Count": 4
-        },
-        {
-          "id": "techreborn:advanced_circuit",
-          "Count": 2
         }
       ],
       "rewardchoice": [],
@@ -9475,7 +9592,7 @@
       "uuid": "089a467c-5baa-4197-8c3b-d2a765ad90d2",
       "name": "Moon",
       "description": "Continue your preparations and follow the directions in the Space Explorer\u0027s Guide. Then you should be able to travel to the moon soon. Explore the other celestial bodies as well.",
-      "x": 276,
+      "x": 294,
       "y": 68,
       "icon": {
         "id": "agape_space:moon_soil",
@@ -9483,12 +9600,29 @@
       },
       "tasks": [
         {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "agape_space:rocket_ship_box",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "agape_space:part_engine_crude",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
           "type": "ADVANCEMENT",
           "advancements": [
             {
               "name": "Moon",
               "icon": {
-                "id": "agape_space:moon_soil",
+                "id": "chisel:moon/iron_block",
                 "Count": 1
               },
               "adv_name": "agape:advancements_agapespace"
@@ -9503,14 +9637,7 @@
       "reward": [
         {
           "id": "agape_space:life_support_o2",
-          "Count": 16
-        },
-        {
-          "id": "agape_space:oxygen_tank",
-          "Count": 1,
-          "tag": {
-            "oxygen": {}
-          }
+          "Count": 8
         }
       ],
       "rewardchoice": [],
@@ -9673,8 +9800,8 @@
       "uuid": "eec624c2-8678-42b8-a155-8cfd4521a473",
       "name": "Compressor",
       "description": "Tech Reborn offers various machines that you should already know from Modern Industrialization.",
-      "x": 175,
-      "y": 103,
+      "x": 181,
+      "y": 104,
       "icon": {
         "id": "techreborn:compressor",
         "Count": 1
@@ -9746,7 +9873,7 @@
       "uuid": "17f62e68-be6d-41ec-a45e-29fa1c431ec7",
       "name": "High-Voltage",
       "description": "Sure, this chapter didn\u0027t take you through all of the machines you might need. The fusion reactor is not easy. Find out for yourself what you need to build it and put it into operation.",
-      "x": 191,
+      "x": 217,
       "y": 68,
       "icon": {
         "id": "techreborn:fusion_control_computer",

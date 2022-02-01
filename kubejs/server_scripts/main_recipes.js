@@ -6,6 +6,58 @@ onEvent('recipes', event => {
   // AETHER
   event.remove({output: 'the_aether:wisteria_sign'});
 
+  // BEWITCHMENT
+  event.remove({output: 'bewitchment:juniper_broom'});
+  event.remove({output: 'bewitchment:cypress_broom'});
+  event.remove({output: 'bewitchment:elder_broom'});
+  event.remove({output: 'bewitchment:dragons_blood_broom'});
+
+  // COMPRESS'em
+  const DelCompressem = [
+    "compress:bundle_of_sticks",
+    "compress:compressed_dirt_1",
+    "compress:compressed_dirt_2",
+    "compress:compressed_dirt_3",
+    "compress:compressed_dirt_4",
+    "compress:compressed_dirt_5",
+    "compress:compressed_gravel_1",
+    "compress:compressed_gravel_2",
+    "compress:compressed_gravel_3",
+    "compress:compressed_gravel_4",
+    "compress:compressed_gravel_5",
+    "compress:compressed_sand_1",
+    "compress:compressed_sand_2",
+    "compress:compressed_sand_3",
+    "compress:compressed_sand_4",
+    "compress:compressed_sand_5",
+    "compress:compressed_cobblestone_1",
+    "compress:compressed_cobblestone_2",
+    "compress:compressed_cobblestone_3",
+    "compress:compressed_cobblestone_4",
+    "compress:compressed_cobblestone_5",
+    "compress:compressed_andesite_1",
+    "compress:compressed_andesite_2",
+    "compress:compressed_andesite_3",
+    "compress:compressed_andesite_4",
+    "compress:compressed_andesite_5",
+    "compress:compressed_diorite_1",
+    "compress:compressed_diorite_2",
+    "compress:compressed_diorite_3",
+    "compress:compressed_diorite_4",
+    "compress:compressed_diorite_5",
+    "compress:compressed_granite_1",
+    "compress:compressed_granite_2",
+    "compress:compressed_granite_3",
+    "compress:compressed_granite_4",
+    "compress:compressed_granite_5",
+    "compress:compressed_netherrack_1",
+    "compress:compressed_netherrack_2",
+    "compress:compressed_netherrack_3",
+    "compress:compressed_netherrack_4",
+    "compress:compressed_netherrack_5"
+  ]
+  DelCompressem.forEach(id => event.remove({output: id}));
+
   // RSWIRES
   event.remove({output: 'rswires:red_alloy_compound'});
 
@@ -95,13 +147,12 @@ onEvent('recipes', event => {
   event.remove({output: 'techreborn:basic_machine_frame', type: 'minecraft:crafting_shaped'});
   event.remove({output: 'techreborn:data_storage_core', type: 'minecraft:crafting_shaped'});
   event.remove({output: 'techreborn:data_storage_chip', type: 'techreborn:assembling_machine'});
-  event.remove({output: 'techreborn:advanced_circuit', type: 'techreborn:assembling_machine'});
+  event.remove({output: 'techreborn:advanced_circuit', type: 'minecraft:crafting_shaped'});
 
   // MC
   event.remove({output: 'minecraft:end_portal_frame'});
   event.remove({output: 'minecraft:elytra'});
   event.remove({output: 'minecraft:seed', type: 'minecraft:crafting_shapeless'})
-
 
   event.remove({output: 'minecraft:end_crystal'});
   event.shaped('1x minecraft:end_crystal', [
@@ -114,6 +165,7 @@ onEvent('recipes', event => {
     C: 'wirelessnetworks:entangled_capacitor'
   });
 
+  event.shapeless('9x minecraft:charcoal', ['skyutils:charcoal_block'])
 
   event.remove({output: 'expandedstorage:old_wood_chest'});
   event.shapeless('expandedstorage:old_wood_chest', [['minecraft:chest'], ['blockus:legacy_planks']]);
