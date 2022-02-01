@@ -260,7 +260,7 @@
   "_comment": "======================================",
   "_comment": "EDIT MODES",
   "_comment": "======================================",
-  "hqm.editMode.keybind": "%s ยง7(%sยง7)",
+  "hqm.editMode.keybind": "%s §7(%s§7)",
   "hqm.editMode.normal.title": "Cursor",
   "hqm.editMode.normal.desc": "Use the book as if you would be in play mode.",
   "hqm.editMode.move.title": "Move",
