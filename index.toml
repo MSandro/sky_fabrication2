@@ -1361,10 +1361,6 @@ file = "config/zombievillagersfromspawner-fabric.json"
 hash = "05a94db3d99b3412f5506bb7777baf6f77fcb0aac0918ef640d58f8055cc5ebf"
 
 [[files]]
-file = "eula.txt"
-hash = "2e3bad820cb461aae38a96365aec8f42292624c14c436755fa888e0bf6ddb1a2"
-
-[[files]]
 file = "kubejs/README.txt"
 hash = "801703f280e4ff26fb4be02067cb583a79f7618bc0966b11d55b80492fddb56b"
 
@@ -3701,7 +3697,3 @@ metafile = true
 file = "mods/zombie-villagers-from-spawner-fabric.toml"
 hash = "a07ac0bbf441353df28b9905653d0dcf4c01c1e44e92613d7e084188445dd7b3"
 metafile = true
-
-[[files]]
-file = "server.properties"
-hash = "bc978b3413bb88712579dd7ff853398f8f8dd49e6d74a404ed7baa81c6c95994"
