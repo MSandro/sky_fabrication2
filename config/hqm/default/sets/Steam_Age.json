@@ -6,7 +6,7 @@
       "name": "Creosote",
       "description": "The Coke Ovens byproduct is Creosote, an Fluid. You will need it to produce Lubricant.",
       "x": 19,
-      "y": 11,
+      "y": 12,
       "icon": {
         "id": "modern_industrialization:bucket_creosote",
         "Count": 1
@@ -42,8 +42,8 @@
       "uuid": "99e4c0d5-45af-415a-bf80-e961f3185afc",
       "name": "Starry Skies",
       "description": "To get in this Dim, you have to collect Resources in the Aether. \nThe Frame is made out of Zanite Blocks. You need a Crow\u0027s Eye to ignite the portal.",
-      "x": 295,
-      "y": 48,
+      "x": 294,
+      "y": 192,
       "icon": {
         "id": "bitsandchisels:bits_block",
         "Count": 1,
@@ -8267,7 +8267,7 @@
       },
       "tasks": [
         {
-          "type": "CONSUME",
+          "type": "DETECT",
           "items": [
             {
               "item": {
@@ -8284,9 +8284,8 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "minecraft:light",
-          "Count": 4,
-          "tag": {}
+          "id": "betteranimalsplus:bottled_dragonfly",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -8296,8 +8295,8 @@
       "uuid": "19672c0c-13f4-4ebf-b64a-bef07970fda8",
       "name": "Cutting Machine",
       "description": "The cutting machine allows you to craft several things. With this machine you should be now able to craft the Diamond Funnel. \nIt requires Lubricant to run.",
-      "x": 54,
-      "y": 92,
+      "x": 51,
+      "y": 54,
       "icon": {
         "id": "modern_industrialization:bronze_cutting_machine",
         "Count": 1
@@ -8341,8 +8340,8 @@
       "uuid": "d71d82a9-1aa1-44ee-9331-14f2f1de7b63",
       "name": "Invar",
       "description": "In the Mixer, you can craft Invar now. You will need it to proceed to the Diamond Funnel.",
-      "x": 119,
-      "y": 61,
+      "x": 111,
+      "y": 42,
       "icon": {
         "id": "modern_industrialization:invar_ingot",
         "Count": 1
@@ -8375,42 +8374,36 @@
       "commandrewards": []
     },
     {
-      "uuid": "00f914b7-8302-4fe9-8510-485e786e63c3",
-      "name": "The Aether",
-      "description": "Travel to the Aether by forming a Portal out of Aethere Portal Frame Blocks. Ignite it with a Diamond Grinding Head.",
-      "x": 295,
-      "y": 122,
+      "uuid": "8481500c-149d-4306-a5d5-aedd59825c1a",
+      "name": "Mixing",
+      "description": "Craft a Mixer. A Mixer is an awesome Item to mix all kind of Fluids together, aswell as Items!",
+      "x": 88,
+      "y": 12,
       "icon": {
-        "id": "blockus:legacy_nether_reactor_core",
+        "id": "modern_industrialization:bronze_mixer",
         "Count": 1
       },
       "tasks": [
         {
-          "type": "ADVANCEMENT",
-          "advancements": [
+          "type": "DETECT",
+          "items": [
             {
-              "name": "We need to go higher",
-              "icon": {
-                "id": "blockus:legacy_nether_reactor_core",
+              "item": {
+                "id": "modern_industrialization:bronze_mixer",
                 "Count": 1
-              },
-              "adv_name": "the_aether:root"
+              }
             }
           ]
         }
       ],
       "prerequisites": [
-        "a235b5c4-c52a-4ced-8cd3-aa07ad1a6d11"
+        "b1f0bd4a-bf2f-4cb0-b95c-79401743b023"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "the_aether:ambrosium_torch",
-          "Count": 4
-        },
-        {
-          "id": "the_aether:skyroot_sapling",
-          "Count": 1
+          "id": "modern_industrialization:uncooked_steel_dust",
+          "Count": 2
         }
       ],
       "rewardchoice": [],
@@ -8420,8 +8413,8 @@
       "uuid": "6534ce15-cae4-434e-9bb1-3d9ac6c8a4ae",
       "name": "Getting the Drill",
       "description": "You can use a Bronze or Copper Drill to use the Quarry. Check out the Recipes and usages in REI.",
-      "x": 294,
-      "y": 188,
+      "x": 233,
+      "y": 12,
       "icon": {
         "id": "modern_industrialization:copper_drill",
         "Count": 1
@@ -8460,13 +8453,13 @@
       "commandrewards": []
     },
     {
-      "uuid": "8481500c-149d-4306-a5d5-aedd59825c1a",
-      "name": "Mixing",
-      "description": "Craft a Mixer. A Mixer is an awesome Item to mix all kind of Fluids together, aswell as Items!",
-      "x": 85,
-      "y": 46,
+      "uuid": "00f914b7-8302-4fe9-8510-485e786e63c3",
+      "name": "The Aether",
+      "description": "Travel to the Aether by forming a Portal out of Aethere Portal Frame Blocks. Ignite it with a Diamond Grinding Head.",
+      "x": 294,
+      "y": 126,
       "icon": {
-        "id": "modern_industrialization:bronze_mixer",
+        "id": "blockus:legacy_nether_reactor_core",
         "Count": 1
       },
       "tasks": [
@@ -8475,21 +8468,39 @@
           "items": [
             {
               "item": {
-                "id": "modern_industrialization:bronze_mixer",
+                "id": "blockus:legacy_nether_reactor_core",
                 "Count": 1
-              }
+              },
+              "required": 12
+            }
+          ]
+        },
+        {
+          "type": "ADVANCEMENT",
+          "advancements": [
+            {
+              "name": "Visiting the Aether",
+              "icon": {
+                "id": "blockus:legacy_nether_reactor_core",
+                "Count": 1
+              },
+              "adv_name": "the_aether:enter_the_aether"
             }
           ]
         }
       ],
       "prerequisites": [
-        "b1f0bd4a-bf2f-4cb0-b95c-79401743b023"
+        "a235b5c4-c52a-4ced-8cd3-aa07ad1a6d11"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "modern_industrialization:uncooked_steel_dust",
-          "Count": 2
+          "id": "the_aether:ambrosium_torch",
+          "Count": 4
+        },
+        {
+          "id": "the_aether:skyroot_sapling",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -8499,8 +8510,8 @@
       "uuid": "2e2a0874-2df3-4782-8bbf-bd3c313e0dda",
       "name": "Computer",
       "description": "If you have some basic programming skils, you can try to automate things with Computers and Turtles.\nTurtles can move around and break blocks if a tool is equipped.",
-      "x": 174,
-      "y": 10,
+      "x": 138,
+      "y": 189,
       "icon": {
         "id": "computercraft:computer_normal",
         "Count": 1
@@ -8546,8 +8557,8 @@
       "uuid": "daf15afd-cd7a-4f8d-a0c3-dc133637b4d0",
       "name": "Steam Quarry",
       "description": "As the Name tells you, a Quarry is required to mine Items out of the Air. You need Steam to run it. In addition, place the Quarry and hover with a MI Wrench over it.",
-      "x": 265,
-      "y": 157,
+      "x": 233,
+      "y": 45,
       "icon": {
         "id": "modern_industrialization:steam_quarry",
         "Count": 1,
@@ -8590,7 +8601,7 @@
         }
       ],
       "prerequisites": [
-        "a235b5c4-c52a-4ced-8cd3-aa07ad1a6d11"
+        "24b143d2-9640-46a3-b434-8a13becdfa56"
       ],
       "optionlinks": [],
       "reward": [
@@ -8610,8 +8621,8 @@
       "uuid": "fafd9093-88ee-465c-8ce9-4cfcb8fe37ba",
       "name": "Steel Power",
       "description": "Go ahead and give your Bronze Machines an Steel Upgrade. The Speed is almost 3x faster then Bronze.",
-      "x": 170,
-      "y": 157,
+      "x": 202,
+      "y": 61,
       "icon": {
         "id": "modern_industrialization:steel_cutting_machine",
         "Count": 1
@@ -8660,7 +8671,7 @@
         }
       ],
       "prerequisites": [
-        "a235b5c4-c52a-4ced-8cd3-aa07ad1a6d11"
+        "24b143d2-9640-46a3-b434-8a13becdfa56"
       ],
       "optionlinks": [],
       "reward": [
@@ -8677,48 +8688,11 @@
       "commandrewards": []
     },
     {
-      "uuid": "4d39ae44-402c-4b61-bb37-a07513035abf",
-      "name": "Basic Machine Hull",
-      "description": "The Basic Machine Hull is the core of many LV Machines. Very soon I will be able to build a Turbine to produce Electricity.",
-      "x": 253,
-      "y": 62,
-      "icon": {
-        "id": "modern_industrialization:basic_machine_hull",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "modern_industrialization:basic_machine_hull",
-                "Count": 1
-              },
-              "required": 4
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "08999bb2-3d0d-4de2-9203-c53ef92a1970"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "modern_industrialization:basic_machine_hull",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "dcaf8993-1105-403c-8865-135e16bd658d",
       "name": "Pack and Unpacking",
       "description": "Steel also provides you 2 new Machines. The Packer and Unpacker.\nWhile the Unpacker is dividing Items, the Packer puts them back together.",
-      "x": 246,
-      "y": 186,
+      "x": 265,
+      "y": 63,
       "icon": {
         "id": "modern_industrialization:steel_packer",
         "Count": 1
@@ -8743,7 +8717,7 @@
         }
       ],
       "prerequisites": [
-        "a235b5c4-c52a-4ced-8cd3-aa07ad1a6d11"
+        "24b143d2-9640-46a3-b434-8a13becdfa56"
       ],
       "optionlinks": [],
       "reward": [
@@ -8756,11 +8730,58 @@
       "commandrewards": []
     },
     {
+      "uuid": "105efc4f-ac08-450b-a966-d39446582c68",
+      "name": "Tanks",
+      "description": "Steel Tanks are able to store any kind of fluid in large amounts.",
+      "x": 264,
+      "y": 148,
+      "icon": {
+        "id": "modern_industrialization:steel_tank",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "modern_industrialization:steel_tank",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a235b5c4-c52a-4ced-8cd3-aa07ad1a6d11"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "modern_industrialization:steel_tank",
+          "Count": 1,
+          "tag": {
+            "BlockEntityTag": {
+              "amt": 648000,
+              "fluid": {
+                "fk": {
+                  "fluid": "modern_industrialization:synthetic_oil"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "93ffa9af-8a03-41a6-8480-7b9cb913a729",
       "name": "5x5 to 9x9 Crafting",
       "description": "The Big Bench Theory is finally here! This Mod allows you to start crafting from 5x5 up to 9x9! You will need it for the Crow\u0027s Eye..",
-      "x": 295,
-      "y": 83,
+      "x": 294,
+      "y": 160,
       "icon": {
         "id": "bigbenchtheory:bigger_bench",
         "Count": 1
@@ -8801,8 +8822,8 @@
       "uuid": "b1f0bd4a-bf2f-4cb0-b95c-79401743b023",
       "name": "Steam Buckets",
       "description": "At this point you have no other choice to produce Steam in a Furnace by smelting a Water Bucket.",
-      "x": 69,
-      "y": 153,
+      "x": 61,
+      "y": 126,
       "icon": {
         "id": "modern_industrialization:bucket_steam",
         "Count": 1
@@ -8842,8 +8863,8 @@
       "uuid": "3a5cd4aa-ce9e-4d09-a434-bf9a925d3588",
       "name": "Bronze Pump",
       "description": "Use the Water Pump to pump water in the Bronze Boiler which will explained in the next quest.",
-      "x": 17,
-      "y": 187,
+      "x": 26,
+      "y": 173,
       "icon": {
         "id": "modern_industrialization:bronze_water_pump",
         "Count": 1
@@ -8955,13 +8976,13 @@
       "commandrewards": []
     },
     {
-      "uuid": "7b729b77-9cbe-46e7-a0c8-bcfa3bc9bcc6",
-      "name": "Steel Furnace",
-      "description": "If you are sick or tired of using all your Coal in the Furnaces, you can use a Steel Furnace. It`s using Steam as Fuel, but is rather slow.",
-      "x": 174,
-      "y": 189,
+      "uuid": "aa619299-f1c0-4be7-8c81-ec273c57ec4f",
+      "name": "Item Pipes",
+      "description": "Now sou can craft Steel Gears. You will need these for the construction of item pipes. You can place multiple pipe types in one block.",
+      "x": 203,
+      "y": 148,
       "icon": {
-        "id": "modern_industrialization:steel_furnace",
+        "id": "modern_industrialization:item_pipe",
         "Count": 1
       },
       "tasks": [
@@ -8970,9 +8991,10 @@
           "items": [
             {
               "item": {
-                "id": "modern_industrialization:steel_furnace",
+                "id": "modern_industrialization:item_pipe",
                 "Count": 1
-              }
+              },
+              "required": 32
             }
           ]
         }
@@ -8983,8 +9005,8 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "minecraft:gold_ingot",
-          "Count": 12
+          "id": "modern_industrialization:cyan_item_pipe",
+          "Count": 16
         }
       ],
       "rewardchoice": [],
@@ -8994,8 +9016,8 @@
       "uuid": "24149747-2845-470e-a7c9-f985e66c765b",
       "name": "Compressor",
       "description": "With the Compressor you can press all kind of Items into plates.",
-      "x": 19,
-      "y": 153,
+      "x": 20,
+      "y": 126,
       "icon": {
         "id": "modern_industrialization:bronze_compressor",
         "Count": 1
@@ -9030,8 +9052,9 @@
       "uuid": "08999bb2-3d0d-4de2-9203-c53ef92a1970",
       "name": "Wiremill",
       "description": "Craft a Steam Wiremill. You will need it for a lot of Wires within the next Age!",
-      "x": 253,
+      "x": 196,
       "y": 96,
+      "bigicon": true,
       "icon": {
         "id": "modern_industrialization:steel_wiremill",
         "Count": 1
@@ -9050,8 +9073,8 @@
         }
       ],
       "prerequisites": [
-        "a235b5c4-c52a-4ced-8cd3-aa07ad1a6d11",
-        "ac6448ea-135d-473d-a276-c3cce86e53c2"
+        "ac6448ea-135d-473d-a276-c3cce86e53c2",
+        "24b143d2-9640-46a3-b434-8a13becdfa56"
       ],
       "optionlinks": [],
       "reward": [
@@ -9071,8 +9094,8 @@
       "uuid": "4beb19a0-9a3d-403f-92df-c1f0283e8dfc",
       "name": "Steel",
       "description": "Build a Blast Furnace to get Steel. Check out the Mod Book to know the Shape and all other Details.",
-      "x": 174,
-      "y": 96,
+      "x": 138,
+      "y": 126,
       "icon": {
         "id": "modern_industrialization:steam_blast_furnace",
         "Count": 1
@@ -9119,8 +9142,8 @@
       "uuid": "017a9553-9d79-428b-a386-c4cc016d5d5a",
       "name": "Lubricant",
       "description": "Create Lubricant in the Mixer with Creosote and Redstone.",
-      "x": 50,
-      "y": 46,
+      "x": 51,
+      "y": 12,
       "icon": {
         "id": "modern_industrialization:bucket_lubricant",
         "Count": 1
@@ -9156,8 +9179,8 @@
       "uuid": "c10d17e4-d4d8-44da-8571-9c1d823e529e",
       "name": "Modern Industrialisation",
       "description": "Start by crafting a Forge Hammer.",
-      "x": 102,
-      "y": 185,
+      "x": 99,
+      "y": 145,
       "bigicon": true,
       "icon": {
         "id": "modern_industrialization:forge_hammer",
@@ -9202,8 +9225,8 @@
       "uuid": "468ede06-053a-4559-8a8d-a736ea4fc7b8",
       "name": "Next Gen Tools + Armor",
       "description": "No shame here, but Steel opens up new Tools and Protection again. You might try them out.",
-      "x": 210,
-      "y": 126,
+      "x": 233,
+      "y": 165,
       "icon": {
         "id": "indrev:steel_chestplate",
         "Count": 1,
@@ -9320,8 +9343,8 @@
       "uuid": "822dc5ae-99c1-4a45-9151-b2b2e64d9041",
       "name": "Diamond Funnel",
       "description": "Now you should be able to upgrade to an Diamond Funnel. It will provide you with Lead and Antimony Ores. These materials are required to craft Batteries.",
-      "x": 119,
-      "y": 94,
+      "x": 111,
+      "y": 73,
       "icon": {
         "id": "scf:diamond_funnel",
         "Count": 1
@@ -9361,8 +9384,8 @@
       "uuid": "a235b5c4-c52a-4ced-8cd3-aa07ad1a6d11",
       "name": "Steel me Up!",
       "description": "With Steel avaible now, you are going to become a lot stronger! Well... Maybe. Time to get some.",
-      "x": 210,
-      "y": 157,
+      "x": 233,
+      "y": 126,
       "icon": {
         "id": "modern_industrialization:steel_ingot",
         "Count": 1
@@ -9402,7 +9425,7 @@
       "uuid": "b8204627-bb5e-4f8a-803f-c6033876aef3",
       "name": "Raw Oil",
       "description": "To keep on progressing, you require synthetic Oil. Go ahead and get ur Mixer ready.",
-      "x": 113,
+      "x": 138,
       "y": 12,
       "icon": {
         "id": "modern_industrialization:bucket_raw_synthetic_oil",
@@ -9439,8 +9462,8 @@
       "uuid": "6b46f16c-022b-4216-a018-52e33163cba3",
       "name": "Macerator",
       "description": "Use the Macerator to grind down some Ingots or Jewels into dust.",
-      "x": 92,
-      "y": 116,
+      "x": 111,
+      "y": 105,
       "icon": {
         "id": "modern_industrialization:bronze_macerator",
         "Count": 1
@@ -9519,8 +9542,8 @@
       "uuid": "3f75bb7d-116c-4b58-8783-88bf11cab1ba",
       "name": "Better In- and Outputs",
       "description": "If the Bronze In- or Outputs are to slow for you, just Upgrade those.",
-      "x": 213,
-      "y": 192,
+      "x": 265,
+      "y": 98,
       "icon": {
         "id": "modern_industrialization:steel_fluid_input_hatch",
         "Count": 1
@@ -9557,7 +9580,7 @@
         }
       ],
       "prerequisites": [
-        "a235b5c4-c52a-4ced-8cd3-aa07ad1a6d11"
+        "24b143d2-9640-46a3-b434-8a13becdfa56"
       ],
       "optionlinks": [],
       "reward": [
@@ -9577,11 +9600,52 @@
       "commandrewards": []
     },
     {
+      "uuid": "62395a22-b5d0-4062-928b-31fd3839cb52",
+      "name": "Bronze Machine Casing",
+      "description": "For every Bronze Machine, you will need an Bronze Machine Casing.",
+      "x": 102,
+      "y": 182,
+      "icon": {
+        "id": "modern_industrialization:bronze_machine_casing",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "modern_industrialization:bronze_machine_casing",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c10d17e4-d4d8-44da-8571-9c1d823e529e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "modern_industrialization:bronze_gear",
+          "Count": 1
+        },
+        {
+          "id": "modern_industrialization:bronze_plate",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "ac6448ea-135d-473d-a276-c3cce86e53c2",
       "name": "Syntetic Oil",
       "description": "Produce some Syntetic Oil to get Rubber Sheets.",
-      "x": 212,
-      "y": 96,
+      "x": 161,
+      "y": 99,
       "icon": {
         "id": "modern_industrialization:bucket_synthetic_oil",
         "Count": 1
@@ -9618,9 +9682,8 @@
       "uuid": "06069920-c477-4447-98d6-ae99535e137b",
       "name": "Refined Iron",
       "description": "You can get Refined Iron by smelting Iron Ingots in the Coke Oven. This item will be useful once you\u0027ve finished this capcher.",
-      "x": 171,
-      "y": 47,
-      "bigicon": true,
+      "x": 138,
+      "y": 156,
       "icon": {
         "id": "techreborn:refined_iron_ingot",
         "Count": 1
@@ -9633,7 +9696,8 @@
               "item": {
                 "id": "techreborn:refined_iron_ingot",
                 "Count": 1
-              }
+              },
+              "required": 48
             }
           ]
         }
@@ -9652,11 +9716,48 @@
       "commandrewards": []
     },
     {
+      "uuid": "24b143d2-9640-46a3-b434-8a13becdfa56",
+      "name": "Steel Machines",
+      "description": "You will need an Steel Machine Casing if you plan to upgrade your machines.",
+      "x": 233,
+      "y": 84,
+      "icon": {
+        "id": "modern_industrialization:steel_machine_casing",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "modern_industrialization:steel_machine_casing",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a235b5c4-c52a-4ced-8cd3-aa07ad1a6d11"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "modern_industrialization:steel_tank",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "06ae635d-eabf-46b1-b29e-30e33cee4051",
       "name": "Bronze Boiler",
       "description": "The Mod Modern Industrialization will now accompany you for a while. The first thing you need is a boiler to produce steam.\nYou will need water to produce Steam. So use a Bronze Water Pump or any other water source you like.",
-      "x": 69,
-      "y": 188,
+      "x": 61,
+      "y": 182,
       "icon": {
         "id": "modern_industrialization:bronze_boiler",
         "Count": 1
@@ -9675,7 +9776,7 @@
         }
       ],
       "prerequisites": [
-        "c10d17e4-d4d8-44da-8571-9c1d823e529e"
+        "62395a22-b5d0-4062-928b-31fd3839cb52"
       ],
       "optionlinks": [],
       "reward": [

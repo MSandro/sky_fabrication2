@@ -1,6 +1,6 @@
 name = "Inv View"
 filename = "InvView-1.4.6-1.17.1+.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://edge.forgecdn.net/files/3423/467/InvView-1.4.6-1.17.1+.jar"

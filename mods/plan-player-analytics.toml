@@ -1,6 +1,6 @@
 name = "Plan | Player Analytics"
 filename = "PlanFabric-5.4-dev-build-1555.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://edge.forgecdn.net/files/3630/8/PlanFabric-5.4-dev-build-1555.jar"

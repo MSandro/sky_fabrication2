@@ -5,7 +5,8 @@
 settings.useOriginalRecipeForFilters = true
 events.listen('item.tags', function (event) {
 
- 
+event.get("c:coal_blocks").add('skyutils:charcoal_block')
+
  // Chests
  var charm_chests = [
   "oak",
@@ -39,7 +40,4 @@ be_stuff.forEach(function (item, index) {
   event.get("c:wooden_chests").add("betterend:" + item + "_chest")
   event.get("charm:barrels").add("betterend:" + item + "_barrel")
 });
-
-  // Dank Storage
-  event.get("dankstorage:blacklisted_storage").remove("minecraft:stone")
 });

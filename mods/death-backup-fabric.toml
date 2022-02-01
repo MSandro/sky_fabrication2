@@ -1,6 +1,6 @@
 name = "Death Backup (Fabric)"
 filename = "deathbackup-fabric_1.17.x-1.5.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://edge.forgecdn.net/files/3472/236/deathbackup-fabric_1.17.x-1.5.jar"

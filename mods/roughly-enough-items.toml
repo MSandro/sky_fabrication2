@@ -1,13 +1,13 @@
 name = "Roughly Enough Items Fabric/Forge (REI)"
-filename = "RoughlyEnoughItems-6.3.391.jar"
+filename = "RoughlyEnoughItems-6.4.419.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3612/25/RoughlyEnoughItems-6.3.391.jar"
+url = "https://edge.forgecdn.net/files/3632/917/RoughlyEnoughItems-6.4.419.jar"
 hash-format = "murmur2"
-hash = "3942054131"
+hash = "2911714641"
 
 [update]
 [update.curseforge]
-file-id = 3612025
+file-id = 3632917
 project-id = 310111

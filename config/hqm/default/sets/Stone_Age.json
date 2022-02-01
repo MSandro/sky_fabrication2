@@ -130,8 +130,7 @@
       },
       "tasks": [
         {
-          "type": "CRAFT",
-          "description": "hqm.taskType.detect.title",
+          "type": "DETECT",
           "items": [
             {
               "item": {
@@ -333,8 +332,7 @@
       },
       "tasks": [
         {
-          "type": "CRAFT",
-          "description": "hqm.taskType.detect.title",
+          "type": "DETECT",
           "items": [
             {
               "item": {
@@ -383,8 +381,7 @@
       },
       "tasks": [
         {
-          "type": "CRAFT",
-          "description": "hqm.taskType.detect.title",
+          "type": "DETECT",
           "items": [
             {
               "item": {
@@ -812,7 +809,12 @@
         "afad031a-780a-437b-8661-be8718d64b1b"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "minecraft:milk_bucket",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -980,15 +982,14 @@
       },
       "tasks": [
         {
-          "type": "CRAFT",
-          "description": "hqm.taskType.detect.title",
+          "type": "DETECT",
           "items": [
             {
               "item": {
                 "id": "kibe:diamond_spikes",
                 "Count": 1
               },
-              "required": 18
+              "required": 16
             }
           ]
         }
@@ -1027,10 +1028,11 @@
           "items": [
             {
               "item": {
-                "id": "blockus:charcoal_block",
+                "id": "skyutils:charcoal_block",
                 "Count": 1
               },
-              "required": 64
+              "required": 64,
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -1369,8 +1371,7 @@
       },
       "tasks": [
         {
-          "type": "CRAFT",
-          "description": "hqm.taskType.detect.title",
+          "type": "DETECT",
           "items": [
             {
               "item": {
@@ -1389,7 +1390,7 @@
       "reward": [
         {
           "id": "minecraft:coal_block",
-          "Count": 15
+          "Count": 12
         }
       ],
       "rewardchoice": [],
@@ -1624,7 +1625,7 @@
       "rewardchoice": [
         {
           "id": "minecraft:obsidian",
-          "Count": 8
+          "Count": 4
         },
         {
           "id": "minecraft:gold_nugget",
@@ -1808,8 +1809,7 @@
       },
       "tasks": [
         {
-          "type": "CRAFT",
-          "description": "hqm.taskType.detect.title",
+          "type": "DETECT",
           "items": [
             {
               "item": {
@@ -1892,8 +1892,7 @@
       },
       "tasks": [
         {
-          "type": "CRAFT",
-          "description": "hqm.taskType.detect.title",
+          "type": "DETECT",
           "items": [
             {
               "item": {

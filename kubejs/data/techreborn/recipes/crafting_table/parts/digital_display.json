@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ADA",
+    "DGD",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "tag": "c:aluminum_plates"
+    },
+    "D": {
+      "item": "techreborn:refined_iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "result": {
+    "item": "techreborn:digital_display"
+  }
+}
