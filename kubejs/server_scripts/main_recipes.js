@@ -54,7 +54,8 @@ onEvent('recipes', event => {
     "compress:compressed_netherrack_2",
     "compress:compressed_netherrack_3",
     "compress:compressed_netherrack_4",
-    "compress:compressed_netherrack_5"
+    "compress:compressed_netherrack_5",
+    "compress:bag_with_blaze_rods"
   ]
   DelCompressem.forEach(id => event.remove({output: id}));
 
