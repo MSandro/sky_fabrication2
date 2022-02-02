@@ -86,8 +86,7 @@
       },
       "tasks": [
         {
-          "type": "CRAFT",
-          "description": "hqm.taskType.detect.title",
+          "type": "DETECT",
           "items": [
             {
               "item": {
@@ -423,8 +422,7 @@
       },
       "tasks": [
         {
-          "type": "CRAFT",
-          "description": "hqm.taskType.detect.title",
+          "type": "DETECT",
           "items": [
             {
               "item": {
@@ -506,8 +504,7 @@
       },
       "tasks": [
         {
-          "type": "CRAFT",
-          "description": "hqm.taskType.detect.title",
+          "type": "DETECT",
           "items": [
             {
               "item": {
@@ -890,8 +887,7 @@
       },
       "tasks": [
         {
-          "type": "CRAFT",
-          "description": "hqm.taskType.detect.title",
+          "type": "DETECT",
           "items": [
             {
               "item": {
@@ -928,8 +924,7 @@
       },
       "tasks": [
         {
-          "type": "CRAFT",
-          "description": "hqm.taskType.detect.title",
+          "type": "DETECT",
           "items": [
             {
               "item": {
@@ -1262,8 +1257,7 @@
       },
       "tasks": [
         {
-          "type": "CRAFT",
-          "description": "hqm.taskType.detect.title",
+          "type": "DETECT",
           "items": [
             {
               "item": {
@@ -1373,8 +1367,7 @@
       },
       "tasks": [
         {
-          "type": "CRAFT",
-          "description": "hqm.taskType.detect.title",
+          "type": "DETECT",
           "items": [
             {
               "item": {
@@ -1452,8 +1445,7 @@
       },
       "tasks": [
         {
-          "type": "CRAFT",
-          "description": "hqm.taskType.detect.title",
+          "type": "DETECT",
           "items": [
             {
               "item": {
@@ -1650,8 +1642,7 @@
       },
       "tasks": [
         {
-          "type": "CRAFT",
-          "description": "hqm.taskType.detect.title",
+          "type": "DETECT",
           "items": [
             {
               "item": {
