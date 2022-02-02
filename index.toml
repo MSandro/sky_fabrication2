@@ -2426,7 +2426,7 @@ hash = "2a049e20a5d9a80c6996e719cf07b46f782b82b8d18ebf7ccd4d16c43ada0dbf"
 
 [[files]]
 file = "kubejs/server_scripts/main_recipes.js"
-hash = "72cc4278000553877aeb22a99cc06b0946e185a197a951059a5c5ce10a6d4389"
+hash = "2356ca2520d631139aed9656825f554c0947540058749a7652231ccb704efa42"
 
 [[files]]
 file = "kubejs/server_scripts/recipetypes/blockus/shaped.js"
