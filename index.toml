@@ -674,47 +674,31 @@ hash = "f798337362b400905ea8794e9dd850cdc730c03c5a83cafacbcc6315f5541b97"
 
 [[files]]
 file = "config/hqm/default/sets/Age_of_Storage.json"
-hash = "0e98898c321dc4dd83a22512241b574d937018c6e295a3687970a6d602152369"
+hash = "5749293676a137d764d42d3a37b8e281ec35251fb645b01d8a2f17f4bf769960"
 
 [[files]]
 file = "config/hqm/default/sets/Bronze_Age.json"
-hash = "96b886fc52fa9898e2b342a3bcf44e519f9f25b648786255a2678f35c100d1db"
-
-[[files]]
-file = "config/hqm/default/sets/Electric_Age_-_Power!.json"
-hash = "b2ad691310e05fff582e08c82829835e678c557bcf49cc8455cfb618794f2861"
+hash = "494605843470dd73f2d6eab8dd53a16467e5c6e5fd30b1c7514050560ccfd281"
 
 [[files]]
 file = "config/hqm/default/sets/Electric_Age_-_Power.json"
 hash = "0ab9bb3ed280008d6bf54d57a23ed98edb13398d87c9606a3318979cb7f0a5fa"
 
 [[files]]
-file = "config/hqm/default/sets/It's_Time_for_some_Magic..json"
-hash = "a59b809a1a5776fbdb0bb9771af7f1d451e826d5a4f96b3af4c043cbe64a3edb"
-
-[[files]]
 file = "config/hqm/default/sets/It's_Time_for_some_Magic.json"
 hash = "736bf8db50ef449697220c94fa4e7f2191eb04b37a74c653234659d11b1a3d2a"
 
 [[files]]
-file = "config/hqm/default/sets/Pre-Electricity_Age.json"
-hash = "f4f9ce05c37a258d85e0d7d293a4f570e52928e5476907d7d26df4ed690001b1"
-
-[[files]]
 file = "config/hqm/default/sets/Steam_Age.json"
-hash = "8b311a52daf0381f9fdf102ee4bcbc9e98168da6d554a6db648d2d99c827492f"
+hash = "a8c4094315e24373f3427fe72b86747d354243fbece3c6b603999a8d048d650f"
 
 [[files]]
 file = "config/hqm/default/sets/Stone_Age.json"
-hash = "94fc033d65fa5d8c5c5995be337dcd8924e3050b1401c0cb6b8419fef4fd0f9d"
+hash = "53af05818baba3c1a8247581a1cb6c1f431b3d3bb0c6cf46ad495275953d0805"
 
 [[files]]
 file = "config/hqm/default/sets/The_Beginning.json"
-hash = "8180fe53fd289404b00a2a0f491c33dd8ab6c1cdc3cdf96cd5d9e95b1c50cc05"
-
-[[files]]
-file = "config/hqm/default/sets/Useful_Mods.json"
-hash = "b52bba7f1b0f34586d1e1427d6a10b3c18d4bc27a835c6322dd857c0761d3b07"
+hash = "6e132eb1cc1e0b0f57567ca55921ca56072e774d2295b39e3319c0630456d3dc"
 
 [[files]]
 file = "config/hqm/front.png"
