@@ -1861,6 +1861,14 @@ file = "kubejs/data/minecraft/portals/the_aether-portal.json"
 hash = "d42e057d479a03e22ccfb8177223d8a5d931532c2f15549c8e4be07312c3074c"
 
 [[files]]
+file = "kubejs/data/minecraft/recipes/copper_button.json"
+hash = "482a5782915d5c8ddc5ed0eafa79241c921cbdebe4c6c84193be094e37ff1b1d"
+
+[[files]]
+file = "kubejs/data/minecraft/recipes/sky-island_activator.json"
+hash = "54cead39ac1e6d2d145a6a3862e07927c30b6caabc4a7cca2f06dc6406be45f1"
+
+[[files]]
 file = "kubejs/data/minecraft/recipes/skyutils_charcoal.json"
 hash = "446d9330296dabb433c40e76b20445945816492e1f890be556bd561b68634a52"
 
@@ -1887,10 +1895,6 @@ hash = "23f987297476b8ca625c2c88d083a515c280dbfd9a8b66f3acdf8fe0e85a2b31"
 [[files]]
 file = "kubejs/data/minecraft/recipes/slabs/cobblestone_slabs.json"
 hash = "846e1e1790e7208f6eb0cc1f7822199aeca0fe04d89734e71c860147b63ac377"
-
-[[files]]
-file = "kubejs/data/minecraft/recipes/slabs/copper_button.json"
-hash = "482a5782915d5c8ddc5ed0eafa79241c921cbdebe4c6c84193be094e37ff1b1d"
 
 [[files]]
 file = "kubejs/data/minecraft/recipes/slabs/crimson_slabs.json"
@@ -2539,7 +2543,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-fabric.toml"
-hash = "13ded21b25cdbe8606e5bdc63b9b2e29fa5a47912ae3b1e86cc769c16248e1f1"
+hash = "a500bd1a9efecaa7bfe22f58cae9fec8c0c748560271e6cf884d5200f0007ac8"
 metafile = true
 
 [[files]]
@@ -2604,7 +2608,7 @@ metafile = true
 
 [[files]]
 file = "mods/betteranimalsplus.toml"
-hash = "6b7dac67b57905259104e12fe8eecb0cb56eb06f8c2ef380671ba3925e48a54d"
+hash = "59a90aa01243e5c1206f1c4551cee8a0836b10a2265b147f7ea744e5f2ff9df8"
 metafile = true
 
 [[files]]
@@ -2714,7 +2718,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective-fabric.toml"
-hash = "68b028c5241d7a1939a51a7e86eaf5aab8d6936de7c986ed9e3043ab8488c88f"
+hash = "4a5155fc6f5ff6565029c8dfd20585049d378b3bbcaa639025a01444a8ca9c6a"
 metafile = true
 
 [[files]]
@@ -2805,11 +2809,6 @@ metafile = true
 [[files]]
 file = "mods/dynamic-fps.toml"
 hash = "2d1219abfed5e3f1388b9512d9ed4c441979437d80b652230e79cae3d52aaf10"
-metafile = true
-
-[[files]]
-file = "mods/enchantment-descriptions.toml"
-hash = "0de38a004d9300da6bfc0b06917b0d319c25afc03471a62b5da54c42866be0bd"
 metafile = true
 
 [[files]]
@@ -2909,7 +2908,7 @@ metafile = true
 
 [[files]]
 file = "mods/flan.toml"
-hash = "44020cf4e86205a842bc9cf6e80b63d68344176f918c8792b585dd0cbf7e95b7"
+hash = "a07ba699d1777d797da2fa9e11b67812876fc189adbbadf57da62dd42ea14bd1"
 metafile = true
 
 [[files]]
@@ -2979,7 +2978,7 @@ metafile = true
 
 [[files]]
 file = "mods/hardcore-questing-mode.toml"
-hash = "e9d04e9e8c85f518f29de26747078cf25b5878ae23664814d734e692bfd8bfcc"
+hash = "c0ec05fe2104f45be8a6df8e686dd55bb8e605f9cd2db29c48c76e40fc5aa72c"
 metafile = true
 
 [[files]]
@@ -3284,7 +3283,7 @@ metafile = true
 
 [[files]]
 file = "mods/plan-player-analytics.toml"
-hash = "80d22a79e1f3ebfbccef13dd5dbbf3f0dbf17d68f4dba496119b9f17cd6c3835"
+hash = "67e00210ad3bb0b80319afbc957fbe2d28e5ac000853f90ff29e800b7e14a0cb"
 metafile = true
 
 [[files]]
