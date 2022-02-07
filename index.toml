@@ -2718,7 +2718,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective-fabric.toml"
-hash = "4a5155fc6f5ff6565029c8dfd20585049d378b3bbcaa639025a01444a8ca9c6a"
+hash = "5718b6eef66da62cc5b5dab2e9348504ffa13a4eeee82c4aff19835d8b1dc311"
 metafile = true
 
 [[files]]
@@ -3168,7 +3168,7 @@ metafile = true
 
 [[files]]
 file = "mods/more-tooltips.toml"
-hash = "6dd9aeb6adefe6351fcb9c3ade269c7d9b9b88a856882846daf9b33a2e7fb27c"
+hash = "e30cfcbbd5344f3d07197a68bd8bad1436139e62ce6541aa7a990f541564b098"
 metafile = true
 
 [[files]]
@@ -3368,7 +3368,7 @@ metafile = true
 
 [[files]]
 file = "mods/roughly-enough-items.toml"
-hash = "43523c71048b87f748afa27909cb629f94bd8b2d4b441082d27dca027e1e5456"
+hash = "bba5713cc6c013b39f78c9884f1a4f881992961e40d5d023760d369449de2cc4"
 metafile = true
 
 [[files]]
