@@ -710,9 +710,8 @@
       "uuid": "d4589cff-c624-4d3f-8abf-a7afa8ec8a9d",
       "name": "The End",
       "description": "Search for the end portal by throwing one of these Eye types in the Sky Islands Dimension.\nTo activate the End Portal you have to collect each of them.\nWith 4 End Crystals you can summon the Ender Dragon.",
-      "x": 289,
-      "y": 22,
-      "bigicon": true,
+      "x": 257,
+      "y": 25,
       "icon": {
         "id": "minecraft:end_portal_frame",
         "Count": 1
@@ -878,7 +877,7 @@
       "uuid": "6dca97ac-931e-485f-a2d3-270892184045",
       "name": "Sky Islands",
       "description": "In this Dim you can dicover many Biomes and Strutures. The Portal frame has to be build out of Mossy Glowshroom Caps. The Mossy Glowshroom Sapling can grow on End Moss. To ignite it, right click with the \"\" Item. It\u0027s the Quests reward.",
-      "x": 254,
+      "x": 217,
       "y": 25,
       "icon": {
         "id": "bitsandchisels:bits_block",
@@ -9137,8 +9136,8 @@
         }
       ],
       "prerequisites": [
-        "99e4c0d5-45af-415a-bf80-e961f3185afc",
-        "b0d16e09-2d85-4ca2-86e3-f4e543910adc"
+        "17f62e68-be6d-41ec-a45e-29fa1c431ec7",
+        "7b8297dc-f341-42bd-8dbe-0ee62f0a2d92"
       ],
       "optionlinks": [],
       "reward": [
@@ -9518,7 +9517,7 @@
       "uuid": "b0d16e09-2d85-4ca2-86e3-f4e543910adc",
       "name": "Angel Ring",
       "description": "This Item can grant you creative Flight.",
-      "x": 217,
+      "x": 296,
       "y": 25,
       "icon": {
         "id": "kibe:angel_ring",
@@ -9540,7 +9539,8 @@
         }
       ],
       "prerequisites": [
-        "17f62e68-be6d-41ec-a45e-29fa1c431ec7"
+        "d4589cff-c624-4d3f-8abf-a7afa8ec8a9d",
+        "011de5a3-5017-47dc-bd89-547485ec9d11"
       ],
       "optionlinks": [],
       "reward": [

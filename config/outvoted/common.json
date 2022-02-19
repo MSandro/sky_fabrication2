@@ -49,18 +49,10 @@
     },
     "glare": {
       "spawn": false,
-      "rate": 10,
-      "biomes": [
-        "#taiga",
-        "#jungle",
-        "#plains",
-        "#savanna",
-        "#forest",
-        "#swamp",
-        "#underground"
-      ],
+      "rate": 0,
+      "biomes": [],
       "health": 10.0,
-      "shouldInteract": true,
+      "shouldInteract": false,
       "inventorySize": 32
     }
   },

@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://edge.forgecdn.net/files/3638/575/RoughlyEnoughItems-6.4.426.jar"
-hash-format = "murmur2"
-hash = "4008733095"
+hash-format = "sha1"
+hash = "9f7dce18827adba71659788c688c33f689089ada"
 
 [update]
 [update.curseforge]

@@ -8340,8 +8340,8 @@
       "uuid": "d71d82a9-1aa1-44ee-9331-14f2f1de7b63",
       "name": "Invar",
       "description": "In the Mixer, you can craft Invar now. You will need it to proceed to the Diamond Funnel.",
-      "x": 111,
-      "y": 42,
+      "x": 110,
+      "y": 36,
       "icon": {
         "id": "modern_industrialization:invar_ingot",
         "Count": 1
@@ -8367,7 +8367,86 @@
       "reward": [
         {
           "id": "modern_industrialization:invar_gear",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8481500c-149d-4306-a5d5-aedd59825c1a",
+      "name": "Mixing",
+      "description": "Craft a Mixer. A Mixer is an awesome Item to mix all kind of Fluids together, aswell as Items!",
+      "x": 88,
+      "y": 12,
+      "icon": {
+        "id": "modern_industrialization:bronze_mixer",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "modern_industrialization:bronze_mixer",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1f0bd4a-bf2f-4cb0-b95c-79401743b023"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "modern_industrialization:uncooked_steel_dust",
           "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6534ce15-cae4-434e-9bb1-3d9ac6c8a4ae",
+      "name": "Getting the Drill",
+      "description": "You can use a Bronze or Copper Drill to use the Quarry. Check out the Recipes and usages in REI.",
+      "x": 233,
+      "y": 12,
+      "icon": {
+        "id": "modern_industrialization:copper_drill",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "modern_industrialization:copper_drill",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "modern_industrialization:bronze_drill",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "daf15afd-cd7a-4f8d-a0c3-dc133637b4d0",
+        "c7e52861-59fd-4a6b-88fd-c63ccced6dba"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "modern_industrialization:steel_fluid_input_hatch",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -8422,85 +8501,6 @@
         {
           "id": "the_aether:skyroot_sapling",
           "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "6534ce15-cae4-434e-9bb1-3d9ac6c8a4ae",
-      "name": "Getting the Drill",
-      "description": "You can use a Bronze or Copper Drill to use the Quarry. Check out the Recipes and usages in REI.",
-      "x": 233,
-      "y": 12,
-      "icon": {
-        "id": "modern_industrialization:copper_drill",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "modern_industrialization:copper_drill",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "modern_industrialization:bronze_drill",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "daf15afd-cd7a-4f8d-a0c3-dc133637b4d0",
-        "c7e52861-59fd-4a6b-88fd-c63ccced6dba"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "modern_industrialization:steel_fluid_input_hatch",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "8481500c-149d-4306-a5d5-aedd59825c1a",
-      "name": "Mixing",
-      "description": "Craft a Mixer. A Mixer is an awesome Item to mix all kind of Fluids together, aswell as Items!",
-      "x": 88,
-      "y": 12,
-      "icon": {
-        "id": "modern_industrialization:bronze_mixer",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "modern_industrialization:bronze_mixer",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "b1f0bd4a-bf2f-4cb0-b95c-79401743b023"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "modern_industrialization:uncooked_steel_dust",
-          "Count": 2
         }
       ],
       "rewardchoice": [],
@@ -8759,18 +8759,8 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "modern_industrialization:steel_tank",
-          "Count": 1,
-          "tag": {
-            "BlockEntityTag": {
-              "amt": 648000,
-              "fluid": {
-                "fk": {
-                  "fluid": "modern_industrialization:synthetic_oil"
-                }
-              }
-            }
-          }
+          "id": "modern_industrialization:bronze_tank",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -8782,27 +8772,10 @@
       "description": "The Big Bench Theory is finally here! This Mod allows you to start crafting from 5x5 up to 9x9! You will need it for the Crow\u0027s Eye..",
       "x": 294,
       "y": 160,
-      "icon": {
-        "id": "bigbenchtheory:bigger_bench",
-        "Count": 1
-      },
       "tasks": [
         {
           "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "bigbenchtheory:big_bench",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "bigbenchtheory:bigger_bench",
-                "Count": 1
-              }
-            }
-          ]
+          "items": []
         }
       ],
       "prerequisites": [
@@ -8978,7 +8951,7 @@
     {
       "uuid": "aa619299-f1c0-4be7-8c81-ec273c57ec4f",
       "name": "Item Pipes",
-      "description": "Now sou can craft Steel Gears. You will need these for the construction of item pipes. You can place multiple pipe types in one block.",
+      "description": "Now you can craft Steel Gears. You will need these for the construction of Item Pipes. You can place multiple Pipe types in one block.",
       "x": 203,
       "y": 148,
       "icon": {
@@ -8994,7 +8967,7 @@
                 "id": "modern_industrialization:item_pipe",
                 "Count": 1
               },
-              "required": 32
+              "required": 24
             }
           ]
         }
@@ -9006,7 +8979,7 @@
       "reward": [
         {
           "id": "modern_industrialization:cyan_item_pipe",
-          "Count": 16
+          "Count": 4
         }
       ],
       "rewardchoice": [],
@@ -9343,8 +9316,9 @@
       "uuid": "822dc5ae-99c1-4a45-9151-b2b2e64d9041",
       "name": "Diamond Funnel",
       "description": "Now you should be able to upgrade to an Diamond Funnel. It will provide you with Lead and Antimony Ores. These materials are required to craft Batteries.",
-      "x": 111,
-      "y": 73,
+      "x": 107,
+      "y": 67,
+      "bigicon": true,
       "icon": {
         "id": "scf:diamond_funnel",
         "Count": 1
@@ -9364,7 +9338,8 @@
       ],
       "prerequisites": [
         "6b46f16c-022b-4216-a018-52e33163cba3",
-        "d71d82a9-1aa1-44ee-9331-14f2f1de7b63"
+        "d71d82a9-1aa1-44ee-9331-14f2f1de7b63",
+        "4beb19a0-9a3d-403f-92df-c1f0283e8dfc"
       ],
       "optionlinks": [],
       "reward": [
@@ -9462,8 +9437,8 @@
       "uuid": "6b46f16c-022b-4216-a018-52e33163cba3",
       "name": "Macerator",
       "description": "Use the Macerator to grind down some Ingots or Jewels into dust.",
-      "x": 111,
-      "y": 105,
+      "x": 86,
+      "y": 99,
       "icon": {
         "id": "modern_industrialization:bronze_macerator",
         "Count": 1
@@ -9634,7 +9609,7 @@
         },
         {
           "id": "modern_industrialization:bronze_plate",
-          "Count": 8
+          "Count": 2
         }
       ],
       "rewardchoice": [],

@@ -1,0 +1,13 @@
+name = "Croptopia [FABRIC/FORGE]"
+filename = "Croptopia-1.17.1-FABRIC-1.7.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3534/385/Croptopia-1.17.1-FABRIC-1.7.0.jar"
+hash-format = "murmur2"
+hash = "1588054813"
+
+[update]
+[update.curseforge]
+file-id = 3534385
+project-id = 415438

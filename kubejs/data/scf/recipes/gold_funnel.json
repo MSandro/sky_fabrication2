@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "group": "funnels",
   "pattern": [
-    "CPC",
+    "PXP",
     "CSC",
     "EEE"
   ],
@@ -18,6 +18,9 @@
     },
     "P": {
       "item": "minecraft:ender_eye"
+    },
+    "X": {
+      "item": "compress:compressed_gold_block_1"
     }
   },
   "result": {

@@ -7,15 +7,14 @@
     "CGC"
   ],
   "key": {
-
     "S": {
       "item": "scf:gold_funnel"
     },
     "C": {
-      "item": "minecraft:diamond_block"
+      "item": "minecraft:diamond"
     },
     "X": {
-      "item": "lifts:diamond_structure"
+      "item": "modern_industrialization:steel_gear"
     },
     "G": {
       "item": "modern_industrialization:invar_rotary_blade"

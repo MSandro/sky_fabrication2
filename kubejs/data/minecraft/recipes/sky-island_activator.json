@@ -1,5 +1,5 @@
 {
-  "type": "bigbenchtheory:crafting_shaped",
+  "type": "artis:big_bench_shaped",
   "pattern": [
     "ABCDA",
     "AEFGA",
@@ -48,7 +48,7 @@
       "item": "minecraft:deepslate_lapis_ore"
     },
     "N": {
-      "item": "resourceful_tools:dirt_triple"
+      "item": "compress:compressed_dirt_3"
     },
     "O": {
       "item": "minecraft:tuff"

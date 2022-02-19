@@ -10,7 +10,7 @@
       "item": "minecraft:ender_eye"
     },
     "G": {
-      "item": "minecraft:gold_block"
+      "item": "compress:compressed_gold_block_1"
     },
     "O": {
       "item": "minecraft:diamond_block"

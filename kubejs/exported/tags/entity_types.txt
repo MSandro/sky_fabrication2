@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Jul 17, 2021, 5:22:44 PM
+To refresh this file, delete it and run /reload command again! Last updated: Feb 14, 2022, 2:24:46 PM
 
 #minecraft:axolotl_always_hostiles
 - minecraft:drowned
@@ -11,59 +11,39 @@ To refresh this file, delete it and run /reload command again! Last updated: Jul
 - minecraft:snow_golem
 - minecraft:wither
 
+#the_aether:condition_immunities/venom
+- the_aether:cockatrice
+- the_aether:aechor_plant
+- the_aether:purple_swet
+
 #dml-refabricated:end_mobs
 - minecraft:enderman
 - minecraft:shulker
 - minecraft:endermite
 
-#waila:blacklist
-- minecraft:experience_orb
-- minecraft:area_effect_cloud
+#botania:cocoon/common
+- minecraft:pig
+- minecraft:cow
+- minecraft:chicken
+- minecraft:rabbit
+- minecraft:sheep
 
-#minecraft:impact_projectiles
-- #minecraft:arrows
-- minecraft:snowball
-- minecraft:fireball
-- minecraft:small_fireball
-- minecraft:egg
-- minecraft:trident
-- minecraft:dragon_fireball
-- minecraft:wither_skull
+#c:pollen
+- the_bumblezone:pollen_puff
 
-#minecraft:beehive_inhabitors
+#the_bumblezone:pollen_puff_can_pollinate
 - minecraft:bee
 
-#minecraft:skeletons
-- minecraft:skeleton
-- minecraft:stray
-- minecraft:wither_skeleton
+#the_aether:condition_immunities/abstentine_toxicity
+- the_aether:cockatrice
+- the_aether:aechor_plant
+- the_aether:purple_swet
 
-#dml-refabricated:skeleton_mobs
-- minecraft:skeleton
-- minecraft:wither_skeleton
-- minecraft:stray
+#botania:cocoon/rare_aquatic
+- minecraft:dolphin
 
-#dml-refabricated:ocean_mobs
-- minecraft:guardian
-- minecraft:drowned
-
-#minecraft:arrows
-- minecraft:arrow
-- minecraft:spectral_arrow
-
-#dml-refabricated:overworld_mobs
-- minecraft:creeper
-- minecraft:enderman
-- minecraft:skeleton
-- minecraft:zombie
-- minecraft:zombie_villager
-- minecraft:witch
-- minecraft:spider
-
-#minecraft:freeze_hurts_extra_types
-- minecraft:strider
-- minecraft:blaze
-- minecraft:magma_cube
+#requiem:golems
+- bewitchment:demon
 
 #dml-refabricated:zombie_mobs
 - minecraft:zombie
@@ -79,9 +59,33 @@ To refresh this file, delete it and run /reload command again! Last updated: Jul
 - minecraft:ravager
 - minecraft:vindicator
 
-#dml-refabricated:slimy_mobs
-- minecraft:slime
-- minecraft:magma_cube
+#botania:cocoon/rare
+- minecraft:horse
+- minecraft:donkey
+- minecraft:wolf
+- minecraft:ocelot
+- minecraft:cat
+- minecraft:parrot
+- minecraft:llama
+- minecraft:fox
+- minecraft:panda
+- minecraft:turtle
+- quark:frog?
+
+#requiem:possession_blacklist
+- bewitchment:leonard
+- bewitchment:baphomet
+- bewitchment:lilith
+- bewitchment:herne
+
+#c:bosses
+- minecraft:ender_dragon
+- minecraft:wither
+- bewitchment:leonard
+- bewitchment:baphomet
+- bewitchment:lilith
+- bewitchment:herne
+- botania:doppleganger
 
 #dml-refabricated:nether_mobs
 - minecraft:wither_skeleton
@@ -92,6 +96,30 @@ To refresh this file, delete it and run /reload command again! Last updated: Jul
 - minecraft:zoglin
 - minecraft:piglin
 - minecraft:zombified_piglin
+
+#farmersdelight:horse_feed_users
+- minecraft:horse
+- minecraft:skeleton_horse
+- minecraft:zombie_horse
+- minecraft:donkey
+- minecraft:mule
+- minecraft:llama
+
+#botania:shaded_mesa_blacklist
+- minecraft:ender_dragon
+- minecraft:wither
+- minecraft:item_frame
+- minecraft:end_crystal
+- minecraft:painting
+- botania:corporea_spark
+- botania:doppleganger
+- botania:flame_ring
+- botania:magic_landmine
+- botania:magic_missile
+- botania:mana_burst
+- botania:pink_wither
+- botania:spark
+- botania:player_mover
 
 #minecraft:raiders
 - minecraft:evoker
@@ -107,11 +135,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jul
 - minecraft:silverfish
 - minecraft:fox
 
-#dml-refabricated:ghost_mobs
-- minecraft:ghast
-- minecraft:phantom
-- minecraft:vex
-
 #minecraft:axolotl_hunt_targets
 - minecraft:tropical_fish
 - minecraft:pufferfish
@@ -119,3 +142,202 @@ To refresh this file, delete it and run /reload command again! Last updated: Jul
 - minecraft:cod
 - minecraft:squid
 - minecraft:glow_squid
+
+#the_aether:swet_transformers/blue
+
+#farmersdelight:dog_food_users
+- minecraft:wolf
+
+#requiem:humans
+- bewitchment:vampire
+- bewitchment:werewolf
+
+#botania:cocoon/common_aquatic
+- minecraft:cod
+- minecraft:salmon
+- minecraft:tropical_fish
+- minecraft:pufferfish
+- minecraft:squid
+- quark:crab?
+
+#dragons:alive
+- minecraft:bat
+- minecraft:bee
+- minecraft:blaze
+- minecraft:cat
+- minecraft:cave_spider
+- minecraft:chicken
+- minecraft:cod
+- minecraft:cow
+- minecraft:creeper
+- minecraft:dolphin
+- minecraft:donkey
+- minecraft:elder_guardian
+- minecraft:enderman
+- minecraft:endermite
+- minecraft:evoker
+- minecraft:fox
+- minecraft:ghast
+- minecraft:giant
+- minecraft:guardian
+- minecraft:hoglin
+- minecraft:horse
+- minecraft:illusioner
+- minecraft:iron_golem
+- minecraft:llama
+- minecraft:magma_cube
+- minecraft:mooshroom
+- minecraft:mule
+- minecraft:ocelot
+- minecraft:panda
+- minecraft:parrot
+- minecraft:pig
+- minecraft:piglin
+- minecraft:piglin_brute
+- minecraft:pillager
+- minecraft:polar_bear
+- minecraft:pufferfish
+- minecraft:rabbit
+- minecraft:ravager
+- minecraft:salmon
+- minecraft:sheep
+- minecraft:shulker
+- minecraft:silverfish
+- minecraft:slime
+- minecraft:snow_golem
+- minecraft:spider
+- minecraft:squid
+- minecraft:trader_llama
+- minecraft:strider
+- minecraft:tropical_fish
+- minecraft:turtle
+- minecraft:vex
+- minecraft:villager
+- minecraft:vindicator
+- minecraft:wandering_trader
+- minecraft:wolf
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+- the_bumblezone:pollen_puff
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+
+#the_aether:swet_transformers/transformers
+- #the_aether:swet_transformers/blue
+- #the_aether:swet_transformers/golden
+- #the_aether:swet_transformers/purple
+- #the_aether:swet_transformers/vermilion
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+
+#dml-refabricated:skeleton_mobs
+- minecraft:skeleton
+- minecraft:wither_skeleton
+- minecraft:stray
+
+#the_aether:swet_transformers/golden
+
+#dml-refabricated:ocean_mobs
+- minecraft:guardian
+- minecraft:drowned
+
+#bewitchment:encounter_fortune
+- minecraft:husk
+- minecraft:stray
+- minecraft:witch
+- minecraft:vindicator
+- minecraft:blaze
+- bewitchment:hellhound
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+- bewitchment:silver_arrow
+
+#bewitchment:taglock_blacklist
+- #c:bosses
+
+#dml-refabricated:overworld_mobs
+- minecraft:creeper
+- minecraft:enderman
+- minecraft:skeleton
+- minecraft:zombie
+- minecraft:zombie_villager
+- minecraft:witch
+- minecraft:spider
+
+#minecraft:freeze_hurts_extra_types
+- minecraft:strider
+- minecraft:blaze
+- minecraft:magma_cube
+
+#bewitchment:insanity_blacklist
+- minecraft:creeper
+- minecraft:witch
+- minecraft:ravager
+
+#tradingpost:blacklisted_traders
+
+#dml-refabricated:slimy_mobs
+- minecraft:slime
+- minecraft:magma_cube
+
+#the_aether:swet_transformers/vermilion
+- minecraft:magma_cube
+
+#the_aether:swets
+- the_aether:white_swet
+- the_aether:blue_swet
+- the_aether:purple_swet
+- the_aether:golden_swet
+
+#the_aether:swet_transformers/purple
+- the_aether:cockatrice
+- the_aether:aechor_plant
+
+#the_bumblezone:blacklisted_resourceful_bees_entities
+
+#dragons:undead
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+- minecraft:zombie
+- minecraft:drowned
+- minecraft:husk
+- minecraft:zombified_piglin
+- minecraft:zombie_villager
+- minecraft:phantom
+- minecraft:wither
+- minecraft:skeleton_horse
+- minecraft:zombie_horse
+- minecraft:zoglin
+
+#bewitchment:has_blood
+- minecraft:player
+- minecraft:villager
+- minecraft:wandering_trader
+- minecraft:witch
+- minecraft:pillager
+- minecraft:vindicator
+- minecraft:evoker
+- minecraft:illusioner
+- minecraft:piglin
+- minecraft:piglin_brute
+- bewitchment:vampire
+
+#dml-refabricated:ghost_mobs
+- minecraft:ghast
+- minecraft:phantom
+- minecraft:vex

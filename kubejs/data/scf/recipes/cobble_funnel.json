@@ -2,27 +2,25 @@
   "type": "minecraft:crafting_shaped",
   "group": "funnels",
   "pattern": [
-    "CPC",
-    "CSC",
-    "CGC"
+    "XPX",
+    "XSX",
+    "XGX"
   ],
   "key": {
-
     "S": {
       "item": "simple_pipes:pipe_stone_item"
-    },
-    "C": {
-      "item": "minecraft:cobblestone"
     },
     "G": {
       "item": "minecraft:glass"
     },
     "P": {
       "item": "minecraft:gunpowder"
+    },
+    "X": {
+      "item": "compress:compressed_cobblestone_1"
     }
   },
   "result": {
-    "item": "scf:cobblestone_funnel",
-    "count": 1
+    "item": "scf:cobblestone_funnel"
   }
 }

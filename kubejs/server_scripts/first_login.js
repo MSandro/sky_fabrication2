@@ -7,17 +7,21 @@ events.listen('player.inventory.changed', function (event) {
   if (!event.player.getTags().contains('first_login'))
   {
     // Add the gamestage
-	event.player.getTags().add('first_login');
-	
+	  event.player.getTags().add('first_login');
     // Run Commands
-	event.server.schedule(1, event.server, function (callback) { 
-		callback.server.runCommandSilent(`locki lock inventory ${event.player.name}`);
-		callback.server.runCommandSilent(`locki unlock inventory.hands.main_hand ${event.player.name}`);
-		callback.server.runCommandSilent(`item replace entity ${event.player.name} container.0 with hardcorequesting:quest_book`);
-		event.player.tell(firstJoinMessage);
-	})	
+	  event.server.schedule(2, event.server, function (callback) {
+		  callback.server.runCommandSilent(`locki lock inventory ${event.player.name}`);
+		  callback.server.runCommandSilent(`locki unlock inventory.hands.main_hand ${event.player.name}`);
+		  callback.server.runCommandSilent(`item replace entity ${event.player.name} container.0 with hardcorequesting:quest_book`);
+		  callback.server.runCommandSilent(`item replace entity ${event.player.name} container.1 with air`);
+      if (event.server.isDedicated()) {
+        callback.server.runCommandSilent('item replace entity '+event.player.name+' container.7 with minecraft:golden_shovel{display:{Name:"{\\"text\\":\\"Claim-Selector\\"}",Lore:["\\"use /flan for help\\""]}}');
+  		}
+      callback.server.runCommandSilent(`item replace entity ${event.player.name} container.8 with minecraft:oak_sapling`);
+		  event.player.tell(firstJoinMessage);
+	  })
   }
-  event.server.schedule(1, event.server, function (callback) { 
+  event.server.schedule(1, event.server, function (callback) {
 		callback.server.runCommandSilent(`scale set 0.912871 ${event.player.name}`);
   })
 })

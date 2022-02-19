@@ -46,11 +46,11 @@ const MATERIALS = [
 ];
 // Order of mods to unify
 const UNIFICATION_ORDER = [
-    "modern_industrialization",
-    "indrev",
-    "techreborn",
-    "charm",
-    "appliedenergistics2",
+  "modern_industrialization",
+  "indrev",
+  "techreborn",
+  "charm",
+  "appliedenergistics2",
 	"workings",
 	"agape_space",
 	"resourceful_tools",
@@ -189,7 +189,7 @@ events.listen("recipes", event => {
             }
         });
     }
-    
+
     // TR recipes
     autoremove("techreborn:{}_storage_block", "techreborn:crafting_table/storage_block/{}_storage_block");
     autoremove("techreborn:{}_block", "techreborn:crafting_table/ingot/{}_ingot_from_block");
@@ -228,7 +228,7 @@ events.listen("recipes", event => {
     autoremove("indrev:raw_{}", "indrev:blasting/{}_ingot_from_raw_ores");
     autoremove("indrev:{}_ore", "indrev:blasting/{}_ingot_from_ore");
     autoremove("indrev:{}_dust", "indrev:blasting/{}_ingot_from_smelting");
-    
+
     // Charm
     autoremove("charm:extra_nuggets/{}_ingot_from_nuggets");
     autoremove("charm:extra_nuggets/{}_nuggets_from_ingot");

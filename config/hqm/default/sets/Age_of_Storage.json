@@ -41,8 +41,8 @@
       "uuid": "79242b9f-27b0-40da-aeb7-c93a796b05b2",
       "name": "Patter me around",
       "description": "There are Blank Patterns in AE2 aswell. These are the Items where you save the \"Recipes\" to used in Autocrafting.",
-      "x": 190,
-      "y": 189,
+      "x": 179,
+      "y": 155,
       "icon": {
         "id": "appliedenergistics2:blank_pattern",
         "Count": 1
@@ -182,8 +182,8 @@
       "uuid": "037a6501-2c67-47b2-b9ab-73cfe1cc6d01",
       "name": "Import/Export",
       "description": "You can interact with the network with Import and Export Buses. But there are more.",
-      "x": 187,
-      "y": 10,
+      "x": 229,
+      "y": 11,
       "icon": {
         "id": "appliedenergistics2:item_import_bus",
         "Count": 1
@@ -224,8 +224,7 @@
         }
       ],
       "prerequisites": [
-        "5d95388c-b556-4cf7-9ba6-68bd017a893d",
-        "2dd52a99-9b98-439f-bda3-26d30de1f353"
+        "5d95388c-b556-4cf7-9ba6-68bd017a893d"
       ],
       "optionlinks": [],
       "reward": [
@@ -242,7 +241,7 @@
       "name": "Inscriber",
       "description": "The Inscriber is a machine which allows you to craft Processors. To be able to do this, you need some Inscriber Presses first.",
       "x": 229,
-      "y": 10,
+      "y": 188,
       "icon": {
         "id": "appliedenergistics2:logic_processor_press",
         "Count": 1
@@ -286,7 +285,7 @@
         }
       ],
       "prerequisites": [
-        "5d95388c-b556-4cf7-9ba6-68bd017a893d"
+        "f6b58308-b9d9-4fb0-b0de-6902b1e2acb8"
       ],
       "optionlinks": [],
       "reward": [
@@ -378,8 +377,8 @@
       "uuid": "e8a03918-4353-4b9b-bfe6-94babc3c675c",
       "name": "ME Controller",
       "description": "The ME Controller is the Core of your Storage Network. Each Side supports 32 connections.",
-      "x": 298,
-      "y": 10,
+      "x": 275,
+      "y": 12,
       "icon": {
         "id": "appliedenergistics2:controller",
         "Count": 1
@@ -398,7 +397,7 @@
         }
       ],
       "prerequisites": [
-        "5d95388c-b556-4cf7-9ba6-68bd017a893d"
+        "831501cb-26a9-4fac-aa7e-15ef9fab1115"
       ],
       "optionlinks": [],
       "reward": [
@@ -552,8 +551,8 @@
       "uuid": "f6b58308-b9d9-4fb0-b0de-6902b1e2acb8",
       "name": "AE2 Quartz",
       "description": "In this Mod you will pretty much need Quartz for everything. Nether Quartz isn`t enough anymore. You can find it in the the Sky Island Dimension.",
-      "x": 226,
-      "y": 144,
+      "x": 266,
+      "y": 185,
       "bigicon": true,
       "icon": {
         "id": "appliedenergistics2:certus_quartz_dust",
@@ -598,7 +597,7 @@
       "name": "Need Energy?",
       "description": "AE2 has a different kind of Energy input. Usally it worked together with RF. Since we use a lot of MI Power, you might need a Converter and some Battery.",
       "x": 298,
-      "y": 52,
+      "y": 48,
       "icon": {
         "id": "appliedenergistics2:energy_acceptor",
         "Count": 1
@@ -632,8 +631,7 @@
         }
       ],
       "prerequisites": [
-        "5d95388c-b556-4cf7-9ba6-68bd017a893d",
-        "e8a03918-4353-4b9b-bfe6-94babc3c675c"
+        "5d95388c-b556-4cf7-9ba6-68bd017a893d"
       ],
       "optionlinks": [],
       "reward": [
@@ -689,8 +687,8 @@
       "uuid": "b44221fe-5abf-41aa-8638-930e658d4d89",
       "name": "Terminals",
       "description": "With Terminals you can acces your ME-System and craft within it.",
-      "x": 174,
-      "y": 124,
+      "x": 178,
+      "y": 51,
       "icon": {
         "id": "appliedenergistics2:crafting_terminal",
         "Count": 1
@@ -727,8 +725,7 @@
         }
       ],
       "prerequisites": [
-        "5d95388c-b556-4cf7-9ba6-68bd017a893d",
-        "dcab49af-a9da-4f05-99aa-18be4021a470"
+        "5d95388c-b556-4cf7-9ba6-68bd017a893d"
       ],
       "optionlinks": [],
       "reward": [
@@ -744,8 +741,8 @@
       "uuid": "6f427e4b-aeae-40fb-8e72-73d42b56ba70",
       "name": "Auto-Crafting",
       "description": "With the ME System you can start Auto-Crafting. You need Crafting Storages aswell as an Assembler and Interface to work.",
-      "x": 190,
-      "y": 156,
+      "x": 179,
+      "y": 118,
       "icon": {
         "id": "appliedenergistics2:1k_crafting_storage",
         "Count": 1
@@ -833,8 +830,8 @@
       "uuid": "dcab49af-a9da-4f05-99aa-18be4021a470",
       "name": "Wireless Access",
       "description": "You can acces the network with a Wireless Terminal.",
-      "x": 174,
-      "y": 82,
+      "x": 198,
+      "y": 16,
       "icon": {
         "id": "ae2wtlib:wireless_crafting_terminal",
         "Count": 1,
@@ -956,8 +953,8 @@
       "uuid": "4a0afe1a-17f2-47e5-9d96-ed2a559c2145",
       "name": "Fluix Crystals",
       "description": "To get Fluix Dust, you have to drop Nether Quartz, Redstone and Charged Certus Quartz in water to get Fluix Dust. Proceed those into Seeds and Crystals.",
-      "x": 266,
-      "y": 147,
+      "x": 229,
+      "y": 114,
       "icon": {
         "id": "appliedenergistics2:fluix_crystal_seed",
         "Count": 1
@@ -998,8 +995,7 @@
         }
       ],
       "prerequisites": [
-        "f6b58308-b9d9-4fb0-b0de-6902b1e2acb8",
-        "6d2d4808-6cfa-476d-a568-18d7408eb2fd"
+        "6fedf053-45a1-464d-baf7-9ce2897b0687"
       ],
       "optionlinks": [],
       "reward": [
@@ -1151,7 +1147,7 @@
         }
       ],
       "prerequisites": [
-        "f6b58308-b9d9-4fb0-b0de-6902b1e2acb8"
+        "4a0afe1a-17f2-47e5-9d96-ed2a559c2145"
       ],
       "optionlinks": [],
       "reward": [
@@ -1396,8 +1392,8 @@
       "uuid": "831501cb-26a9-4fac-aa7e-15ef9fab1115",
       "name": "Sky Stone",
       "description": "You can travel around the Starry Skies Dim to find a Sky Stone Sphere. This Material is useful to start with AE2.",
-      "x": 266,
-      "y": 10,
+      "x": 253,
+      "y": 42,
       "icon": {
         "id": "appliedenergistics2:sky_stone_block",
         "Count": 1
@@ -1417,7 +1413,7 @@
         }
       ],
       "prerequisites": [
-        "e8a03918-4353-4b9b-bfe6-94babc3c675c"
+        "5d95388c-b556-4cf7-9ba6-68bd017a893d"
       ],
       "optionlinks": [],
       "reward": [
@@ -1543,7 +1539,7 @@
       "name": "Charge me, please",
       "description": "Charged Certus Quartz is pretty rare. You can use normal Certus Quartz and drop it into a powered Charger. Of course, you need a Charger first.",
       "x": 229,
-      "y": 191,
+      "y": 149,
       "icon": {
         "id": "appliedenergistics2:charger",
         "Count": 1
@@ -1570,7 +1566,7 @@
         }
       ],
       "prerequisites": [
-        "f6b58308-b9d9-4fb0-b0de-6902b1e2acb8"
+        "2dd52a99-9b98-439f-bda3-26d30de1f353"
       ],
       "optionlinks": [],
       "reward": [
@@ -1586,8 +1582,8 @@
       "uuid": "2921ea7f-0db8-49cc-a1f9-867cc493cbc7",
       "name": "Cover ur Cables",
       "description": "Within AE2 there are Cover Facades. You can simply craft almost any Cover Design if you use 4 Anchors together in a 3x3 Grid or higher. Check out the usages for \"Sky Stone Block\" Page 3.",
-      "x": 172,
-      "y": 40,
+      "x": 176,
+      "y": 82,
       "icon": {
         "id": "appliedenergistics2:cable_anchor",
         "Count": 1
@@ -1701,8 +1697,8 @@
       "uuid": "6d2d4808-6cfa-476d-a568-18d7408eb2fd",
       "name": "Speed my growth up",
       "description": "With AE2 you are forced to go for Seed breeding. You need some (5 work at max) Crystal Growth Accelerators. Each of them speeds up the Growth a lot. Place 4 around a Water source (middle Spot). Then drop it in.",
-      "x": 247,
-      "y": 115,
+      "x": 271,
+      "y": 126,
       "icon": {
         "id": "appliedenergistics2:quartz_growth_accelerator",
         "Count": 1
