@@ -34,7 +34,7 @@ hash = "95cac9879bf8f705f744153532498ab09de472e9166c6146ca0180d9e7a875cb"
 
 [[files]]
 file = "config/SCF/ores.acfg"
-hash = "e706474ea15c3d523d8a972927e2d110cf31b7725e8480ffa35a8125cfa4e788"
+hash = "8471ea2e66de76abd14b47589c1b6ecac7ea7b467cbb380e312f84ff49f62d8d"
 
 [[files]]
 file = "config/StarrySky.json5"
