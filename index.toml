@@ -2643,8 +2643,9 @@ hash = "a500bd1a9efecaa7bfe22f58cae9fec8c0c748560271e6cf884d5200f0007ac8"
 metafile = true
 
 [[files]]
-file = "mods/artis-recrafted-2.1.1+1.17.1.jar"
-hash = "c6920621d09911be571a46b0b702e520343e97758549104295e3c4858dd6dec7"
+file = "mods/arrp.toml"
+hash = "34d2af081646852e3debde4208621cf0643f05d1ba06a82b95fcc4d20adb41f4"
+metafile = true
 
 [[files]]
 file = "mods/artis-recrafted.toml"
