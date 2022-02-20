@@ -2648,8 +2648,9 @@ hash = "34d2af081646852e3debde4208621cf0643f05d1ba06a82b95fcc4d20adb41f4"
 metafile = true
 
 [[files]]
-file = "mods/artis-recrafted-2.1.1+1.17.1.jar"
-hash = "c6920621d09911be571a46b0b702e520343e97758549104295e3c4858dd6dec7"
+file = "mods/artis-recrafted.toml"
+hash = "ea54b179080401f582c6f70961d2fff7f609e43a6e08946ca79e41f1fa389232"
+metafile = true
 
 [[files]]
 file = "mods/audio-output.toml"
