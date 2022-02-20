@@ -2678,11 +2678,6 @@ hash = "2cb2eca45cc055124cc0385d29ab45ee53ffeb04ee9d2db31edd2344e2e0815d"
 metafile = true
 
 [[files]]
-file = "mods/awoken-world-fabric.toml"
-hash = "e94106876c50dc73d8f39f4439718603a24c2008c62e62d218c5c28e3b196f74"
-metafile = true
-
-[[files]]
 file = "mods/badstdout.toml"
 hash = "5409e4d95bc1dfa3d007ae612068ed30df5e9acefe4b88836bd90c94f61e0715"
 metafile = true
