@@ -1,13 +1,13 @@
 name = "More Tooltips"
-filename = "%5B1.17.1%5DMoreTooltips-1.0.3.jar"
-side = "client"
+filename = "MoreTooltips-1.0.2.jar"
+side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3638/621/%5B1.17.1%5DMoreTooltips-1.0.3.jar"
-hash-format = "murmur2"
-hash = "3487159558"
+url = "https://edge.forgecdn.net/files/3422/939/%5B1.17.1%5D%20MoreTooltips-1.0.2.jar"
+hash-format = "sha1"
+hash = "3abaa227802c610dc8cea1ed08594f812668d800"
 
 [update]
 [update.curseforge]
-file-id = 3638621
+file-id = 3422939
 project-id = 421949

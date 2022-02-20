@@ -141,6 +141,43 @@
       "commandrewards": []
     },
     {
+      "uuid": "080861f0-908e-499f-a66d-7d6de5771fd6",
+      "name": "Multiplying Dirt",
+      "description": "You can craft Coarse Dirt with Dirt and Gravel to multiply your dirt. By using a hoe on it you can convert it back to dirt. Currently it doesn\u0027t make much sense, but once your Cobblestone Generator is ready, this Info could be helpful.",
+      "x": 237,
+      "y": 56,
+      "icon": {
+        "id": "minecraft:dirt",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:coarse_dirt",
+                "Count": 1
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6cfead65-22e2-46ca-98a6-57f47e9591dd"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:gravel",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "1a0d6aff-f6b7-4737-a4e2-ecc47a46799a",
       "name": "Animals",
       "description": "Start to build a large area with grass blocks, to have some animals. You should start breeding animals early.",
@@ -184,43 +221,6 @@
           "Count": 8
         }
       ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "080861f0-908e-499f-a66d-7d6de5771fd6",
-      "name": "Multiplying Dirt",
-      "description": "You can craft Coarse Dirt with Dirt and Gravel to multiply your dirt. By using a hoe on it you can convert it back to dirt. Currently it doesn\u0027t make much sense, but once your Cobblestone Generator is ready, this Info could be helpful.",
-      "x": 237,
-      "y": 56,
-      "icon": {
-        "id": "minecraft:dirt",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:coarse_dirt",
-                "Count": 1
-              },
-              "required": 32
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "6cfead65-22e2-46ca-98a6-57f47e9591dd"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:gravel",
-          "Count": 16
-        }
-      ],
-      "rewardchoice": [],
       "commandrewards": []
     },
     {

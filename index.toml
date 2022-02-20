@@ -678,7 +678,7 @@ hash = "f798337362b400905ea8794e9dd850cdc730c03c5a83cafacbcc6315f5541b97"
 
 [[files]]
 file = "config/hqm/default/sets/Age_of_Storage.json"
-hash = "95ce5fb9ca19c414340497723267de70d69569fb8bd0f53c2a593a7c72a1e2c1"
+hash = "8953d520a821ea23cda064d55b7aad9c61d724ec4dd7fc30ebe4501e8e4f7f87"
 
 [[files]]
 file = "config/hqm/default/sets/Bronze_Age.json"
@@ -686,7 +686,7 @@ hash = "494605843470dd73f2d6eab8dd53a16467e5c6e5fd30b1c7514050560ccfd281"
 
 [[files]]
 file = "config/hqm/default/sets/Electric_Age_-_Power.json"
-hash = "f865592511ba649558703f966bde3e935bb224499abfe3f22e2a56b518461c03"
+hash = "d3bab74dc8d27bc5f0f8826d1451347010f2850be10f920b141f0a35d90d661f"
 
 [[files]]
 file = "config/hqm/default/sets/It's_Time_for_some_Magic.json"
@@ -694,7 +694,7 @@ hash = "736bf8db50ef449697220c94fa4e7f2191eb04b37a74c653234659d11b1a3d2a"
 
 [[files]]
 file = "config/hqm/default/sets/Steam_Age.json"
-hash = "54d5834cbffe1963665554c0da82b261317f3d6cefc0a1a0a6a608e8be9c4bf1"
+hash = "192ccf8525cf65b1d5dbd2c2d92d5c854c731d616209d73147009b401d2b3f8f"
 
 [[files]]
 file = "config/hqm/default/sets/Stone_Age.json"
@@ -702,7 +702,7 @@ hash = "53af05818baba3c1a8247581a1cb6c1f431b3d3bb0c6cf46ad495275953d0805"
 
 [[files]]
 file = "config/hqm/default/sets/The_Beginning.json"
-hash = "a35e2b1ff01aff45d746e6fa641dbdf9bc1e7cafe4ebc12b39529333e0eff636"
+hash = "b553745c5c1fa0fbc2524bed5c98b0ae9eccb46a889bb3202874a9985a67d295"
 
 [[files]]
 file = "config/hqm/front.png"
@@ -1118,7 +1118,7 @@ hash = "53edd49d3e9cb39f87dc7f6fe3b3f0f48984650a28aac735909246034229da6a"
 
 [[files]]
 file = "config/slightguimodifications/cts.groovy"
-hash = "eae57741cbe102428061310f0e1b850d94bc93248a3708b237ce8f3c6af9a832"
+hash = "d6d06fdb99cc695e517615daaaadb8ae59860f38c8ef81cd19d1c2d07d87c849"
 
 [[files]]
 file = "config/slightguimodifications/slider.png"
@@ -2643,8 +2643,12 @@ hash = "a500bd1a9efecaa7bfe22f58cae9fec8c0c748560271e6cf884d5200f0007ac8"
 metafile = true
 
 [[files]]
+file = "mods/artis-recrafted-2.1.1+1.17.1.jar"
+hash = "c6920621d09911be571a46b0b702e520343e97758549104295e3c4858dd6dec7"
+
+[[files]]
 file = "mods/artis-recrafted.toml"
-hash = "8338caa0a0ae34472d43449581b6eed2bd8c0c39be53962e11441a1ac2f06bdb"
+hash = "293402b2c52b97862b0268ff06ac3b6f87eb5dac2ee3cb9eba32bb9c89487cff"
 metafile = true
 
 [[files]]
@@ -2915,6 +2919,11 @@ metafile = true
 [[files]]
 file = "mods/enhanced-block-entities.toml"
 hash = "c460e4a8258164206ea865024b32734f39532a88e83df92347264b80fe295101"
+metafile = true
+
+[[files]]
+file = "mods/enhanced-celestials-fabric.toml"
+hash = "25a7dc11a9a59015923dd2e240003b1be5d8738c449395263e3406de6c3c8c4a"
 metafile = true
 
 [[files]]
@@ -3249,7 +3258,7 @@ metafile = true
 
 [[files]]
 file = "mods/more-tooltips.toml"
-hash = "e30cfcbbd5344f3d07197a68bd8bad1436139e62ce6541aa7a990f541564b098"
+hash = "6ecb7b3fb1174dae44195e46a26005996cb72218a6e98da8a00ba51f9fb25ee7"
 metafile = true
 
 [[files]]
