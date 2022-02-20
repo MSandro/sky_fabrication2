@@ -9,7 +9,7 @@ onEvent('player.tick', event => {
 			if (global.isExpertMode) {
 				callback.server.runCommandSilent(`effect give ${event.player.name} minecraft:wither 4`);
 			} else {
-				callback.server.runCommandSilent(`effect give ${event.player.name} minecraft:hunger 10`);
+				callback.server.runCommandSilent(`effect give ${event.player.name} minecraft:hunger 10 10`);
 			}
 		})
 	}

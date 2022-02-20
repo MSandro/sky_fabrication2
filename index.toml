@@ -2586,7 +2586,7 @@ hash = "7c0d46ed1b3c71223becd58f4369ca66d67a99df274412ee34c1f0310caa8f98"
 
 [[files]]
 file = "kubejs/server_scripts/void.js"
-hash = "fc97c35d21d8df852f182eb2b07ad82d624b3775ecbb20fc4bc67dde02341210"
+hash = "fcf6c1cba8b26d97c11ed815fc6c540b0bd0d405b1737df1d8cea6926029789b"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
@@ -2922,11 +2922,6 @@ hash = "c460e4a8258164206ea865024b32734f39532a88e83df92347264b80fe295101"
 metafile = true
 
 [[files]]
-file = "mods/enhanced-celestials-fabric.toml"
-hash = "25a7dc11a9a59015923dd2e240003b1be5d8738c449395263e3406de6c3c8c4a"
-metafile = true
-
-[[files]]
 file = "mods/enhancedquarries.toml"
 hash = "5f9e7200882ed4eabf18a17cfc772d749528dbf56053ba1db51ecf1270bc2f32"
 metafile = true
@@ -3039,11 +3034,6 @@ metafile = true
 [[files]]
 file = "mods/go-fish.toml"
 hash = "9828709840cba222a0feb08a3f16ded4df11d641b5030d5fbeea56ebd262ca31"
-metafile = true
-
-[[files]]
-file = "mods/goblin-traders-fabric.toml"
-hash = "0bb93cc046bfe7628788295bd8e943293856cd5d3af1b4bc72888ad3c515eb4b"
 metafile = true
 
 [[files]]
