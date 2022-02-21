@@ -1,3 +1,5 @@
+let packMode = 'normal';
+
 //priority: 0
 const normalConfig = {
     mode: 'normal',
@@ -9,20 +11,22 @@ const expertConfig = {
 };
 
 const configName = 'mode.json';
-let config = json.read(configName);
+if (!event.server.isDedicated()) {
+  let config = json.read(configName);
 
-if (!config || !config.mode) {
-    json.write(configName, normalConfig);
-    console.log(`Created new ${configName}`);
-    config = normalConfig;
-}
-if (config.mode == 'none') {
-    json.write(configName, normalConfig);
-    config.mode = normalConfig.mode;
-    console.log(`Overwrote ${configName}, because the mode 'none' was found. Valid modes are 'normal' and 'expert'.`);
-}
+  if (!config || !config.mode) {
+      json.write(configName, normalConfig);
+      console.log(`Created new ${configName}`);
+      config = normalConfig;
+  }
+  if (config.mode == 'none') {
+      json.write(configName, normalConfig);
+      config.mode = normalConfig.mode;
+      console.log(`Overwrote ${configName}, because the mode 'none' was found. Valid modes are 'normal' and 'expert'.`);
+  }
 
-let packMode = config.mode;
+  let packMode = config.mode;
+}
 
 global.packmode = packMode;
 global.isNormalMode = packMode == 'normal';
