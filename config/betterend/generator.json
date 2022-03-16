@@ -1,7 +1,5 @@
 {
   "biomeMap": {
-    "biomeSizeLand [default: 256]": 256,
-    "biomeSizeVoid [default: 256]": 256,
     "biomeSizeCaves [default: 32]": 32
   },
   "portal": {
@@ -13,14 +11,12 @@
     "customObsidianSpikes [default: true]": true
   },
   "hasDragonFights [default: true]": true,
-  "swapOverworldToEnd [default: false]": false,
   "chorusPlant": {
     "changeChorusPlant [default: true]": true,
     "removeChorusFromVanillaBiomes [default: true]": true
   },
   "customGenerator": {
     "useNewGenerator [default: true]": true,
-    "noRingVoid [default: false]": false,
     "generateCentralIsland [default: true]": true,
     "endCityFailChance [default: 5]": 5,
     "layers": {

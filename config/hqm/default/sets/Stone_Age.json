@@ -1164,12 +1164,13 @@
     {
       "uuid": "8760d36a-dc50-4077-83a2-16aa2b4caa0d",
       "name": "Cobblestone Funnels",
-      "description": "Craft a Cobblestone Funnel and place it between your Water and Lava source! It will generate blocks below it.",
+      "description": "Craft a Cobblestone Funnel and fill it with water and lava. The Lava will be consumed much faster than the water. Later you will be able to automate it with dispensers and Tanks from TechReborn. But it will be a long way.",
       "x": 129,
       "y": 72,
       "icon": {
-        "id": "scf:cobblestone_funnel",
-        "Count": 1
+        "id": "bcf:cobblestone_funnel",
+        "Count": 1,
+        "tag": {}
       },
       "tasks": [
         {
@@ -1177,8 +1178,9 @@
           "items": [
             {
               "item": {
-                "id": "scf:cobblestone_funnel",
-                "Count": 1
+                "id": "bcf:cobblestone_funnel",
+                "Count": 1,
+                "tag": {}
               }
             }
           ]

@@ -8374,13 +8374,13 @@
       "commandrewards": []
     },
     {
-      "uuid": "00f914b7-8302-4fe9-8510-485e786e63c3",
-      "name": "The Aether",
-      "description": "Travel to the Aether by forming a Portal out of Aethere Portal Frame Blocks. Ignite it with a Diamond Grinding Head.",
-      "x": 294,
-      "y": 126,
+      "uuid": "8481500c-149d-4306-a5d5-aedd59825c1a",
+      "name": "Mixing",
+      "description": "Craft a Mixer. A Mixer is an awesome Item to mix all kind of Fluids together, aswell as Items!",
+      "x": 88,
+      "y": 12,
       "icon": {
-        "id": "blockus:legacy_nether_reactor_core",
+        "id": "modern_industrialization:bronze_mixer",
         "Count": 1
       },
       "tasks": [
@@ -8389,39 +8389,21 @@
           "items": [
             {
               "item": {
-                "id": "blockus:legacy_nether_reactor_core",
+                "id": "modern_industrialization:bronze_mixer",
                 "Count": 1
-              },
-              "required": 12
-            }
-          ]
-        },
-        {
-          "type": "ADVANCEMENT",
-          "advancements": [
-            {
-              "name": "Visiting the Aether",
-              "icon": {
-                "id": "blockus:legacy_nether_reactor_core",
-                "Count": 1
-              },
-              "adv_name": "the_aether:enter_the_aether"
+              }
             }
           ]
         }
       ],
       "prerequisites": [
-        "a235b5c4-c52a-4ced-8cd3-aa07ad1a6d11"
+        "b1f0bd4a-bf2f-4cb0-b95c-79401743b023"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "the_aether:ambrosium_torch",
-          "Count": 4
-        },
-        {
-          "id": "the_aether:skyroot_sapling",
-          "Count": 1
+          "id": "modern_industrialization:uncooked_steel_dust",
+          "Count": 2
         }
       ],
       "rewardchoice": [],
@@ -8471,13 +8453,13 @@
       "commandrewards": []
     },
     {
-      "uuid": "8481500c-149d-4306-a5d5-aedd59825c1a",
-      "name": "Mixing",
-      "description": "Craft a Mixer. A Mixer is an awesome Item to mix all kind of Fluids together, aswell as Items!",
-      "x": 88,
-      "y": 12,
+      "uuid": "00f914b7-8302-4fe9-8510-485e786e63c3",
+      "name": "The Aether",
+      "description": "Travel to the Aether by forming a Portal out of Aethere Portal Frame Blocks. Ignite it with a Diamond Grinding Head.",
+      "x": 294,
+      "y": 126,
       "icon": {
-        "id": "modern_industrialization:bronze_mixer",
+        "id": "blockus:legacy_nether_reactor_core",
         "Count": 1
       },
       "tasks": [
@@ -8486,21 +8468,39 @@
           "items": [
             {
               "item": {
-                "id": "modern_industrialization:bronze_mixer",
+                "id": "blockus:legacy_nether_reactor_core",
                 "Count": 1
-              }
+              },
+              "required": 12
+            }
+          ]
+        },
+        {
+          "type": "ADVANCEMENT",
+          "advancements": [
+            {
+              "name": "Visiting the Aether",
+              "icon": {
+                "id": "blockus:legacy_nether_reactor_core",
+                "Count": 1
+              },
+              "adv_name": "the_aether:enter_the_aether"
             }
           ]
         }
       ],
       "prerequisites": [
-        "b1f0bd4a-bf2f-4cb0-b95c-79401743b023"
+        "a235b5c4-c52a-4ced-8cd3-aa07ad1a6d11"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "modern_industrialization:uncooked_steel_dust",
-          "Count": 2
+          "id": "the_aether:ambrosium_torch",
+          "Count": 4
+        },
+        {
+          "id": "the_aether:skyroot_sapling",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -8769,7 +8769,7 @@
     {
       "uuid": "93ffa9af-8a03-41a6-8480-7b9cb913a729",
       "name": "5x5 to 9x9 Crafting",
-      "description": "The Big Bench Theory is finally here! This Mod allows you to start crafting from 5x5 up to 9x9! You will need it for the Crow\u0027s Eye..",
+      "description": "Start by crafting an 5x5 crafting table, the Greater Table, you will need it for the Crow\u0027s Eye.\nLater you will need larger tables with a grid of 7x7 and 9x9.",
       "x": 294,
       "y": 160,
       "icon": {
@@ -8783,12 +8783,6 @@
             {
               "item": {
                 "id": "artis:big_bench",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "artis:bigger_bench",
                 "Count": 1
               }
             }
@@ -9337,8 +9331,9 @@
       "y": 67,
       "bigicon": true,
       "icon": {
-        "id": "scf:diamond_funnel",
-        "Count": 1
+        "id": "bcf:diamond_funnel",
+        "Count": 1,
+        "tag": {}
       },
       "tasks": [
         {
@@ -9346,8 +9341,9 @@
           "items": [
             {
               "item": {
-                "id": "scf:diamond_funnel",
-                "Count": 1
+                "id": "bcf:diamond_funnel",
+                "Count": 1,
+                "tag": {}
               }
             }
           ]

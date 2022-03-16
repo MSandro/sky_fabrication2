@@ -1,0 +1,631 @@
+{
+  "name": "The Late-Game",
+  "quests": [
+    {
+      "uuid": "7080149d-2e29-49b6-9954-99b63c2a304a",
+      "name": "Ultimate!",
+      "description": "You tought Singularities are hard to get? Whait for the Ultimate Stew, the Cosmic Meatball and the Ultimate Fish and Chips.\nThis items are really hard to obtain.",
+      "x": 139,
+      "y": 142,
+      "icon": {
+        "id": "kubejs:ultimate_stew",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:ultimate_stew",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "kubejs:cosmic_meatballs",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "kubejs:fish_and_chips",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "71d1989c-5278-4dca-a955-af288ad70184"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8ff90e54-0774-4eff-97f6-42239a0937db",
+      "name": "Illegal Disks",
+      "description": "Are the Creative Tank and Storage Unit still too bad and impractical for you? Then build the Creative Discs.\nWith Creative Discs, you can fill your ME System with endless items or fluids.\nNow you are a real item god.\n\nBut having everything without effort can quickly become boring. Don\u0027t give up though, there\u0027s definitely still a lot to explore.",
+      "x": 223,
+      "y": 172,
+      "icon": {
+        "id": "appliedenergistics2:creative_item_cell",
+        "Count": 1,
+        "tag": {}
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:creative_item_cell",
+                "Count": 1,
+                "tag": {}
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:creative_fluid_cell",
+                "Count": 1,
+                "tag": {}
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b0bb64cd-6127-4b3b-99e7-8a365790dc75"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "kubejs:infinity_ingot",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3ffa048c-f23e-470f-a671-d980bd88f85c",
+      "name": "Infinity Ingot",
+      "description": "Do you think you will be able to compress the Infinity in an Ingot?\nTry it, many before you have failed.\nGood luck.",
+      "x": 225,
+      "y": 95,
+      "icon": {
+        "id": "kubejs:infinity_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:infinity_ingot",
+                "Count": 1
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "db9f081f-3c21-4372-9883-1acf264b0a02"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "kubejs:infinity_catalyst",
+          "Count": 16
+        },
+        {
+          "id": "kubejs:neutronium_nugget",
+          "Count": 48
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "81a15a80-828e-46da-bc57-54e0cf140a70",
+      "name": "Quantum Gear",
+      "description": "The Quantum Gear is the best armor and sword you can get. But it will be hard to craft these items.",
+      "x": 197,
+      "y": 60,
+      "icon": {
+        "id": "modern_industrialization:quantum_sword",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "modern_industrialization:quantum_sword",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "modern_industrialization:quantum_boots",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "modern_industrialization:quantum_leggings",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "modern_industrialization:quantum_chestplate",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "modern_industrialization:quantum_helmet",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3ffa048c-f23e-470f-a671-d980bd88f85c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "kubejs:infinity_ingot",
+          "Count": 5
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a1c8914e-bb86-4181-b86b-7bc82fd591d8",
+      "name": "Material Singularities",
+      "description": "You can combine several materials with a singularity in the Implosion Compressor.",
+      "x": 70,
+      "y": 95,
+      "icon": {
+        "id": "kubejs:iron_singularity",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:iron_singularity",
+                "Count": 1
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "kubejs:golden_singularity",
+                "Count": 1
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "kubejs:redstone_singularity",
+                "Count": 1
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "kubejs:lapis_singularity",
+                "Count": 1
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "kubejs:nether_quartz_singularity",
+                "Count": 1
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "kubejs:diamond_singularity",
+                "Count": 1
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "kubejs:emerald_singularity",
+                "Count": 1
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "efbac709-c9ae-4d08-8c8c-9dda4e9dccec"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "modern_industrialization:singularity",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d2274689-fbd8-4947-9cfe-1f5f145f473f",
+      "name": "Neutronium",
+      "description": "You will need some UU-Matter and other stuff to get this expensive material.\nOnly the Chemical Reactor is able to produce it.",
+      "x": 43,
+      "y": 142,
+      "icon": {
+        "id": "kubejs:neutronium_nugget",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:neutronium_nugget",
+                "Count": 1
+              },
+              "required": 18
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6e65ad2e-2b52-4520-92a2-6b53e0e4fae6"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "kubejs:neutronium_ingot",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1bcb4e32-961f-448f-bf10-9385f6a1dd2d",
+      "name": "Free HV-Energy",
+      "description": "If you need a lot of energy, the Creative Solar Panel might be the right solution for you.\nTo power up your Storage System for free, you might want to craft an Creative Energy Cell.",
+      "x": 256,
+      "y": 60,
+      "icon": {
+        "id": "techreborn:creative_solar_panel",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "techreborn:creative_solar_panel",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:creative_energy_cell",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "indrev:lazuli_flux_container_creative",
+                "Count": 1,
+                "tag": {}
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3ffa048c-f23e-470f-a671-d980bd88f85c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "kubejs:infinity_ingot",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "71d1989c-5278-4dca-a955-af288ad70184",
+      "name": "7x7 Crafting",
+      "description": "You will need a Neutronium Nugget to craft this massive 7x7 Table.",
+      "x": 91,
+      "y": 142,
+      "icon": {
+        "id": "artis:bigger_bench",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "artis:bigger_bench",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d2274689-fbd8-4947-9cfe-1f5f145f473f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "modern_industrialization:quantum_upgrade",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "efbac709-c9ae-4d08-8c8c-9dda4e9dccec",
+      "name": "Basic Singularity",
+      "description": "Craft a Singularity. You can not place it, so don\u0027t worry it will not eat your island.",
+      "x": 25,
+      "y": 95,
+      "icon": {
+        "id": "modern_industrialization:singularity",
+        "Count": 1,
+        "tag": {}
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "modern_industrialization:singularity",
+                "Count": 1,
+                "tag": {}
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e2ad230a-107c-45c1-8fbc-67f639261ec7"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "modern_industrialization:nuke",
+          "Count": 32
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "db9f081f-3c21-4372-9883-1acf264b0a02",
+      "name": "9x9 Crafting",
+      "description": "By using an Ultimate Table you can combine up to 81 items in one recipe to craft very powerfull stuff.",
+      "x": 176,
+      "y": 95,
+      "icon": {
+        "id": "artis:biggest_bench",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "artis:biggest_bench",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "46916285-5590-4d33-b72f-ded31745d0d0"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:netherite_block",
+          "Count": 1
+        },
+        {
+          "id": "kubejs:neutronium_nugget",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e78abad4-615c-4654-a869-be79a82d1cbd",
+      "name": "Item-God Tier 1",
+      "description": "There are 3 Tiers to become an overpowered Item-God. This means at the end of this 3 Quests, you can have every needed items in infinite amounts. Let\u0027s start with the Replicator. This Machine is not able to duplicate everything.",
+      "x": 206,
+      "y": 127,
+      "icon": {
+        "id": "modern_industrialization:replicator",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "modern_industrialization:replicator",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3ffa048c-f23e-470f-a671-d980bd88f85c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "techreborn:uu_matter",
+          "Count": 8
+        },
+        {
+          "id": "modern_industrialization:bucket_uu_matter",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "46916285-5590-4d33-b72f-ded31745d0d0",
+      "name": "A Pice of Infinity",
+      "description": "Craft an Infinity Catalyst in the Massive Table.",
+      "x": 118,
+      "y": 95,
+      "icon": {
+        "id": "kubejs:infinity_catalyst",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:infinity_catalyst",
+                "Count": 1
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "71d1989c-5278-4dca-a955-af288ad70184",
+        "a1c8914e-bb86-4181-b86b-7bc82fd591d8",
+        "7080149d-2e29-49b6-9954-99b63c2a304a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "kubejs:infinity_catalyst",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b0bb64cd-6127-4b3b-99e7-8a365790dc75",
+      "name": "Infinite Items and Fluids",
+      "description": "The replicator can not duplicate everything. But with the Creative Tank and the Creative Storage Unit you can clone every item without additional costs.",
+      "x": 189,
+      "y": 157,
+      "icon": {
+        "id": "techreborn:creative_tank_unit",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "techreborn:creative_tank_unit",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "techreborn:creative_storage_unit",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e78abad4-615c-4654-a869-be79a82d1cbd"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "kubejs:infinity_ingot",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b4a0ed9f-4d87-4a60-a298-1a9f9fcd1c2d",
+      "name": "Ultimate Jetpack",
+      "description": "Creative Flight with the Quantum Armor isn\u0027t fast enough? Try to craft the Creative Jetpack.",
+      "x": 256,
+      "y": 129,
+      "icon": {
+        "id": "iron-jetpacks:creative_jetpack",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "iron-jetpacks:creative_jetpack",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3ffa048c-f23e-470f-a671-d980bd88f85c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "kubejs:infinity_ingot",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

@@ -1,17 +1,31 @@
 // priority: 0
-
+global.isServer = false
 console.info('Hello, World! (You will see this line every time client resources reload)')
+
+var hammerInfo = [
+  'Dirt or Grass Blocks -> Pebbles (+ small chance to get other items)',
+  'Cobblestone or Stone -> Gravel (+ small chance to get iron nuggets) ->',
+  'Sand -> Clay (+ small chance to get other items)', 'Wood Logs -> Saw Dust',
+  'Coal / Charcoal Block -> small chance to get Diamond Nuggets',
+  "Wood Logs -> Saw Dust"
+];
 
 onEvent('rei.information', event => {
   event.add('skyutils:raw_crucible', 'Crucible', ['put a Raw Crucible in the Kiln', 'and fire it with a Charcoal Block']);
   event.add('skyutils:crucible', 'Crucible', ['put a Raw Crucible in the Kiln', 'and fire it with a Charcoal Block']);
   event.add('skyutils:lava_crucible', 'Lava Crucible', ['put a Crucible with 16 Cobblestones in the Kiln', 'and fire it with a Charcoal Block']);
   event.add('skyutils:water_crucible', 'Water Crucible', ['right-click with a Crucible on a filled Condenser to get Water']);
-  event.add('skyutils:wooden_hammer', 'Hammering', ['Dirt or Grass Blocks -> Pebbles (+ small chance to get other items)', 'Cobblestone or Stone -> Gravel (+ small chance to get iron nuggets) ->', 'Sand -> Clay (+ small chance to get other items)', 'Wood Logs -> Saw Dust', 'Coal / Charcoal Block -> small chance to get Diamond Nuggets']);
-  event.add('skyutils:stone_hammer', 'Hammering', ['Dirt or Grass Blocks -> Pebbles', 'Cobblestone or Stone -> Gravel ->', 'Sand -> Clay', 'Wood Logs -> Saw Dust', 'Coal / Charcoal Block -> small chance to get Diamond Nuggets']);
-  event.add('skyutils:iron_hammer', 'Hammering', ['Dirt or Grass Blocks -> Pebbles', 'Cobblestone or Stone -> Gravel ->', 'Sand -> Clay', 'Wood Logs -> Saw Dust', 'Coal / Charcoal Block -> small chance to get Diamond Nuggets']);
-  event.add('skyutils:diamond_hammer', 'Hammering', ['Dirt or Grass Blocks -> Pebbles', 'Cobblestone or Stone -> Gravel ->', 'Sand -> Clay', 'Wood Logs -> Saw Dust', 'Coal / Charcoal Block -> small chance to get Diamond Nuggets']);
-  event.add('skyutils:netherite_hammer', 'Hammering', ['Dirt or Grass Blocks -> Pebbles', 'Cobblestone or Stone -> Gravel ->', 'Sand -> Clay', 'Wood Logs -> Saw Dust', 'Coal / Charcoal Block -> small chance to get Diamond Nuggets']);
+  event.add('skyutils:wooden_hammer', 'Hammering', hammerInfo);
+  event.add('skyutils:stone_hammer', 'Hammering', hammerInfo);
+  event.add('skyutils:iron_hammer', 'Hammering', hammerInfo);
+  event.add('skyutils:diamond_hammer', 'Hammering', hammerInfo);
+  event.add('skyutils:netherite_hammer', 'Hammering', hammerInfo);
+  event.add('minecraft:gravel', 'Hammering', hammerInfo);
+  event.add('minecraft:sand', 'Hammering', hammerInfo);
+  event.add('minecraft:clay_ball', 'Hammering', hammerInfo);
+  event.add('minecraft:iron_nugget', 'Hammering', hammerInfo);
+  event.add('skyutils:diamond_nugget', 'Hammering', hammerInfo);
+  event.add('skyutils:woodchips', 'Hammering', hammerInfo);
 })
 
 const DELETED_ITEMS = [

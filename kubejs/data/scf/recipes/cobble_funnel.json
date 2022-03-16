@@ -1,26 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "funnels",
-  "pattern": [
-    "XPX",
-    "XSX",
-    "XGX"
-  ],
-  "key": {
-    "S": {
-      "item": "simple_pipes:pipe_stone_item"
-    },
-    "G": {
-      "item": "minecraft:glass"
-    },
-    "P": {
-      "item": "minecraft:gunpowder"
-    },
-    "X": {
-      "item": "compress:compressed_cobblestone_1"
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "scf:cobblestone_funnel"
+        }
+    ],
+    "result":
+    {
+        "item": "bcf:cobblestone_funnel"
     }
-  },
-  "result": {
-    "item": "scf:cobblestone_funnel"
-  }
 }

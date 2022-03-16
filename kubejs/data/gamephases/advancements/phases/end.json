@@ -1,0 +1,44 @@
+{
+  "parent": "gamephases:phases/skyutils",
+  "display": {
+    "title": {
+      "text": "End Unlocked"
+    },
+    "icon": {
+      "item": "kubejs:unknown"
+    },
+    "description": {
+      "text": "now you can enter the End!"
+    }
+  },
+  "criteria": {
+    "has_eyes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "endrem:magical_eye",
+              "endrem:guardian_eye",
+              "endrem:rogue_eye",
+              "endrem:old_eye",
+              "endrem:nether_eye",
+              "endrem:lost_eye",
+              "endrem:witch_eye",
+              "endrem:wither_eye",
+              "endrem:end_crystal_eye",
+              "endrem:black_eye",
+              "endrem:cold_eye",
+              "endrem:corrupted_eye"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_eyes"
+    ]
+  ]
+}

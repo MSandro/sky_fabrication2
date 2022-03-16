@@ -896,12 +896,12 @@
     {
       "uuid": "a6493aa4-cd33-471d-8148-be32b35e0ec3",
       "name": "Iron Funnel",
-      "description": "Now you are able to upgrade to a Iron Funnel! It is faster and grants you acces to new resources.\n\nRight-Click it to see the outputs.",
+      "description": "Now you are able to upgrade to a Iron Funnel! It is faster and grants you acces to new resources.\n\nThe better the funnel, the better they utilize the lava, but also correspondingly faster.",
       "x": 80,
       "y": 136,
       "bigicon": true,
       "icon": {
-        "id": "scf:iron_funnel",
+        "id": "bcf:iron_funnel",
         "Count": 1
       },
       "tasks": [
@@ -910,7 +910,7 @@
           "items": [
             {
               "item": {
-                "id": "scf:iron_funnel",
+                "id": "bcf:iron_funnel",
                 "Count": 1
               }
             }
@@ -1499,7 +1499,7 @@
       "y": 138,
       "bigicon": true,
       "icon": {
-        "id": "scf:gold_funnel",
+        "id": "bcf:gold_funnel",
         "Count": 1
       },
       "tasks": [
@@ -1508,7 +1508,7 @@
           "items": [
             {
               "item": {
-                "id": "scf:gold_funnel",
+                "id": "bcf:gold_funnel",
                 "Count": 1
               }
             }

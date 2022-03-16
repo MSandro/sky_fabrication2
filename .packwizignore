@@ -8,7 +8,9 @@
 
 # Exclude README
 /README.md
+/options.txt
 
 # Exclude exported CurseForge zip files
 *.zip
 *.exe
+*.sh

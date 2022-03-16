@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ADA",
+    "D D",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "item": "modern_industrialization:kanthal_ingot"
+    },
+    "D": {
+      "item": "modern_industrialization:titanium_ingot"
+    }
+  },
+  "result": {
+    "item": "techreborn:kanthal_heating_coil"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "wood",
-  "disable": false,
+  "disable": true,
   "tier": 0,
   "color": "6b511f",
   "armorPoints": 1,

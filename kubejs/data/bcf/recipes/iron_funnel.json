@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "funnels",
+  "pattern": [
+    "NXN",
+    "NCN",
+    "NGN"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:iron_block"
+    },
+    "C": {
+      "item": "scf:cobblestone_funnel"
+    },
+    "G": {
+      "item": "minecraft:coal_block"
+    },
+    "X": {
+      "item": "workings:block_of_pipes"
+    }
+  },
+  "result": {
+    "item": "bcf:iron_funnel"
+  }
+}

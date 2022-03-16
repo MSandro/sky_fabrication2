@@ -5,7 +5,8 @@
     "#default_dispenser_configurators:feeding_plantable",
     "#default_dispenser_configurators:grown",
     "#default_dispenser_configurators:just_feeding",
-    "#default_dispenser_configurators:tools/usable_tools"
+    "#default_dispenser_configurators:tools/usable_tools",
+    "skyutils:lava_crucible",
+    "skyutils:water_crucible"
   ]
-
 }

@@ -1,3 +1,5 @@
 # Exclude exported CurseForge zip files
 *.zip
 *.exe
+*.sh
+/options.txt

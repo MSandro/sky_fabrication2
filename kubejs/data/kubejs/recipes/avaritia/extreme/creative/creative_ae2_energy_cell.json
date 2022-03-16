@@ -1,0 +1,40 @@
+{
+  "type": "artis:biggest_bench_shaped",
+  "pattern": [
+		"NNNNNNNNN",
+		"NQQQQQQQN",
+		"NQCCTCCQN",
+		"NQCXIXCQN",
+		"NQTIRITQN",
+		"NQCXIXCQN",
+		"NQCCTCCQN",
+		"NQQQQQQQN",
+		"NNNNNNNNN"
+  ],
+  "key": {
+  	"C": {
+  		"item": "kubejs:crystal_matrix_ingot"
+  	},
+  	"N": {
+  		"item": "kubejs:neutronium_ingot"
+  	},
+  	"T": {
+  		"item": "modern_industrialization:supraconductor_coil"
+  	},
+  	"I": {
+  		"item": "kubejs:infinity_ingot"
+  	},
+  	"X": {
+  		"item": "kubejs:infinity_catalyst"
+  	},
+  	"Q": {
+  		"item": "appliedenergistics2:dense_energy_cell"
+  	},
+    "R": {
+      "item": "appliedenergistics2:singularity"
+    }
+  },
+  "result": {
+    "item": "appliedenergistics2:creative_energy_cell"
+  }
+}

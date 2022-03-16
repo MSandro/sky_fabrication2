@@ -2,81 +2,13 @@
   "name": "It\u0027s Time for some Magic",
   "quests": [
     {
-      "uuid": "55f779bb-3f3c-421e-9dc1-cf396100a236",
-      "name": "Protection against Demons",
-      "description": "Before you start summoning the Demons, you require some Special kind of Armor.\nPlease also check out the ",
-      "x": 268,
-      "y": 153,
+      "uuid": "2e4b9aa1-c935-4ca4-9a98-438c13e16ace",
+      "name": "Generating Flowers",
+      "description": "To produce Mana you will need some special flowers. For the start, craft some Endoflames. They can eat coal and transforming them into Mana.",
+      "x": 101,
+      "y": 150,
       "icon": {
-        "id": "bewitchment:besmirched_robes",
-        "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "bewitchment:besmirched_wool",
-                "Count": 1
-              },
-              "required": 32
-            },
-            {
-              "item": {
-                "id": "bewitchment:besmirched_hat",
-                "Count": 1,
-                "tag": {
-                  "Damage": 0
-                }
-              }
-            },
-            {
-              "item": {
-                "id": "bewitchment:besmirched_robes",
-                "Count": 1,
-                "tag": {
-                  "Damage": 0
-                }
-              }
-            },
-            {
-              "item": {
-                "id": "bewitchment:besmirched_pants",
-                "Count": 1,
-                "tag": {
-                  "Damage": 0
-                }
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "7f265cf0-83a2-481d-b9fd-ac54823a6ba0"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "bewitchment:besmirched_wool",
-          "Count": 8
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "7b8297dc-f341-42bd-8dbe-0ee62f0a2d92",
-      "name": "Botania",
-      "description": "Botania is a tech mod in essence. The theme is natural magic, revolving around flora.",
-      "x": 135,
-      "y": 184,
-      "bigicon": true,
-      "icon": {
-        "id": "botania:lexicon",
+        "id": "botania:endoflame",
         "Count": 1
       },
       "tasks": [
@@ -85,38 +17,25 @@
           "items": [
             {
               "item": {
-                "id": "botania:lexicon",
+                "id": "botania:endoflame",
                 "Count": 1
               },
-              "precision": "TAG_NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "botania:fertilizer",
-                "Count": 1,
-                "tag": {}
-              },
-              "required": 8,
-              "precision": "TAG_NBT_FUZZY"
+              "required": 4
             }
           ]
         }
       ],
       "prerequisites": [
-        "df4ee3e0-36ce-4368-9206-1082a6c700ab"
+        "f51e22ee-4922-4ddb-9bf3-379bbd0d8570"
       ],
       "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
+      "reward": [
         {
-          "id": "minecraft:bone_meal",
+          "id": "minecraft:coal_block",
           "Count": 16
-        },
-        {
-          "id": "botania:fertilizer",
-          "Count": 8
         }
       ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -150,42 +69,6 @@
         {
           "id": "minecraft:zombie_spawn_egg",
           "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "e01ef49a-f912-42b6-bb2a-114dde55cd76",
-      "name": "Trial Keystone",
-      "description": "You will need a special device to put your key to be able to start a trial. In other words, you need to craft a Trial Keystone. The Trial Key used in the crafting has no effect, so I\u0027s suggest you to use an Unbound one.",
-      "x": 52,
-      "y": 45,
-      "icon": {
-        "id": "dml-refabricated:trial_keystone",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "dml-refabricated:trial_keystone",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "1e3067fc-2d32-4bb3-854c-878fa6a9059e"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:golden_apple",
-          "Count": 16
         }
       ],
       "rewardchoice": [],
@@ -277,130 +160,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "01e5c5a2-d4aa-4557-acb0-53a9d12689e2",
-      "name": "Get a new Farm",
-      "description": "For this Mod you require a farm with Belladonna, Garlic, Mandrake and Aconite. You will need Salt and Silver aswell. \nSalt acts like a invisible Wall for Mobs. \nYou can place it down like Redstone.",
-      "x": 212,
-      "y": 188,
-      "icon": {
-        "id": "bewitchment:garlic",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "bewitchment:belladonna",
-                "Count": 1
-              },
-              "required": 32
-            },
-            {
-              "item": {
-                "id": "bewitchment:mandrake_root",
-                "Count": 1
-              },
-              "required": 32
-            },
-            {
-              "item": {
-                "id": "bewitchment:aconite",
-                "Count": 1
-              },
-              "required": 32
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "9ff78967-78bf-46f5-982e-2e0fa6d00031"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "bewitchment:silver_ingot",
-          "Count": 12
-        },
-        {
-          "id": "modern_industrialization:silver_ingot",
-          "Count": 12
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "79233cbc-b1f7-4b5d-ae73-9080c75c71b2",
-      "name": "Time in a Bottle",
-      "description": "This item can store Time and increase the speed of many blocks like Machines or Crops.",
-      "x": 138,
-      "y": 144,
-      "icon": {
-        "id": "timeinabottle:time_in_a_bottle",
-        "Count": 1,
-        "tag": {
-          "timeData": {}
-        }
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "timeinabottle:time_in_a_bottle",
-                "Count": 1,
-                "tag": {
-                  "timeData": {}
-                }
-              },
-              "precision": "NBT_FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "7b8297dc-f341-42bd-8dbe-0ee62f0a2d92"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "bewitchment:chalk",
-          "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
-        },
-        {
-          "id": "bewitchment:fiery_chalk",
-          "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
-        },
-        {
-          "id": "bewitchment:eldritch_chalk",
-          "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
-        },
-        {
-          "id": "bewitchment:golden_chalk",
-          "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": [
-        "/clear @p timeinabottle:time_in_a_bottle"
-      ]
-    },
-    {
       "uuid": "e3e40799-7db3-4e3f-af94-5cd0f973744e",
       "name": "Summoning and Contracts",
       "description": "The moment of truth is there. You got ur Armor and maybe the required Items to summon a Demon or whatever Mob avaible.\nPlease check into the \"Rituals\" Chapter for further Info.\n\nOnce summoned, you can trade with a Demon and maybe get a chance to get into a Contract with them. There are different benefits, please check out the \"Contracts\" Section.",
@@ -450,13 +209,13 @@
       "commandrewards": []
     },
     {
-      "uuid": "aca0bea3-fa53-448e-b82b-3153b152f75d",
-      "name": "The Altar and Cauldron",
-      "description": "Get urself an Altar and place a piece of Carpet, Skull and Sword on it. \nYou need a Witch Cauldron too. \nPlace a heat Source below it.\nThe Altar is ur power Source. Always keep it in Range.\n\nVery Important: \nPlease check out the \"Brewing\" Chapter in the Book.\n\nWood Ash \u003d Clears\nWater \u003d normal Usage",
-      "x": 272,
-      "y": 188,
+      "uuid": "c0937091-bec2-44aa-9aaf-b8880c329c73",
+      "name": "Mana Infused",
+      "description": "Now if you have placed your Endoflames near a Mana Spreader which should be bonded to an Mana Pool, it should be filling up with an blue liquid. By dropping items in the Pool you can infuse them with mana.",
+      "x": 101,
+      "y": 187,
       "icon": {
-        "id": "bewitchment:stone_witch_altar",
+        "id": "botania:manasteel_ingot",
         "Count": 1
       },
       "tasks": [
@@ -465,55 +224,93 @@
           "items": [
             {
               "item": {
-                "id": "bewitchment:stone_witch_altar",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "minecraft:red_carpet",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "bewitchment:witch_cauldron",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "bewitchment:iron_candelabra",
+                "id": "botania:manasteel_ingot",
                 "Count": 1
               },
-              "precision": "NBT_FUZZY"
+              "required": 4
             },
             {
               "item": {
-                "id": "minecraft:golden_sword",
-                "Count": 1,
-                "tag": {
-                  "Damage": 0
-                }
-              }
-            },
-            {
-              "item": {
-                "id": "minecraft:skeleton_skull",
+                "id": "botania:mana_pearl",
                 "Count": 1
-              }
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "botania:mana_diamond",
+                "Count": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "botania:quartz_mana",
+                "Count": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "botania:mana_powder",
+                "Count": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "botania:mana_glass",
+                "Count": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "botania:mana_string",
+                "Count": 1
+              },
+              "required": 4
             }
           ]
         }
       ],
       "prerequisites": [
-        "464c41d0-1b0e-4753-a156-0e503c94371f"
+        "2e4b9aa1-c935-4ca4-9a98-438c13e16ace"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "bewitchment:silver_ingot",
-          "Count": 4
+          "id": "botania:manaweave_helmet",
+          "Count": 1,
+          "tag": {
+            "Damage": 0,
+            "oxygen": {},
+            "selected": {}
+          }
+        },
+        {
+          "id": "botania:manaweave_chestplate",
+          "Count": 1,
+          "tag": {
+            "Damage": 0,
+            "selected": {}
+          }
+        },
+        {
+          "id": "botania:manaweave_leggings",
+          "Count": 1,
+          "tag": {
+            "Damage": 0,
+            "selected": {}
+          }
+        },
+        {
+          "id": "botania:manaweave_boots",
+          "Count": 1,
+          "tag": {
+            "Damage": 0,
+            "selected": {}
+          }
         }
       ],
       "rewardchoice": [],
@@ -640,6 +437,824 @@
       "commandrewards": []
     },
     {
+      "uuid": "9ff78967-78bf-46f5-982e-2e0fa6d00031",
+      "name": "Bewitchment",
+      "description": "Start by collecting some basic resources by breaking Sand and hammering Gras. \n\nPlease read the Book careful.\nWe can\u0027t explain all of the Mod via Quests.",
+      "x": 174,
+      "y": 185,
+      "bigicon": true,
+      "icon": {
+        "id": "bewitchment:book_of_shadows",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bewitchment:mandrake_seeds",
+                "Count": 1
+              },
+              "required": 24
+            },
+            {
+              "item": {
+                "id": "bewitchment:aconite_seeds",
+                "Count": 1
+              },
+              "required": 24
+            },
+            {
+              "item": {
+                "id": "bewitchment:belladonna_seeds",
+                "Count": 1
+              },
+              "required": 24
+            },
+            {
+              "item": {
+                "id": "bewitchment:garlic",
+                "Count": 1
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "bewitchment:salt",
+                "Count": 1
+              },
+              "required": 12
+            },
+            {
+              "item": {
+                "id": "bewitchment:taglock",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "df4ee3e0-36ce-4368-9206-1082a6c700ab"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "bewitchment:book_of_shadows",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7f265cf0-83a2-481d-b9fd-ac54823a6ba0",
+      "name": "Demon Summons",
+      "description": "You may ask yourself, \"how do I spawn in Demons?\"... Well, you should give the Nether a visit and look out for a Hellhound. He drops some specific Item you will need to unlock them.",
+      "x": 301,
+      "y": 153,
+      "icon": {
+        "id": "bewitchment:hellhound_spawn_egg",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Hellhounds",
+              "icon": {
+                "id": "bewitchment:hellhound_spawn_egg",
+                "Count": 1
+              },
+              "mob": "bewitchment:hellhound",
+              "kills": 4
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bewitchment:demon_horn",
+                "Count": 1
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "375624ad-b842-43f1-a1f9-3c0d08ca5f82"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "bewitchment:demon_horn",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d65d338d-5ad6-46cd-b67e-5d978d583a60",
+      "name": "Rune Crafting",
+      "description": "You will need some Runes. The dictionary describes exactly how Ruin Crafting works. At first you will need an Runic Altar.",
+      "x": 65,
+      "y": 187,
+      "icon": {
+        "id": "botania:rune_water",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:rune_water",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune_fire",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune_earth",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune_air",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune_spring",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune_summer",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune_autumn",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune_winter",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune_pride",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune_envy",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune_wrath",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune_sloth",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune_greed",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune_gluttony",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune_lust",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune_mana",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c0937091-bec2-44aa-9aaf-b8880c329c73"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:spark",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "756180a7-ce2c-445b-a1d0-5fc68d436638",
+      "name": "Braze yourself",
+      "description": "A good and useful Item is the Brazier. You can get a lot of other Benefits from it. \nYou can even create Curses with it.\nFor further help, please check out the \"Tools\" and \"Curses\" Sections.",
+      "x": 198,
+      "y": 121,
+      "icon": {
+        "id": "bewitchment:brazier",
+        "Count": 1,
+        "tag": {}
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bewitchment:brazier",
+                "Count": 1,
+                "tag": {}
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b7e5d957-50b4-47fc-82d3-9d828868e3f0"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "bewitchment:demon_horn",
+          "Count": 2,
+          "tag": {}
+        },
+        {
+          "id": "bewitchment:dragons_blood_sapling",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f51e22ee-4922-4ddb-9bf3-379bbd0d8570",
+      "name": "Mana Basics",
+      "description": "Now you can craft some of the most important utensils to work with Magic Power named Mana. The Mana Pool can store Mana. The Mana Spreader can transport Mana from Flowers to your Pool. With the Wand you can configure and bind them. ",
+      "x": 101,
+      "y": 114,
+      "icon": {
+        "id": "botania:twig_wand",
+        "Count": 1,
+        "tag": {
+          "color1": 0,
+          "color2": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:twig_wand",
+                "Count": 1,
+                "tag": {
+                  "color1": 0,
+                  "color2": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "botania:mana_pool",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:mana_spreader",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "be19cade-a3a4-416d-86bc-8da8ad76b906"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:lens_normal",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "55f779bb-3f3c-421e-9dc1-cf396100a236",
+      "name": "Protection against Demons",
+      "description": "Before you start summoning the Demons, you require some Special kind of Armor.\nPlease also check out the ",
+      "x": 268,
+      "y": 153,
+      "icon": {
+        "id": "bewitchment:besmirched_robes",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bewitchment:besmirched_wool",
+                "Count": 1
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "bewitchment:besmirched_hat",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "bewitchment:besmirched_robes",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "bewitchment:besmirched_pants",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7f265cf0-83a2-481d-b9fd-ac54823a6ba0"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "bewitchment:besmirched_wool",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "12bd1de0-4ae9-4a7b-ab1e-9232f74ba408",
+      "name": "Elven Portal",
+      "description": "Now you should have the basics to build an Elven Portal. You will not be able to enter this mystic dimension but can throw items trough and see what you will get as return. To keep the portal open, you will need a lot of mana.",
+      "x": 65,
+      "y": 111,
+      "icon": {
+        "id": "botania:alfheim_portal",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:alfheim_portal",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:natura_pylon",
+                "Count": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "botania:pixie_dust",
+                "Count": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "botania:dragonstone",
+                "Count": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "botania:elementium_ingot",
+                "Count": 1
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "85af42e7-58b0-4fbd-89f3-d69bd6eee622"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "85af42e7-58b0-4fbd-89f3-d69bd6eee622",
+      "name": "Terrasteel",
+      "description": "Try to craft some Terrasteel.\nYou can find every needed information in the Lexica Botania. produce one Terrasteel you should have a fully filled Mana Pool.",
+      "x": 65,
+      "y": 147,
+      "icon": {
+        "id": "botania:terrasteel_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:terrasteel_ingot",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d65d338d-5ad6-46cd-b67e-5d978d583a60"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:mana_tablet",
+          "Count": 1,
+          "tag": {
+            "mana": 500000
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7b8297dc-f341-42bd-8dbe-0ee62f0a2d92",
+      "name": "Botania",
+      "description": "Botania is a tech mod in essence. The theme is natural magic, revolving around flora.",
+      "x": 135,
+      "y": 184,
+      "bigicon": true,
+      "icon": {
+        "id": "botania:lexicon",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:lexicon",
+                "Count": 1
+              },
+              "precision": "TAG_NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "botania:fertilizer",
+                "Count": 1,
+                "tag": {}
+              },
+              "required": 8,
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "df4ee3e0-36ce-4368-9206-1082a6c700ab"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:bone_meal",
+          "Count": 16
+        },
+        {
+          "id": "botania:fertilizer",
+          "Count": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e01ef49a-f912-42b6-bb2a-114dde55cd76",
+      "name": "Trial Keystone",
+      "description": "You will need a special device to put your key to be able to start a trial. In other words, you need to craft a Trial Keystone. The Trial Key used in the crafting has no effect, so I\u0027s suggest you to use an Unbound one.",
+      "x": 52,
+      "y": 45,
+      "icon": {
+        "id": "dml-refabricated:trial_keystone",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "dml-refabricated:trial_keystone",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1e3067fc-2d32-4bb3-854c-878fa6a9059e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:golden_apple",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "01e5c5a2-d4aa-4557-acb0-53a9d12689e2",
+      "name": "Get a new Farm",
+      "description": "For this Mod you require a farm with Belladonna, Garlic, Mandrake and Aconite. You will need Salt and Silver aswell. \nSalt acts like a invisible Wall for Mobs. \nYou can place it down like Redstone.",
+      "x": 212,
+      "y": 188,
+      "icon": {
+        "id": "bewitchment:garlic",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bewitchment:belladonna",
+                "Count": 1
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "bewitchment:mandrake_root",
+                "Count": 1
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "bewitchment:aconite",
+                "Count": 1
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9ff78967-78bf-46f5-982e-2e0fa6d00031"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "bewitchment:silver_ingot",
+          "Count": 12
+        },
+        {
+          "id": "modern_industrialization:silver_ingot",
+          "Count": 12
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "79233cbc-b1f7-4b5d-ae73-9080c75c71b2",
+      "name": "Time in a Bottle",
+      "description": "This item can store Time and increase the speed of many blocks like Machines or Crops.",
+      "x": 65,
+      "y": 78,
+      "icon": {
+        "id": "timeinabottle:time_in_a_bottle",
+        "Count": 1,
+        "tag": {
+          "timeData": {}
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "timeinabottle:time_in_a_bottle",
+                "Count": 1,
+                "tag": {
+                  "timeData": {}
+                }
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "12bd1de0-4ae9-4a7b-ab1e-9232f74ba408"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:open_bucket",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": [
+        "/clear @p timeinabottle:time_in_a_bottle"
+      ]
+    },
+    {
+      "uuid": "aca0bea3-fa53-448e-b82b-3153b152f75d",
+      "name": "The Altar and Cauldron",
+      "description": "Get urself an Altar and place a piece of Carpet, Skull and Sword on it. \nYou need a Witch Cauldron too. \nPlace a heat Source below it.\nThe Altar is ur power Source. Always keep it in Range.\n\nVery Important: \nPlease check out the \"Brewing\" Chapter in the Book.\n\nWood Ash \u003d Clears\nWater \u003d normal Usage",
+      "x": 272,
+      "y": 188,
+      "icon": {
+        "id": "bewitchment:stone_witch_altar",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bewitchment:stone_witch_altar",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:red_carpet",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "bewitchment:witch_cauldron",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "bewitchment:iron_candelabra",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:golden_sword",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:skeleton_skull",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "464c41d0-1b0e-4753-a156-0e503c94371f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "bewitchment:silver_ingot",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "be19cade-a3a4-416d-86bc-8da8ad76b906",
+      "name": "Flower Crafting",
+      "description": "Fill this pot with water and drop petals into it. Complete the recipe by dropping a seed. If you have done it correctly you should get an new flower. Start by crafting an Pure Daisy. Try to find out how to use it by  checking out the Lexica Botania.",
+      "x": 138,
+      "y": 114,
+      "icon": {
+        "id": "botania:apothecary_default",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:apothecary_default",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:pure_daisy",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2e9df26-b726-4cf8-855a-dc7df967c022"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:livingwood",
+          "Count": 8
+        },
+        {
+          "id": "botania:livingrock",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "bb24da27-93a1-489d-adcb-803ecb3823c0",
       "name": "Conjuring",
       "description": "This is a mod which allows you to create mob farms with mob spawners. Craft the Guide Book and learn how to use the mod.",
@@ -727,6 +1342,152 @@
         {
           "id": "bewitchment:snake_tongue",
           "Count": 12
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a2e9df26-b726-4cf8-855a-dc7df967c022",
+      "name": "Petals",
+      "description": "Craft some Floral Fertilizer and use it on Grass Blocks to get Mystical Flowers. They can be used to get petals.\nCollect 16 petals of each color, you will need a lot of them later.",
+      "x": 138,
+      "y": 150,
+      "icon": {
+        "id": "botania:black_petal",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:black_petal",
+                "Count": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "botania:blue_petal",
+                "Count": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "botania:brown_petal",
+                "Count": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "botania:cyan_petal",
+                "Count": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "botania:gray_petal",
+                "Count": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "botania:green_petal",
+                "Count": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "botania:light_blue_petal",
+                "Count": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "botania:light_gray_petal",
+                "Count": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "botania:lime_petal",
+                "Count": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "botania:magenta_petal",
+                "Count": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "botania:orange_petal",
+                "Count": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "botania:pink_petal",
+                "Count": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "botania:purple_petal",
+                "Count": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "botania:red_petal",
+                "Count": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "botania:white_petal",
+                "Count": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "botania:yellow_petal",
+                "Count": 1
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7b8297dc-f341-42bd-8dbe-0ee62f0a2d92"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:pestle_and_mortar",
+          "Count": 1
+        },
+        {
+          "id": "botania:fertilizer",
+          "Count": 16
         }
       ],
       "rewardchoice": [],
@@ -934,130 +1695,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "9ff78967-78bf-46f5-982e-2e0fa6d00031",
-      "name": "Bewitchment",
-      "description": "Start by collecting some basic resources by breaking Sand and hammering Gras. \n\nPlease read the Book careful.\nWe can\u0027t explain all of the Mod via Quests.",
-      "x": 174,
-      "y": 185,
-      "bigicon": true,
-      "icon": {
-        "id": "bewitchment:book_of_shadows",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "bewitchment:mandrake_seeds",
-                "Count": 1
-              },
-              "required": 24
-            },
-            {
-              "item": {
-                "id": "bewitchment:aconite_seeds",
-                "Count": 1
-              },
-              "required": 24
-            },
-            {
-              "item": {
-                "id": "bewitchment:belladonna_seeds",
-                "Count": 1
-              },
-              "required": 24
-            },
-            {
-              "item": {
-                "id": "bewitchment:garlic",
-                "Count": 1
-              },
-              "required": 32
-            },
-            {
-              "item": {
-                "id": "bewitchment:salt",
-                "Count": 1
-              },
-              "required": 12
-            },
-            {
-              "item": {
-                "id": "bewitchment:taglock",
-                "Count": 1
-              },
-              "required": 4
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "df4ee3e0-36ce-4368-9206-1082a6c700ab"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "bewitchment:book_of_shadows",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "7f265cf0-83a2-481d-b9fd-ac54823a6ba0",
-      "name": "Demon Summons",
-      "description": "You may ask yourself, \"how do I spawn in Demons?\"... Well, you should give the Nether a visit and look out for a Hellhound. He drops some specific Item you will need to unlock them.",
-      "x": 301,
-      "y": 153,
-      "icon": {
-        "id": "bewitchment:hellhound_spawn_egg",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "KILL",
-          "mobs": [
-            {
-              "name": "Hellhounds",
-              "icon": {
-                "id": "bewitchment:hellhound_spawn_egg",
-                "Count": 1
-              },
-              "mob": "bewitchment:hellhound",
-              "kills": 4
-            }
-          ]
-        },
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "bewitchment:demon_horn",
-                "Count": 1
-              },
-              "required": 3
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "375624ad-b842-43f1-a1f9-3c0d08ca5f82"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "bewitchment:demon_horn",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "b8c1fb08-e348-45f3-9ee3-b29d605340a4",
       "name": "Poppet Protection",
       "description": "You will need an Poppet for yourself as protection. This is mandatory to become a Werewolf OR a Vampire.",
@@ -1107,6 +1744,50 @@
       "commandrewards": []
     },
     {
+      "uuid": "c6c01c40-c8ad-49b5-a831-4d1594c665c1",
+      "name": "Ritual of Gaia",
+      "description": "If you would like to summon the Gaia you should be prepared, it will be a hard boss fight. If you win this fight, you will be gifted with some Gaia Spirits.\n\nThis is not the end of Botania, there is a lot more to discover!",
+      "x": 27,
+      "y": 111,
+      "icon": {
+        "id": "botania:gaia_pylon",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:gaia_pylon",
+                "Count": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "botania:life_essence",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "12bd1de0-4ae9-4a7b-ab1e-9232f74ba408"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:gaia_ingot",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "d21df207-31ba-4655-9f90-64452372f9ae",
       "name": "\"Deep Mob\" Mod Intro",
       "description": "This mod allows you to collect mob drops with a very unique way. Sorry there is no ingame guide yet. But visit the official Wiki if you need help.",
@@ -1138,49 +1819,6 @@
         {
           "id": "dml-refabricated:soot_redstone",
           "Count": 4
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "756180a7-ce2c-445b-a1d0-5fc68d436638",
-      "name": "Braze yourself",
-      "description": "A good and useful Item is the Brazier. You can get a lot of other Benefits from it. \nYou can even create Curses with it.\nFor further help, please check out the \"Tools\" and \"Curses\" Sections.",
-      "x": 198,
-      "y": 121,
-      "icon": {
-        "id": "bewitchment:brazier",
-        "Count": 1,
-        "tag": {}
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "bewitchment:brazier",
-                "Count": 1,
-                "tag": {}
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "b7e5d957-50b4-47fc-82d3-9d828868e3f0"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "bewitchment:demon_horn",
-          "Count": 2,
-          "tag": {}
-        },
-        {
-          "id": "bewitchment:dragons_blood_sapling",
-          "Count": 2
         }
       ],
       "rewardchoice": [],

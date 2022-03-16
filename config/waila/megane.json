@@ -26,7 +26,8 @@
       "agape_space": 7408640,
       "spatialharvesters": 7408640,
       "enhanced_quarries": 7408640,
-      "modern_industrialization": 11993088
+      "modern_industrialization": 11993088,
+      "appliedenergistics2": 6556063
     },
     "units": {
       "megane": "E",
@@ -35,7 +36,8 @@
       "agape_space": "E",
       "spatialharvesters": "E",
       "enhanced_quarries": "E",
-      "modern_industrialization": "EU"
+      "modern_industrialization": "EU",
+      "appliedenergistics2": "AE"
     },
     "blacklist": [
       "appliedenergistics2:energy_acceptor"
@@ -53,7 +55,8 @@
       "modern_industrialization:lubricant": 16761856,
       "modern_industrialization:raw_synthetic_oil": 5131846,
       "modern_industrialization:synthetic_oil": 5000268,
-      "modern_industrialization:oxygen": 3315442
+      "modern_industrialization:oxygen": 3315442,
+      "kibe:liquid_xp": 5635925
     },
     "blacklist": []
   },

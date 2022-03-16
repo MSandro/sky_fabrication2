@@ -1,0 +1,33 @@
+{
+  "parent": "gamephases:phases/starry",
+  "display": {
+    "title": {
+      "text": "Sky-Islands Unlocked"
+    },
+    "icon": {
+      "item": "kubejs:unknown"
+    },
+    "description": {
+      "text": "now you can enter the Sky Islands!"
+    }
+  },
+  "criteria": {
+    "has_sky_island_activator": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:sky_island_activator"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sky_island_activator"
+    ]
+  ]
+}

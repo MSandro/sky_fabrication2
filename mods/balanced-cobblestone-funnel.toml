@@ -1,0 +1,13 @@
+name = "Balanced Cobblestone Funnel"
+filename = "balanced-cobblestone-funnel-Release 1 Fix 3.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3659/365/balanced-cobblestone-funnel-Release 1 Fix 3.jar"
+hash-format = "murmur2"
+hash = "2025850394"
+
+[update]
+[update.curseforge]
+file-id = 3659365
+project-id = 571248

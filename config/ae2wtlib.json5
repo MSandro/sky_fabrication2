@@ -2,6 +2,6 @@
 	"chargeRate": 8000.0,
 	"wutChargeRateMultiplier": 1.0,
 	"outOfRangePowerMultiplier": 2.0,
-	"magnetCardRange": 16.0,
+	"magnetCardRange": 8.0,
 	"enableTrinket": true
 }

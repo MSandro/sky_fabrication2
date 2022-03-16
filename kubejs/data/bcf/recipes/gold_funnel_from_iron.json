@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "funnels",
+  "pattern": [
+    "PXP",
+    "CSC",
+    "CEC"
+  ],
+  "key": {
+    "S": {
+      "item": "scf:iron_funnel"
+    },
+    "C": {
+      "item": "minecraft:gold_block"
+    },
+    "E": {
+      "item": "modern_industrialization:electrum_block"
+    },
+    "P": {
+      "item": "minecraft:ender_eye"
+    },
+    "C": {
+      "item": "minecraft:copper_block"
+    },
+    "X": {
+      "item": "compress:compressed_gold_block_1"
+    }
+  },
+  "result": {
+    "item": "bcf:gold_funnel"
+  }
+}

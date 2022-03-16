@@ -1,3 +1,10 @@
+//priority: 9
+let first_item = "croparia:fruit_dragon"
+let amount = 8;
+if (global.isExpertMode) {
+  first_item = "compress:bag_with_wither_rose"
+  amount = 1
+}
 
 onEvent('recipes', event => {
   event.custom({
@@ -6,7 +13,7 @@ onEvent('recipes', event => {
       "ABCDFGRr ", "JKLMNOPQ ", "STUVWXZ0 ", "12345678 ", "bcdefghi ", "jklmnopq ", "stvwyz!9 ", "<>§/;?,% ", "^¨$£¤*µ  "
     ],
     "key": {
-      "A": {"item": "croparia:fruit_dragon"},
+      "A": {"item": first_item},
       "B": {"item": "minecraft:apple"},
       "C": {"item": "minecraft:sweet_berries"},
       "D": {"item": "minecraft:melon_slice"},
@@ -79,8 +86,8 @@ onEvent('recipes', event => {
       "%": {"item": "croptopia:barley"}
     },
     "result": {
-      "item": "kubejs:stew",
-      "count": 1
+      "item": "kubejs:ultimate_stew",
+      "count": amount
     }
   });
 
@@ -90,7 +97,7 @@ onEvent('recipes', event => {
       "ABCDEFG", "JKLMNOP", "STUVWX ", "HIQR   "
     ],
     "key": {
-      "A": {"item": "croparia:fruit_dragon"},
+      "A": {"item": first_item},
       "B": {"item": "minecraft:rotten_flesh"},
       "C": {"item": "minecraft:chicken"},
       "D": {"item": "minecraft:porkchop"},
@@ -116,18 +123,18 @@ onEvent('recipes', event => {
       "X": {"item": "farmersdelight:mutton_chops"}
     },
     "result": {
-      "item": "kubejs:beef",
-      "count": 1
+      "item": "kubejs:cosmic_meatballs",
+      "count": amount
     }
   });
 
   event.custom({
-    "type": "artis:biggest_bench_shaped",
+    "type": "artis:bigger_bench_shaped",
     "pattern": [
-      "ABCDEFGHI", "JKLMNOPQR", "STUVWXYZ0", "12346789 ", "abcdefg  "
+      "ABCDEFG", "JKLMNOP", "STUVWXY", "1234678", "abcdefg", "QRZ09HI"
     ],
     "key": {
-      "A": {"item": "croparia:fruit_dragon"},
+      "A": {"item": first_item},
       "B": {"item": "minecraft:cod"},
       "C": {"item": "minecraft:salmon"},
       "D": {"item": "minecraft:tropical_fish"},
@@ -172,7 +179,7 @@ onEvent('recipes', event => {
     },
     "result": {
       "item": "kubejs:fish_and_chips",
-      "count": 1
+      "count": amount
     }
   });
 });

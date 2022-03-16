@@ -1,6 +1,6 @@
 {
   "name": "electrum",
-  "disable": false,
+  "disable": true,
   "tier": 3,
   "color": "a79135",
   "armorPoints": 2,

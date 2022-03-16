@@ -1,0 +1,33 @@
+{
+  "parent": "gamephases:phases/nether",
+  "display": {
+    "title": {
+      "text": "Aether Unlocked"
+    },
+    "icon": {
+      "item": "kubejs:unknown"
+    },
+    "description": {
+      "text": "now you can enter the Aether!"
+    }
+  },
+  "criteria": {
+    "has_diamond_grinding_head": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "techreborn:diamond_grinding_head"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_diamond_grinding_head"
+    ]
+  ]
+}

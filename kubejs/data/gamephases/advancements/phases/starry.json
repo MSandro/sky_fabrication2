@@ -1,0 +1,33 @@
+{
+  "parent": "gamephases:phases/aether",
+  "display": {
+    "title": {
+      "text": "Starry-Sky Unlocked"
+    },
+    "icon": {
+      "item": "kubejs:unknown"
+    },
+    "description": {
+      "text": "now you can enter the Starry Sky!"
+    }
+  },
+  "criteria": {
+    "has_crow_eye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "the_aether:crow_eye"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_crow_eye"
+    ]
+  ]
+}

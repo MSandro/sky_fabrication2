@@ -8,5 +8,8 @@ onEvent('block.break', event => {
 				event.server.runCommandSilent(`summon item ${event.block.x} ${event.block.y+0.7} ${event.block.z} {Item:{id:"minecraft:gravel",Count:1b}}`);
 			}
     }
+		if(event.block.id == "dark-enchanting:dark_enchanter" && event.entity.getMainHandItem().toString().includes("pickaxe")){
+			event.server.runCommandSilent(`summon item ${event.block.x} ${event.block.y+0.7} ${event.block.z} {Item:{id:"dark-enchanting:dark_enchanter",Count:1b}}`);
+    }
   }
 });

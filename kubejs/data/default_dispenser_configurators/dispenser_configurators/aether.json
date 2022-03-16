@@ -1,9 +1,12 @@
 {
 	"targets": [
-      "USE_ON_ENTITY"
+      "USE_ON_BLOCK"
     ],
 	"items": [
 		"minecraft:water_bucket"
+	],
+	"block_deny_list": [
+		"minecraft:glowstone"
 	],
 	"exclusive": true
 }

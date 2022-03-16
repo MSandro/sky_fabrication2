@@ -1,16 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " R ",
+    "CRC",
     "RDR",
-    " R "
+    "CRC"
   ],
   "key": {
     "R": {
-      "item": "minecraft:redstone"
+      "item": "modern_industrialization:redstone_battery"
     },
     "D": {
-      "item": "modern_industrialization:iron_double_ingot"
+      "item": "indrev:circuit_mk1"
+    },
+    "C": {
+      "item": "modern_industrialization:silver_cable"
     }
   },
   "result": {

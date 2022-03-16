@@ -13,7 +13,7 @@ onEvent('recipes', event => {
   event.remove({output: 'bewitchment:elder_broom'});
   event.remove({output: 'bewitchment:dragons_blood_broom'});
 
-  // COMPRESS'em
+  // COMPRESS
   const DelCompressem = [
     "compress:bundle_of_sticks",
     "resourceful_tools:dirt_single",
@@ -40,7 +40,8 @@ onEvent('recipes', event => {
     "resourceful_tools:netherrack_single",
     "resourceful_tools:netherrack_double",
     "resourceful_tools:netherrack_triple",
-    "compress:bag_with_blaze_rods"
+    "compress:bag_with_blaze_rods",
+    "compress:bag_with_ender_pearls"
   ]
   DelCompressem.forEach(id => event.remove({output: id}));
 
@@ -138,7 +139,9 @@ onEvent('recipes', event => {
   // MC
   event.remove({output: 'minecraft:end_portal_frame'});
   event.remove({output: 'minecraft:elytra'});
-  event.remove({output: 'minecraft:seed', type: 'minecraft:crafting_shapeless'})
+  event.remove({output: 'minecraft:wheat_seeds', input: '#resourceful_tools:crack_hammers', type: 'minecraft:crafting_shapeless'})
+  event.remove({output: 'minecraft:soul_soil', type: 'minecraft:crafting_shaped'})
+  event.remove({output: 'minecraft:soul_sand', type: 'minecraft:crafting_shaped'})
 
   event.remove({output: 'minecraft:end_crystal'});
   event.shaped('1x minecraft:end_crystal', [
@@ -152,6 +155,7 @@ onEvent('recipes', event => {
   });
 
   event.shapeless('9x minecraft:charcoal', ['skyutils:charcoal_block'])
+  event.shapeless('bewitchment:salt', ['modern_industrialization:salt_dust'])
 
   event.remove({output: 'expandedstorage:old_wood_chest'});
   event.shapeless('expandedstorage:old_wood_chest', [['minecraft:chest'], ['blockus:legacy_planks']]);

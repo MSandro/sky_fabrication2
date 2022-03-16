@@ -85,8 +85,8 @@
       "uuid": "7ec6b5dc-6d24-4ea8-8242-bd29d163c8db",
       "name": "Harvesters",
       "description": "There are several types of harvesters, like the ore harvester, the loot harvester and much more. You need at least one Space Ripper connected to the Harvester. They consumes a lot of energy.",
-      "x": 95,
-      "y": 101,
+      "x": 101,
+      "y": 56,
       "icon": {
         "id": "spatialharvesters:ore_harvester_1",
         "Count": 1,
@@ -185,8 +185,8 @@
       "uuid": "fad79351-6e4c-4d6a-a5c9-47d8535b942c",
       "name": "Replicator",
       "description": "The Replicator can use UU-Matter to produce Items. It\u0027s one of the most powerful Machines.",
-      "x": 92,
-      "y": 14,
+      "x": 139,
+      "y": 11,
       "icon": {
         "id": "modern_industrialization:replicator",
         "Count": 1
@@ -300,8 +300,8 @@
       "uuid": "6e65ad2e-2b52-4520-92a2-6b53e0e4fae6",
       "name": "Fusion Power",
       "description": "Need more Energy? Try to set up a Fusion Reactor.",
-      "x": 56,
-      "y": 56,
+      "x": 63,
+      "y": 11,
       "icon": {
         "id": "modern_industrialization:fusion_reactor",
         "Count": 1
@@ -389,6 +389,43 @@
         {
           "id": "indrev:nikolite_dust",
           "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "58cb5c8d-0a5b-4876-a4d0-b36b6120887d",
+      "name": "Bauxit -\u003e Aluminum",
+      "description": "Now you can produce Aluminum. It can be hard at the beginning, because you will just get 1 Nugget for each Bauxit Dust.\nBut with better Machines you will be able to improve your production.",
+      "x": 95,
+      "y": 145,
+      "icon": {
+        "id": "modern_industrialization:aluminum_nugget",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "modern_industrialization:aluminum_nugget",
+                "Count": 1
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "48ec4499-482f-46f7-85ed-790cb9dc1fbc"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "modern_industrialization:ruby_dust",
+          "Count": 16
         }
       ],
       "rewardchoice": [],
@@ -588,42 +625,6 @@
         },
         {
           "id": "techreborn:basic_machine_frame",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "db9f081f-3c21-4372-9883-1acf264b0a02",
-      "name": "9x9 Crafting",
-      "description": "By using an Ultimate Table you can combine up to 81 items in one recipe to craft very powerfull stuff.",
-      "x": 20,
-      "y": 24,
-      "icon": {
-        "id": "artis:biggest_bench",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "artis:biggest_bench",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "282c5daf-1b6c-4eff-b2a2-465597cd1a8c"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:netherite_block",
           "Count": 1
         }
       ],
@@ -869,7 +870,7 @@
     },
     {
       "uuid": "8665945a-715c-440a-bac5-70e8efeac8b1",
-      "name": "Quarries",
+      "name": "Electric Quarry",
       "description": "The Electric Quarry can process some other Drills to produce some useful resources. The Gold Drill can be used to obtain Netherite.",
       "x": 20,
       "y": 141,
@@ -9269,7 +9270,7 @@
       "y": 59,
       "bigicon": true,
       "icon": {
-        "id": "scf:netherite_funnel",
+        "id": "bcf:netherite_funnel",
         "Count": 1
       },
       "tasks": [
@@ -9278,7 +9279,7 @@
           "items": [
             {
               "item": {
-                "id": "scf:netherite_funnel",
+                "id": "bcf:netherite_funnel",
                 "Count": 1
               }
             }
@@ -9342,8 +9343,8 @@
       "uuid": "19528e02-8e13-444c-a12a-f93e7702f4f2",
       "name": "GraviChestPlate",
       "description": "Need a very powerful Chestplate? Try to build the GraviChestplate.",
-      "x": 56,
-      "y": 14,
+      "x": 100,
+      "y": 11,
       "icon": {
         "id": "modern_industrialization:gravichestplate",
         "Count": 1
@@ -9414,8 +9415,8 @@
       "uuid": "4f112fc8-60fd-4a24-821d-6c753f75f873",
       "name": "Dimensional Applicator",
       "description": "This Block can be used to get a permanent effect.",
-      "x": 95,
-      "y": 65,
+      "x": 101,
+      "y": 101,
       "icon": {
         "id": "spatialharvesters:dimensional_applicator",
         "Count": 1,
@@ -9459,11 +9460,47 @@
       "commandrewards": []
     },
     {
+      "uuid": "c9d8b55d-b19a-41cf-bc75-1ff7a5387c05",
+      "name": "Distillery",
+      "description": "With this Machine you can convert some fluids. Later you might need the Distillation Tower.\nHint: you can lock the output slot by dragging the fluid of your needs from the REI-Menu to it.",
+      "x": 63,
+      "y": 101,
+      "icon": {
+        "id": "modern_industrialization:distillery",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "modern_industrialization:distillery",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c1adc52b-ca01-410b-9025-6f45b2015728"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "modern_industrialization:clean_stainless_steel_machine_casing",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "e2ad230a-107c-45c1-8fbc-67f639261ec7",
       "name": "Nuclear Energy",
       "description": "In Modern Industrialization you can discover much more. Let\u0027s try to build the Nuclear Reactor! Details can be found in the Guide Book.",
-      "x": 56,
-      "y": 101,
+      "x": 63,
+      "y": 56,
       "icon": {
         "id": "modern_industrialization:nuclear_reactor",
         "Count": 1
@@ -9501,7 +9538,7 @@
         }
       ],
       "prerequisites": [
-        "c1adc52b-ca01-410b-9025-6f45b2015728"
+        "c9d8b55d-b19a-41cf-bc75-1ff7a5387c05"
       ],
       "optionlinks": [],
       "reward": [
@@ -9579,12 +9616,7 @@
         "011de5a3-5017-47dc-bd89-547485ec9d11"
       ],
       "optionlinks": [],
-      "reward": [
-        {
-          "id": "iron-jetpacks:gold_thruster",
-          "Count": 1
-        }
-      ],
+      "reward": [],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -9727,7 +9759,7 @@
       "y": 179,
       "bigicon": true,
       "icon": {
-        "id": "iron-jetpacks:copper_jetpack",
+        "id": "iron-jetpacks:obamium_jetpack",
         "Count": 1
       },
       "tasks": [
@@ -9736,80 +9768,7 @@
           "items": [
             {
               "item": {
-                "id": "iron-jetpacks:wood_jetpack",
-                "Count": 1
-              },
-              "precision": "TAG_NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "iron-jetpacks:stone_jetpack",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "iron-jetpacks:copper_jetpack",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "iron-jetpacks:iron_jetpack",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "iron-jetpacks:silver_jetpack",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "iron-jetpacks:electrum_jetpack",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "iron-jetpacks:invar_jetpack",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "iron-jetpacks:steel_jetpack",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "iron-jetpacks:gold_jetpack",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "iron-jetpacks:diamond_jetpack",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "iron-jetpacks:emerald_jetpack",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "iron-jetpacks:platinum_jetpack",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "iron-jetpacks:netherite_jetpack",
+                "id": "iron-jetpacks:obamium_jetpack",
                 "Count": 1
               }
             }

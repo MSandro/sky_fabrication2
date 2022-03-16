@@ -1,99 +1,147 @@
 {
-    "lava_input": ["minecraft:lava_bucket"],
-    "water_input": ["minecraft:water_bucket"],
-    "lava_output": ["minecraft:bucket"],
-    "water_output": ["minecraft:bucket"],
-    "funnels": {
-        "cobblestone": {
-            "speed": 60,
-            "uses_per_lava": 100,
-            "uses_per_water": -1,
-            "generates": [
-                {"block": "minecraft:cobblestone", "weight": 4},
-                {"block": "minecraft:stone", "weight": 4},
-                {"block": "minecraft:coal_ore", "weight": 2},
-                {"block": "minecraft:copper_ore", "weight": 1},
-                {"block": "minecraft:iron_ore", "weight": 1}
-            ]
-        },
-        "copper": {
-            "speed": 30,
-            "uses_per_lava": 50,
-            "uses_per_water": -1,
-            "generates": [
-                {"block": "minecraft:cobblestone", "weight": 6},
-                {"block": "minecraft:stone","weight": 6},
-                {"block": "minecraft:coal_ore","weight": 4},
-                {"block": "minecraft:copper_ore", "weight": 3},
-                {"block": "minecraft:iron_ore", "weight": 2},
-                {"block": "minecraft:redstone_ore", "weight": 1},
-                {"block": "minecraft:nether_quartz_ore", "weight": 1},
-                {"block": "minecraft:gold_ore", "weight": 1}
-            ]
-        },
-        "iron": {
-            "speed": 60,
-            "uses_per_lava": 100,
-            "uses_per_water": -1,
-            "generates": [
-                {"block": "minecraft:cobblestone", "weight": 6},
-                {"block": "minecraft:stone", "weight": 6},
-                {"block": "minecraft:coal_ore", "weight": 4},
-                {"block": "minecraft:copper_ore", "weight": 2},
-                {"block": "minecraft:iron_ore", "weight": 3},
-                {"block": "minecraft:redstone_ore", "weight": 1},
-                {"block": "minecraft:nether_quartz_ore", "weight": 1},
-                {"block": "minecraft:gold_ore", "weight": 1}
-            ]
-        },
-        "gold": {
-            "speed": 45,
-            "uses_per_lava": 25,
-            "uses_per_water": -1,
-            "generates": [
-                {"block": "minecraft:cobblestone", "weight": 10},
-                {"block": "minecraft:stone", "weight": 10},
-                {"block": "minecraft:coal_ore", "weight": 6},
-                {"block": "minecraft:copper_ore", "weight": 4},
-                {"block": "minecraft:iron_ore", "weight": 4},
-                {"block": "minecraft:redstone_ore", "weight": 2},
-                {"block": "minecraft:nether_quartz_ore", "weight": 3},
-                {"block": "minecraft:gold_ore", "weight": 3},
-                {"block": "minecraft:diamond_ore", "weight": 1}
-            ]
-        },
-        "diamond": {
-            "speed": 30,
-            "uses_per_lava": 10,
-            "uses_per_water": -1,
-            "generates": [
-                {"block": "minecraft:cobblestone", "weight": 5},
-                {"block": "minecraft:stone", "weight": 5},
-                {"block": "minecraft:coal_ore", "weight": 3},
-                {"block": "minecraft:copper_ore", "weight": 2},
-                {"block": "minecraft:iron_ore", "weight": 2},
-                {"block": "minecraft:redstone_ore", "weight": 2},
-                {"block": "minecraft:nether_quartz_ore", "weight": 4},
-                {"block": "minecraft:gold_ore", "weight": 2},
-                {"block": "minecraft:diamond_ore", "weight": 2}
-            ]
-        },
-        "netherite": {
-            "speed": 20,
-            "uses_per_lava": 5,
-            "uses_per_water": -1,
-            "generates": [
-                {"block": "minecraft:cobblestone", "weight": 40},
-                {"block": "minecraft:stone", "weight": 40},
-                {"block": "minecraft:coal_ore", "weight": 20},
-                {"block": "minecraft:copper_ore", "weight": 16},
-                {"block": "minecraft:iron_ore", "weight": 16},
-                {"block": "minecraft:redstone_ore", "weight": 8},
-                {"block": "minecraft:nether_quartz_ore", "weight": 12},
-                {"block": "minecraft:gold_ore", "weight": 12},
-                {"block": "minecraft:diamond_ore", "weight": 4},
-                {"block": "minecraft:ancient_debris", "weight": 1}
-            ]
-        }
+  "lava_input": [
+    "minecraft:lava_bucket",
+    "skyutils:lava_crucible"
+  ],
+  "lava_output": [
+    "minecraft:bucket",
+    "skyutils:crucible"
+  ],
+  "water_input": [
+    "minecraft:water_bucket",
+    "skyutils:water_crucible"
+  ],
+  "water_output": [
+    "minecraft:bucket",
+    "skyutils:crucible"
+  ],
+  "autofill_infinite_fluid_tank": true,
+  "funnels": {
+    "cobblestone": {
+      "speed": 100,
+      "uses_per_lava": 512,
+      "uses_per_water": 1024,
+      "generates": [
+        {"weight": 10, "block": "minecraft:cobblestone"},
+        {"weight": 9, "block": "minecraft:stone"},
+        {"weight": 8, "block": "minecraft:diorite"},
+        {"weight": 7, "block": "minecraft:deepslate"},
+        {"weight": 2, "block": "minecraft:gravel"},
+        {"weight": 1, "block": "minecraft:coal_ore"}
+      ]
+    },
+    "iron": {
+      "speed": 80,
+      "uses_per_lava": 256,
+      "uses_per_water": 1024,
+      "generates": [
+        {"weight": 20, "block": "minecraft:cobblestone"},
+        {"weight": 19, "block": "minecraft:stone"},
+        {"weight": 18, "block": "minecraft:diorite"},
+        {"weight": 17, "block": "minecraft:deepslate"},
+        {"weight": 14, "block": "minecraft:coal_ore"},
+        {"weight": 16, "block": "minecraft:gravel"},
+        {"weight": 15, "block": "minecraft:sand"},
+        {"weight": 2, "block": "minecraft:redstone_ore"},
+        {"weight": 3, "block": "minecraft:copper_ore"},
+        {"weight": 6, "block": "minecraft:iron_ore"},
+        {"weight": 1, "block": "indrev:silver_ore"}
+      ]
+    },
+    "gold": {
+      "speed": 60,
+      "uses_per_lava": 128,
+      "uses_per_water": 1024,
+      "generates": [
+        {"weight": 25, "block": "minecraft:cobblestone"},
+        {"weight": 24, "block": "minecraft:stone"},
+        {"weight": 26, "block": "minecraft:diorite"},
+        {"weight": 25, "block": "minecraft:deepslate"},
+        {"weight": 20, "block": "minecraft:coal_ore"},
+        {"weight": 24, "block": "minecraft:gravel"},
+        {"weight": 23, "block": "minecraft:sand"},
+        {"weight": 4, "block": "minecraft:redstone_ore"},
+        {"weight": 7, "block": "minecraft:copper_ore"},
+        {"weight": 8, "block": "indrev:silver_ore"},
+        {"weight": 11, "block": "minecraft:iron_ore"},
+        {"weight": 12, "block": "minecraft:clay"},
+        {"weight": 22, "block": "minecraft:granite"},
+        {"weight": 10, "block": "minecraft:lapis_ore"},
+        {"weight": 6, "block": "modern_industrialization:nickel_ore"},
+        {"weight": 3, "block": "minecraft:nether_gold_ore"},
+        {"weight": 2, "block": "minecraft:nether_quartz_ore"},
+        {"weight": 1, "block": "modern_industrialization:tin_ore"}
+      ]
+    },
+    "diamond": {
+      "speed": 40,
+      "uses_per_lava": 64,
+      "uses_per_water": 512,
+      "generates": [
+        {"weight": 40, "block": "minecraft:cobblestone"},
+        {"weight": 39, "block": "minecraft:stone"},
+        {"weight": 38, "block": "minecraft:diorite"},
+        {"weight": 37, "block": "minecraft:deepslate"},
+        {"weight": 30, "block": "minecraft:coal_ore"},
+        {"weight": 36, "block": "minecraft:gravel"},
+        {"weight": 35, "block": "minecraft:sand"},
+        {"weight": 16, "block": "minecraft:redstone_ore"},
+        {"weight": 21, "block": "minecraft:copper_ore"},
+        {"weight": 22, "block": "indrev:silver_ore"},
+        {"weight": 26, "block": "minecraft:iron_ore"},
+        {"weight": 30, "block": "minecraft:clay"},
+        {"weight": 34, "block": "minecraft:granite"},
+        {"weight": 13, "block": "minecraft:lapis_ore"},
+        {"weight": 21, "block": "modern_industrialization:tin_ore"},
+        {"weight": 20, "block": "modern_industrialization:nickel_ore"},
+        {"weight": 30, "block": "minecraft:nether_gold_ore"},
+        {"weight": 22, "block": "minecraft:nether_quartz_ore"},
+        {"weight": 33, "block": "minecraft:calcite"},
+        {"weight": 23, "block": "modern_industrialization:salt_ore"},
+        {"weight": 1, "block": "minecraft:diamond_ore"},
+        {"weight": 20, "block": "modern_industrialization:lead_ore"},
+        {"weight": 23, "block": "modern_industrialization:bauxite_ore"},
+        {"weight": 11, "block": "modern_industrialization:antimony_ore"}
+      ]
+    },
+    "netherite": {
+      "speed": 20,
+      "uses_per_lava": 32,
+      "uses_per_water": 128,
+      "generates": [
+        {"weight": 45, "block": "minecraft:cobblestone"},
+        {"weight": 44, "block": "minecraft:stone"},
+        {"weight": 43, "block": "minecraft:diorite"},
+        {"weight": 42, "block": "minecraft:deepslate"},
+        {"weight": 36, "block": "minecraft:coal_ore"},
+        {"weight": 41, "block": "minecraft:gravel"},
+        {"weight": 40, "block": "minecraft:sand"},
+        {"weight": 8, "block": "minecraft:redstone_ore"},
+        {"weight": 12, "block": "minecraft:copper_ore"},
+        {"weight": 22, "block": "indrev:silver_ore"},
+        {"weight": 28, "block": "minecraft:iron_ore"},
+        {"weight": 12, "block": "minecraft:clay"},
+        {"weight": 39, "block": "minecraft:granite"},
+        {"weight": 6, "block": "minecraft:lapis_ore"},
+        {"weight": 21, "block": "modern_industrialization:tin_ore"},
+        {"weight": 20, "block": "modern_industrialization:nickel_ore"},
+        {"weight": 20, "block": "minecraft:deepslate_gold_ore"},
+        {"weight": 22, "block": "minecraft:nether_quartz_ore"},
+        {"weight": 38, "block": "minecraft:calcite"},
+        {"weight": 23, "block": "modern_industrialization:salt_ore"},
+        {"weight": 2, "block": "minecraft:diamond_ore"},
+        {"weight": 20, "block": "modern_industrialization:lead_ore"},
+        {"weight": 23, "block": "modern_industrialization:bauxite_ore"},
+        {"weight": 9, "block": "modern_industrialization:antimony_ore"},
+        {"weight": 7, "block": "modern_industrialization:mozanite_ore"},
+        {"weight": 4, "block": "things:gleaming_ore"},
+        {"weight": 30, "block": "appliedenergistics2:sky_stone_block"},
+        {"weight": 15, "block": "minecraft:magma_block"},
+        {"weight": 3, "block": "minecraft:obsidian"},
+        {"weight": 1, "block": "modern_industrialization:deepslate_uranium_ore"},
+        {"weight": 2, "block": "betternether:cincinnasite_ore"},
+        {"weight": 2, "block": "appliedenergistics2:deepslate_quartz_ore"}
+      ]
     }
+  }
 }
