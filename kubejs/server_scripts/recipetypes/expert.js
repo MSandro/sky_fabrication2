@@ -177,5 +177,41 @@ onEvent('recipes', event => {
       Q: 'botania:third_eye',
       C: 'modern_industrialization:kanthal_block'
     });
+
+    //blockus
+    event.remove({output: 'blockus:legacy_nether_reactor_core', type: 'minecraft:crafting_shaped'});
+    event.shaped('blockus:legacy_nether_reactor_core', [
+        "DID",
+        "DBD",
+        "DID"
+    ], {
+      D: "minecraft:diamond",
+      I: "modern_industrialization:steel_block",
+      B: "botania:blaze_block"
+    });
+
+    //ExpandedStorage
+    event.replaceInput({output: 'expandedstorage:old_iron_chest'}, 'minecraft:iron_ingot', 'minecraft:iron_block')
+    event.replaceInput({output: 'expandedstorage:iron_chest'}, 'minecraft:iron_ingot', 'minecraft:iron_block')
+    event.replaceInput({output: 'expandedstorage:iron_barrel'}, 'minecraft:iron_ingot', 'minecraft:iron_block')
+    event.replaceInput({output: 'expandedstorage:wood_to_iron_conversion_kit'}, 'minecraft:iron_ingot', 'minecraft:iron_block')
+    event.replaceInput({output: 'expandedstorage:old_gold_chest'}, 'minecraft:gold_ingot', 'minecraft:gold_block')
+    event.replaceInput({output: 'expandedstorage:gold_chest'}, 'minecraft:gold_ingot', 'minecraft:gold_block')
+    event.replaceInput({output: 'expandedstorage:gold_barrel'}, 'minecraft:gold_ingot', 'minecraft:gold_block')
+    event.replaceInput({output: 'expandedstorage:wood_to_gold_conversion_kit'}, 'minecraft:gold_ingot', 'minecraft:gold_block')
+    event.replaceInput({output: 'expandedstorage:iron_to_gold_conversion_kit'}, 'minecraft:gold_ingot', 'minecraft:gold_block')
+    event.replaceInput({output: 'expandedstorage:old_diamond_chest'}, 'minecraft:diamond', 'minecraft:diamond_block')
+    event.replaceInput({output: 'expandedstorage:diamond_chest'}, 'minecraft:diamond', 'minecraft:diamond_block')
+    event.replaceInput({output: 'expandedstorage:diamond_barrel'}, 'minecraft:diamond', 'minecraft:diamond_block')
+    event.replaceInput({output: 'expandedstorage:wood_to_diamond_conversion_kit'}, 'minecraft:diamond', 'minecraft:diamond_block')
+    event.replaceInput({output: 'expandedstorage:gold_to_diamond_conversion_kit'}, 'minecraft:diamond', 'minecraft:diamond_block')
+    event.replaceInput({output: 'expandedstorage:netherite_chest'}, 'minecraft:netherite_ingot', 'minecraft:netherite_block')
+    event.replaceInput({output: 'expandedstorage:old_netherite_chest'}, 'minecraft:netherite_ingot', 'minecraft:netherite_block')
+    event.replaceInput({output: 'expandedstorage:netherite_barrel'}, 'minecraft:netherite_ingot', 'minecraft:netherite_block')
+    event.replaceInput({output: 'expandedstorage:wood_to_netherite_conversion_kit'}, 'minecraft:netherite_ingot', 'minecraft:netherite_block')
+    event.replaceInput({output: 'expandedstorage:obsidian_to_netherite_conversion_kit'}, 'minecraft:netherite_ingot', 'minecraft:netherite_block')
+    event.replaceInput({output: 'expandedstorage:diamond_to_netherite_conversion_kit'}, 'minecraft:netherite_ingot', 'minecraft:netherite_block')
+    event.replaceInput({output: 'expandedstorage:gold_to_netherite_conversion_kit'}, 'minecraft:netherite_ingot', 'minecraft:netherite_block')
+    event.replaceInput({output: 'expandedstorage:iron_to_netherite_conversion_kit'}, 'minecraft:netherite_ingot', 'minecraft:netherite_block')
   }
 });

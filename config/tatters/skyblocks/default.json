@@ -7,7 +7,7 @@
   "layers": [
     [
       "ddd",
-      "ddd",
+      "dod",
       "ddd"
     ],
     [
@@ -54,6 +54,9 @@
     },
     "l": {
       "block": "minecraft:oak_leaves"
+    },
+    "o": {
+      "block": "minecraft:obsidian"
     }
   },
   "fillersComment": "list of block and thickness (default 1)"

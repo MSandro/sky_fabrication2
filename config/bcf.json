@@ -140,7 +140,8 @@
         {"weight": 3, "block": "minecraft:obsidian"},
         {"weight": 1, "block": "modern_industrialization:deepslate_uranium_ore"},
         {"weight": 2, "block": "betternether:cincinnasite_ore"},
-        {"weight": 2, "block": "appliedenergistics2:deepslate_quartz_ore"}
+        {"weight": 2, "block": "appliedenergistics2:deepslate_quartz_ore"},
+        {"weight": 2, "block": "minecraft:ancient_debris"}
       ]
     }
   }

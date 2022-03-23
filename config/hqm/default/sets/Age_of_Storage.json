@@ -891,7 +891,8 @@
                 "id": "storagecabinet:dolly",
                 "Count": 1,
                 "tag": {}
-              }
+              },
+              "precision": "FUZZY"
             }
           ]
         }
@@ -1448,26 +1449,30 @@
                 "id": "expandedstorage:iron_to_gold_conversion_kit",
                 "Count": 1
               },
-              "required": 4
+              "required": 4,
+              "precision": "FUZZY"
             },
             {
               "item": {
                 "id": "expandedstorage:gold_to_diamond_conversion_kit",
                 "Count": 1
               },
-              "required": 2
+              "required": 2,
+              "precision": "FUZZY"
             },
             {
               "item": {
                 "id": "expandedstorage:diamond_to_obsidian_conversion_kit",
                 "Count": 1
-              }
+              },
+              "precision": "FUZZY"
             },
             {
               "item": {
                 "id": "expandedstorage:obsidian_to_netherite_conversion_kit",
                 "Count": 1
-              }
+              },
+              "precision": "FUZZY"
             },
             {
               "item": {
@@ -1475,7 +1480,8 @@
                 "Count": 1,
                 "tag": {}
               },
-              "required": 6
+              "required": 6,
+              "precision": "FUZZY"
             }
           ]
         }

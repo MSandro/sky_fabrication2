@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CRC",
+    "SDS",
+    "CRC"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:crafting_table"
+    },
+    "S": {
+      "item": "minecraft:iron_block"
+    },
+    "R": {
+      "item": "modern_industrialization:analog_circuit"
+    },
+    "C": {
+      "item": "modern_industrialization:bronze_gear"
+    }
+  },
+  "result": {
+    "item": "factory:factory"
+  }
+}

@@ -194,7 +194,7 @@
     {
       "uuid": "c425ab02-09f2-4ddb-9c66-a4220aa2d925",
       "name": "Iron aint enough?",
-      "description": "If you feel like that iron isn\u0027t enough for your needs, then simply get Copper Tools!",
+      "description": "If you are out of iron, you could craft Copper Tools. They are less efficient, but hey, you at least have a tool.",
       "x": 153,
       "y": 75,
       "icon": {
@@ -387,7 +387,7 @@
     {
       "uuid": "b8d12d27-1032-4031-99a0-82c56546a18f",
       "name": "Same goes for Armor..",
-      "description": "You know, we had this topic already, but! Im honest with you. Copper is a bit better then Iron, even when it\u0027s about Protection!",
+      "description": "You know, we had this topic already, but! Im honest with you. When it comes to durability, there is only a small difference to iron. ",
       "x": 153,
       "y": 24,
       "icon": {
@@ -1535,46 +1535,6 @@
           "Count": 24
         }
       ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "7cdca107-b10b-4b6c-9bf5-c11f8959dd73",
-      "name": "Autocrafting",
-      "description": "You can automate crafting tasks with the Automated Crafting Table. It requires an Redstone-Puls to work.",
-      "x": 16,
-      "y": 184,
-      "icon": {
-        "id": "automated_crafting:auto_crafter",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "automated_crafting:auto_crafter",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "61281bf3-2ca2-44dd-a59b-43aa10e7dfd0"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "simple_pipes:pipe_iron_item",
-          "Count": 1
-        },
-        {
-          "id": "simple_pipes:pipe_stone_item",
-          "Count": 8
-        }
-      ],
-      "rewardchoice": [],
       "commandrewards": []
     },
     {

@@ -226,7 +226,7 @@ hash = "1740a60d95a13ceea1d8f5e5a12e3022bfa713843de25686e9ee9a577ed70440"
 
 [[files]]
 file = "config/appliedenergistics2/common.json"
-hash = "ff7fa485663551b44887ac166c0a4bc84f6f21eb67f28ad8437366c70647b728"
+hash = "deba9b19695ae26fe7e412cb0dd6656b49fd530bcef9a5b3e073d9178d8cbdf4"
 
 [[files]]
 file = "config/arcanus.json"
@@ -258,7 +258,7 @@ hash = "b27183d6a94a5a4c6d8049c8b240b3d2770efea741fe82fc83f1e4f6741138b1"
 
 [[files]]
 file = "config/awesomedungeon_general_.properties"
-hash = "cf3422dede20bea687739b5143be0bcc6a40af6d01cd8db7e0f2f08acea03718"
+hash = "a8f065e8493c219d7241d0c606a8c0945bb9627f707769756e6e9c28545732d6"
 
 [[files]]
 file = "config/awokenworld.toml"
@@ -266,7 +266,7 @@ hash = "587a650385ff35993e0af4964de79b98ddef65964156a3c6886cced37e564644"
 
 [[files]]
 file = "config/bcf.json"
-hash = "06b0a1f7fb6127be1f75505831c7ec335efda4db2e6775db6cf16b5756a51801"
+hash = "4948bdf5cf8ebff63368f01410aeb198a58a79d88d3d403e9abeff247a87034c"
 
 [[files]]
 file = "config/bclib/biomes.json"
@@ -505,6 +505,22 @@ file = "config/dashloader.json"
 hash = "1b114505c28cedc31030f290a4aa640f665f71e05c95c9851bfb8a816cecfaeb"
 
 [[files]]
+file = "config/diggusmaximus/blacklist.json5"
+hash = "7a20ccfbebca1f6fdd7f0285212874b06f9ada427b8be8da16f4d6e0d8c5fb27"
+
+[[files]]
+file = "config/diggusmaximus/config.json5"
+hash = "a108547ceeb9b42696fd5607fdeeec342081ded0371b5105883aba83ccd9582e"
+
+[[files]]
+file = "config/diggusmaximus/excavatingshapes.json5"
+hash = "8ac4d50ab8fb34d83bc73ba19d55897526f70fca8af327273827429d9384d86b"
+
+[[files]]
+file = "config/diggusmaximus/grouping.json5"
+hash = "ef4721e167e20865ec1b660e75471a86364e6cc653404baefd1d66938d8bb900"
+
+[[files]]
 file = "config/dml-refabricated.json"
 hash = "c721f5386caeea1c3840045355f58ef2703de01ead1512a5d443a9f388622555"
 
@@ -574,11 +590,11 @@ hash = "e48315703a5d9dd631055c5e702d3a60464f336d1147b029bb6bc81d236473ec"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "534908b9db55394c978f2431fd19467ca11ab30a60472e9e81aa006912ba0290"
+hash = "b2c6631bfab30150401c7c9bfbb4c8aa860bb9809aca762e26cf84cf6a9b7089"
 
 [[files]]
 file = "config/fabric/more-villages-mod-config.properties"
-hash = "8f1ae0d1e8a60456e50595ee61994a48a09d6b6e653339e435486a983bbe5cb7"
+hash = "0ab9866bea8b75ca77c6c8b2d86697f4c8ad52906977e5fc96a4481a135fce0b"
 
 [[files]]
 file = "config/fabrication/block_logo.ini"
@@ -678,11 +694,11 @@ hash = "bc704a23d7e8994a704a12faab2b1b8178f91febfb7cef140ae98e5a1d31c4d6"
 
 [[files]]
 file = "config/hqm/default/sets/Age_of_Storage.json"
-hash = "8953d520a821ea23cda064d55b7aad9c61d724ec4dd7fc30ebe4501e8e4f7f87"
+hash = "c425e90cd9a591cc87e8b0a9b6b03ab212a29f4d1a06484c5cec2470a0486654"
 
 [[files]]
 file = "config/hqm/default/sets/Bronze_Age.json"
-hash = "87017b24602e65f24268deb8e1635a525c9fdc53d9f49079ae34db3ed60caf84"
+hash = "5d717fee6779dd7edf2a7bd294f51928da0c1e22eea58ae34e251d9380ee9c26"
 
 [[files]]
 file = "config/hqm/default/sets/Electric_Age_-_Power.json"
@@ -690,11 +706,11 @@ hash = "301fd0d79c31c7b548adc9c54b5aa4c13978376134e05471d25d50d2ef7b2e97"
 
 [[files]]
 file = "config/hqm/default/sets/It's_Time_for_some_Magic.json"
-hash = "4b9f98de4527ca841116faac732ad2ae7744663f3904dc74dc3594fc22bfb848"
+hash = "db30b616460accad77168ece38709706d021424c0c1fa4b759aa9abadcaf68c0"
 
 [[files]]
 file = "config/hqm/default/sets/Steam_Age.json"
-hash = "f053057029869ba0adbf27ed09ba129e504b9b7b8d9d3bc614ef6fb165713e60"
+hash = "986915ed927946ce411459258b5e1134eb209ec1f8ddc91880d1516028a48703"
 
 [[files]]
 file = "config/hqm/default/sets/Stone_Age.json"
@@ -702,7 +718,7 @@ hash = "f50fcdce063988272399e51ce632c99fdafaf7d14803052c00e4bf40fa2ce6c4"
 
 [[files]]
 file = "config/hqm/default/sets/The_Beginning.json"
-hash = "dd8a7b6c54a3cc37b45465e1b26f749e65bf6ac41a2192944832f9f18682fae8"
+hash = "83d98a18c7009e9bdc49e1cd7b6a8b5959ec4644f01a66f7c9a1c4767f4e77e1"
 
 [[files]]
 file = "config/hqm/default/sets/The_Late-Game.json"
@@ -718,7 +734,7 @@ hash = "d4d126cb7e0b19c1918c373153709571f8a8d932b9380c3336e67244e58a2a3f"
 
 [[files]]
 file = "config/indium-renderer.properties"
-hash = "a06c55f9f5103ce057db6bf228da2cff8d763bd7c404c749b5fa32dbdb3989b9"
+hash = "360bb465c61a1776c91a16e917fc418324ec38776a41daf7f4f69c39d5be5f0d"
 
 [[files]]
 file = "config/indrev/cables.json"
@@ -758,7 +774,7 @@ hash = "9dc99196d37dbb312d5452540846c2c26a133607ba22ecd9f739a456ffd63155"
 
 [[files]]
 file = "config/iris.properties"
-hash = "fe82ad1f8c2f9377cb24edc21d81bef0b52836d4a53408252b3239539a80d298"
+hash = "09219e30ef37fa331b91647388f9a15c2bc01db0d975c092d1d846415b681597"
 
 [[files]]
 file = "config/iron-jetpacks/client.json5"
@@ -1053,6 +1069,10 @@ file = "config/ringsofascension.json"
 hash = "a67236653f4a4a8d7d1cd8b3de551d640bba67ba636c419099a454da72e2dc88"
 
 [[files]]
+file = "config/roughlyenoughitems/config.json5"
+hash = "a9534fc22835a3666b797120796d2df21569d647763f21429e55d530c4ebc2b1"
+
+[[files]]
 file = "config/rrp.properties"
 hash = "d2650f4635af9e222eaab3171b88089478a5f0196242784426d67dc2d3690323"
 
@@ -1118,7 +1138,7 @@ hash = "53edd49d3e9cb39f87dc7f6fe3b3f0f48984650a28aac735909246034229da6a"
 
 [[files]]
 file = "config/slightguimodifications/cts.groovy"
-hash = "2cd020b558411deb91e63e66c386ae5c723947761bb2aff2919dff6d91352583"
+hash = "3e247b33d7e778b934bfc809b4c2be17d304c6980c9ac9c39e534fff239fc555"
 
 [[files]]
 file = "config/slightguimodifications/slider.png"
@@ -1210,7 +1230,7 @@ hash = "725671c27f63d94cb97125f6aa2f007858c7cc47f95b8a572849b44f8ca83ad2"
 
 [[files]]
 file = "config/tatters/skyblocks/default.json"
-hash = "5fe7bb2e08cd4e210a30396cf519a6c0326cfc8d97234f502ba34c9b37a52198"
+hash = "16b95e413d299cbfd8567875bc9f6839fa9f4ca91d564942ed98b17474a83a6f"
 
 [[files]]
 file = "config/tatters/skyblocks/example-lobby.json"
@@ -1270,7 +1290,7 @@ hash = "1335a55e8b05de9b0995fa97fa80346754276233600ab1c1efc5f77519ae01ae"
 
 [[files]]
 file = "config/trade.properties"
-hash = "624de5d220085c7b43e97a3607e304d2e19ab29e06bd6fbed5fe49aa3d1657cd"
+hash = "09eb86cadd9e82153e3df86104822bf14c49f6a504982fafabaec71b51fac1d5"
 
 [[files]]
 file = "config/universal-graves.json"
@@ -1307,6 +1327,22 @@ hash = "9965e774258f29f1f770978510a8a961c7f0fac8347ea543ca58b4ca6306b2f8"
 [[files]]
 file = "config/waystones/config.json"
 hash = "d0a26b9f0bf347fa65489757136645df57ab58a5a9e603444d9a19bfd17d77c0"
+
+[[files]]
+file = "config/xaerominimap.txt"
+hash = "351d344f43a95bf078c0bd88a6388a2162bac57cce9b4920aa9fe711ed5a3aac"
+
+[[files]]
+file = "config/xaerominimap_entities.json"
+hash = "e14dc419b005a7670bdd8a304f0f7d5a3ae11c3bca7d79012c4dde1be233b8aa"
+
+[[files]]
+file = "config/xaeropatreon.txt"
+hash = "36a890045fce4aa69f1c550d5a49a62b336cbb7911a7afa6956fcce5d4d9dcb8"
+
+[[files]]
+file = "config/xaeroworldmap.txt"
+hash = "a314971f807a4afcd3572a87695dc5dbaf55a5a7bcaf04c3b282d54ea8587a56"
 
 [[files]]
 file = "config/yosbr/config/diggusmaximus/blacklist.json5"
@@ -2521,6 +2557,10 @@ file = "kubejs/data/extragenerators/recipes/thermoelectric_generator.json"
 hash = "f1365caee17348a35ab36a7601a468adac6f83bd246dc74c75c82ca3a821a83e"
 
 [[files]]
+file = "kubejs/data/factory/recipes/factory.json"
+hash = "c632318b2299ac477ca873b1006bb0a8b65bc366371b548fcc6b465c68f728f0"
+
+[[files]]
 file = "kubejs/data/gamephases/advancements/phases/aether.json"
 hash = "53244d2a1f25e292b2fce6f1767c6488460870f1f1a017b4ad25dc69db81eb5a"
 
@@ -3297,7 +3337,7 @@ file = "kubejs/data/modern_industrialization/recipes/quarry/titanium.json"
 hash = "be8913d17bde7cbce663b370f976c52808c42ee84497fc554e9da2fbef1947cc"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipes/steam_age/boiler_asbl.json"
+file = "kubejs/data/modern_industrialization/recipes/steam_age/steel/boiler_asbl.json"
 hash = "c6f631ecdb834a13dbc65d2946e806d4972710f9a2f62b902f9fe98d34d8fc9e"
 
 [[files]]
@@ -3554,7 +3594,7 @@ hash = "edbd792cf277a50625244600fc852c52b97be9b236f50b720c889dd606a3ce2e"
 
 [[files]]
 file = "kubejs/server_scripts/recipetypes/expert.js"
-hash = "2b8ddf5c2847cebeeac14cb9f3920e66fa3a89c64654116aa41a5899a96345f2"
+hash = "328ac8fa528dd98b974417bc918e2dbf5636a932409cb375730fedaf18b37bb1"
 
 [[files]]
 file = "kubejs/server_scripts/recipetypes/indrev/recycle.js"
@@ -3659,7 +3699,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-fabric.toml"
-hash = "a500bd1a9efecaa7bfe22f58cae9fec8c0c748560271e6cf884d5200f0007ac8"
+hash = "e23a10cfb9658b54ec3e7bed0ac1c2afc0183d67f022bc4f4e30c2b3139b1ad8"
 metafile = true
 
 [[files]]
@@ -3685,11 +3725,6 @@ metafile = true
 [[files]]
 file = "mods/auto-config-updated-api.toml"
 hash = "04bec29f504eb82cf67ae96b56e6fc6ee2656cd0cd45136bc37427439a47db3f"
-metafile = true
-
-[[files]]
-file = "mods/automated-crafting.toml"
-hash = "d29a49c2309c9236b6b983c53476bfef852d57485a6aa1c30c733b7f9099001c"
 metafile = true
 
 [[files]]
@@ -3839,7 +3874,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective-fabric.toml"
-hash = "f024d87a07f6564b5a0cd0148c5d852db3b559f514d4a31ed751523d9a1a579c"
+hash = "f04fe9cf9c80c08a68b17309cf1f6ed1e5f6bcdad1d52eee3c47fca4d0c296f7"
 metafile = true
 
 [[files]]
@@ -4319,7 +4354,7 @@ metafile = true
 
 [[files]]
 file = "mods/nbt-crafting.toml"
-hash = "4b54318198cdd14290289333337098eb3e42a23daa782c022fe122081d7f89ed"
+hash = "948ce93bbfd2712dff5ff7558bbfb07c473fccb2a37fe72b0b24ce4ca59e3998"
 metafile = true
 
 [[files]]
@@ -4340,6 +4375,11 @@ metafile = true
 [[files]]
 file = "mods/not-enough-crashes.toml"
 hash = "8b9781cc92550a3518da58925f15e8f48e5664196a7aae7d41a24c7e5a229668"
+metafile = true
+
+[[files]]
+file = "mods/observable.toml"
+hash = "08749c98d36bb86045cb030490c7a6e7ff4b339d4bb094e4b347780d447f1002"
 metafile = true
 
 [[files]]
@@ -4440,6 +4480,11 @@ metafile = true
 [[files]]
 file = "mods/red-bits.toml"
 hash = "ddae311d3ff880a840316b0ffc9762f674232e7ce08d1b1cbdec7b634a5d5f30"
+metafile = true
+
+[[files]]
+file = "mods/redstone-bits.toml"
+hash = "af45c86c3c964a7f9529695c2d828390563869d5f331905603320eb072def088"
 metafile = true
 
 [[files]]
@@ -4715,6 +4760,11 @@ metafile = true
 [[files]]
 file = "mods/wmitaf.toml"
 hash = "296d124dbc810b32f27e9c6c6746bc4430e1e028ee76e01b9d6310ec3714e04e"
+metafile = true
+
+[[files]]
+file = "mods/workbench-factory.toml"
+hash = "70f27d99679f68df8c1ab32cfc92c5e88d1b27868b830aa6086c19f763b6e5ec"
 metafile = true
 
 [[files]]
