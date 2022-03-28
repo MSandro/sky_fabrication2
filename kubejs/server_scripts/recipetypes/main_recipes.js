@@ -142,6 +142,7 @@ onEvent('recipes', event => {
   event.remove({output: 'minecraft:wheat_seeds', input: '#resourceful_tools:crack_hammers', type: 'minecraft:crafting_shapeless'})
   event.remove({output: 'minecraft:soul_soil', type: 'minecraft:crafting_shaped'})
   event.remove({output: 'minecraft:soul_sand', type: 'minecraft:crafting_shaped'})
+  event.remove({output: 'minecraft:blaze_rod', input: 'minecraft:blaze_powder', type: 'minecraft:crafting_shapeless'})
 
   event.remove({output: 'minecraft:end_crystal'});
   event.shaped('1x minecraft:end_crystal', [

@@ -95,6 +95,7 @@ mainDotSize:2
 partialYTeleportation:true
 deleteReachedDeathpoints:true
 hideMinimapUnderScreen:true
+hideMinimapUnderF3:true
 interface:dummy:0:36:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false

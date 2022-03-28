@@ -26,7 +26,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/MouseTweaks.cfg"
-hash = "11ba09a6771da982f9bdc906cb50b803804ab4d627566c85fc5ce9a7c4a72d68"
+hash = "08f647233c9b627f5cbfeeb36bb99f9fe85d0c32de219d21b861d4adff6bb4fa"
 
 [[files]]
 file = "config/SCF/config.acfg"
@@ -222,7 +222,7 @@ hash = "1a5ede23f6d7d5b5c5bb0af54cadb6f646564f50137a773b0ebbd6b38c2e9c89"
 
 [[files]]
 file = "config/appliedenergistics2/client.json"
-hash = "1740a60d95a13ceea1d8f5e5a12e3022bfa713843de25686e9ee9a577ed70440"
+hash = "dfa254c5b30d54b0ab037a29aa8cde74ee96198008126931ff363ad3bd950b0f"
 
 [[files]]
 file = "config/appliedenergistics2/common.json"
@@ -258,7 +258,7 @@ hash = "b27183d6a94a5a4c6d8049c8b240b3d2770efea741fe82fc83f1e4f6741138b1"
 
 [[files]]
 file = "config/awesomedungeon_general_.properties"
-hash = "a8f065e8493c219d7241d0c606a8c0945bb9627f707769756e6e9c28545732d6"
+hash = "c4bb8d139f7a67bbdaaf1aedf2f6dc6d2ef61223cf22f5463a7f8748f0033a89"
 
 [[files]]
 file = "config/awokenworld.toml"
@@ -266,7 +266,7 @@ hash = "587a650385ff35993e0af4964de79b98ddef65964156a3c6886cced37e564644"
 
 [[files]]
 file = "config/bcf.json"
-hash = "4948bdf5cf8ebff63368f01410aeb198a58a79d88d3d403e9abeff247a87034c"
+hash = "d3320d042eb43770cc62d421751107378ac434bbf1d1a2cbf86dc5832ab92ca9"
 
 [[files]]
 file = "config/bclib/biomes.json"
@@ -590,11 +590,11 @@ hash = "e48315703a5d9dd631055c5e702d3a60464f336d1147b029bb6bc81d236473ec"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "b2c6631bfab30150401c7c9bfbb4c8aa860bb9809aca762e26cf84cf6a9b7089"
+hash = "4243cbe0e1652fb41f0b32331564ce643edccfc4ffc1380703ef957a5eb23082"
 
 [[files]]
 file = "config/fabric/more-villages-mod-config.properties"
-hash = "0ab9866bea8b75ca77c6c8b2d86697f4c8ad52906977e5fc96a4481a135fce0b"
+hash = "90b8bb8aa7602eaae6ce49403b9a881e940ec41e7e9d5d131b283b2cde4be36a"
 
 [[files]]
 file = "config/fabrication/block_logo.ini"
@@ -734,7 +734,7 @@ hash = "d4d126cb7e0b19c1918c373153709571f8a8d932b9380c3336e67244e58a2a3f"
 
 [[files]]
 file = "config/indium-renderer.properties"
-hash = "360bb465c61a1776c91a16e917fc418324ec38776a41daf7f4f69c39d5be5f0d"
+hash = "bba3aeecc9631f09f79d46e245e7f7fa77754dddf81284292b5e1676cfde5156"
 
 [[files]]
 file = "config/indrev/cables.json"
@@ -774,7 +774,7 @@ hash = "9dc99196d37dbb312d5452540846c2c26a133607ba22ecd9f739a456ffd63155"
 
 [[files]]
 file = "config/iris.properties"
-hash = "09219e30ef37fa331b91647388f9a15c2bc01db0d975c092d1d846415b681597"
+hash = "90c309d7cf9a151f26661cf76967dcda997a7b1a0f3492763e7ce162d491e0c8"
 
 [[files]]
 file = "config/iron-jetpacks/client.json5"
@@ -1070,7 +1070,7 @@ hash = "a67236653f4a4a8d7d1cd8b3de551d640bba67ba636c419099a454da72e2dc88"
 
 [[files]]
 file = "config/roughlyenoughitems/config.json5"
-hash = "a9534fc22835a3666b797120796d2df21569d647763f21429e55d530c4ebc2b1"
+hash = "821befb62fead01efe73aa76d9d5f2178dc709e76dd1007651a081f73c1af821"
 
 [[files]]
 file = "config/rrp.properties"
@@ -1290,7 +1290,7 @@ hash = "1335a55e8b05de9b0995fa97fa80346754276233600ab1c1efc5f77519ae01ae"
 
 [[files]]
 file = "config/trade.properties"
-hash = "09eb86cadd9e82153e3df86104822bf14c49f6a504982fafabaec71b51fac1d5"
+hash = "00db25869223fc8f64414056e0952a8b5b27128e06adfb46a2a63a91703ab153"
 
 [[files]]
 file = "config/universal-graves.json"
@@ -1306,7 +1306,7 @@ hash = "640800920130d084dec5a3a7f52c10e18d72ed7faca522b5bcb6bb46d0dcae9b"
 
 [[files]]
 file = "config/waila/megane.json"
-hash = "b9ac7d32dd5bccbb0928efd05705fb68f70ac2dc33bff1f1821be84c774ffe66"
+hash = "6a2b71e498ae442fb6251eccb55eb7d5f515c23996dfb90e3a19aa5d4e6d950d"
 
 [[files]]
 file = "config/waila/megane_modules.json"
@@ -1330,11 +1330,11 @@ hash = "d0a26b9f0bf347fa65489757136645df57ab58a5a9e603444d9a19bfd17d77c0"
 
 [[files]]
 file = "config/xaerominimap.txt"
-hash = "351d344f43a95bf078c0bd88a6388a2162bac57cce9b4920aa9fe711ed5a3aac"
+hash = "85fcbab06e58a57e7846df854c9858677b63f9db5380f8b5ed8244ae01c10404"
 
 [[files]]
 file = "config/xaerominimap_entities.json"
-hash = "e14dc419b005a7670bdd8a304f0f7d5a3ae11c3bca7d79012c4dde1be233b8aa"
+hash = "447fc58cee6c73ff81a7ee0f14c852df12f77090a8187447fe8176abd4a8c357"
 
 [[files]]
 file = "config/xaeropatreon.txt"
@@ -2949,6 +2949,10 @@ file = "kubejs/data/minecraft/portals/the_aether-portal.json"
 hash = "d42e057d479a03e22ccfb8177223d8a5d931532c2f15549c8e4be07312c3074c"
 
 [[files]]
+file = "kubejs/data/minecraft/recipes/betterend_charcoal_block.json"
+hash = "f95c28ad377dab609a3540b6b1efafeaf7f741f9258496adfb63d3ae90bcde21"
+
+[[files]]
 file = "kubejs/data/minecraft/recipes/copper_button.json"
 hash = "37849b72b546c0aac9deb127b38efc6322d0688fb57b67c2b1f002a83cbaf6b5"
 
@@ -3267,6 +3271,10 @@ hash = "020b73c082a33057049c69676ca2ad33b53e6ec7b28f346f58b3d1a9bcb00cdf"
 [[files]]
 file = "kubejs/data/modern_industrialization/recipes/electric_age/machine/assembler/replicator.json"
 hash = "6197f3db8ddd89970b2f65ee7664477a8f1c4964df8eb0c72456bcd21d991cde"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipes/generated/petrochem/sulfuric_purification/naphtha.json"
+hash = "86a0e4dd7ff848472761de527ea290acf1d4d57bcbf519d45a731e5ab09dae1d"
 
 [[files]]
 file = "kubejs/data/modern_industrialization/recipes/materials/blast_furnace/refined_iron_ingot.json"
@@ -3610,7 +3618,7 @@ hash = "ecd5d748aa65a1219e69618c2c8ccd0edb2cc533d38b30a987f7de98f46e5900"
 
 [[files]]
 file = "kubejs/server_scripts/recipetypes/main_recipes.js"
-hash = "87de91b9ab97aa3407e5911adccb859fee2e4797547d2e659830bedf2a526472"
+hash = "e72f936bd7165e9e6dd1601f39a894cde616dac4db15cc7b3df1ff16e39f63a7"
 
 [[files]]
 file = "kubejs/server_scripts/recipetypes/minecraft/shaped.js"
@@ -3895,6 +3903,11 @@ metafile = true
 [[files]]
 file = "mods/conjuring.toml"
 hash = "2bd00fada49ace99b42e15559b9747094bc7e8de0c7b7120bfca7c863ed57de9"
+metafile = true
+
+[[files]]
+file = "mods/continuity.toml"
+hash = "2be84f54bb5171c6cebeaa6acecb74a2304babbbf618f2fedae0450a9af98d70"
 metafile = true
 
 [[files]]
@@ -4304,7 +4317,7 @@ metafile = true
 
 [[files]]
 file = "mods/modern-industrialization.toml"
-hash = "743b5c7c94cfe6358cf310f453270281c8b66911075225df8b1de1c3abf3247d"
+hash = "78f953ede0f2bed62d3eda0f3c409cce333ec8727a29f64806a569a86a63df81"
 metafile = true
 
 [[files]]
@@ -4779,12 +4792,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.toml"
-hash = "8d7e90409683fc0e0a5b9615eff7c98fb96b1bb27e4cdf5698a6477c48ddd506"
+hash = "3601c16b16a51eec2b3fec76f87a8eb847db87dff167fb19a633b55d91b709a2"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.toml"
-hash = "b991989e02f08cc191108baeac09d22a0ac9100a278aa46078e4f039e25d1ccb"
+hash = "1b189e73b3f09b4258d2fa26f5c82a5fd6f7f8d897af4a6dc37355ff9bfba481"
 metafile = true
 
 [[files]]

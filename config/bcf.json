@@ -22,10 +22,10 @@
       "uses_per_lava": 512,
       "uses_per_water": 1024,
       "generates": [
-        {"weight": 10, "block": "minecraft:cobblestone"},
-        {"weight": 9, "block": "minecraft:stone"},
-        {"weight": 8, "block": "minecraft:diorite"},
-        {"weight": 7, "block": "minecraft:deepslate"},
+        {"weight": 5, "block": "minecraft:cobblestone"},
+        {"weight": 5, "block": "minecraft:stone"},
+        {"weight": 3, "block": "minecraft:diorite"},
+        {"weight": 3, "block": "minecraft:deepslate"},
         {"weight": 2, "block": "minecraft:gravel"},
         {"weight": 1, "block": "minecraft:coal_ore"}
       ]
@@ -141,7 +141,8 @@
         {"weight": 1, "block": "modern_industrialization:deepslate_uranium_ore"},
         {"weight": 2, "block": "betternether:cincinnasite_ore"},
         {"weight": 2, "block": "appliedenergistics2:deepslate_quartz_ore"},
-        {"weight": 2, "block": "minecraft:ancient_debris"}
+        {"weight": 2, "block": "minecraft:ancient_debris"},
+        {"weight": 2, "block": "indrev:nikolite_ore"}
       ]
     }
   }
