@@ -59,10 +59,6 @@ onEvent('recipes', event => {
   event.remove({output: 'spatialharvesters:ore_harvester_7'});
   event.remove({output: 'spatialharvesters:ore_harvester_8'});
 
-  // SIMPLETECH
-  event.remove({output: 'simpletech:sieve'});
-  event.remove({output: 'simpletech:sieve_auto'});
-
   // BLOCKUS
   event.remove({output: 'blockus:oak_small_logs'});
   event.remove({output: 'blockus:charcoal_block'});
@@ -79,14 +75,8 @@ onEvent('recipes', event => {
   event.remove({output: 'valley:rg_shovel'});
   event.remove({output: 'valley:rg_sword'});
 
-  // GOML
-  event.remove({output: 'goml:ender_binding'});
-  event.remove({output: 'goml:angelic_aura'});
-  event.remove({output: 'goml:chaos_zone'});
-  event.remove({output: 'goml:heaven_wings'});
-  event.remove({output: 'goml:withering_seal'});
-  event.remove({output: 'goml:village_core'});
-  event.remove({output: 'goml:lake_spirit_grace'});
+  // RedBits
+  event.remove({output: 'redbits:timer'});
 
   // RESOURCEFUL_TOOLS
   event.remove({output: 'resourceful_tools:bamboo_sheet'});
@@ -135,6 +125,7 @@ onEvent('recipes', event => {
   event.remove({output: 'techreborn:data_storage_core', type: 'minecraft:crafting_shaped'});
   event.remove({output: 'techreborn:data_storage_chip', type: 'techreborn:assembling_machine'});
   event.remove({output: 'techreborn:advanced_circuit', type: 'minecraft:crafting_shaped'});
+  event.remove({output: 'techreborn:auto_crafting_table', type: 'minecraft:crafting_shaped'});
 
   // MC
   event.remove({output: 'minecraft:end_portal_frame'});
@@ -143,6 +134,7 @@ onEvent('recipes', event => {
   event.remove({output: 'minecraft:soul_soil', type: 'minecraft:crafting_shaped'})
   event.remove({output: 'minecraft:soul_sand', type: 'minecraft:crafting_shaped'})
   event.remove({output: 'minecraft:blaze_rod', input: 'minecraft:blaze_powder', type: 'minecraft:crafting_shapeless'})
+  event.shapeless('minecraft:blaze_rod', ['minecraft:blaze_powder', 'minecraft:blaze_powder', 'minecraft:blaze_powder', 'minecraft:blaze_powder'])
 
   event.remove({output: 'minecraft:end_crystal'});
   event.shaped('1x minecraft:end_crystal', [

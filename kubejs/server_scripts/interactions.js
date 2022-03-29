@@ -4,7 +4,31 @@ onEvent('block.right_click', event => {
 		event.player.tell("Sorry, end portals don't work in this dimension.");
 		event.cancel();
 	}
+	if (event.world.dimension == 'minecraft:the_nether' && event.block.id == 'endrem:ancient_portal_frame') {
+		event.player.tell("Sorry, end portals don't work in this dimension.");
+		event.cancel();
+	}
 });
+
+function checkDim(event) {
+	let arr = event.server.getPlayers().toArray();
+  for (p of arr) {
+		if (String(p.name) == String(event.player.name)) {
+			var id = event.item.id;
+			if (p.world.dimension == 'minecraft:overworld') {
+				event.server.runCommandSilent(`clear ${p.name} ${id} 1`);
+				event.server.schedule(500, event.server, function (callback) {
+					callback.server.runCommandSilent(`give ${p.name} ${id}`);
+					p.getTags().remove('glider');
+				});
+			} else if(event.player.getTags().contains('glider')) {
+				event.server.schedule(1000, event.server, function (callback) {
+					checkDim(event);
+				});
+			}
+		}
+	}
+}
 
 onEvent('item.right_click', event => {
     if (event.item) {
@@ -12,16 +36,28 @@ onEvent('item.right_click', event => {
 				if (event.item.id.contains('boomerang') || event.player.offHandItem.id.contains('boomerang')) {
 					event.entity.damageHeldItem(event.hand, 0);
 				}
-				//disabled glider in overworld only if in MP
-			  if (event.item.id.contains('glider') && event.world.dimension == 'minecraft:overworld' && global.isServer) {
-					var id = event.item.id;
-					event.player.tell("Sorry, you can not use Gliders in this dimension!");
-					event.server.runCommandSilent(`clear ${event.player.name} ${id} 1`);
-					event.server.schedule(500, event.server, function (callback) {
- 					  callback.server.runCommandSilent(`give ${event.player.name} ${id}`);
-					});
-					event.cancel();
-			  }
+				// disabled glider in overworld only if in MP
+				// && global.isServer
+				if (event.item.id.contains('glider')) {
+					if (event.world.dimension == 'minecraft:overworld') {
+						var id = event.item.id;
+						event.player.tell("Sorry, you can not use Gliders in this dimension!");
+						event.server.runCommandSilent(`clear ${event.player.name} ${id} 1`);
+						event.server.schedule(500, event.server, function (callback) {
+	 					  callback.server.runCommandSilent(`give ${event.player.name} ${id}`);
+							event.player.getTags().remove('glider');
+						});
+						event.cancel();
+				  } else {
+						if (!event.player.getTags().contains('glider'))
+					  {
+							event.player.getTags().add('glider');
+							checkDim(event);
+						} else {
+							event.player.getTags().remove('glider');
+						}
+					}
+				}
 
         // Water potions can place water puddles on the ground if the player is sneaking.
         if (event.item.id == 'minecraft:water_bucket' || event.item.id == 'kibe:water_wooden_bucket' || event.item.id == 'skyutils:water_crucible' || event.item.id == 'things:bater_wucket') {

@@ -1,0 +1,13 @@
+name = "You're in Grave Danger"
+filename = "youre-in-grave-danger-1.1.15.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3645/90/youre-in-grave-danger-1.1.15.jar"
+hash-format = "murmur2"
+hash = "2417574159"
+
+[update]
+[update.curseforge]
+file-id = 3645090
+project-id = 544912

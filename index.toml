@@ -258,7 +258,7 @@ hash = "b27183d6a94a5a4c6d8049c8b240b3d2770efea741fe82fc83f1e4f6741138b1"
 
 [[files]]
 file = "config/awesomedungeon_general_.properties"
-hash = "c4bb8d139f7a67bbdaaf1aedf2f6dc6d2ef61223cf22f5463a7f8748f0033a89"
+hash = "f5c35f1c0252c472daa6a0a3dfe5f75630f72ece2bc01117fe2c4a54836f7199"
 
 [[files]]
 file = "config/awokenworld.toml"
@@ -590,11 +590,11 @@ hash = "e48315703a5d9dd631055c5e702d3a60464f336d1147b029bb6bc81d236473ec"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "4243cbe0e1652fb41f0b32331564ce643edccfc4ffc1380703ef957a5eb23082"
+hash = "cee1fc2e8969f0bc88f6005eaf91b4b68371dae574e6415f74be5a7391c7255c"
 
 [[files]]
 file = "config/fabric/more-villages-mod-config.properties"
-hash = "90b8bb8aa7602eaae6ce49403b9a881e940ec41e7e9d5d131b283b2cde4be36a"
+hash = "0f255742e2c3107cab965ff10da8ea35090857ee7c0c10eecc89a8dd0e1aab3c"
 
 [[files]]
 file = "config/fabrication/block_logo.ini"
@@ -734,7 +734,7 @@ hash = "d4d126cb7e0b19c1918c373153709571f8a8d932b9380c3336e67244e58a2a3f"
 
 [[files]]
 file = "config/indium-renderer.properties"
-hash = "bba3aeecc9631f09f79d46e245e7f7fa77754dddf81284292b5e1676cfde5156"
+hash = "777538d8501a7b3c110bd0aeada39a354d034fa5c273ab10cdc4be353b253aad"
 
 [[files]]
 file = "config/indrev/cables.json"
@@ -774,7 +774,7 @@ hash = "9dc99196d37dbb312d5452540846c2c26a133607ba22ecd9f739a456ffd63155"
 
 [[files]]
 file = "config/iris.properties"
-hash = "90c309d7cf9a151f26661cf76967dcda997a7b1a0f3492763e7ce162d491e0c8"
+hash = "08d2f08439a03bc1c7f9fab774fed6e899178d44089c4d30b72f1c24be36994b"
 
 [[files]]
 file = "config/iron-jetpacks/client.json5"
@@ -1290,7 +1290,7 @@ hash = "1335a55e8b05de9b0995fa97fa80346754276233600ab1c1efc5f77519ae01ae"
 
 [[files]]
 file = "config/trade.properties"
-hash = "00db25869223fc8f64414056e0952a8b5b27128e06adfb46a2a63a91703ab153"
+hash = "c11393ded8195495210242aaac8f31754f2c568d63804f7cbd8bb6855d6a9843"
 
 [[files]]
 file = "config/universal-graves.json"
@@ -1334,7 +1334,7 @@ hash = "85fcbab06e58a57e7846df854c9858677b63f9db5380f8b5ed8244ae01c10404"
 
 [[files]]
 file = "config/xaerominimap_entities.json"
-hash = "447fc58cee6c73ff81a7ee0f14c852df12f77090a8187447fe8176abd4a8c357"
+hash = "61aed889e1ecfdaa501058168df3849a836d55281df7a71c0ad127b4af831a37"
 
 [[files]]
 file = "config/xaeropatreon.txt"
@@ -2053,6 +2053,10 @@ file = "kubejs/data/alloy_forgery/recipes/electrum_ingot.json"
 hash = "6a1f09b35f5812e8b8ab28604236b185f72ca55cd00a11fc9f4244173b4542cc"
 
 [[files]]
+file = "kubejs/data/appliedenergistics2/recipes/decorative/quartz_glass.json"
+hash = "36f1a56c04eaa7633eeeba9c4acc16d174d02c6bb36e7a9c44c43965da93f3c0"
+
+[[files]]
 file = "kubejs/data/appliedenergistics2/recipes/network/blocks/crystal_processing_charger.json"
 hash = "1e836312903b5f7e00fcf9f4afa7fe661f2c872fe4f11872137bec8630e19831"
 
@@ -2070,7 +2074,7 @@ hash = "f3119422e677f42b4a0ab7463603ed1dd23fa7ef5f6cc1ad1ae24b95d8905b54"
 
 [[files]]
 file = "kubejs/data/artis/recipes/big_bench.json"
-hash = "eaf87b056ddd5c5c7399d008a44445fb78c76d4d78fb2781f2e59eb24aa4c65d"
+hash = "b4a14972b91c6fb39ce30a6904d6fb60cc552bb368615266778a26ac810bbaf6"
 
 [[files]]
 file = "kubejs/data/artis/recipes/bigger_bench.json"
@@ -3421,18 +3425,6 @@ file = "kubejs/data/scf/recipes/netherite_funnel.json"
 hash = "6214a4620825eb6e5b6b5179bec62a5a39829443431eda5b1452030fc8c073ac"
 
 [[files]]
-file = "kubejs/data/simpleteleporters/recipes/clear_shard.json"
-hash = "bfcd1a0a2b07c1a21305e12ba249747db1e649b2e3090e835aa1aadfa3281cdf"
-
-[[files]]
-file = "kubejs/data/simpleteleporters/recipes/ender_shard.json"
-hash = "20a36600832aedb5aae0ede50a556b34e0f2ad0cdb93a6028cc19669a83900e6"
-
-[[files]]
-file = "kubejs/data/simpleteleporters/recipes/teleporter.json"
-hash = "b3ce63eceb095fd08b8ef0c49c009ac1a9eb9531a72bffa1fe6e91927f08470e"
-
-[[files]]
 file = "kubejs/data/skyutils/dimension/skyutils.json"
 hash = "42ae974a819109f259c47fe3c178bb944b49e9f24410d05b3177195bc27e7505"
 
@@ -3443,6 +3435,10 @@ hash = "37a99ab20ed3dbe6f7a00a8988dffc4c88ed8d579c543e79d113ba04c307193c"
 [[files]]
 file = "kubejs/data/spatialharvesters/recipes/casing.json"
 hash = "b570e597f9e813a472e68701db1c2be48a01c98918dc8ff6a76061b0368a7459"
+
+[[files]]
+file = "kubejs/data/starry_sky/worldgen/biome/starry_sky_biome.json"
+hash = "8d6bed929322ff72f8bc878e4932e7f2e5ba8deca247d0f3e3b12b637ecc69db"
 
 [[files]]
 file = "kubejs/data/storagecabinet/recipes/cabinet_manager.json"
@@ -3497,6 +3493,34 @@ file = "kubejs/data/the_aether/recipes/crow_eye.json"
 hash = "1da54bb137e3d69f4acfdd989536baeb18b2da14cac3c161e0d73ab0b2fc9d5f"
 
 [[files]]
+file = "kubejs/data/the_aether/worldgen/biome/aether_highlands.json"
+hash = "2a64e765f8aa7265896c9587b60017da3eaf942900cccff5068651a6238ca7ba"
+
+[[files]]
+file = "kubejs/data/the_aether/worldgen/biome/aether_highlands_forest.json"
+hash = "a02f7e7bfa4a7dba0fff517da5fd45a03f141be4067cbfeb9dde09f371c48e9b"
+
+[[files]]
+file = "kubejs/data/the_aether/worldgen/biome/aether_highlands_thicket.json"
+hash = "fd03be95d514fcf585c630edf4444a570fc30f550ecde6850f3d95a4bd4e1898"
+
+[[files]]
+file = "kubejs/data/the_aether/worldgen/biome/aether_wisteria_woods.json"
+hash = "9b12561bbefd80064b32996c7052afeb9f803489b91ad5d51fe4deff8469168d"
+
+[[files]]
+file = "kubejs/data/the_aether/worldgen/biome/autumnal_tundra.json"
+hash = "e61b0ca72b12e099836b73444a5726b29046729b74575c1a15e6e29c78ac3fee"
+
+[[files]]
+file = "kubejs/data/the_aether/worldgen/biome/continental_plateau.json"
+hash = "8cfb6d56b2d482c2cedd7901ed12182c283a81a4b442bd6515dfeaf423bf55f6"
+
+[[files]]
+file = "kubejs/data/the_aether/worldgen/biome/highlands_shield.json"
+hash = "2342820e61e32d5b24d03ac39ad5cad0e9e7524a6425c7386564fdf2fa78fecc"
+
+[[files]]
 file = "kubejs/data/timeinabottle/recipes/time_in_a_bottle.json"
 hash = "8b9fc3fe190e9176baafca87435145db111c5f19ce55d4368c10861fe6d8ea50"
 
@@ -3531,6 +3555,42 @@ hash = "31a4fbb85066b320e8d2a4ca4f8f00ba1265e3a14b2a14630333268bcb08c5f4"
 [[files]]
 file = "kubejs/data/valley/recipes/flour.json"
 hash = "2970e283b7eb11934636a40048bc332e5c0b18e8b791d7d4a426a4ca5627d4e5"
+
+[[files]]
+file = "kubejs/data/yigd/custom/grave.json"
+hash = "617023fea3977f0bb7d5f846fdc7f29e67034750f1e162f0062391ef30c5f531"
+
+[[files]]
+file = "kubejs/data/yigd/custom/graveyard.json"
+hash = "7189cf242e455824fce97e247e6ad53ebfccc258a885490e6bf473b4bf27cddc"
+
+[[files]]
+file = "kubejs/data/yigd/recipes/grave.json"
+hash = "deb4914a492a21b8e062cbc90deb382f9845c34decb2b63c66321fd326b25042"
+
+[[files]]
+file = "kubejs/data/yigd/recipes/tp_scroll.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/yigd/tags/blocks/replace_blacklist.json"
+hash = "6e9c29ef3f34678b1416f9b5de4236bbd31058e6e550fc1c335dd7cb12678f53"
+
+[[files]]
+file = "kubejs/data/yigd/tags/blocks/soft_whitelist.json"
+hash = "65d9b324a8ad4501889a8ba63cebb768ee49d3ac9ba496b51c0722b43c0afbf4"
+
+[[files]]
+file = "kubejs/data/yigd/tags/blocks/support_replace_whitelist.json"
+hash = "5b8c48e5d21b4c89f4f0e70810b1bbfe028b33e197e662c982b2a93c713a9d53"
+
+[[files]]
+file = "kubejs/data/yigd/tags/items/force_item_slot.json"
+hash = "f441fc0690e3545f3688149557eb5adff1af1c2cd449c87067020c49582c20fd"
+
+[[files]]
+file = "kubejs/data/yigd/tags/items/soulbound_item.json"
+hash = "8d67185b19382140cd27a19c698918a363472a8566c02a1428dab7f0b720c8cb"
 
 [[files]]
 file = "kubejs/exported/tags/biomes.txt"
@@ -3570,7 +3630,7 @@ hash = "6e2139edc84a602b3e53d5c2208ff1fc2761cc8cba0b631011d1917cdb4afb9d"
 
 [[files]]
 file = "kubejs/server_scripts/interactions.js"
-hash = "7acf719839aa8d241ab621674d7d6fce2bfe3cf48863b916794c17e086c88dd5"
+hash = "f2e88effd14eb69494c712ca6aad91223a4369935a6da02b3ea55551fd6b007c"
 
 [[files]]
 file = "kubejs/server_scripts/packmode.js"
@@ -3618,7 +3678,7 @@ hash = "ecd5d748aa65a1219e69618c2c8ccd0edb2cc533d38b30a987f7de98f46e5900"
 
 [[files]]
 file = "kubejs/server_scripts/recipetypes/main_recipes.js"
-hash = "e72f936bd7165e9e6dd1601f39a894cde616dac4db15cc7b3df1ff16e39f63a7"
+hash = "a043ef43811760228cd8145c9be5f659f775cffc9b98e509bce853f1f1c6a533"
 
 [[files]]
 file = "kubejs/server_scripts/recipetypes/minecraft/shaped.js"
@@ -4551,11 +4611,6 @@ hash = "ac0a569754597f5024bc0e9d035d27fe9323bbea05d3e275236127a864743786"
 metafile = true
 
 [[files]]
-file = "mods/simple-teleporters-fabric.toml"
-hash = "a463717f335d260f5c6b5e6e649027c2b9b5b67aca8355d1019e9c9e57ba9bd4"
-metafile = true
-
-[[files]]
 file = "mods/simplepipes.toml"
 hash = "1cfa1e94cce6697b6acfc3c5d5bd86d513b531f2ce601f1335552f255f204f20"
 metafile = true
@@ -4741,11 +4796,6 @@ hash = "1cf751b8e3e5e99b897cda6b5d7c9abed2f41a2caff0ac075c86ec1338301c0e"
 metafile = true
 
 [[files]]
-file = "mods/universal-graves.toml"
-hash = "43bbef66f1d4447edc04d3595c70e48bf25ed7edade992c892e3305b01eec270"
-metafile = true
-
-[[files]]
 file = "mods/unlimited-dragon-eggs-fabric.toml"
 hash = "71c31a8bb5d8d7bca1032dea635c39675c7852be11d1555cbc436f5c464664a6"
 metafile = true
@@ -4803,6 +4853,11 @@ metafile = true
 [[files]]
 file = "mods/yosbr.toml"
 hash = "25ba1f543d497256054d05bbbab6e0c4f5aa9796cd53191d4b381297fd98c81d"
+metafile = true
+
+[[files]]
+file = "mods/youre-in-grave-danger.toml"
+hash = "925da9074cad8fe4d3237d697b3de31d451ff8e38c135029c01975c4a50dfbff"
 metafile = true
 
 [[files]]

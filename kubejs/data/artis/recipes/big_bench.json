@@ -10,7 +10,7 @@
       "tag": "c:workbench"
     },
     "I": {
-      "item": "minecraft:iron_block"
+      "item": "compress:compressed_iron_block_1"
     }
   },
   "result": {
