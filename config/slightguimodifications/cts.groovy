@@ -29,7 +29,7 @@ mainMenu {
             }
         }
 
-        text = literal("Sky FABRICation 2 1.1.0-Pre1")
+        text = literal("Sky FABRICation 2 1.1.0-Pre2")
         shadow = true
     }
 
