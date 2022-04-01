@@ -222,7 +222,7 @@ hash = "1a5ede23f6d7d5b5c5bb0af54cadb6f646564f50137a773b0ebbd6b38c2e9c89"
 
 [[files]]
 file = "config/appliedenergistics2/client.json"
-hash = "dfa254c5b30d54b0ab037a29aa8cde74ee96198008126931ff363ad3bd950b0f"
+hash = "2df4b8a8b2e7a0e0c0b785d12537844efe7735099b0072a8ccbcdf5292253e4f"
 
 [[files]]
 file = "config/appliedenergistics2/common.json"
@@ -258,7 +258,7 @@ hash = "b27183d6a94a5a4c6d8049c8b240b3d2770efea741fe82fc83f1e4f6741138b1"
 
 [[files]]
 file = "config/awesomedungeon_general_.properties"
-hash = "f5c35f1c0252c472daa6a0a3dfe5f75630f72ece2bc01117fe2c4a54836f7199"
+hash = "b601054fc5e5ffdd46d06b501a797aaf8098f44cd26fdfec319b4c5de57b5b25"
 
 [[files]]
 file = "config/awokenworld.toml"
@@ -446,7 +446,7 @@ hash = "7b0ecf70f4de2c47d35750389cc83832d4b3804f226527de3c5f15feb216df49"
 
 [[files]]
 file = "config/charm.toml"
-hash = "5f48c4b2800f9ecad02f4ea35b2edcf0f55c189614ba40dc440b1fb985686bb8"
+hash = "d14f8162a6a5f435f4e4c586e1d22ed8128c3f9d1d5e71280df69d6afdb11b34"
 
 [[files]]
 file = "config/collective-fabric.json"
@@ -514,7 +514,7 @@ hash = "a108547ceeb9b42696fd5607fdeeec342081ded0371b5105883aba83ccd9582e"
 
 [[files]]
 file = "config/diggusmaximus/excavatingshapes.json5"
-hash = "8ac4d50ab8fb34d83bc73ba19d55897526f70fca8af327273827429d9384d86b"
+hash = "68e12e51b1448c4736d3af05e8b736f9213d88581707b33b98d9a75ab1857f59"
 
 [[files]]
 file = "config/diggusmaximus/grouping.json5"
@@ -590,11 +590,11 @@ hash = "e48315703a5d9dd631055c5e702d3a60464f336d1147b029bb6bc81d236473ec"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "cee1fc2e8969f0bc88f6005eaf91b4b68371dae574e6415f74be5a7391c7255c"
+hash = "e7b4c4bc0ab884663509bd3cb690e647235d151472a4a7b0c90d1cdb09d8379f"
 
 [[files]]
 file = "config/fabric/more-villages-mod-config.properties"
-hash = "0f255742e2c3107cab965ff10da8ea35090857ee7c0c10eecc89a8dd0e1aab3c"
+hash = "8d0c78648fffc14a8ac6c598502233715b1242d7464bbd3b043541d49d484c95"
 
 [[files]]
 file = "config/fabrication/block_logo.ini"
@@ -734,7 +734,7 @@ hash = "d4d126cb7e0b19c1918c373153709571f8a8d932b9380c3336e67244e58a2a3f"
 
 [[files]]
 file = "config/indium-renderer.properties"
-hash = "777538d8501a7b3c110bd0aeada39a354d034fa5c273ab10cdc4be353b253aad"
+hash = "f95b57ddbe99c73c76172d851622c6c467f29c42198ee16c0c926456103f924b"
 
 [[files]]
 file = "config/indrev/cables.json"
@@ -774,7 +774,7 @@ hash = "9dc99196d37dbb312d5452540846c2c26a133607ba22ecd9f739a456ffd63155"
 
 [[files]]
 file = "config/iris.properties"
-hash = "08d2f08439a03bc1c7f9fab774fed6e899178d44089c4d30b72f1c24be36994b"
+hash = "061333e90967d148b41e527aa660d7b98d1886fdc5945c6015ec6a8ae1566bd1"
 
 [[files]]
 file = "config/iron-jetpacks/client.json5"
@@ -1070,7 +1070,7 @@ hash = "a67236653f4a4a8d7d1cd8b3de551d640bba67ba636c419099a454da72e2dc88"
 
 [[files]]
 file = "config/roughlyenoughitems/config.json5"
-hash = "821befb62fead01efe73aa76d9d5f2178dc709e76dd1007651a081f73c1af821"
+hash = "f84fe555ff24eb230146bf4c4d32c08ad8e11d012c0cae5ae6267a092402ed7d"
 
 [[files]]
 file = "config/rrp.properties"
@@ -1278,7 +1278,7 @@ hash = "629ba05bb6ec62268ab442c989200c32d82f48c6306a2a530afd3415b022e251"
 
 [[files]]
 file = "config/things.json5"
-hash = "4074bb6848e385da44c030f3077a3a64e9325ca5b1a9d97c18ccca2480ff1aba"
+hash = "73dbd135273b0f764e23fa85a80332c222f4253c9d1acec29dcfebd3643d9338"
 
 [[files]]
 file = "config/time-in-a-bottle.json"
@@ -1290,7 +1290,7 @@ hash = "1335a55e8b05de9b0995fa97fa80346754276233600ab1c1efc5f77519ae01ae"
 
 [[files]]
 file = "config/trade.properties"
-hash = "c11393ded8195495210242aaac8f31754f2c568d63804f7cbd8bb6855d6a9843"
+hash = "352af63187f6f28039c6a5fb996d9a989bf63d6d3d1cd16f6fd42efc960a14fc"
 
 [[files]]
 file = "config/universal-graves.json"
@@ -1306,7 +1306,7 @@ hash = "640800920130d084dec5a3a7f52c10e18d72ed7faca522b5bcb6bb46d0dcae9b"
 
 [[files]]
 file = "config/waila/megane.json"
-hash = "6a2b71e498ae442fb6251eccb55eb7d5f515c23996dfb90e3a19aa5d4e6d950d"
+hash = "e56d2bda71941791a44af9294c3804d24eed8aee2275e7e419c32c1578054d7e"
 
 [[files]]
 file = "config/waila/megane_modules.json"
@@ -1330,11 +1330,11 @@ hash = "d0a26b9f0bf347fa65489757136645df57ab58a5a9e603444d9a19bfd17d77c0"
 
 [[files]]
 file = "config/xaerominimap.txt"
-hash = "85fcbab06e58a57e7846df854c9858677b63f9db5380f8b5ed8244ae01c10404"
+hash = "4af62714b9a273fb350a670ea2dce41cc6051fa0fefb57cd5ee8f55f1687b46e"
 
 [[files]]
 file = "config/xaerominimap_entities.json"
-hash = "61aed889e1ecfdaa501058168df3849a836d55281df7a71c0ad127b4af831a37"
+hash = "906d5ebbccd63f1d723c60c93fbf34ec04515cbd81c2393ae6c7c3e3593fdb87"
 
 [[files]]
 file = "config/xaeropatreon.txt"
@@ -1342,7 +1342,7 @@ hash = "36a890045fce4aa69f1c550d5a49a62b336cbb7911a7afa6956fcce5d4d9dcb8"
 
 [[files]]
 file = "config/xaeroworldmap.txt"
-hash = "a314971f807a4afcd3572a87695dc5dbaf55a5a7bcaf04c3b282d54ea8587a56"
+hash = "86863562c621ed4fdd92a15875ca69e8a80ccd59e6f1efa26abdd32b313333d8"
 
 [[files]]
 file = "config/yosbr/config/diggusmaximus/blacklist.json5"
@@ -2245,6 +2245,14 @@ file = "kubejs/data/botania/recipes/mana_fluxfield.json"
 hash = "b96f16da234ce28e12f20accd3b980f6d4bca0ff7fdc6b3dcfb7071cf605262a"
 
 [[files]]
+file = "kubejs/data/botania/recipes/orechid/deepslate_diamond_ore.json"
+hash = "aaeea1479971758d3dcb13f465f2b4c568013365a420aa54f2b47ad68d3fd67c"
+
+[[files]]
+file = "kubejs/data/botania/recipes/orechid/diamond_ore.json"
+hash = "2fb7a7860c434560e3bab404ce3632c62251cddde724dd29c2bc4cd3a301a388"
+
+[[files]]
 file = "kubejs/data/botania/recipes/terra_plate/end_moss.json"
 hash = "6103dc4af688e5acab5efd2153b2304a2c7467dcd87a995462181ccf8b697f21"
 
@@ -2691,6 +2699,10 @@ hash = "ef2c7f1dc5027b6ea5142f109d0ff2688af0c41c7c02d67adfcb9019fc701809"
 [[files]]
 file = "kubejs/data/indrev/recipes/shaped/machine_block.json"
 hash = "d06c6df8550c410774e798cd95dd2f4108f61ca881ff88a6c42682bb8fb9a1c7"
+
+[[files]]
+file = "kubejs/data/indrev/recipes/shaped/modular_core.json"
+hash = "06e29a4b31712b1ea87e4a7775d0960ea9905a2cf5ff2428285e7142f1165895"
 
 [[files]]
 file = "kubejs/data/indrev/veintypes/certus_quartz.json"
@@ -3277,6 +3289,18 @@ file = "kubejs/data/modern_industrialization/recipes/electric_age/machine/assemb
 hash = "6197f3db8ddd89970b2f65ee7664477a8f1c4964df8eb0c72456bcd21d991cde"
 
 [[files]]
+file = "kubejs/data/modern_industrialization/recipes/generated/petrochem/sulfuric_purification/crude_oil.json"
+hash = "009f96764537a59da1df250957ff91f8c0cf1ad75988ec8813e1934b0d6fdb72"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipes/generated/petrochem/sulfuric_purification/heavy_fuel.json"
+hash = "778537e2b36d85b64a3b7c386c0a8928ddc34c41bfdc362183574c9fb49a362a"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipes/generated/petrochem/sulfuric_purification/light_fuel.json"
+hash = "b53ebe4ce9f975fb9e76aaec911b183d7721ceb02745a8f4bface27d6f0907b5"
+
+[[files]]
 file = "kubejs/data/modern_industrialization/recipes/generated/petrochem/sulfuric_purification/naphtha.json"
 hash = "86a0e4dd7ff848472761de527ea290acf1d4d57bcbf519d45a731e5ab09dae1d"
 
@@ -3290,31 +3314,31 @@ hash = "471e0c0c549bf814797a2402488d4b16860a9cd7d620b6ba2e38a5d89d9b78f3"
 
 [[files]]
 file = "kubejs/data/modern_industrialization/recipes/materials/implosion_compressor/beryllium.json"
-hash = "0db9fbf894ebab010d1a0a77942addead0c104914d68e074b53f9cc3315ee6c7"
+hash = "13878dcf759df63ccd4a502f5a36757b4d1fc26cd3ea289a4344f09635393632"
 
 [[files]]
 file = "kubejs/data/modern_industrialization/recipes/materials/implosion_compressor/blastproof_alloy_plate.json"
-hash = "f9aeba834cc499bde8341b4e542e658e299d14a74bb832dad764dff41281213d"
+hash = "f1550ce4981772d86e5b37c21172a1f45738e8596327c3137e10761d90e133a2"
 
 [[files]]
 file = "kubejs/data/modern_industrialization/recipes/materials/implosion_compressor/diamond.json"
-hash = "e59edf52ac0203e8f806b12ae6d3821f4b7f556fdb18dc0f862a84c798ee4a46"
+hash = "cdec50e1afd52c41c913d13be058a6aef1f5ecaea9b747d5257678769ed303a9"
 
 [[files]]
 file = "kubejs/data/modern_industrialization/recipes/materials/implosion_compressor/emerald.json"
-hash = "e2ea7e01d95c29895f5da987b7249ccab936fe72ba8ade973ca578359001a102"
+hash = "6bda69b92750d45cb03418306e66fe1c73a48fe73631df28ef3d9398cb8eeac1"
 
 [[files]]
 file = "kubejs/data/modern_industrialization/recipes/materials/implosion_compressor/iridium_plate.json"
-hash = "43e7710cd460ce1d5f0dc186be73085e877a3f284e51d91d7d20cee03d6b3e8c"
+hash = "e8fc47cd68b086d7038c2a8e8222aa73f9a4334767e0af935711da76be80187a"
 
 [[files]]
 file = "kubejs/data/modern_industrialization/recipes/materials/implosion_compressor/nuclear_alloy_plate.json"
-hash = "8433aa116b02c0061c360d6bd30933b3593cb33045e150f3d945f2b28bfbaf1f"
+hash = "87dd73e0f0088eb079d7672c464f1a6ef5ea60a2b4a2ee15a9f8a34d38b8986c"
 
 [[files]]
 file = "kubejs/data/modern_industrialization/recipes/materials/implosion_compressor/tungsten.json"
-hash = "7e81936afdb70d0d547e55a86f045e6efbb28512ac127694286d86a77eb4175e"
+hash = "24347da91747db51d959a8258134d097c516e363f915a5eb1905ed1e855089b8"
 
 [[files]]
 file = "kubejs/data/modern_industrialization/recipes/materials/mixer/lubricant.json"
@@ -3343,6 +3367,10 @@ hash = "1b6818ef15aa6e81e1293254afeb9e04715e56aa65667b009e58d2c844668bab"
 [[files]]
 file = "kubejs/data/modern_industrialization/recipes/packer/paper_block.json"
 hash = "934c3b42ca0dbcc4db3af3c59e3e9743e2a03d8d866252c67a9d5886727f0dc5"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipes/quarry/bronze.json"
+hash = "32fac27489792d9e32481c19f5cdda135bfc2e042b386d10f970adbecc916eae"
 
 [[files]]
 file = "kubejs/data/modern_industrialization/recipes/quarry/titanium.json"

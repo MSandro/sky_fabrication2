@@ -5,7 +5,7 @@
     "useTerminalUseLargeFont": false,
     "useColoredCraftingStatus": true,
     "__comment": "Controls buttons on Level Emitter Screen",
-    "PowerUnit": "ae",
+    "PowerUnit": "tr",
     "showDebugGuiOverlays": false,
     "craftByStacks0": 1,
     "priorityByStacks0": 1,

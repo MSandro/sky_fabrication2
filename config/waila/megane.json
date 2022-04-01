@@ -74,7 +74,19 @@
       "modern_industrialization:crude_oil": 5524299,
       "modern_industrialization:sulfuric_light_fuel": 16047412,
       "modern_industrialization:sulfuric_heavy_fuel": 15912764,
-      "modern_industrialization:hydrochloric_acid": 10403078
+      "modern_industrialization:hydrochloric_acid": 10403078,
+      "modern_industrialization:methane": 12009689,
+      "indrev:coolant_still": 795456,
+      "modern_industrialization:vinyl_chloride": 15575001,
+      "modern_industrialization:heavy_fuel": 16767814,
+      "modern_industrialization:light_fuel": 16771398,
+      "modern_industrialization:chlorine": 12042516,
+      "modern_industrialization:chrome_hydrochloric_solution": 16432755,
+      "modern_industrialization:acetylene": 10639368,
+      "modern_industrialization:polyvinyl_chloride": 16176108,
+      "modern_industrialization:diesel": 15318829,
+      "modern_industrialization:propene": 9987148,
+      "modern_industrialization:acrylic_acid": 1826485
     },
     "blacklist": []
   },

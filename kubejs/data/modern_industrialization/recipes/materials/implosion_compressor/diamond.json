@@ -1,6 +1,6 @@
 {
   "type": "modern_industrialization:implosion_compressor",
-  "eu": 1024,
+  "eu": 128,
   "duration": 10,
   "item_inputs": [
     {
