@@ -135,6 +135,9 @@ onEvent('recipes', event => {
   event.remove({output: 'techreborn:data_storage_chip', type: 'techreborn:assembling_machine'});
   event.remove({output: 'techreborn:advanced_circuit', type: 'minecraft:crafting_shaped'});
 
+  // AE2
+  event.remove({output: 'appliedenergistics2:crafting_monitor', type: 'minecraft:crafting_shaped'});
+
   // MC
   event.remove({output: 'minecraft:end_portal_frame'});
   event.remove({output: 'minecraft:elytra'});

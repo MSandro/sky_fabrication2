@@ -450,7 +450,7 @@ hash = "7b0ecf70f4de2c47d35750389cc83832d4b3804f226527de3c5f15feb216df49"
 
 [[files]]
 file = "config/charm.toml"
-hash = "5f48c4b2800f9ecad02f4ea35b2edcf0f55c189614ba40dc440b1fb985686bb8"
+hash = "d14f8162a6a5f435f4e4c586e1d22ed8128c3f9d1d5e71280df69d6afdb11b34"
 
 [[files]]
 file = "config/collective-fabric.json"
@@ -2517,8 +2517,8 @@ file = "kubejs/server_scripts/interactions.js"
 hash = "57890f2b4a5d12d0f1ac6034cd270aa2c19030fdc62deccd5937a196ec4422d5"
 
 [[files]]
-file = "kubejs/server_scripts/packmode.js"
-hash = "c80bc0151c94dcb4b76258dc009719419677d0787677106a93ad5405f17777b6"
+file = "kubejs/server_scripts/packmode.js_"
+hash = "bb7feb3ff9b6027f526b3ee6d61f1d93c3748674f749cc04b0e4d0b90d9477fa"
 
 [[files]]
 file = "kubejs/server_scripts/recipetypes/KubeJS/food.js"
@@ -2558,7 +2558,7 @@ hash = "ecd5d748aa65a1219e69618c2c8ccd0edb2cc533d38b30a987f7de98f46e5900"
 
 [[files]]
 file = "kubejs/server_scripts/recipetypes/main_recipes.js"
-hash = "406ce85d5a88818708975787f1fd396182186c646c0f1fa069dbaeb9ebbdf015"
+hash = "b8c7d9d9a9acbfe43a288362116d6d34ace2ceda4f170b26e710ed3b09551a54"
 
 [[files]]
 file = "kubejs/server_scripts/recipetypes/minecraft/shaped.js"
@@ -2619,7 +2619,7 @@ metafile = true
 
 [[files]]
 file = "mods/appleskin.toml"
-hash = "082135c24556aa8a471126624e61b1833b3a282f496ae5f05cc5835b7a2f748e"
+hash = "6df34daa413be6354e925103f763602d2ae6286c5ad7de8a8a2643f8dbcabb7e"
 metafile = true
 
 [[files]]
@@ -2639,7 +2639,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-fabric.toml"
-hash = "a500bd1a9efecaa7bfe22f58cae9fec8c0c748560271e6cf884d5200f0007ac8"
+hash = "1c8b59a53e65b490709821af79a8a3eaecab40b5b63644fbb8bedea23625d6c5"
 metafile = true
 
 [[files]]
@@ -2709,7 +2709,7 @@ metafile = true
 
 [[files]]
 file = "mods/betteranimalsplus.toml"
-hash = "59a90aa01243e5c1206f1c4551cee8a0836b10a2265b147f7ea744e5f2ff9df8"
+hash = "d557bb8ba54d44dc743b69e98ee0b4058cd613a7a96374bc27fc6adb6a734919"
 metafile = true
 
 [[files]]
@@ -2814,7 +2814,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective-fabric.toml"
-hash = "9454303653f7935fdf0ae62b36d9722c3aa90e03fa7a631f871cfa2f5efda03c"
+hash = "28a657f44084fd3a723ed75eec352ba6d31164bd9d52a408944c0ebdb92e4470"
 metafile = true
 
 [[files]]
@@ -2839,7 +2839,7 @@ metafile = true
 
 [[files]]
 file = "mods/continuity.toml"
-hash = "8198c6d03e0dbc989fd373aa5fd4ad9a769b1e02f2ed826f47ad4423467af4d2"
+hash = "0502a093b1d7031c04864b7d70ab5fe4936eacf04e024cbccae40638dd553f6a"
 metafile = true
 
 [[files]]
@@ -2949,7 +2949,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-chisel.toml"
-hash = "4f0b7d393eb1726571d64f99e5c3e6314dad80b9fede39e6b51cd4703ef6f3cc"
+hash = "62977e3d26e636a1597455b2e284439b111fe1d7e570fdb89616343dcf4c8612"
 metafile = true
 
 [[files]]
@@ -2999,7 +2999,7 @@ metafile = true
 
 [[files]]
 file = "mods/flan.toml"
-hash = "644ac16af842f810fefbfb46f868d29a3a25de6caab17009e94d0cc28dfdb5ee"
+hash = "09364f4ed87cd73d04becf5e29562f828336601be6ed9776453b741c47352afd"
 metafile = true
 
 [[files]]
@@ -3014,12 +3014,12 @@ metafile = true
 
 [[files]]
 file = "mods/gearreborn.toml"
-hash = "0916004a38fe963bfeefbc16ecdb1bff6891abe92ee6c2cec925ab22c19d7f10"
+hash = "aa00f1ed4183d205237e6bae762ec45159e5422b0f2b1959ca2e78104b9bb365"
 metafile = true
 
 [[files]]
 file = "mods/geckolib.toml"
-hash = "61eb2d5e90f074f9c459e6f8cc1299f372ec016f7a2854457c041d3b0df33fda"
+hash = "4f79cc85ca69558b7e92df534e848ed57f4620e8d013816898e1d68f625f6d4f"
 metafile = true
 
 [[files]]
@@ -3099,7 +3099,7 @@ metafile = true
 
 [[files]]
 file = "mods/irisshaders.toml"
-hash = "dfe9107d25be2d7ef23d1170b0dc35eac144713e733caf1ad806225e848de549"
+hash = "583ff7ae3ef831b19790d9fab4766a97a8868f165aa3bf82861dece2dad36f1a"
 metafile = true
 
 [[files]]
@@ -3229,7 +3229,7 @@ metafile = true
 
 [[files]]
 file = "mods/modern-industrialization.toml"
-hash = "743b5c7c94cfe6358cf310f453270281c8b66911075225df8b1de1c3abf3247d"
+hash = "8db00c3831c8fe777d09392e324eeefd2dcd98c1ca290ccb78befb7b14c264ff"
 metafile = true
 
 [[files]]
@@ -3279,7 +3279,7 @@ metafile = true
 
 [[files]]
 file = "mods/nbt-crafting.toml"
-hash = "4b54318198cdd14290289333337098eb3e42a23daa782c022fe122081d7f89ed"
+hash = "e509d35f46b9bf7b7b2006ba4eec7b4c02d7adb715ce67894e0ab994d3efcf28"
 metafile = true
 
 [[files]]
@@ -3364,7 +3364,7 @@ metafile = true
 
 [[files]]
 file = "mods/platforms-fabric.toml"
-hash = "7bbe01696ab8aadb6340dcee1b08aa5c0752e78d039a841dec86480439b0de39"
+hash = "92e2d09d855bd4ff87250faecfd317ed0701f9de0c34c63e6e4dc55a10af7270"
 metafile = true
 
 [[files]]
@@ -3400,11 +3400,6 @@ metafile = true
 [[files]]
 file = "mods/red-bits.toml"
 hash = "ddae311d3ff880a840316b0ffc9762f674232e7ce08d1b1cbdec7b634a5d5f30"
-metafile = true
-
-[[files]]
-file = "mods/reeses-sodium-options.toml"
-hash = "f16a5a9cef9a0c904f38a9e619a40b73d4f212c39c74860649fbaa39b5bf222a"
 metafile = true
 
 [[files]]
@@ -3449,7 +3444,7 @@ metafile = true
 
 [[files]]
 file = "mods/shetiphiancore-fabric.toml"
-hash = "e645d0cd5b8d8464faf0eb9cdba076ff87b648121f5e8f1ee355582d2feda632"
+hash = "353b2a5fac51d184736c5fb9dad6891801b58606148c85fa9abda41ed4c8ca34"
 metafile = true
 
 [[files]]
@@ -3499,7 +3494,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.toml"
-hash = "0e2135de012b2fba17076f42c55221d541cd4c7d6dfcaf3e139e3fc4b9733882"
+hash = "7407ef2e91e4b74e028473a6e125c9c7ea79101e9955da52198d8c0d1e14e3a7"
 metafile = true
 
 [[files]]
@@ -3699,12 +3694,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.toml"
-hash = "74285012930f51ce41420d3ad69b774dc2fbc26c909f0fde208522a0fde33984"
+hash = "9f38299baccff98c13d18ed73aff21015278dcc3736233ac1fac2b0839a0fec6"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.toml"
-hash = "045495004c4f3b27264504a28f763a65bc0ae4343dcf5e26f4d8127dd2d483f1"
+hash = "9fe6199bec1d754a7d2e1952b7971b5d47f9e92634c06585e05ce853bf6361ed"
 metafile = true
 
 [[files]]
