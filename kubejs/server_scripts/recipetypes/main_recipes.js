@@ -45,6 +45,9 @@ onEvent('recipes', event => {
   ]
   DelCompressem.forEach(id => event.remove({output: id}));
 
+  // AE2
+  event.remove({output: 'appliedenergistics2:crafting_monitor', type: 'minecraft:crafting_shaped'});
+
   // RSWIRES
   event.remove({output: 'rswires:red_alloy_compound'});
 

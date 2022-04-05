@@ -3646,7 +3646,7 @@ hash = "ecd5d748aa65a1219e69618c2c8ccd0edb2cc533d38b30a987f7de98f46e5900"
 
 [[files]]
 file = "kubejs/server_scripts/recipetypes/main_recipes.js"
-hash = "ea7e1dbaa97ae7888bc8ee052bd1cf4f2d47d9d348a76ee4d7990fa951f5060d"
+hash = "82e3483a129cc652c7adce73a4079e19684db206bd168c9311e839f307d2bf75"
 
 [[files]]
 file = "kubejs/server_scripts/recipetypes/minecraft/shaped.js"
