@@ -258,7 +258,7 @@ hash = "b27183d6a94a5a4c6d8049c8b240b3d2770efea741fe82fc83f1e4f6741138b1"
 
 [[files]]
 file = "config/awesomedungeon_general_.properties"
-hash = "60c54bc95dc51a70a6fd809a51bb11f5fcce64eca9d881fa4dd464534877b5a1"
+hash = "404990859886ece853456dc7f203ac759b8a40bf57d01c7bcbcb1a2905011751"
 
 [[files]]
 file = "config/awokenworld.toml"
@@ -570,11 +570,11 @@ hash = "e48315703a5d9dd631055c5e702d3a60464f336d1147b029bb6bc81d236473ec"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "dd480b42368e90a77070b23836035893b856f7009afe5aa6aec0b6e84f9e4b4b"
+hash = "05d0ad7b1ccb0578bb99ae443c5794bd1c2b1a4493fee62eba472ee82bdae53f"
 
 [[files]]
 file = "config/fabric/more-villages-mod-config.properties"
-hash = "3ec984df63f0ff5a8724c86fdf4402fcd57f6fd4711efbcdf16ddbd1e9a87753"
+hash = "865016def7c0f8463cecb62f4839db62418a8bacd6b5318c7a627953592cebb2"
 
 [[files]]
 file = "config/fabrication/block_logo.ini"
@@ -714,7 +714,7 @@ hash = "d4d126cb7e0b19c1918c373153709571f8a8d932b9380c3336e67244e58a2a3f"
 
 [[files]]
 file = "config/indium-renderer.properties"
-hash = "047ae3c2492499a918e5a32ab1eabc85353aae06dd18393bdd3aea2ae7a23e8e"
+hash = "1fd65a17997809a05fd08b44fc069893a9613673766c01f8535ca4966aaba5a4"
 
 [[files]]
 file = "config/indrev/cables.json"
@@ -754,7 +754,7 @@ hash = "9dc99196d37dbb312d5452540846c2c26a133607ba22ecd9f739a456ffd63155"
 
 [[files]]
 file = "config/iris.properties"
-hash = "7b51f0029f10c7a6e2f2e8ae655fecbcf23ed870a34a08e8fb70b7d4ed883569"
+hash = "99e9f76a7607a9c21b4e3057c183a37746cc836f461f0f3abf4e1051d2d020c8"
 
 [[files]]
 file = "config/iron-jetpacks/client.json5"
@@ -1137,10 +1137,6 @@ file = "config/smoothboot.json"
 hash = "5865d6d3964d017c2bb8b8fd90f059016094abc6b85f3e5781ffa9959fd345c6"
 
 [[files]]
-file = "config/sodium-extra.properties"
-hash = "a2f1b47c1eaa119ab34727f1d43c2506cb3d7f17ba8fb4efb49e20c8e0b58e70"
-
-[[files]]
 file = "config/sodium-mixins.properties"
 hash = "051558518a6f3350fadb1546346d937e7f78f69834a075bf91b59921f151cc26"
 
@@ -1258,7 +1254,7 @@ hash = "1335a55e8b05de9b0995fa97fa80346754276233600ab1c1efc5f77519ae01ae"
 
 [[files]]
 file = "config/trade.properties"
-hash = "07d1af0c256f300799edf7d6dad374b60e11b4fbef76ddbb4130e5ccae490ab9"
+hash = "45537e451b13d64a364ec1619a00a26d37515c81a8bd18cea0d3e5adcdeb904c"
 
 [[files]]
 file = "config/universal-graves.json"
@@ -1315,6 +1311,10 @@ hash = "ef4721e167e20865ec1b660e75471a86364e6cc653404baefd1d66938d8bb900"
 [[files]]
 file = "config/yosbr/config/roughlyenoughitems/config.json5"
 hash = "74aeb88055555749c056ba5848da21100973c707a0bd71ab08fa328e5cd54ef8"
+
+[[files]]
+file = "config/yosbr/config/sodium-extra-options.json"
+hash = "e0269797997761f07fcc96fbdf8d47b5a36dac262d48a7d5eb951c5d490bb17e"
 
 [[files]]
 file = "config/yosbr/config/xaerominimap.txt"
