@@ -37,10 +37,7 @@ global.isExpertMode = packMode == 'expert';
 console.log(`Current packmode is: ${packMode}`);
 
 onEvent('server.custom_command', event => {
-	if (event.server.isDedicated()) {
-		event.player.tell("This command does not work on Servers, please edit the mode.json and do /reload to apply the changes!");
-	}
-	else {
+	if (!event.server.isDedicated()) {
 		if (event.id == 'Expert') {
 		  if (!global.isExpertMode) {
 			  json.write(configName, expertConfig);

@@ -128,13 +128,13 @@ onEvent('recipes', event => {
   event.remove({output: 'techreborn:auto_crafting_table', type: 'minecraft:crafting_shaped'});
 
   // MC
-  event.remove({output: 'minecraft:end_portal_frame'});
-  event.remove({output: 'minecraft:elytra'});
-  event.remove({output: 'minecraft:wheat_seeds', input: '#resourceful_tools:crack_hammers', type: 'minecraft:crafting_shapeless'})
-  event.remove({output: 'minecraft:soul_soil', type: 'minecraft:crafting_shaped'})
-  event.remove({output: 'minecraft:soul_sand', type: 'minecraft:crafting_shaped'})
-  event.remove({output: 'minecraft:blaze_rod', input: 'minecraft:blaze_powder', type: 'minecraft:crafting_shapeless'})
-  event.shapeless('minecraft:blaze_rod', ['minecraft:blaze_powder', 'minecraft:blaze_powder', 'minecraft:blaze_powder', 'minecraft:blaze_powder'])
+  event.remove({output: 'minecraft:wheat_seeds', input: '#resourceful_tools:crack_hammers', type: 'minecraft:crafting_shapeless'});
+  event.remove({output: 'minecraft:blaze_rod', input: 'minecraft:blaze_powder', type: 'minecraft:crafting_shapeless'});
+  event.shapeless('minecraft:blaze_rod', ['minecraft:blaze_powder', 'minecraft:blaze_powder', 'minecraft:blaze_powder', 'minecraft:blaze_powder']);
+  event.remove({output: 'minecraft:netherite_ingot'});
+  event.shapeless('minecraft:netherite_ingot', ['modern_industrialization:gold_large_plate',
+                                                'minecraft:netherite_scrap', 'minecraft:netherite_scrap', 'minecraft:netherite_scrap', 'minecraft:netherite_scrap',
+                                                'minecraft:netherite_scrap', 'minecraft:netherite_scrap', 'minecraft:netherite_scrap', 'minecraft:netherite_scrap']);
 
   event.remove({output: 'minecraft:end_crystal'});
   event.shaped('1x minecraft:end_crystal', [

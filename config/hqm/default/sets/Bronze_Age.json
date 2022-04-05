@@ -833,67 +833,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "20c1d1d9-9c16-44a6-945f-f0220afec2c8",
-      "name": "Copper Golem",
-      "description": "You can spawn in the golem with a bottom copper block, middle carved pumpkin block and top lightning rod.\n\nIt can press Copper Buttons for you.",
-      "x": 173,
-      "y": 107,
-      "icon": {
-        "id": "minecraft:copper_block",
-        "Count": 1,
-        "tag": {}
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:copper_block",
-                "Count": 1,
-                "tag": {}
-              }
-            },
-            {
-              "item": {
-                "id": "minecraft:carved_pumpkin",
-                "Count": 1,
-                "tag": {}
-              }
-            },
-            {
-              "item": {
-                "id": "minecraft:lightning_rod",
-                "Count": 1,
-                "tag": {}
-              }
-            },
-            {
-              "item": {
-                "id": "outvoted:copper_button",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "e3d66976-e339-44a2-8a80-a7afdc32e06d"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "indrev:copper_chestplate",
-          "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "a6493aa4-cd33-471d-8148-be32b35e0ec3",
       "name": "Iron Funnel",
       "description": "Now you are able to upgrade to a Iron Funnel! It is faster and grants you acces to new resources.\n\nThe better the funnel, the better they utilize the lava, but also correspondingly faster.",

@@ -85,7 +85,7 @@
       },
       {
         "type": "minecraft:blaze",
-        "weight": 70,
+        "weight": 10,
         "minCount": 2,
         "maxCount": 6
       },
@@ -126,12 +126,6 @@
         "weight": 6,
         "minCount": 1,
         "maxCount": 3
-      },
-      {
-        "type": "minecraft:blaze",
-        "weight": 7,
-        "minCount": 2,
-        "maxCount": 6
       },
       {
         "type": "minecraft:ghast",

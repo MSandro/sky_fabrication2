@@ -12,6 +12,8 @@ onEvent('gamephases.initialize', event => {
     event.phase('end')
         .block('minecraft:end_portal', 'kubejs:end_portal_locked')
         .dimension('minecraft:the_end');
+    event.phase('block_default_aether_portal')
+        .block('the_aether:blue_portal', 'kubejs:unknown');
 });
 onEvent('server.custom_command', event => {
 		if (event.id == 'GetPhases') {
@@ -30,6 +32,10 @@ onEvent('server.custom_command', event => {
         event.player.tell(array.join(", "));
       else
         event.player.tell("you have no phases!");
+    } else if (event.id == 'FixPhases') {
+      fixPhases(event);
+    } else if (event.id == 'GetTags') {
+      event.player.tell(event.player.getTags());
     }
 });
 
@@ -58,6 +64,10 @@ onEvent('player.advancement', event => {
 })
 
 onEvent('player.inventory.changed', event => {
+  fixPhases(event);
+})
+
+function fixPhases(event) {
   if (event.player.getTags().contains('phases/nether')) {
     event.server.runCommandSilent(`phase grant ${event.player.name} nether`);
   }
@@ -73,4 +83,4 @@ onEvent('player.inventory.changed', event => {
   if (event.player.getTags().contains('phases/end')) {
     event.server.runCommandSilent(`phase grant ${event.player.name} end`);
   }
-})
+}

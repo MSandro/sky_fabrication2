@@ -142,7 +142,7 @@
         {"weight": 2, "block": "betternether:cincinnasite_ore"},
         {"weight": 2, "block": "appliedenergistics2:deepslate_quartz_ore"},
         {"weight": 2, "block": "minecraft:ancient_debris"},
-        {"weight": 2, "block": "indrev:nikolite_ore"}
+        {"weight": 19, "block": "indrev:nikolite_ore"}
       ]
     }
   }

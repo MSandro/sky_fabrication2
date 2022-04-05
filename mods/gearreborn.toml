@@ -1,13 +1,13 @@
 name = "Gear Reborn"
-filename = "GearReborn-1.17-0.1.10.jar"
+filename = "GearReborn-1.17-0.1.11.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3462/743/GearReborn-1.17-0.1.10.jar"
+url = "https://edge.forgecdn.net/files/3732/105/GearReborn-1.17-0.1.11.jar"
 hash-format = "murmur2"
-hash = "614243351"
+hash = "1939991872"
 
 [update]
 [update.curseforge]
-file-id = 3462743
+file-id = 3732105
 project-id = 418539

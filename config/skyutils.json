@@ -4,5 +4,20 @@
   "villages": true,
   "geode_rareness": 200,
   "generate_islands_below_structs": true,
-  "generate_small_islands": true
+  "generate_small_islands": true,
+  "hammer_iron_nugget_chance": 25,
+  "hammer_sand_redsand_ratio": 90,
+  "hammer_redstone_from_sand_chance": 10,
+  "hammer_redstone_from_redsand_chance": 20,
+  "hammer_grass_extra_chance": 20,
+  "hammer_podzol_extra_chance": 20,
+  "hammer_sand_extra_chance": 20,
+  "hammer_diamond_nugget_chance": 5,
+  "hammer_nether_wart_chance": 10,
+  "hammer_netherrack_extra_chance": 20,
+  "kiln_lava_cost": 16,
+  "kiln_cobblestone_cook_time": 900,
+  "kiln_crucible_cook_time": 100,
+  "kiln_charcoal_burn_time": 100,
+  "kiln_charcoal_block_burn_time": 900
 }

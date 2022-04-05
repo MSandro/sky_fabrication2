@@ -1,0 +1,13 @@
+name = "Sky Fabricator"
+filename = "skyfabricator-1.0.6.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3735/127/skyfabricator-1.0.6.jar"
+hash-format = "murmur2"
+hash = "1449116083"
+
+[update]
+[update.curseforge]
+file-id = 3735127
+project-id = 585625

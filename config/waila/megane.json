@@ -86,7 +86,15 @@
       "modern_industrialization:polyvinyl_chloride": 16176108,
       "modern_industrialization:diesel": 15318829,
       "modern_industrialization:propene": 9987148,
-      "modern_industrialization:acrylic_acid": 1826485
+      "modern_industrialization:acrylic_acid": 1826485,
+      "modern_industrialization:ethanol": 6326582,
+      "modern_industrialization:diethyl_ether": 9357367,
+      "modern_industrialization:boosted_diesel": 16620298,
+      "modern_industrialization:synthetic_rubber": 5000268,
+      "modern_industrialization:benzene": 15782265,
+      "modern_industrialization:toluene": 10282733,
+      "modern_industrialization:ethylbenzene": 12909143,
+      "modern_industrialization:butadiene": 13679898
     },
     "blacklist": []
   },

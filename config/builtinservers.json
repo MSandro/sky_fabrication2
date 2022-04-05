@@ -1,11 +1,11 @@
 {
   "builtinServers": [
     {
-      "name": "Official Server",
+      "name": "Official Server (Normal Mode)",
       "address": "sky-fabrication2.g.akliz.net"
     },
     {
-      "name": "Official Server (Atlantica)",
+      "name": "Atlantica Server (Expert Mode)",
       "address": "mc.atlantica.us:21565"
     }
   ]
