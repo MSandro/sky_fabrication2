@@ -58,7 +58,7 @@ onEvent('recipes', event => {
   	  S: "bcf:diamond_funnel",
   	  C: "minecraft:netherite_block",
   	  X: "kubejs:crystal_matrix",
-  	  G: "modern_industrialization:small_heat_exchanger"
+  	  G: "modern_industrialization:large_heat_exchanger"
   	});
 
     //FURNACES
