@@ -258,7 +258,7 @@ hash = "b27183d6a94a5a4c6d8049c8b240b3d2770efea741fe82fc83f1e4f6741138b1"
 
 [[files]]
 file = "config/awesomedungeon_general_.properties"
-hash = "6d79b404fe4028607f5c14fa797c7b8912374bb0bc37790385cb88f0bad65d77"
+hash = "b428aefe66493f9f3c48d36aba3f14d23712786e6753269b5dc22fb77ee2d1c9"
 
 [[files]]
 file = "config/awokenworld.toml"
@@ -546,11 +546,11 @@ hash = "e48315703a5d9dd631055c5e702d3a60464f336d1147b029bb6bc81d236473ec"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "0e48b0f8ccfe477527a389d26bda71d0248f7d7d27e052bfb50e55b16bb5a38c"
+hash = "6c9cd053dd97b9325a478c0a1e7c0b26a7bbe9c9f3ecc400bea7f5067426da0d"
 
 [[files]]
 file = "config/fabric/more-villages-mod-config.properties"
-hash = "428fcb82ddcb3fdc585116a5672b58e753cb918d94b1104aba6a94c81624a07a"
+hash = "42073c6fdc46eb29f72fb2f2a979c1d6f4f9d36f828d98256a774e2a78d43cd7"
 
 [[files]]
 file = "config/fabrication/block_logo.ini"
@@ -662,11 +662,11 @@ hash = "d947d002a50b52448c34ffc3fba4a8776538bf50db61947866825a3836a18d05"
 
 [[files]]
 file = "config/hqm/default/sets/It's_Time_for_some_Magic.json"
-hash = "60a1f52c773244da4917c1a206109ee64a6303c4039fa6e193a8043c3c692d8c"
+hash = "09615552329ce10df440e7ab916285a411d2a8890ae1f53aa469abe5e527024a"
 
 [[files]]
 file = "config/hqm/default/sets/Steam_Age.json"
-hash = "a261106beead3a0277948d9af69d784a9ce5c1b8742950ac3fb1478104346afc"
+hash = "b76168a31a8f5a0187139e072545eecd022775a329e6c3d6c8de8a77b33f6083"
 
 [[files]]
 file = "config/hqm/default/sets/Stone_Age.json"
@@ -674,7 +674,7 @@ hash = "4a9ca4a0a5faedc9d402b061d107e22cf1e9bfe212f09be15357ee381672ef07"
 
 [[files]]
 file = "config/hqm/default/sets/The_Beginning.json"
-hash = "fbbb69570ed3baf6c38808973eccf6107586418370ffb577d12f3e990a70bb46"
+hash = "ac37a8277cd8b7d249645e06ec60201abb36fee8f41d9a71f18f5c7abe926869"
 
 [[files]]
 file = "config/hqm/default/sets/The_Late-Game.json"
@@ -690,7 +690,7 @@ hash = "d4d126cb7e0b19c1918c373153709571f8a8d932b9380c3336e67244e58a2a3f"
 
 [[files]]
 file = "config/indium-renderer.properties"
-hash = "e08a56a08f48ed4e8739c0d1110d7b1aa020bfb0e33c6610b2e502ade1018d61"
+hash = "d32e33f3388eed03e1398cad9141e9f6fc97dc8a1fd635868b39eb95a32b92be"
 
 [[files]]
 file = "config/indrev/cables.json"
@@ -730,7 +730,7 @@ hash = "9dc99196d37dbb312d5452540846c2c26a133607ba22ecd9f739a456ffd63155"
 
 [[files]]
 file = "config/iris.properties"
-hash = "1d135909c0de764dfc09a6c1b20cd8dec59dc0096b685c9dfa868aeaa29f58df"
+hash = "83bfc0c1e7d093230d214ea5e05a5d020c1df15009b8384ffac403fa7cbab971"
 
 [[files]]
 file = "config/iron-jetpacks/client.json5"
@@ -1218,7 +1218,7 @@ hash = "1335a55e8b05de9b0995fa97fa80346754276233600ab1c1efc5f77519ae01ae"
 
 [[files]]
 file = "config/trade.properties"
-hash = "c99e27686e41c1236be0e83c296fe83e59607de20d703f13eb92ef19a8a2c8c0"
+hash = "f10fcf9a668bcf7801147c5da7688d3cc6c69277fdbbb0744b7d1eb97fbe2c91"
 
 [[files]]
 file = "config/universal-graves.json"
