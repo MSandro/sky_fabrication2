@@ -1,0 +1,13 @@
+name = "Simple Better Batpack (Fabric)"
+filename = "BetterBatpack-1.17.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3470/977/BetterBatpack-1.17.1-1.0.0.jar"
+hash-format = "murmur2"
+hash = "2655107241"
+
+[update]
+[update.curseforge]
+file-id = 3470977
+project-id = 531135
