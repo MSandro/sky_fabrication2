@@ -1274,7 +1274,8 @@
                 "id": "conjuring:enchiridion",
                 "Count": 1,
                 "tag": {}
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }

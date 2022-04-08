@@ -123,7 +123,9 @@ onEvent('recipes', event => {
   event.remove({output: 'techreborn:chunk_loader'});
   event.remove({output: 'techreborn:chunk_loader'});
   event.remove({output: 'techreborn:refined_iron_ingot', type: 'minecraft:smelting'});
+  event.remove({output: 'techreborn:refined_iron_storage_block', type: 'minecraft:smelting'});
   event.remove({output: 'techreborn:refined_iron_ingot', type: 'minecraft:blasting'});
+  event.remove({output: 'techreborn:refined_iron_storage_block', type: 'minecraft:blasting'});
   event.remove({output: 'techreborn:basic_machine_frame', type: 'minecraft:crafting_shaped'});
   event.remove({output: 'techreborn:data_storage_core', type: 'minecraft:crafting_shaped'});
   event.remove({output: 'techreborn:data_storage_chip', type: 'techreborn:assembling_machine'});

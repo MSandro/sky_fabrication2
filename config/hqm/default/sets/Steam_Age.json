@@ -8309,7 +8309,8 @@
               "item": {
                 "id": "modern_industrialization:bronze_cutting_machine",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -8391,7 +8392,8 @@
               "item": {
                 "id": "modern_industrialization:bronze_mixer",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -8427,13 +8429,15 @@
               "item": {
                 "id": "modern_industrialization:copper_drill",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "modern_industrialization:bronze_drill",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -8471,7 +8475,8 @@
                 "id": "blockus:legacy_nether_reactor_core",
                 "Count": 1
               },
-              "required": 12
+              "required": 12,
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         },
@@ -8573,14 +8578,16 @@
                 "id": "modern_industrialization:steam_quarry",
                 "Count": 1,
                 "tag": {}
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:chain",
                 "Count": 1
               },
-              "required": 6
+              "required": 4,
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
@@ -8588,14 +8595,16 @@
                 "Count": 1,
                 "tag": {}
               },
-              "required": 16
+              "required": 16,
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "modern_industrialization:steel_machine_casing_pipe",
                 "Count": 1
               },
-              "required": 8
+              "required": 6,
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -8635,37 +8644,43 @@
               "item": {
                 "id": "modern_industrialization:steel_cutting_machine",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "modern_industrialization:steel_water_pump",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "modern_industrialization:steel_macerator",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "modern_industrialization:steel_mixer",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "modern_industrialization:steel_compressor",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "modern_industrialization:steel_boiler",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -8705,13 +8720,15 @@
               "item": {
                 "id": "modern_industrialization:steel_packer",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "modern_industrialization:steel_unpacker",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -8748,7 +8765,8 @@
                 "id": "modern_industrialization:steel_tank",
                 "Count": 1
               },
-              "required": 4
+              "required": 4,
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -8821,7 +8839,8 @@
                 "id": "modern_industrialization:bucket_steam",
                 "Count": 1
               },
-              "required": 4
+              "required": 4,
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -8861,7 +8880,8 @@
               "item": {
                 "id": "modern_industrialization:bronze_water_pump",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -8901,38 +8921,44 @@
               "item": {
                 "id": "modern_industrialization:coke_oven",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:bricks",
                 "Count": 1
               },
-              "required": 21
+              "required": 21,
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "modern_industrialization:bronze_fluid_input_hatch",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "modern_industrialization:bronze_fluid_output_hatch",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "modern_industrialization:bronze_item_input_hatch",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "modern_industrialization:bronze_item_output_hatch",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -8978,7 +9004,8 @@
                 "id": "modern_industrialization:item_pipe",
                 "Count": 1
               },
-              "required": 24
+              "required": 24,
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -9014,7 +9041,8 @@
               "item": {
                 "id": "modern_industrialization:bronze_compressor",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -9178,7 +9206,8 @@
               "item": {
                 "id": "modern_industrialization:forge_hammer",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -9229,7 +9258,8 @@
                 "tag": {
                   "Damage": 0
                 }
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
@@ -9238,7 +9268,8 @@
                 "tag": {
                   "Damage": 0
                 }
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
@@ -9247,7 +9278,8 @@
                 "tag": {
                   "Damage": 0
                 }
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
@@ -9256,7 +9288,8 @@
                 "tag": {
                   "Damage": 0
                 }
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
@@ -9265,7 +9298,8 @@
                 "tag": {
                   "Damage": 0
                 }
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
@@ -9274,7 +9308,8 @@
                 "tag": {
                   "Damage": 0
                 }
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
@@ -9283,7 +9318,8 @@
                 "tag": {
                   "Damage": 0
                 }
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
@@ -9292,7 +9328,8 @@
                 "tag": {
                   "Damage": 0
                 }
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
@@ -9301,7 +9338,8 @@
                 "tag": {
                   "Damage": 0
                 }
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -9344,7 +9382,8 @@
                 "id": "bcf:diamond_funnel",
                 "Count": 1,
                 "tag": {}
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -9464,7 +9503,8 @@
               "item": {
                 "id": "modern_industrialization:bronze_macerator",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -9544,25 +9584,29 @@
               "item": {
                 "id": "modern_industrialization:steel_fluid_input_hatch",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "modern_industrialization:steel_fluid_output_hatch",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "modern_industrialization:steel_item_input_hatch",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "modern_industrialization:steel_item_output_hatch",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -9606,7 +9650,8 @@
                 "id": "modern_industrialization:bronze_machine_casing",
                 "Count": 1
               },
-              "required": 4
+              "required": 4,
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -9758,7 +9803,8 @@
               "item": {
                 "id": "factory:factory",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -9798,7 +9844,8 @@
               "item": {
                 "id": "modern_industrialization:bronze_boiler",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }

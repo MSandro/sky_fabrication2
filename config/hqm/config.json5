@@ -51,7 +51,7 @@
 			// Use the HTML format with alpha, e.g: #55FFFFFF
 			"QUEST_AVAILABLE": "#554286f4",
 			// Set to true to disable the default colour pulse and use the colour specified above
-			"SINGLE_COLOUR": false,
+			"SINGLE_COLOUR": true,
 		},
 	},
 	// Enable this to cause the player to be granted a gift on spawning into the world

@@ -1123,7 +1123,7 @@
     {
       "uuid": "df4ee3e0-36ce-4368-9206-1082a6c700ab",
       "name": "Cursed Earth",
-      "description": "Yes, you are reading it right. We also added Cursed Earth! If you might not know what it does... It has a high chance to spawn hostile Mobs. But beware, it doesn`t like sunlight!",
+      "description": "Yes, you are reading it right. We also added Cursed Earth! If you might not know what it does... It has a high chance to spawn hostile Mobs. But beware, it doesn`t like sunlight!\nYou can obtain them by killing Wither Skeletons.",
       "x": 242,
       "y": 188,
       "icon": {
@@ -1133,6 +1133,7 @@
       "tasks": [
         {
           "type": "DETECT",
+          "longDescription": "This Quest unlocks some other magical stuff!",
           "items": [
             {
               "item": {
@@ -1181,7 +1182,8 @@
                 "id": "bcf:cobblestone_funnel",
                 "Count": 1,
                 "tag": {}
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -1266,27 +1268,31 @@
                 "id": "kibe:fluid_hopper",
                 "Count": 1
               },
-              "required": 4
+              "required": 4,
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "kibe:void_bucket",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "kibe:cobblestone_generator_mk1",
                 "Count": 1
               },
-              "required": 4
+              "required": 4,
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "kibe:magnet",
                 "Count": 1,
                 "tag": {}
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }

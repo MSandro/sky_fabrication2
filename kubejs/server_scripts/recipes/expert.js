@@ -58,7 +58,7 @@ onEvent('recipes', event => {
   	  S: "bcf:diamond_funnel",
   	  C: "minecraft:netherite_block",
   	  X: "kubejs:crystal_matrix",
-  	  G: "modern_industrialization:small_heat_exchanger"
+  	  G: "modern_industrialization:large_heat_exchanger"
   	});
 
     //FURNACES
@@ -189,6 +189,13 @@ onEvent('recipes', event => {
       I: "modern_industrialization:steel_block",
       B: "botania:blaze_block"
     });
+
+    //KIBE
+
+    event.replaceInput({output: 'kibe:golden_lasso'}, 'minecraft:gold_ingot', 'minecraft:gold_block')
+    event.replaceInput({output: 'kibe:golden_lasso'}, 'minecraft:gold_nugget', 'minecraft:gold_block')
+    event.replaceInput({output: 'kibe:cursed_lasso'}, 'kibe:cursed_droplets', 'minecraft:wither_skeleton_skull')
+    event.replaceInput({output: 'kibe:diamond_lasso'}, 'minecraft:diamond', 'minecraft:diamond_block')
 
     //ExpandedStorage
     event.replaceInput({output: 'expandedstorage:old_iron_chest'}, 'minecraft:iron_ingot', 'minecraft:iron_block')
