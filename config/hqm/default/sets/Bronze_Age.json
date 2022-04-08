@@ -851,7 +851,8 @@
               "item": {
                 "id": "bcf:iron_funnel",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -1449,7 +1450,8 @@
               "item": {
                 "id": "bcf:gold_funnel",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }

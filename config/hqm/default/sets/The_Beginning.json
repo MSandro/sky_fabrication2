@@ -20,14 +20,16 @@
                 "id": "minecraft:oak_sapling",
                 "Count": 1
               },
-              "required": 25
+              "required": 25,
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:oak_log",
                 "Count": 1
               },
-              "required": 64
+              "required": 64,
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -141,6 +143,44 @@
       "commandrewards": []
     },
     {
+      "uuid": "080861f0-908e-499f-a66d-7d6de5771fd6",
+      "name": "Multiplying Dirt",
+      "description": "You can craft Coarse Dirt with Dirt and Gravel to multiply your dirt. By using a hoe on it you can convert it back to dirt. Currently it doesn\u0027t make much sense, but once your Cobblestone Generator is ready, this Info could be helpful.",
+      "x": 237,
+      "y": 56,
+      "icon": {
+        "id": "minecraft:dirt",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:coarse_dirt",
+                "Count": 1
+              },
+              "required": 32,
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6cfead65-22e2-46ca-98a6-57f47e9591dd"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:gravel",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "1a0d6aff-f6b7-4737-a4e2-ecc47a46799a",
       "name": "Animals",
       "description": "Start to build a large area with grass blocks, to have some animals. You should start breeding animals early.",
@@ -187,43 +227,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "080861f0-908e-499f-a66d-7d6de5771fd6",
-      "name": "Multiplying Dirt",
-      "description": "You can craft Coarse Dirt with Dirt and Gravel to multiply your dirt. By using a hoe on it you can convert it back to dirt. Currently it doesn\u0027t make much sense, but once your Cobblestone Generator is ready, this Info could be helpful.",
-      "x": 237,
-      "y": 56,
-      "icon": {
-        "id": "minecraft:dirt",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:coarse_dirt",
-                "Count": 1
-              },
-              "required": 32
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "6cfead65-22e2-46ca-98a6-57f47e9591dd"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:gravel",
-          "Count": 16
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "9be11381-5371-4cb7-9c7a-2b666485e3b5",
       "name": "Terrain Slimes",
       "description": "You will need a large area of grass blocks. Don\u0027t light it out! Maybe build it on a deeper layer to protect you against mobs. Not green slimes can rarely drop ores and other stuff.",
@@ -256,7 +259,8 @@
                 "id": "terrarianslimes:green_gel",
                 "Count": 1
               },
-              "required": 4
+              "required": 4,
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -428,14 +432,15 @@
                 "id": "improved-stations:crafting_station_slab",
                 "Count": 1
               },
-              "precision": "NBT_FUZZY"
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:oak_slab",
                 "Count": 1
               },
-              "required": 36
+              "required": 36,
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -472,7 +477,8 @@
                 "id": "minecraft:grass_block",
                 "Count": 1
               },
-              "required": 8
+              "required": 8,
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -674,7 +680,8 @@
               "item": {
                 "id": "minecraft:furnace",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -759,55 +766,64 @@
               "item": {
                 "id": "minecraft:spruce_sapling",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:jungle_sapling",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:melon_seeds",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:pumpkin_seeds",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:beetroot_seeds",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:sugar_cane",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:sweet_berries",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:kelp",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:cactus",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -925,39 +941,45 @@
                 "tag": {
                   "Damage": 0
                 }
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "skyutils:pebble",
                 "Count": 1
               },
-              "required": 4
+              "required": 4,
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:gravel",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:sand",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:clay_ball",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "skyutils:woodchips",
                 "Count": 1
               },
-              "required": 12
+              "required": 12,
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -1113,7 +1135,8 @@
                 "id": "minecraft:stick",
                 "Count": 1
               },
-              "required": 2
+              "required": 2,
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
@@ -1312,21 +1335,24 @@
                 "id": "minecraft:rotten_flesh",
                 "Count": 1
               },
-              "required": 8
+              "required": 8,
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:gunpowder",
                 "Count": 1
               },
-              "required": 8
+              "required": 8,
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:bone",
                 "Count": 1
               },
-              "required": 8
+              "required": 8,
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -1380,7 +1406,8 @@
                 "tag": {
                   "Damage": 0
                 }
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }

@@ -94,7 +94,11 @@
       "modern_industrialization:benzene": 15782265,
       "modern_industrialization:toluene": 10282733,
       "modern_industrialization:ethylbenzene": 12909143,
-      "modern_industrialization:butadiene": 13679898
+      "modern_industrialization:butadiene": 13679898,
+      "modern_industrialization:purified_platinum_sulfuric_solution": 15581322,
+      "modern_industrialization:platinum_sulfuric_solution": 15113845,
+      "techreborn:compressed_air": 3751234,
+      "techreborn:hydrogen": 595790
     },
     "blacklist": []
   },

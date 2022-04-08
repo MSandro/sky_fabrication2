@@ -9281,7 +9281,8 @@
               "item": {
                 "id": "bcf:netherite_funnel",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
