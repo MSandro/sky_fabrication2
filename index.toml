@@ -598,7 +598,7 @@ hash = "e252e0ec8ce9bc7c8b60c2af88ff26aa70dd951128224edaa8d555e3d82f82ae"
 
 [[files]]
 file = "config/flan/flan_config.json"
-hash = "261adc574afac67d8260387a8e447e9ab6cb77bac92a09f852401d79e9be0db4"
+hash = "4324705ffa57bba4d3ae797d2c9f52ffa2235acb3c9415c3bbd3ee1b2212800c"
 
 [[files]]
 file = "config/flan/flan_lang.json"
@@ -1151,6 +1151,10 @@ hash = "5acdfefc4ec9c0b498dd6cb7859e397f6c5872ed5ff59f7904492a89387a0d69"
 [[files]]
 file = "config/structureworld/structureworld.json"
 hash = "9914e54c3026db2deb64a743b9f6d64f99a01ede7532be2c3506e779834d22a4"
+
+[[files]]
+file = "config/styled-chat.toml"
+hash = "b2b7fc0b91ec00fe392c8b1d60575da9eb35fa923b4fed9382129577f36a6a85"
 
 [[files]]
 file = "config/sync.json"
