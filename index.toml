@@ -1153,10 +1153,6 @@ file = "config/structureworld/structureworld.json"
 hash = "9914e54c3026db2deb64a743b9f6d64f99a01ede7532be2c3506e779834d22a4"
 
 [[files]]
-file = "config/styled-chat.toml"
-hash = "b2b7fc0b91ec00fe392c8b1d60575da9eb35fa923b4fed9382129577f36a6a85"
-
-[[files]]
 file = "config/sync.json"
 hash = "725671c27f63d94cb97125f6aa2f007858c7cc47f95b8a572849b44f8ca83ad2"
 
