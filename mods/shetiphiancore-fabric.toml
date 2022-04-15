@@ -1,13 +1,13 @@
 name = "ShetiPhianCore Fabric"
-filename = "shetiphiancore-fabric-1.17-1.1.4.jar"
+filename = "shetiphiancore-fabric-1.17-1.1.5.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3738/118/shetiphiancore-%5Bfabric%5D-1.17-1.1.4.jar"
+url = "https://edge.forgecdn.net/files/3749/189/shetiphiancore-%5Bfabric%5D-1.17-1.1.5.jar"
 hash-format = "murmur2"
-hash = "3965896812"
+hash = "836750928"
 
 [update]
 [update.curseforge]
-file-id = 3738118
+file-id = 3749189
 project-id = 536603

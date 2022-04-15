@@ -68,6 +68,7 @@ onEvent('player.inventory.changed', event => {
 })
 
 function fixPhases(event) {
+  event.server.runCommandSilent(`scale set 0.912871 ${event.player.name}`);
   if (event.player.getTags().contains('phases/nether')) {
     event.server.runCommandSilent(`phase grant ${event.player.name} nether`);
   }

@@ -4,7 +4,7 @@
   "player_spawn_friendly": true,
   "depth": 0,
   "scale": 0,
-  "temperature": 1,
+  "temperature": -10,
   "temperature_modifier": "none",
   "downfall": 0.5,
   "effects": {

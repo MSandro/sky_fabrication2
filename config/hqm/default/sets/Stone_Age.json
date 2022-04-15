@@ -237,8 +237,8 @@
       "uuid": "f4715ab8-6637-4a54-b928-5708cb8fd9cc",
       "name": "Loading Chunks",
       "description": "With the Chunk Loader you are able to load a 1x1 to 5x5 Area. You can configure it in the Chunk Loader itself. It keeps the selected Chunks loaded, when ur ONLINE but not close.",
-      "x": 296,
-      "y": 66,
+      "x": 295,
+      "y": 14,
       "icon": {
         "id": "kibe:chunk_loader",
         "Count": 1
@@ -258,8 +258,7 @@
         }
       ],
       "prerequisites": [
-        "822dc5ae-99c1-4a45-9151-b2b2e64d9041",
-        "a173b0d4-6bc4-4634-8d0e-c8556b64fb06"
+        "f46a5bf9-c1c1-4792-8b1b-4683bc11590c"
       ],
       "optionlinks": [],
       "reward": [
@@ -1698,8 +1697,8 @@
       "uuid": "a173b0d4-6bc4-4634-8d0e-c8556b64fb06",
       "name": "Better Enchanting",
       "description": "The Dark Enchanter allows you to select the enchantment of your choice and more.",
-      "x": 296,
-      "y": 14,
+      "x": 295,
+      "y": 64,
       "icon": {
         "id": "dark-enchanting:dark_enchanter",
         "Count": 1
@@ -1718,8 +1717,7 @@
         }
       ],
       "prerequisites": [
-        "f46a5bf9-c1c1-4792-8b1b-4683bc11590c",
-        "822dc5ae-99c1-4a45-9151-b2b2e64d9041"
+        "f4715ab8-6637-4a54-b928-5708cb8fd9cc"
       ],
       "optionlinks": [],
       "reward": [
