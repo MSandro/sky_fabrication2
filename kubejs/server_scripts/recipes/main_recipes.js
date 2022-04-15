@@ -7,6 +7,8 @@ onEvent('recipes', event => {
   // CONFLICTS
   event.remove({output: 'betteranimalsplus:fried_egg', input: 'minecraft:egg'});
   event.remove({output: 'additionaladditions:fried_egg'});
+  event.remove({output: 'blockus:legacy_stonecutter'});
+  event.shapeless('blockus:legacy_stonecutter', ['minecraft:stonecutter']);
 
   // AETHER
   event.remove({output: 'the_aether:wisteria_sign'});
