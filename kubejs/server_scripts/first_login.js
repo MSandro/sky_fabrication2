@@ -22,7 +22,5 @@ events.listen('player.logged_in', function (event) {
 		  event.player.tell(firstJoinMessage);
 	  })
   }
-  event.server.schedule(1, event.server, function (callback) {
-		callback.server.runCommandSilent(`scale set 0.912871 ${event.player.name}`);
-  })
+  event.server.runCommandSilent(`scale set 0.912871 ${event.player.name}`);
 })

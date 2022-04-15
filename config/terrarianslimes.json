@@ -18,7 +18,7 @@
       "baseSpeed": 0.4,
       "baseAttack": 2.3,
       "attackCooldown": 20,
-      "hasBonusDrops": true
+      "hasBonusDrops": false
     },
     "redSlime": {
       "enabled": true,
@@ -28,7 +28,7 @@
       "baseSpeed": 0.4,
       "baseAttack": 4.0,
       "attackCooldown": 20,
-      "hasBonusDrops": true
+      "hasBonusDrops": false
     },
     "purpleSlime": {
       "enabled": true,
@@ -38,7 +38,7 @@
       "baseSpeed": 0.4,
       "baseAttack": 4.0,
       "attackCooldown": 20,
-      "hasBonusDrops": true
+      "hasBonusDrops": false
     },
     "yellowSlime": {
       "enabled": true,
@@ -48,7 +48,7 @@
       "baseSpeed": 0.4,
       "baseAttack": 5.0,
       "attackCooldown": 20,
-      "hasBonusDrops": true
+      "hasBonusDrops": false
     },
     "blackSlime": {
       "enabled": true,
@@ -58,7 +58,7 @@
       "baseSpeed": 0.4,
       "baseAttack": 5.0,
       "attackCooldown": 20,
-      "hasBonusDrops": true
+      "hasBonusDrops": false
     },
     "iceSlime": {
       "enabled": true,
@@ -68,7 +68,7 @@
       "baseSpeed": 0.4,
       "baseAttack": 3.0,
       "attackCooldown": 20,
-      "hasBonusDrops": true
+      "hasBonusDrops": false
     },
     "sandSlime": {
       "enabled": true,
@@ -78,7 +78,7 @@
       "baseSpeed": 0.4,
       "baseAttack": 6.0,
       "attackCooldown": 20,
-      "hasBonusDrops": true
+      "hasBonusDrops": false
     },
     "jungleSlime": {
       "enabled": true,
@@ -88,7 +88,7 @@
       "baseSpeed": 0.4,
       "baseAttack": 6.0,
       "attackCooldown": 20,
-      "hasBonusDrops": true
+      "hasBonusDrops": false
     },
     "spikedIceSlime": {
       "baseSpikeAttack": 6.0,
@@ -132,7 +132,7 @@
       "baseSpeed": 0.4,
       "baseAttack": 4.0,
       "attackCooldown": 20,
-      "hasBonusDrops": true
+      "hasBonusDrops": false
     },
     "lavaSlime": {
       "enabled": true,
@@ -152,7 +152,7 @@
       "baseSpeed": 0.6,
       "baseAttack": 2.0,
       "attackCooldown": 20,
-      "hasBonusDrops": true
+      "hasBonusDrops": false
     },
     "kingSlime": {
       "enabled": true,

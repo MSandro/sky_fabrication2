@@ -1,0 +1,13 @@
+name = "Grindstone Sharper Tools (Fabric)"
+filename = "grindstonesharpertools-fabric_1.17.x-1.6.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3467/745/grindstonesharpertools-fabric_1.17.x-1.6.jar"
+hash-format = "murmur2"
+hash = "4147449684"
+
+[update]
+[update.curseforge]
+file-id = 3467745
+project-id = 530222
