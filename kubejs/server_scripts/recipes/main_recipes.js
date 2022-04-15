@@ -4,6 +4,10 @@
 ////////////////////////
 
 onEvent('recipes', event => {
+  // CONFLICTS
+  event.remove({output: 'betteranimalsplus:fried_egg', input: 'minecraft:egg'});
+  event.remove({output: 'additionaladditions:fried_egg'});
+
   // AETHER
   event.remove({output: 'the_aether:wisteria_sign'});
 

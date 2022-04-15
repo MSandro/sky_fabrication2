@@ -38,7 +38,7 @@ hash = "5ecfdf18a5e93bf4a7efe5e6a9a35db9992cf0d2e282dd0fcb19395132bb276f"
 
 [[files]]
 file = "config/StarrySky.json5"
-hash = "303e07d3374383ddfb2c8cb706ad2e1f86a05fbfe87042eaa5d47f829f4d1998"
+hash = "aab9f5f888db50618eea3767cb8590ca52373ade08ad0225d697561ff085bc1f"
 
 [[files]]
 file = "config/additional-additions-config.json"
@@ -258,7 +258,7 @@ hash = "b27183d6a94a5a4c6d8049c8b240b3d2770efea741fe82fc83f1e4f6741138b1"
 
 [[files]]
 file = "config/awesomedungeon_general_.properties"
-hash = "b428aefe66493f9f3c48d36aba3f14d23712786e6753269b5dc22fb77ee2d1c9"
+hash = "b11f8ef36a7bd948eed63259c82c4e3794d5867d7d8e349d0fd5634026d5bc8e"
 
 [[files]]
 file = "config/awokenworld.toml"
@@ -274,7 +274,7 @@ hash = "dbc821b73a7f2d474c5bcf01f8d91ed898457c79dcc1a65e8865173bbab0adb3"
 
 [[files]]
 file = "config/bclib/client.json"
-hash = "7ed72663a8917f3d1dae5b1c9d829b2c0300a3c52d82d978ae78d5b9b62b9a31"
+hash = "cfa192f16ea5c806ad400f78dca96c8345b9da9ca1db422a43a86673f1e671c4"
 
 [[files]]
 file = "config/bclib/generator.json"
@@ -286,7 +286,7 @@ hash = "ad8512528226a1f5549f25af4e8958a8c1b86bee7b74ba31640f83ef16121ff4"
 
 [[files]]
 file = "config/bclib/server.json"
-hash = "dd0b11f0c1b03f5624524a5b2b309404c020be1e4bee961bd85a20bcdf03d4d3"
+hash = "6aba46e1c66e5f384953cafbe27c8d75a02e357f659d7348262eede3d86e3820"
 
 [[files]]
 file = "config/bedbenefitsfabric.json"
@@ -418,7 +418,7 @@ hash = "7b0ecf70f4de2c47d35750389cc83832d4b3804f226527de3c5f15feb216df49"
 
 [[files]]
 file = "config/charm.toml"
-hash = "d14f8162a6a5f435f4e4c586e1d22ed8128c3f9d1d5e71280df69d6afdb11b34"
+hash = "b958cb505432e96d3817dbb1a33ab5642918d9331e080824af30085245b07e48"
 
 [[files]]
 file = "config/collective-fabric.json"
@@ -477,6 +477,22 @@ file = "config/dashloader.json"
 hash = "1b114505c28cedc31030f290a4aa640f665f71e05c95c9851bfb8a816cecfaeb"
 
 [[files]]
+file = "config/diggusmaximus/blacklist.json5"
+hash = "7a20ccfbebca1f6fdd7f0285212874b06f9ada427b8be8da16f4d6e0d8c5fb27"
+
+[[files]]
+file = "config/diggusmaximus/config.json5"
+hash = "a108547ceeb9b42696fd5607fdeeec342081ded0371b5105883aba83ccd9582e"
+
+[[files]]
+file = "config/diggusmaximus/excavatingshapes.json5"
+hash = "9b66d07022140ec0ef0394da59cdfc68f99306e7dbe8dd8efae362cb599d6408"
+
+[[files]]
+file = "config/diggusmaximus/grouping.json5"
+hash = "ef4721e167e20865ec1b660e75471a86364e6cc653404baefd1d66938d8bb900"
+
+[[files]]
 file = "config/dml-refabricated.json"
 hash = "c721f5386caeea1c3840045355f58ef2703de01ead1512a5d443a9f388622555"
 
@@ -495,18 +511,6 @@ hash = "7562c210c851a1acfb7a34ad4d6733d6be23a9ff7bf5eaebdb2f0da78e60bc0d"
 [[files]]
 file = "config/dynamicfps.toml"
 hash = "37192c981587637ee01f337fa4900b7ba834ae2c7e1f4a612d09876170feaa4b"
-
-[[files]]
-file = "config/edenring/biomes.json"
-hash = "0bfc8b1b86b95e215d3632f4fe089f4ecb9ab19f8c068e470a99032b6d6f8aff"
-
-[[files]]
-file = "config/edenring/generator.json"
-hash = "d894c668f2940f49025e000b4b3f5f6150a4eff665f66a04d66d50fe562fdecc"
-
-[[files]]
-file = "config/edenring/recipes.json"
-hash = "64e873be1d63f9af9cc84470c558904bd3ec6be77609a23948d3c0b4a5d41494"
 
 [[files]]
 file = "config/endrem.json"
@@ -546,11 +550,11 @@ hash = "e48315703a5d9dd631055c5e702d3a60464f336d1147b029bb6bc81d236473ec"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "6c9cd053dd97b9325a478c0a1e7c0b26a7bbe9c9f3ecc400bea7f5067426da0d"
+hash = "cd05a1cb45148cbedd478bb5a7a53ebd2c1e8536d051ce85e28eb8a31a47491c"
 
 [[files]]
 file = "config/fabric/more-villages-mod-config.properties"
-hash = "42073c6fdc46eb29f72fb2f2a979c1d6f4f9d36f828d98256a774e2a78d43cd7"
+hash = "cd9c0bd570f2c2d0f4e9982849d5ff3b25d30bd48ae5fc2455690e8e0cf3e4b3"
 
 [[files]]
 file = "config/fabrication/block_logo.ini"
@@ -570,7 +574,7 @@ hash = "14eb4e8cd105c580403c4e5bc6bba831c81aedcf4e6e04485c74e9d3f253689f"
 
 [[files]]
 file = "config/fabrication/features.ini"
-hash = "485c31f9f860a4446d8703a059d8dc48ffc86b81bf0746f206098e2fab5c0710"
+hash = "73ec5ddcf98ff3dc70cbcc9244cba2e145f315f78dd396d150aec32a0eaad5d7"
 
 [[files]]
 file = "config/fabrication/fscript.ini"
@@ -690,7 +694,7 @@ hash = "d4d126cb7e0b19c1918c373153709571f8a8d932b9380c3336e67244e58a2a3f"
 
 [[files]]
 file = "config/indium-renderer.properties"
-hash = "d32e33f3388eed03e1398cad9141e9f6fc97dc8a1fd635868b39eb95a32b92be"
+hash = "a717b885a2580cb1e969e95b576f2689826f64ae40fc35c752ef9d43da4a3a73"
 
 [[files]]
 file = "config/indrev/cables.json"
@@ -730,7 +734,7 @@ hash = "9dc99196d37dbb312d5452540846c2c26a133607ba22ecd9f739a456ffd63155"
 
 [[files]]
 file = "config/iris.properties"
-hash = "83bfc0c1e7d093230d214ea5e05a5d020c1df15009b8384ffac403fa7cbab971"
+hash = "5fdae159ba5e52fd2a65a81b728337ecd3ca95dcf83c6f8a2fab7ebb876758da"
 
 [[files]]
 file = "config/iron-jetpacks/client.json5"
@@ -1017,6 +1021,10 @@ file = "config/ringsofascension.json"
 hash = "a67236653f4a4a8d7d1cd8b3de551d640bba67ba636c419099a454da72e2dc88"
 
 [[files]]
+file = "config/roughlyenoughitems/config.json5"
+hash = "db80cc81ce975d32270047944043dc7d665556b7d8a2400d6e5e189dbbedd086"
+
+[[files]]
 file = "config/rrp.properties"
 hash = "d2650f4635af9e222eaab3171b88089478a5f0196242784426d67dc2d3690323"
 
@@ -1095,6 +1103,10 @@ hash = "2aad5e298032e20d341d3508f692b9d96fd1b54c02622ab324b31b4357d68e5e"
 [[files]]
 file = "config/smoothboot.json"
 hash = "5865d6d3964d017c2bb8b8fd90f059016094abc6b85f3e5781ffa9959fd345c6"
+
+[[files]]
+file = "config/sodium-extra-options.json"
+hash = "a74399cef8883e14cc79fc509340a107e97b7b9e67449620efdc5992a4b2b50e"
 
 [[files]]
 file = "config/sodium-extra.properties"
@@ -1198,7 +1210,7 @@ hash = "cc8a9085bd9663f5715a1fbf2d274c042ededdb85b221997f8cf79c7e72fb518"
 
 [[files]]
 file = "config/terrarianslimes.json"
-hash = "ee69f71a36808122477808b669408017f0e348a194cb1a82857c5980cc0f85bf"
+hash = "5a55a174974c8b6ff2e7dae85f4595bee72aa26bed132c4b64aeda6d9ea0397d"
 
 [[files]]
 file = "config/the_bumblezone-main.json5"
@@ -1218,7 +1230,7 @@ hash = "1335a55e8b05de9b0995fa97fa80346754276233600ab1c1efc5f77519ae01ae"
 
 [[files]]
 file = "config/trade.properties"
-hash = "f10fcf9a668bcf7801147c5da7688d3cc6c69277fdbbb0744b7d1eb97fbe2c91"
+hash = "221265e78b4889eb4418ad057d6350ec72b892e6023cce44057f5705a420ced9"
 
 [[files]]
 file = "config/universal-graves.json"
@@ -1234,7 +1246,7 @@ hash = "640800920130d084dec5a3a7f52c10e18d72ed7faca522b5bcb6bb46d0dcae9b"
 
 [[files]]
 file = "config/waila/megane.json"
-hash = "2631095b1267856626845bb77aed643a5da92dceb840d8a10b3b3e3c3d5be3da"
+hash = "ab03bdab0b2a27b775d737bdbea3f156cc96378cae74742310ce519cb23fccc3"
 
 [[files]]
 file = "config/waila/megane_modules.json"
@@ -1255,6 +1267,22 @@ hash = "9965e774258f29f1f770978510a8a961c7f0fac8347ea543ca58b4ca6306b2f8"
 [[files]]
 file = "config/waystones/config.json"
 hash = "d0a26b9f0bf347fa65489757136645df57ab58a5a9e603444d9a19bfd17d77c0"
+
+[[files]]
+file = "config/xaerominimap.txt"
+hash = "4407460e6aca0fa502a3acaecc355cf8435931072659863547510618da223571"
+
+[[files]]
+file = "config/xaerominimap_entities.json"
+hash = "107b77f767674b88229362750fad64020060235e1d2caf1612503a4ba6022025"
+
+[[files]]
+file = "config/xaeropatreon.txt"
+hash = "36a890045fce4aa69f1c550d5a49a62b336cbb7911a7afa6956fcce5d4d9dcb8"
+
+[[files]]
+file = "config/xaeroworldmap.txt"
+hash = "a314971f807a4afcd3572a87695dc5dbaf55a5a7bcaf04c3b282d54ea8587a56"
 
 [[files]]
 file = "config/yosbr/config/diggusmaximus/blacklist.json5"
@@ -2147,6 +2175,10 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 [[files]]
 file = "kubejs/data/bcf/recipes/simple_funnel_mirrored.json"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/blockus/loot_tables/blocks/legacy_nether_reactor_core.json"
+hash = "bb3e7b0166eb98bb456166301bcd07e647505eaab5e8e24cec8e218d0efd7cfc"
 
 [[files]]
 file = "kubejs/data/blockus/recipes/legacy_nether_reactor_core.json"
@@ -3369,8 +3401,12 @@ file = "kubejs/data/spatialharvesters/recipes/casing.json"
 hash = "b570e597f9e813a472e68701db1c2be48a01c98918dc8ff6a76061b0368a7459"
 
 [[files]]
+file = "kubejs/data/starry_sky/dimension_type/starry_sky_type.json"
+hash = "5b25294b6046d820005c0f61ad345dd428c14d139800adff683b394ae6144fc3"
+
+[[files]]
 file = "kubejs/data/starry_sky/worldgen/biome/starry_sky_biome.json"
-hash = "8d6bed929322ff72f8bc878e4932e7f2e5ba8deca247d0f3e3b12b637ecc69db"
+hash = "1e3fc28c9593d214b641499684d4ddb3035cff7d931d670a617205e39e43d71a"
 
 [[files]]
 file = "kubejs/data/storagecabinet/recipes/cabinet_manager.json"
@@ -3610,7 +3646,7 @@ hash = "ecd5d748aa65a1219e69618c2c8ccd0edb2cc533d38b30a987f7de98f46e5900"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/main_recipes.js"
-hash = "62b985093feaa9220585c6254b4d66c680e962a8d1ccc064c70edaea3bbc2741"
+hash = "5cbf05f29f58c979130dd893513de494d8ef76fa9f8b1d41e92d383bc4be4b15"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/minecraft/shaped.js"
@@ -3634,7 +3670,7 @@ hash = "52b3d8f7a8843af8fabd4fe64bd20af25ebadebe3a0eba9675e9c62fb641fcea"
 
 [[files]]
 file = "kubejs/server_scripts/unification.js"
-hash = "7c0d46ed1b3c71223becd58f4369ca66d67a99df274412ee34c1f0310caa8f98"
+hash = "6c6e7bc187c52486de59380c4d1a2b6b63fb95ef651c1ca9322b9dd12a2ed4f7"
 
 [[files]]
 file = "kubejs/server_scripts/void.js"
@@ -3699,7 +3735,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-fabric.toml"
-hash = "e23a10cfb9658b54ec3e7bed0ac1c2afc0183d67f022bc4f4e30c2b3139b1ad8"
+hash = "0ed739c3b8c499a9a1be8f222b98efa623f4cdfbafd0c0dbd086e626858ce75a"
 metafile = true
 
 [[files]]
@@ -3729,7 +3765,7 @@ metafile = true
 
 [[files]]
 file = "mods/awesome-dungeon-fabric.toml"
-hash = "2cb2eca45cc055124cc0385d29ab45ee53ffeb04ee9d2db31edd2344e2e0815d"
+hash = "0a1f96bee6f2f59a22bb384df8f9442bbbc2b3145255e0ad30c77ccb694ef32d"
 metafile = true
 
 [[files]]
@@ -4029,7 +4065,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.toml"
-hash = "01bf08768ff9e48967ded3193b9cf71103de0ab50be5a99fff2e9a874e69a36b"
+hash = "6f1eb0208f718e4700c4039a5060db267281861f633cff00bea69a16eb59d571"
 metafile = true
 
 [[files]]
@@ -4125,6 +4161,16 @@ metafile = true
 [[files]]
 file = "mods/grass-seeds-fabric.toml"
 hash = "c2632901e7c8b1ff4e69246377be43c8bb9e22ce1df098797c48155b6641ac2d"
+metafile = true
+
+[[files]]
+file = "mods/grind-enchantments.toml"
+hash = "e6050a075370c713850bc1c0b2abef790814e10b64d5d571d9b96e9ce28e08f9"
+metafile = true
+
+[[files]]
+file = "mods/grindstone-sharper-tools-fabric.toml"
+hash = "aee855a98e33ab2bd81c4ddf2a12338e430d2a5089453d6ede31f755fe72b51a"
 metafile = true
 
 [[files]]
@@ -4299,7 +4345,7 @@ metafile = true
 
 [[files]]
 file = "mods/mo-structures.toml"
-hash = "edcff3d1df893053ee37067a0ac6587bfc696e07bcc294728ae941c7b31372a3"
+hash = "d050ea7653f11292a5e9054f5549fd41095528782b27c549fc0e7a4af2d3ccba"
 metafile = true
 
 [[files]]
@@ -4439,12 +4485,12 @@ metafile = true
 
 [[files]]
 file = "mods/planting-dirt-for-saplings.toml"
-hash = "e291270a44d17999e4b2ca81be75bf0402c775df5e33e3cf8dc940e49cc182a4"
+hash = "5b6555a4de397d029cf21f2f255ffd65d3b67f389d4945684dbf7839b2cb303e"
 metafile = true
 
 [[files]]
 file = "mods/platforms-fabric.toml"
-hash = "9c61d874e33e5dd53c2af73a60c9cdfc5b69cb913207f874041894c750ef2c39"
+hash = "1c00cd84ece5772cdc2d980d2d96bec28fd6eb30c5b6251b55568f7ece7522a1"
 metafile = true
 
 [[files]]
@@ -4529,7 +4575,7 @@ metafile = true
 
 [[files]]
 file = "mods/shetiphiancore-fabric.toml"
-hash = "776c99243bb5bd853528de6bc207b63b51f41517507ac2b1ec04a835d6c4ca99"
+hash = "ab847f61ade8e06c4f3b4754349d05f36a07833330773e391a76f71d20347b99"
 metafile = true
 
 [[files]]

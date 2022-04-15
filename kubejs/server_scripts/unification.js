@@ -166,6 +166,11 @@ events.listen("recipes", event => {
         event.replaceInput({}, id, unified);
         event.replaceOutput({}, id, unified);
     }
+    // TR to MI
+    for (let id in MATERIALS) {
+      event.replaceInput({}, 'techreborn:' + MATERIALS[id] + '_small_dust', 'modern_industrialization:' + MATERIALS[id] + '_tiny_dust');
+      event.replaceOutput({}, 'techreborn:' + MATERIALS[id] + '_small_dust', 'modern_industrialization:' + MATERIALS[id] + '_tiny_dust');
+    }
     // Force inputs to use the tag.
     unifiedTagList.forEach(tag => {
         event.replaceInput({}, tag, tag);
