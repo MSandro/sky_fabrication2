@@ -21,34 +21,6 @@ file = "config/MechanicalDispensers/PlantableBlocks.yml"
 hash = "5fd0b5c6083b1e5186e83eaf98784d395bc84a21d011a98b3742b5d7ec79fe7d"
 
 [[files]]
-file = "config/MoreCommands/SERVERONLY.txt"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/MoreCommands/aliases.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-
-[[files]]
-file = "config/MoreCommands/bindings.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-
-[[files]]
-file = "config/MoreCommands/clientoptions.txt"
-hash = "a7859a4b77f8ae656ea22c2606e872cd37d106d70391819ff874f3acc2ba438a"
-
-[[files]]
-file = "config/MoreCommands/joinNotifyPlayers.json"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/MoreCommands/macros.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-
-[[files]]
-file = "config/MoreCommands/worldInitCommands.json"
-hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
-
-[[files]]
 file = "config/MouseTweaks.cfg"
 hash = "08f647233c9b627f5cbfeeb36bb99f9fe85d0c32de219d21b861d4adff6bb4fa"
 
