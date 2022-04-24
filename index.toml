@@ -4498,7 +4498,7 @@ metafile = true
 
 [[files]]
 file = "mods/platforms-fabric.toml"
-hash = "526b91d2080e5a7d075d632e5508c87a6e0f392be7b17e20ed8554842f7fea10"
+hash = "b0a289424726cf7cd233adab77f8cf5c4cdfc453a32e137f8c61766ffcb7e7c2"
 metafile = true
 
 [[files]]
@@ -4583,7 +4583,7 @@ metafile = true
 
 [[files]]
 file = "mods/shetiphiancore-fabric.toml"
-hash = "76cc9ff503e489f040a971d403f66bd2deb72cc3f01aa31242892d4ccf5f0c28"
+hash = "2e312d1b4e434c07a8b96bb07ae76f37b6ae422e570812109039612c5bfbc79c"
 metafile = true
 
 [[files]]

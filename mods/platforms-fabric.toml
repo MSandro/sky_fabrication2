@@ -1,5 +1,5 @@
-name = "Platforms [Fabric]"
-filename = "platforms-[fabric]-1.17-1.1.4.jar"
+name = "Platforms Fabric"
+filename = "platforms-fabric-1.17-1.1.4.jar"
 side = "both"
 
 [download]
