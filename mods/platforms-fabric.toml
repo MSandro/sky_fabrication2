@@ -1,13 +1,13 @@
-name = "Platforms Fabric"
-filename = "platforms-fabric-1.17-1.1.3.jar"
+name = "Platforms [Fabric]"
+filename = "platforms-[fabric]-1.17-1.1.4.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3749/855/platforms-%5Bfabric%5D-1.17-1.1.3.jar"
+url = "https://edge.forgecdn.net/files/3765/370/platforms-[fabric]-1.17-1.1.4.jar"
 hash-format = "murmur2"
-hash = "483686637"
+hash = "139173590"
 
 [update]
 [update.curseforge]
-file-id = 3749855
+file-id = 3765370
 project-id = 536610

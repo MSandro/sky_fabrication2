@@ -26,10 +26,10 @@
       "item": "appliedenergistics2:quantum_entangled_singularity"
     },
     "S": {
-      "item": "minecraft:nether_star"
+      "item": "blockus:nether_stars_block"
     },
     "X": {
-      "item": "minecraft:netherite_ingot"
+      "item": "minecraft:netherite_block"
     }
   },
   "result": {

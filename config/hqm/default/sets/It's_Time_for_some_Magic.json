@@ -20,7 +20,8 @@
                 "id": "botania:endoflame",
                 "Count": 1
               },
-              "required": 4
+              "required": 4,
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -112,7 +113,12 @@
         "b8c1fb08-e348-45f3-9ee3-b29d605340a4"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "bewitchment:dragons_blood_resin",
+          "Count": 8
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -209,70 +215,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "464c41d0-1b0e-4753-a156-0e503c94371f",
-      "name": "Wood Ash",
-      "description": "You will need some Ash pretty soon. Get urself a Campfire, lit it and some Bark. Place the Bark on the Bonefires corners and wait.",
-      "x": 242,
-      "y": 188,
-      "icon": {
-        "id": "bewitchment:wood_ash",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "bewitchment:wood_ash",
-                "Count": 1
-              },
-              "required": 24
-            },
-            {
-              "item": {
-                "id": "bewitchment:oak_bark",
-                "Count": 1
-              },
-              "required": 24,
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "minecraft:campfire",
-                "Count": 1
-              },
-              "required": 4
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "01e5c5a2-d4aa-4557-acb0-53a9d12689e2"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "bewitchment:silver_ingot",
-          "Count": 4
-        },
-        {
-          "id": "bewitchment:juniper_sapling",
-          "Count": 2
-        },
-        {
-          "id": "bewitchment:elder_sapling",
-          "Count": 2
-        },
-        {
-          "id": "bewitchment:cypress_sapling",
-          "Count": 2
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "c0937091-bec2-44aa-9aaf-b8880c329c73",
       "name": "Mana Infused",
       "description": "Now if you have placed your Endoflames near a Mana Spreader which should be bonded to an Mana Pool, it should be filling up with an blue liquid. By dropping items in the Pool you can infuse them with mana.",
@@ -353,28 +295,76 @@
           }
         },
         {
-          "id": "botania:manaweave_chestplate",
-          "Count": 1,
-          "tag": {
-            "Damage": 0,
-            "selected": {}
-          }
-        },
-        {
-          "id": "botania:manaweave_leggings",
-          "Count": 1,
-          "tag": {
-            "Damage": 0,
-            "selected": {}
-          }
-        },
-        {
           "id": "botania:manaweave_boots",
           "Count": 1,
           "tag": {
             "Damage": 0,
             "selected": {}
           }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "464c41d0-1b0e-4753-a156-0e503c94371f",
+      "name": "Wood Ash",
+      "description": "You will need some Ash pretty soon. Get urself a Campfire, lit it and some Bark. Place the Bark on the Bonefires corners and wait.",
+      "x": 242,
+      "y": 188,
+      "icon": {
+        "id": "bewitchment:wood_ash",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bewitchment:wood_ash",
+                "Count": 1
+              },
+              "required": 24
+            },
+            {
+              "item": {
+                "id": "bewitchment:oak_bark",
+                "Count": 1
+              },
+              "required": 24,
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:campfire",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "01e5c5a2-d4aa-4557-acb0-53a9d12689e2"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "bewitchment:silver_ingot",
+          "Count": 4
+        },
+        {
+          "id": "bewitchment:juniper_sapling",
+          "Count": 2
+        },
+        {
+          "id": "bewitchment:elder_sapling",
+          "Count": 2
+        },
+        {
+          "id": "bewitchment:cypress_sapling",
+          "Count": 2
         }
       ],
       "rewardchoice": [],
@@ -426,14 +416,14 @@
         "d21df207-31ba-4655-9f90-64452372f9ae"
       ],
       "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
+      "reward": [
         {
           "id": "dml-refabricated:data_model_overworld",
           "Count": 1,
           "tag": {}
         }
       ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -755,19 +745,22 @@
                   "color1": 0,
                   "color2": 0
                 }
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "botania:mana_pool",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "botania:mana_spreader",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -778,8 +771,11 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "botania:lens_normal",
-          "Count": 1
+          "id": "botania:mana_tablet",
+          "Count": 1,
+          "tag": {
+            "mana": 500000
+          }
         }
       ],
       "rewardchoice": [],
@@ -907,7 +903,12 @@
         "85af42e7-58b0-4fbd-89f3-d69bd6eee622"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "botania:elementium_nugget",
+          "Count": 6
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -941,11 +942,8 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "botania:mana_tablet",
-          "Count": 1,
-          "tag": {
-            "mana": 500000
-          }
+          "id": "kubejs:neutronium_nugget",
+          "Count": 2
         }
       ],
       "rewardchoice": [],
@@ -1226,13 +1224,15 @@
               "item": {
                 "id": "botania:apothecary_default",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "botania:pure_daisy",
                 "Count": 1
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -1244,11 +1244,11 @@
       "reward": [
         {
           "id": "botania:livingwood",
-          "Count": 8
+          "Count": 2
         },
         {
           "id": "botania:livingrock",
-          "Count": 8
+          "Count": 2
         }
       ],
       "rewardchoice": [],
