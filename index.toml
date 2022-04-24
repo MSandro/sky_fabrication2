@@ -21,6 +21,10 @@ file = "config/MechanicalDispensers/PlantableBlocks.yml"
 hash = "5fd0b5c6083b1e5186e83eaf98784d395bc84a21d011a98b3742b5d7ec79fe7d"
 
 [[files]]
+file = "config/MoreCommands/SERVERONLY.txt"
+hash = "e16f1596201850fd4a63680b27f603cb64e67176159be3d8ed78a4403fdb1700"
+
+[[files]]
 file = "config/MouseTweaks.cfg"
 hash = "08f647233c9b627f5cbfeeb36bb99f9fe85d0c32de219d21b861d4adff6bb4fa"
 
@@ -254,7 +258,7 @@ hash = "b27183d6a94a5a4c6d8049c8b240b3d2770efea741fe82fc83f1e4f6741138b1"
 
 [[files]]
 file = "config/awesomedungeon_general_.properties"
-hash = "8632453bcc6180bfae44a6f5c254fa0ceeafec370d58a8a584502cdc38f6f10f"
+hash = "e3e780822c274e6fbcb2732d3c4f8c7ee460bd5dc1010c63ab10216b2168ca4e"
 
 [[files]]
 file = "config/awokenworld.toml"
@@ -473,6 +477,22 @@ file = "config/dashloader.json"
 hash = "1b114505c28cedc31030f290a4aa640f665f71e05c95c9851bfb8a816cecfaeb"
 
 [[files]]
+file = "config/diggusmaximus/blacklist.json5"
+hash = "7a20ccfbebca1f6fdd7f0285212874b06f9ada427b8be8da16f4d6e0d8c5fb27"
+
+[[files]]
+file = "config/diggusmaximus/config.json5"
+hash = "a108547ceeb9b42696fd5607fdeeec342081ded0371b5105883aba83ccd9582e"
+
+[[files]]
+file = "config/diggusmaximus/excavatingshapes.json5"
+hash = "8ac4d50ab8fb34d83bc73ba19d55897526f70fca8af327273827429d9384d86b"
+
+[[files]]
+file = "config/diggusmaximus/grouping.json5"
+hash = "ef4721e167e20865ec1b660e75471a86364e6cc653404baefd1d66938d8bb900"
+
+[[files]]
 file = "config/dml-refabricated.json"
 hash = "c721f5386caeea1c3840045355f58ef2703de01ead1512a5d443a9f388622555"
 
@@ -530,11 +550,11 @@ hash = "e48315703a5d9dd631055c5e702d3a60464f336d1147b029bb6bc81d236473ec"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "53ad4a6c152063ee5bd20a9077f4c4efee53046eef1ca2b6c33f74910f02a05c"
+hash = "f901a1dbb3fc7416494e8aa4d27d093096300b0bbcbf11c2d2eaf7ac59c676fa"
 
 [[files]]
 file = "config/fabric/more-villages-mod-config.properties"
-hash = "256b09b9eeef7ccfb77373ab951b54f59e492778c342568918a65e18b080cfb5"
+hash = "04e1a7b8bd7818d792ffc99857fd14efdf76513a2a328b07a1d1cd72ab34f71c"
 
 [[files]]
 file = "config/fabrication/block_logo.ini"
@@ -694,7 +714,7 @@ hash = "d4d126cb7e0b19c1918c373153709571f8a8d932b9380c3336e67244e58a2a3f"
 
 [[files]]
 file = "config/indium-renderer.properties"
-hash = "c3b8ad51c42b2d239d5e4f38735b6c7671c7fac73b82ffd921a756ef1b81c7c8"
+hash = "6378dafe19dd7d7ae51caca3db88d6455e08030d40d9a18e29940ebd7a83ddaf"
 
 [[files]]
 file = "config/indrev/cables.json"
@@ -734,7 +754,7 @@ hash = "9dc99196d37dbb312d5452540846c2c26a133607ba22ecd9f739a456ffd63155"
 
 [[files]]
 file = "config/iris.properties"
-hash = "7e1b243a9ea8348b88b980da513dceb3691d8c8b98a7d348d6f4bc88df9bf3aa"
+hash = "4a900399f9735ee28f8aba05a6c5edaa6033001a3085e6162dc6a0e8686a33ef"
 
 [[files]]
 file = "config/iron-jetpacks/client.json5"
@@ -1025,6 +1045,10 @@ file = "config/ringsofascension.json"
 hash = "a67236653f4a4a8d7d1cd8b3de551d640bba67ba636c419099a454da72e2dc88"
 
 [[files]]
+file = "config/roughlyenoughitems/config.json5"
+hash = "d78c9f9da20f75df3343f50256d9cf63abbb45877f8fa16f560d07216bc4612c"
+
+[[files]]
 file = "config/rrp.properties"
 hash = "d2650f4635af9e222eaab3171b88089478a5f0196242784426d67dc2d3690323"
 
@@ -1107,6 +1131,10 @@ hash = "2aad5e298032e20d341d3508f692b9d96fd1b54c02622ab324b31b4357d68e5e"
 [[files]]
 file = "config/smoothboot.json"
 hash = "5865d6d3964d017c2bb8b8fd90f059016094abc6b85f3e5781ffa9959fd345c6"
+
+[[files]]
+file = "config/sodium-extra-options.json"
+hash = "e0269797997761f07fcc96fbdf8d47b5a36dac262d48a7d5eb951c5d490bb17e"
 
 [[files]]
 file = "config/sodium-extra.properties"
@@ -1267,6 +1295,22 @@ hash = "9965e774258f29f1f770978510a8a961c7f0fac8347ea543ca58b4ca6306b2f8"
 [[files]]
 file = "config/waystones/config.json"
 hash = "d0a26b9f0bf347fa65489757136645df57ab58a5a9e603444d9a19bfd17d77c0"
+
+[[files]]
+file = "config/xaerominimap.txt"
+hash = "e67c8e24c2b1151128f059a690a7638bd7c9528cadf721ed9f85491b2cd00b1e"
+
+[[files]]
+file = "config/xaerominimap_entities.json"
+hash = "26b6b998438b1b3b7f864edddb5666259c2aaf0d81d15021d6fb2d17824a7282"
+
+[[files]]
+file = "config/xaeropatreon.txt"
+hash = "36a890045fce4aa69f1c550d5a49a62b336cbb7911a7afa6956fcce5d4d9dcb8"
+
+[[files]]
+file = "config/xaeroworldmap.txt"
+hash = "a314971f807a4afcd3572a87695dc5dbaf55a5a7bcaf04c3b282d54ea8587a56"
 
 [[files]]
 file = "config/yosbr/config/diggusmaximus/blacklist.json5"
@@ -3697,6 +3741,10 @@ file = "kubejs/startup_scripts/script.js"
 hash = "41c5910442a4f8856804797482c24a33a1f95d50c553e78fcfea5414b9be0960"
 
 [[files]]
+file = "mods/.directory"
+hash = "cd633ce96c59099878f6a0606923a3c5002f61a4de1f31f895bfb7a07f79eeb7"
+
+[[files]]
 file = "mods/additional-additions.toml"
 hash = "ae20c0667e374a580bf4bdfa4ee244e3b0c2f3fa053b44ef03687dbcac02757e"
 metafile = true
@@ -4089,11 +4137,6 @@ metafile = true
 [[files]]
 file = "mods/fabric-seasons.toml"
 hash = "b9d5b0b2e9aa5ca82b4075a01fadf1165a2ebf2fa3ffc656ee5aa1377010b9d3"
-metafile = true
-
-[[files]]
-file = "mods/fabric-waystones.toml"
-hash = "5f10046f800fd60a2742975b2e8c01c2c942d00a164e3ddb36e46fc347457ee6"
 metafile = true
 
 [[files]]
@@ -4594,6 +4637,11 @@ metafile = true
 [[files]]
 file = "mods/simple-better-batpack-fabric.toml"
 hash = "052080b470d1ae2b774a192e94144f88d148db0242206b37dbfd36e8c14c910e"
+metafile = true
+
+[[files]]
+file = "mods/simple-teleporters-fabric.toml"
+hash = "a463717f335d260f5c6b5e6e649027c2b9b5b67aca8355d1019e9c9e57ba9bd4"
 metafile = true
 
 [[files]]
