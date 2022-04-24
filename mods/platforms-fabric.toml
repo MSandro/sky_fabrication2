@@ -3,7 +3,7 @@ filename = "platforms-[fabric]-1.17-1.1.4.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3765/370/platforms-[fabric]-1.17-1.1.4.jar"
+url = "https://edge.forgecdn.net/files/3765/370/platforms-%5Bfabric%5D-1.17-1.1.4.jar"
 hash-format = "murmur2"
 hash = "139173590"
 

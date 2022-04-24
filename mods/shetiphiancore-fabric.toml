@@ -1,9 +1,9 @@
 name = "ShetiPhianCore [Fabric]"
-filename = "shetiphiancore-[fabric]-1.17-1.1.6.jar"
+filename = "shetiphiancore-fabric-1.17-1.1.6.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3765/365/shetiphiancore-[fabric]-1.17-1.1.6.jar"
+url = "https://edge.forgecdn.net/files/3765/365/shetiphiancore-%5Bfabric%5D-1.17-1.1.6.jar"
 hash-format = "murmur2"
 hash = "4009958940"
 
