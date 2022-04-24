@@ -258,7 +258,7 @@ hash = "b27183d6a94a5a4c6d8049c8b240b3d2770efea741fe82fc83f1e4f6741138b1"
 
 [[files]]
 file = "config/awesomedungeon_general_.properties"
-hash = "e3e780822c274e6fbcb2732d3c4f8c7ee460bd5dc1010c63ab10216b2168ca4e"
+hash = "70823384ce76e6d42dce59f9d93aed1e6ed2952e32147c348bfa53375a516940"
 
 [[files]]
 file = "config/awokenworld.toml"
@@ -534,11 +534,11 @@ hash = "e48315703a5d9dd631055c5e702d3a60464f336d1147b029bb6bc81d236473ec"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "f901a1dbb3fc7416494e8aa4d27d093096300b0bbcbf11c2d2eaf7ac59c676fa"
+hash = "579f910de9c61b1ac53a65586563d3804acdfa7b382015e2bef197e6854ba667"
 
 [[files]]
 file = "config/fabric/more-villages-mod-config.properties"
-hash = "04e1a7b8bd7818d792ffc99857fd14efdf76513a2a328b07a1d1cd72ab34f71c"
+hash = "5661a0cd7e6af37b68dbe286ee4dcbb173c42525e83bf156d907e9e7b71d9a72"
 
 [[files]]
 file = "config/fabrication/block_logo.ini"
@@ -698,7 +698,7 @@ hash = "d4d126cb7e0b19c1918c373153709571f8a8d932b9380c3336e67244e58a2a3f"
 
 [[files]]
 file = "config/indium-renderer.properties"
-hash = "6378dafe19dd7d7ae51caca3db88d6455e08030d40d9a18e29940ebd7a83ddaf"
+hash = "832571ce95e6f8c9104c91a7b5830b77ad8dc2e80aaf7438c0222c0bc9cdd533"
 
 [[files]]
 file = "config/indrev/cables.json"
@@ -738,7 +738,7 @@ hash = "9dc99196d37dbb312d5452540846c2c26a133607ba22ecd9f739a456ffd63155"
 
 [[files]]
 file = "config/iris.properties"
-hash = "4a900399f9735ee28f8aba05a6c5edaa6033001a3085e6162dc6a0e8686a33ef"
+hash = "53d824e0576214e30bfb371baa18f9a84ce3b28abecffa2cdcd674eeb7c3d48f"
 
 [[files]]
 file = "config/iron-jetpacks/client.json5"
