@@ -20,20 +20,19 @@
     "cobblestone": {
       "speed": 100,
       "uses_per_lava": 512,
-      "uses_per_water": 1024,
+      "uses_per_water": 256,
       "generates": [
         {"weight": 5, "block": "minecraft:cobblestone"},
         {"weight": 5, "block": "minecraft:stone"},
         {"weight": 3, "block": "minecraft:diorite"},
         {"weight": 3, "block": "minecraft:deepslate"},
-        {"weight": 2, "block": "minecraft:gravel"},
         {"weight": 1, "block": "minecraft:coal_ore"}
       ]
     },
     "iron": {
       "speed": 80,
       "uses_per_lava": 256,
-      "uses_per_water": 1024,
+      "uses_per_water": 128,
       "generates": [
         {"weight": 20, "block": "minecraft:cobblestone"},
         {"weight": 19, "block": "minecraft:stone"},
@@ -51,7 +50,7 @@
     "gold": {
       "speed": 60,
       "uses_per_lava": 128,
-      "uses_per_water": 1024,
+      "uses_per_water": 64,
       "generates": [
         {"weight": 25, "block": "minecraft:cobblestone"},
         {"weight": 24, "block": "minecraft:stone"},
@@ -76,7 +75,7 @@
     "diamond": {
       "speed": 40,
       "uses_per_lava": 64,
-      "uses_per_water": 512,
+      "uses_per_water": 32,
       "generates": [
         {"weight": 40, "block": "minecraft:cobblestone"},
         {"weight": 39, "block": "minecraft:stone"},
@@ -107,7 +106,7 @@
     "netherite": {
       "speed": 20,
       "uses_per_lava": 32,
-      "uses_per_water": 128,
+      "uses_per_water": 16,
       "generates": [
         {"weight": 45, "block": "minecraft:cobblestone"},
         {"weight": 44, "block": "minecraft:stone"},
@@ -135,14 +134,13 @@
         {"weight": 9, "block": "modern_industrialization:antimony_ore"},
         {"weight": 7, "block": "modern_industrialization:mozanite_ore"},
         {"weight": 4, "block": "things:gleaming_ore"},
-        {"weight": 30, "block": "appliedenergistics2:sky_stone_block"},
-        {"weight": 15, "block": "minecraft:magma_block"},
-        {"weight": 3, "block": "minecraft:obsidian"},
+        {"weight": 3, "block": "appliedenergistics2:sky_stone_block"},
         {"weight": 1, "block": "modern_industrialization:deepslate_uranium_ore"},
         {"weight": 2, "block": "betternether:cincinnasite_ore"},
-        {"weight": 2, "block": "appliedenergistics2:deepslate_quartz_ore"},
-        {"weight": 2, "block": "minecraft:ancient_debris"},
-        {"weight": 19, "block": "indrev:nikolite_ore"}
+        {"weight": 1, "block": "appliedenergistics2:deepslate_quartz_ore"},
+        {"weight": 1, "block": "minecraft:ancient_debris"},
+        {"weight": 19, "block": "indrev:nikolite_ore"},
+        {"weight": 1, "block": "techreborn:ruby_ore"}
       ]
     }
   }

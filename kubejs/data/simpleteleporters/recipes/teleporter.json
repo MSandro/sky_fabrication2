@@ -1,0 +1,32 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "SCS",
+    "GNG",
+    "QFQ"
+  ],
+  "key": {
+    "G": {
+      "item": "botania:terrasteel_ingot"
+    },
+    "C": {
+      "item": "simpleteleporters:ender_shard"
+    },
+    "Q": {
+      "item": "modern_industrialization:cupronickel_coil"
+    },
+    "N": {
+      "item": "conjuring:soul_slice"
+    },
+    "F": {
+      "item": "techreborn:advanced_machine_frame"
+    },
+    "S": {
+      "item": "endrem:end_crystal_ingot"
+    }
+  },
+  "result": {
+    "item": "simpleteleporters:teleporter",
+    "count": 1
+  }
+}

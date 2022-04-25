@@ -22,7 +22,7 @@ hash = "5fd0b5c6083b1e5186e83eaf98784d395bc84a21d011a98b3742b5d7ec79fe7d"
 
 [[files]]
 file = "config/MoreCommands/SERVERONLY.txt"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+hash = "e16f1596201850fd4a63680b27f603cb64e67176159be3d8ed78a4403fdb1700"
 
 [[files]]
 file = "config/MouseTweaks.cfg"
@@ -258,7 +258,7 @@ hash = "b27183d6a94a5a4c6d8049c8b240b3d2770efea741fe82fc83f1e4f6741138b1"
 
 [[files]]
 file = "config/awesomedungeon_general_.properties"
-hash = "dcf9c02180e1fc5c0079dd184a3c2dceb2f69be64de086cc5bfa9d513e1be75a"
+hash = "55c85e77df37fd55026cf7787f9a9427fdbd0835fc37b9f44b82bee9d300488d"
 
 [[files]]
 file = "config/awokenworld.toml"
@@ -266,7 +266,7 @@ hash = "587a650385ff35993e0af4964de79b98ddef65964156a3c6886cced37e564644"
 
 [[files]]
 file = "config/bcf.json"
-hash = "b06fe726cd02cbeb3672033ead5e3142e07c4f3ccdfe6196fc40ade835828385"
+hash = "0154020d8822bdfc9eca1f44b84a6356f038dfa086280a2aa3e6a37c2dcc9c3f"
 
 [[files]]
 file = "config/bclib/biomes.json"
@@ -450,7 +450,7 @@ hash = "8830d327f96393c7952f119a69679025a5f1f21cffa278356503021d55d861b2"
 
 [[files]]
 file = "config/croptopia/croptopia.conf"
-hash = "42258180648a252f760b1f22a5b50b7665f1a074fd2d6b2d006114fe6e7d70cb"
+hash = "561368d1e01bb77175b86a488580e6719b482befafe3001c188061044ddc6e68"
 
 [[files]]
 file = "config/cullleaves.json"
@@ -534,11 +534,11 @@ hash = "e48315703a5d9dd631055c5e702d3a60464f336d1147b029bb6bc81d236473ec"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "9d7441c32ed9a9e2849f8ddabcc9aca5536523676be06877492058e4406e567e"
+hash = "ee8a38c21f9215252268790f107201aa8e7128514e56feee37efbc02a8a23465"
 
 [[files]]
 file = "config/fabric/more-villages-mod-config.properties"
-hash = "4f1408cdcaea588a9834f502c3613902fa8bd5c405430276a362895007aeee17"
+hash = "d8f4a7c5e3437474e73139b55bef637808acff2a189593950f84abbc7f92bd37"
 
 [[files]]
 file = "config/fabrication/block_logo.ini"
@@ -642,23 +642,35 @@ hash = "bc704a23d7e8994a704a12faab2b1b8178f91febfb7cef140ae98e5a1d31c4d6"
 
 [[files]]
 file = "config/hqm/default/sets/Age_of_Storage.json"
-hash = "c425e90cd9a591cc87e8b0a9b6b03ab212a29f4d1a06484c5cec2470a0486654"
+hash = "53bdbded6bbef8e502ec5b6a4b02aa28099e119c028a2000dcf54db2d30626e9"
 
 [[files]]
 file = "config/hqm/default/sets/Bronze_Age.json"
 hash = "284346d84f6edbde1b86b041fca983fc75b5f2eb6448a817875cbe57d55fc4d9"
 
 [[files]]
+file = "config/hqm/default/sets/Electric_Age_-_Power!.json"
+hash = "b2ad691310e05fff582e08c82829835e678c557bcf49cc8455cfb618794f2861"
+
+[[files]]
 file = "config/hqm/default/sets/Electric_Age_-_Power.json"
-hash = "d947d002a50b52448c34ffc3fba4a8776538bf50db61947866825a3836a18d05"
+hash = "0330702adf6ec95f80e43931e822ebfe7386b8c11c282e8f8db0e315e0b5562e"
+
+[[files]]
+file = "config/hqm/default/sets/It's_Time_for_some_Magic..json"
+hash = "a59b809a1a5776fbdb0bb9771af7f1d451e826d5a4f96b3af4c043cbe64a3edb"
 
 [[files]]
 file = "config/hqm/default/sets/It's_Time_for_some_Magic.json"
-hash = "60a1f52c773244da4917c1a206109ee64a6303c4039fa6e193a8043c3c692d8c"
+hash = "7fcd6a3ebabcc96beaf6a5aec5458d417bb516537571e6270c6d8a5f34033b48"
+
+[[files]]
+file = "config/hqm/default/sets/Pre-Electricity_Age.json"
+hash = "f4f9ce05c37a258d85e0d7d293a4f570e52928e5476907d7d26df4ed690001b1"
 
 [[files]]
 file = "config/hqm/default/sets/Steam_Age.json"
-hash = "a0af2b12f1ff72e31f46f3e361cd8658da1b1cf885867547a4df6a9907d22ea8"
+hash = "3f6fc68ec17d37e484c267f97113b8de542445a62586a6af05df3b9df0405f34"
 
 [[files]]
 file = "config/hqm/default/sets/Stone_Age.json"
@@ -666,11 +678,15 @@ hash = "28145d0003093f7ca8147eb79ebe2ef2deea7a0a0e4e7a3efb298c06cee1a510"
 
 [[files]]
 file = "config/hqm/default/sets/The_Beginning.json"
-hash = "fbbb69570ed3baf6c38808973eccf6107586418370ffb577d12f3e990a70bb46"
+hash = "ac37a8277cd8b7d249645e06ec60201abb36fee8f41d9a71f18f5c7abe926869"
 
 [[files]]
 file = "config/hqm/default/sets/The_Late-Game.json"
-hash = "c52c579c1f4526cf303f30f8f9fc79d0b4679413b65484fa3ae3e88e3106e04a"
+hash = "0a6c1cc6bb1aa1c7d4602438026f14903e6cb333d3b17c3e774a2940510bf814"
+
+[[files]]
+file = "config/hqm/default/sets/Useful_Mods.json"
+hash = "b52bba7f1b0f34586d1e1427d6a10b3c18d4bc27a835c6322dd857c0761d3b07"
 
 [[files]]
 file = "config/hqm/front.png"
@@ -682,7 +698,7 @@ hash = "d4d126cb7e0b19c1918c373153709571f8a8d932b9380c3336e67244e58a2a3f"
 
 [[files]]
 file = "config/indium-renderer.properties"
-hash = "c805bc59ec5505a14d38d706fe64802a3030a9d1d1f660c44b36da765258450f"
+hash = "38f7eee91cc2a3d34e2c9457443dc96d42cd84bac4a7756ae43c4630bcd3050f"
 
 [[files]]
 file = "config/indrev/cables.json"
@@ -722,7 +738,7 @@ hash = "9dc99196d37dbb312d5452540846c2c26a133607ba22ecd9f739a456ffd63155"
 
 [[files]]
 file = "config/iris.properties"
-hash = "7ab6d976abe4f58ba7c38bb656ef2d9ea962824df6b35af4a187d8d95d1406b0"
+hash = "1a9b71553844a287e63f87ca2113de70b8b9d8f084c42a1f8f94872f458e0896"
 
 [[files]]
 file = "config/iron-jetpacks/client.json5"
@@ -774,7 +790,7 @@ hash = "a2346225f7887ad4cc6ea0a81c6a2c4096c2d94b379d9e0ea6c394db8894a45f"
 
 [[files]]
 file = "config/iron-jetpacks/jetpacks/platinum.json"
-hash = "07054647d084ee445560960048f4382b7d186586f2f769e154fdf5c05904bfb0"
+hash = "78e1deec68c753e1f8f678fba45601ceeda92e6ad460d9734ec097b351fe907f"
 
 [[files]]
 file = "config/iron-jetpacks/jetpacks/silver.json"
@@ -1046,7 +1062,7 @@ hash = "3e8e57664e564edbbdc290dd61c32d4d44396cf5f9eafecfdc2a26dc1f7c89f8"
 
 [[files]]
 file = "config/skyutils.json"
-hash = "f23c18a3daa490e25a3f7f9fbbaaac37bfbe9c5b2da34bda4048f03668e07c49"
+hash = "7283ec074a4465ea02a145776d9c1c73a92573a7b8221a20ad13c87375fd97e0"
 
 [[files]]
 file = "config/skyvillages.json5"
@@ -1070,7 +1086,7 @@ hash = "53edd49d3e9cb39f87dc7f6fe3b3f0f48984650a28aac735909246034229da6a"
 
 [[files]]
 file = "config/slightguimodifications/cts.groovy"
-hash = "c3819b30f35dd23ee7b314d1a1059788f88d276a49ced2fbb887d051c0025f18"
+hash = "8c28b14e8acdb7f25ec84898637683ecaf58681ddc275abdeb01371e43a144d3"
 
 [[files]]
 file = "config/slightguimodifications/slider.png"
@@ -1186,7 +1202,7 @@ hash = "15e9255b79e0ad19f0eee7de90ff0b24ac92f270e1471efa971aff5555d5b4ef"
 
 [[files]]
 file = "config/techreborn/machines.json"
-hash = "6fa62e47cc98d738f2142c33f9e19ddcf971cd96c4bfc697aaed3c1d55ba5745"
+hash = "c0213239582e82803b629feddb581f6836cc58d90b3f9135d5d12ee7eb96a363"
 
 [[files]]
 file = "config/techreborn/misc.json"
@@ -1198,7 +1214,7 @@ hash = "cc8a9085bd9663f5715a1fbf2d274c042ededdb85b221997f8cf79c7e72fb518"
 
 [[files]]
 file = "config/terrarianslimes.json"
-hash = "5a55a174974c8b6ff2e7dae85f4595bee72aa26bed132c4b64aeda6d9ea0397d"
+hash = "97a8ac9fd751f7918ede22b78b374166f917e096f1e796419788042ca3850bbb"
 
 [[files]]
 file = "config/the_bumblezone-main.json5"
@@ -1218,7 +1234,7 @@ hash = "1335a55e8b05de9b0995fa97fa80346754276233600ab1c1efc5f77519ae01ae"
 
 [[files]]
 file = "config/trade.properties"
-hash = "fafe1b9bb5863cf273f566c4800ec1f0a6de3533c7223edd46a438bd64e2bc40"
+hash = "42dfc30ae65bed7958a59451bf05c1f76796d2e5b421f0c64f666ad1385b7f0d"
 
 [[files]]
 file = "config/universal-graves.json"
@@ -1234,7 +1250,7 @@ hash = "640800920130d084dec5a3a7f52c10e18d72ed7faca522b5bcb6bb46d0dcae9b"
 
 [[files]]
 file = "config/waila/megane.json"
-hash = "ab03bdab0b2a27b775d737bdbea3f156cc96378cae74742310ce519cb23fccc3"
+hash = "aa4e51671e4f38884ff74fa94a924ca08c28a0ae3a2aa3b1a88fa297e0cff8b5"
 
 [[files]]
 file = "config/waila/megane_modules.json"
@@ -1303,6 +1319,10 @@ hash = "6db9568c14f3becb2c7c941ae8e084fe44068ecfb2d0a03937ccef2d9c3add22"
 [[files]]
 file = "config/zombievillagersfromspawner-fabric.json"
 hash = "05a94db3d99b3412f5506bb7777baf6f77fcb0aac0918ef640d58f8055cc5ebf"
+
+[[files]]
+file = "defaultconfigs/betteranimalsplus-server.json5"
+hash = "9d20c38e7f7279ce1e5dff33e06f3c1a753babaedb7a55cc9fe234f1759a84be"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -1934,7 +1954,7 @@ hash = "c534be8469f4a8f0dc6cbb2e65cecc3db14670ce9f3a21d6ab72887ff9fcb0ef"
 
 [[files]]
 file = "kubejs/data/ae2wtlib/recipes/infinity_booster_card.json"
-hash = "5bf0be1aeaa2789af5915595bd4ef106dd349da015b23076f87206d171d8325e"
+hash = "7522ae0ffe222faa8e15e73c2f94249160f66dcd149815ca09414ce85ab98526"
 
 [[files]]
 file = "kubejs/data/agape_space/recipes/powergen.json"
@@ -1969,8 +1989,16 @@ file = "kubejs/data/alloy_forgery/recipes/electrum_ingot.json"
 hash = "6a1f09b35f5812e8b8ab28604236b185f72ca55cd00a11fc9f4244173b4542cc"
 
 [[files]]
+file = "kubejs/data/appliedenergistics2/recipes/certus_quartz_mixer.json"
+hash = "42382c29a3533a1f9fccb2313e53ba145cbe62435320b4e3981b03d952cfc2b8"
+
+[[files]]
 file = "kubejs/data/appliedenergistics2/recipes/decorative/quartz_glass.json"
 hash = "36f1a56c04eaa7633eeeba9c4acc16d174d02c6bb36e7a9c44c43965da93f3c0"
+
+[[files]]
+file = "kubejs/data/appliedenergistics2/recipes/fluix_crystal_mixer.json"
+hash = "785c4b2f19b9681fe8b04c7537e826db84417ff627c5021ee4db975ce7c484a8"
 
 [[files]]
 file = "kubejs/data/appliedenergistics2/recipes/network/blocks/crystal_processing_charger.json"
@@ -2493,6 +2521,10 @@ file = "kubejs/data/extragenerators/recipes/thermoelectric_generator.json"
 hash = "f1365caee17348a35ab36a7601a468adac6f83bd246dc74c75c82ca3a821a83e"
 
 [[files]]
+file = "kubejs/data/fabric/tags/items/seeds.json"
+hash = "f5dec0112e159fb9490c937e641e9cdeb7d8937799fa27929f6ce71cf3781f22"
+
+[[files]]
 file = "kubejs/data/factory/recipes/factory.json"
 hash = "c632318b2299ac477ca873b1006bb0a8b65bc366371b548fcc6b465c68f728f0"
 
@@ -2782,7 +2814,7 @@ hash = "fbafceb4b54b72d57cc82e44fb3485d6c9151b3b90c910009edab01defdef57b"
 
 [[files]]
 file = "kubejs/data/kubejs/recipes/avaritia/extreme/endest_pearl.json"
-hash = "b0328c0377101a8e400e1770ee40f8d000054083a5ebd90f531d18d3c9794dfc"
+hash = "87a3c4045e42975275144e86023d4fa60f883590936b2708b9f2f6ee9723ab5d"
 
 [[files]]
 file = "kubejs/data/kubejs/recipes/avaritia/extreme/infinity_catalyst.json"
@@ -3369,6 +3401,18 @@ file = "kubejs/data/scf/recipes/netherite_funnel.json"
 hash = "6214a4620825eb6e5b6b5179bec62a5a39829443431eda5b1452030fc8c073ac"
 
 [[files]]
+file = "kubejs/data/simpleteleporters/recipes/clear_shard.json"
+hash = "bfcd1a0a2b07c1a21305e12ba249747db1e649b2e3090e835aa1aadfa3281cdf"
+
+[[files]]
+file = "kubejs/data/simpleteleporters/recipes/ender_shard.json"
+hash = "20a36600832aedb5aae0ede50a556b34e0f2ad0cdb93a6028cc19669a83900e6"
+
+[[files]]
+file = "kubejs/data/simpleteleporters/recipes/teleporter.json"
+hash = "2f8d9b811db398280989a6598b7db943294a4200550af2bdb443992a2d967c53"
+
+[[files]]
 file = "kubejs/data/skyutils/dimension/skyutils.json"
 hash = "42ae974a819109f259c47fe3c178bb944b49e9f24410d05b3177195bc27e7505"
 
@@ -3578,7 +3622,7 @@ hash = "f20d18f9b6c4dc2a974fa9c27f2c14d7996ea51598b43e5e14969cd156a177e3"
 
 [[files]]
 file = "kubejs/server_scripts/interactions.js"
-hash = "22ef9f5d913dd592dbb86e0cdee78f235ad423c9f5cbfeb5bc02d8c21ac20cff"
+hash = "c2c91c4ae9a5308585c08549c3caf798393f3abaef803f5e1b026a9d470907ad"
 
 [[files]]
 file = "kubejs/server_scripts/packmode.js"
@@ -3626,7 +3670,7 @@ hash = "ecd5d748aa65a1219e69618c2c8ccd0edb2cc533d38b30a987f7de98f46e5900"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/main_recipes.js"
-hash = "7be52f57d1797771bfdf3c9482ab40e9234dff74391f67a1cad71ccc8b1d0420"
+hash = "30732112bec9fcb72361005b57a9c96a45d501fdbbe030c72e5363c8cc846de7"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/minecraft/shaped.js"
@@ -4045,7 +4089,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.toml"
-hash = "6f1eb0208f718e4700c4039a5060db267281861f633cff00bea69a16eb59d571"
+hash = "90bc10aeabaeb3b6cd70d57730def91e163faca134eea88434c625eabddbd211"
 metafile = true
 
 [[files]]
@@ -4061,11 +4105,6 @@ metafile = true
 [[files]]
 file = "mods/fabric-seasons.toml"
 hash = "b9d5b0b2e9aa5ca82b4075a01fadf1165a2ebf2fa3ffc656ee5aa1377010b9d3"
-metafile = true
-
-[[files]]
-file = "mods/fabric-waystones.toml"
-hash = "5f10046f800fd60a2742975b2e8c01c2c942d00a164e3ddb36e46fc347457ee6"
 metafile = true
 
 [[files]]
@@ -4145,7 +4184,7 @@ metafile = true
 
 [[files]]
 file = "mods/grind-enchantments.toml"
-hash = "e6050a075370c713850bc1c0b2abef790814e10b64d5d571d9b96e9ce28e08f9"
+hash = "5288d8ca116251153197e8214daa97c557d697a1a877ec0b68e90dcc94e522cd"
 metafile = true
 
 [[files]]
@@ -4205,7 +4244,7 @@ metafile = true
 
 [[files]]
 file = "mods/irisshaders.toml"
-hash = "f004bdac97ea12119be72ac6334580faec691b79057c70b957ad1ab8339371c6"
+hash = "1af6a9bcc37c179ec0e0ebf7014fed4be33d43ee34405a1808dc7337bd2eea56"
 metafile = true
 
 [[files]]
@@ -4310,7 +4349,7 @@ metafile = true
 
 [[files]]
 file = "mods/minecraft-transit-railway.toml"
-hash = "b9003eab69cf934f9a66ba2bb8e75cd63c04b1a206cd846b81e6a4e78bc82d84"
+hash = "f4ef499f604434b42a3d156caeaf542d641cc15b32dcf6681df2c725a5b0f457"
 metafile = true
 
 [[files]]
@@ -4470,7 +4509,7 @@ metafile = true
 
 [[files]]
 file = "mods/platforms-fabric.toml"
-hash = "1c00cd84ece5772cdc2d980d2d96bec28fd6eb30c5b6251b55568f7ece7522a1"
+hash = "b0a289424726cf7cd233adab77f8cf5c4cdfc453a32e137f8c61766ffcb7e7c2"
 metafile = true
 
 [[files]]
@@ -4555,7 +4594,7 @@ metafile = true
 
 [[files]]
 file = "mods/shetiphiancore-fabric.toml"
-hash = "ab847f61ade8e06c4f3b4754349d05f36a07833330773e391a76f71d20347b99"
+hash = "2e312d1b4e434c07a8b96bb07ae76f37b6ae422e570812109039612c5bfbc79c"
 metafile = true
 
 [[files]]
@@ -4566,6 +4605,11 @@ metafile = true
 [[files]]
 file = "mods/simple-better-batpack-fabric.toml"
 hash = "052080b470d1ae2b774a192e94144f88d148db0242206b37dbfd36e8c14c910e"
+metafile = true
+
+[[files]]
+file = "mods/simple-teleporters-fabric.toml"
+hash = "a463717f335d260f5c6b5e6e649027c2b9b5b67aca8355d1019e9c9e57ba9bd4"
 metafile = true
 
 [[files]]
@@ -4769,11 +4813,6 @@ hash = "3c3633b716e75a644e02c0e129811cc06c6b81314997845ef7475b694286b079"
 metafile = true
 
 [[files]]
-file = "mods/wireless-networks.toml"
-hash = "aace57d8356b22473b1fdd3275c89000e3cc7dd75c4a95c817584fea5234d589"
-metafile = true
-
-[[files]]
 file = "mods/wither-totem.toml"
 hash = "0218bd237e083793bf7119c53a9e57f56e75e07eabde43d0d4a4c0710d279333"
 metafile = true
@@ -4800,12 +4839,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.toml"
-hash = "b4c05105044bff5c499fa0bd1d0605b5ddb77f0f330b824339e0cdad8819c84a"
+hash = "7f4fdb14e218b2db7865dfb7ffde3592e5ce6a59bdb6fdd9b11a8b506271d94f"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.toml"
-hash = "f6930e454f33889c619431fcac429692239b3fa863ea8737bda820f0437ca197"
+hash = "569a6caa48f09d56efd6074aa5864301d2819626ed708209bdd514b7c723c1a1"
 metafile = true
 
 [[files]]

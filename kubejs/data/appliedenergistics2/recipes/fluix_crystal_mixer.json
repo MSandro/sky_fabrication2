@@ -1,0 +1,20 @@
+{
+  "type": "modern_industrialization:mixer",
+  "eu": 16,
+  "duration": 200,
+  "item_inputs": {
+    "item": "appliedenergistics2:fluix_crystal_seed",
+    "amount": 1
+  },
+  "fluid_inputs": [
+    {
+      "fluid": "minecraft:water",
+      "amount": 1000,
+      "probability": 0
+    }
+  ],
+  "item_outputs": {
+    "item": "appliedenergistics2:fluix_crystal",
+    "amount": 1
+  }
+}

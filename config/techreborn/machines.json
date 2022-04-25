@@ -11,6 +11,7 @@
     "RecyclerBlacklist": {
       "comment": "Recycler blacklist",
       "value": [
+        "bitsandchisels:bit_item",
         "techreborn:scrap_box",
         "techreborn:scrap"
       ]

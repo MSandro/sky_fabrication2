@@ -11,21 +11,33 @@ onEvent('block.right_click', event => {
 	}
 });
 
-function checkDim(event) {
+function checkDim(event, id) {
 	let arr = event.server.getPlayers().toArray();
+	if (global.isExpertMode) {
+		event.server.runCommandSilent(`effect give ${event.player.name} wither 2`);
+	} else {
+		event.server.runCommandSilent(`effect give ${event.player.name} hunger 2 5`);
+	}
   for (p of arr) {
 		if (String(p.name) == String(event.player.name)) {
-			var id = event.item.id;
 			if (p.world.dimension == 'minecraft:overworld') {
-				event.server.runCommandSilent(`clear ${p.name} ${id} 1`);
-				event.server.schedule(500, event.server, function (callback) {
-					callback.server.runCommandSilent(`give ${p.name} ${id}`);
-					p.getTags().remove('glider');
-				});
+				if (p.mainHandItem.id.contains('glider') && global.isServer) {
+					p.mainHandItem.count = 0;
+					event.server.runCommandSilent(`give ${event.player.name} ${id}`);
+				}
+				if (p.offHandItem.id.contains('glider') && global.isServer) {
+				  p.offHandItem.count = 0;
+					event.server.runCommandSilent(`give ${event.player.name} ${id}`);
+				}
+				p.getTags().remove('glider');
 			} else if(event.player.getTags().contains('glider')) {
+				if (!p.mainHandItem.getNbt().toString().contains("enabled:1") && !p.offHandItem.getNbt().toString().contains("enabled:1")) {
+					event.player.getTags().remove('glider');
+				}
+
 				event.server.schedule(1000, event.server, function (callback) {
-					checkDim(event);
-				});
+					checkDim(event, id);
+			  });
 			}
 		}
 	}
@@ -33,30 +45,43 @@ function checkDim(event) {
 
 onEvent('item.right_click', event => {
 	  fixPhases(event);
-    if (event.item) {
+		if (event.item) {
 			  //fixed Boomerangs
 				if (event.item.id.contains('boomerang') || event.player.offHandItem.id.contains('boomerang')) {
 					event.entity.damageHeldItem(event.hand, 0);
 				}
 				// disabled glider in overworld only if in MP
-				//
-				if (event.item.id.contains('glider') && global.isServer) {
+				if ((event.item.id.contains('glider') || event.player.mainHandItem.id.contains('glider') || event.player.offHandItem.id.contains('glider'))) {
+					var id = "";
+					if (event.item.id.contains('glider')) {
+						id = event.item.id;
+					} else if (event.player.offHandItem.id.contains('glider')) {
+						id = event.player.offHandItem.id;
+					}
 					if (event.world.dimension == 'minecraft:overworld') {
-						var id = event.item.id;
-						event.player.tell("Sorry, you can not use Gliders in this dimension!");
-						event.server.runCommandSilent(`clear ${event.player.name} ${id} 1`);
-						event.server.schedule(500, event.server, function (callback) {
-	 					  callback.server.runCommandSilent(`give ${event.player.name} ${id}`);
+						if (global.isServer) {
+							event.player.tell("Sorry, you can not use Gliders in this dimension!");
 							event.player.getTags().remove('glider');
-						});
-						event.cancel();
-				  } else {
+							if (event.player.mainHandItem.id.contains('glider')) {
+								event.player.mainHandItem.count = 0;
+								event.server.schedule(500, event.server, function (callback) {
+									callback.server.runCommandSilent(`give ${event.player.name} ${id}`);
+								});
+							}
+							if (event.player.offHandItem.id.contains('glider')) {
+								event.player.offHandItem.count = 0;
+								event.server.schedule(500, event.server, function (callback) {
+									callback.server.runCommandSilent(`give ${event.player.name} ${id}`);
+								});
+							}
+						}
+					} else {
 						if (!event.player.getTags().contains('glider'))
-					  {
+						{
 							event.player.getTags().add('glider');
-							checkDim(event);
-						} else {
-							event.player.getTags().remove('glider');
+							event.server.schedule(250, event.server, function (callback) {
+							  checkDim(event, id);
+						  })
 						}
 					}
 				}

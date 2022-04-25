@@ -913,7 +913,7 @@
     {
       "uuid": "6dca97ac-931e-485f-a2d3-270892184045",
       "name": "Sky Islands",
-      "description": "In this Dim you can dicover many Biomes and Strutures. The Portal frame has to be build out of Mossy Glowshroom Caps. The Mossy Glowshroom Sapling can grow on End Moss. To ignite it, right click with the \"\" Item. It\u0027s the Quests reward.",
+      "description": "In this Dim you can dicover many Biomes and Strutures. The Portal frame has to be build out of Mossy Glowshroom Caps. The Mossy Glowshroom Sapling can grow on End Moss. To ignite it, right click with the \"Sky-Island Activator\" Item.",
       "x": 217,
       "y": 25,
       "icon": {
@@ -9368,7 +9368,12 @@
         "6e65ad2e-2b52-4520-92a2-6b53e0e4fae6"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "modern_industrialization:bucket_argon",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
