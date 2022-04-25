@@ -258,7 +258,7 @@ hash = "b27183d6a94a5a4c6d8049c8b240b3d2770efea741fe82fc83f1e4f6741138b1"
 
 [[files]]
 file = "config/awesomedungeon_general_.properties"
-hash = "dd2463df34d02c45d3bfa8bd8309b75895480b6d4dc38a7fad9de9d10edc7433"
+hash = "55c85e77df37fd55026cf7787f9a9427fdbd0835fc37b9f44b82bee9d300488d"
 
 [[files]]
 file = "config/awokenworld.toml"
@@ -534,11 +534,11 @@ hash = "e48315703a5d9dd631055c5e702d3a60464f336d1147b029bb6bc81d236473ec"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "09b94d91be4529b6ff47bbfbeae08cced37684b760a5b186050208749f50c2c4"
+hash = "ee8a38c21f9215252268790f107201aa8e7128514e56feee37efbc02a8a23465"
 
 [[files]]
 file = "config/fabric/more-villages-mod-config.properties"
-hash = "ab412b1f130996747d287456a2201d9b083458a2b2fda2afc8f14fc49f5a49f5"
+hash = "d8f4a7c5e3437474e73139b55bef637808acff2a189593950f84abbc7f92bd37"
 
 [[files]]
 file = "config/fabrication/block_logo.ini"
@@ -698,7 +698,7 @@ hash = "d4d126cb7e0b19c1918c373153709571f8a8d932b9380c3336e67244e58a2a3f"
 
 [[files]]
 file = "config/indium-renderer.properties"
-hash = "0400694c7648ec7ebdac6b648b46cb85ab13d5abb915fbd2d0db824ac2d65886"
+hash = "38f7eee91cc2a3d34e2c9457443dc96d42cd84bac4a7756ae43c4630bcd3050f"
 
 [[files]]
 file = "config/indrev/cables.json"
@@ -738,7 +738,7 @@ hash = "9dc99196d37dbb312d5452540846c2c26a133607ba22ecd9f739a456ffd63155"
 
 [[files]]
 file = "config/iris.properties"
-hash = "69edb4d58e434b6da6c6816def1022ed55104914c135426962288fb649b134f6"
+hash = "1a9b71553844a287e63f87ca2113de70b8b9d8f084c42a1f8f94872f458e0896"
 
 [[files]]
 file = "config/iron-jetpacks/client.json5"
@@ -1062,7 +1062,7 @@ hash = "3e8e57664e564edbbdc290dd61c32d4d44396cf5f9eafecfdc2a26dc1f7c89f8"
 
 [[files]]
 file = "config/skyutils.json"
-hash = "f23c18a3daa490e25a3f7f9fbbaaac37bfbe9c5b2da34bda4048f03668e07c49"
+hash = "7283ec074a4465ea02a145776d9c1c73a92573a7b8221a20ad13c87375fd97e0"
 
 [[files]]
 file = "config/skyvillages.json5"
@@ -1234,7 +1234,7 @@ hash = "1335a55e8b05de9b0995fa97fa80346754276233600ab1c1efc5f77519ae01ae"
 
 [[files]]
 file = "config/trade.properties"
-hash = "9d0287b61b7fb0cc19046fc4a80b3d96500ce448ce83da19455d15a0b9d57f78"
+hash = "42dfc30ae65bed7958a59451bf05c1f76796d2e5b421f0c64f666ad1385b7f0d"
 
 [[files]]
 file = "config/universal-graves.json"
@@ -3711,10 +3711,6 @@ hash = "e06692a2580b958a659b493f17d89185ed99b754d26ce73b8a08df09e610f68b"
 [[files]]
 file = "kubejs/startup_scripts/script.js"
 hash = "41c5910442a4f8856804797482c24a33a1f95d50c553e78fcfea5414b9be0960"
-
-[[files]]
-file = "mods/.directory"
-hash = "d449ff6031326ebc297300a8cc142436933ca7dbba215d163a96d702bcdd39d3"
 
 [[files]]
 file = "mods/additional-additions.toml"
