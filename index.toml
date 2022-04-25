@@ -258,7 +258,7 @@ hash = "b27183d6a94a5a4c6d8049c8b240b3d2770efea741fe82fc83f1e4f6741138b1"
 
 [[files]]
 file = "config/awesomedungeon_general_.properties"
-hash = "70823384ce76e6d42dce59f9d93aed1e6ed2952e32147c348bfa53375a516940"
+hash = "dd2463df34d02c45d3bfa8bd8309b75895480b6d4dc38a7fad9de9d10edc7433"
 
 [[files]]
 file = "config/awokenworld.toml"
@@ -534,11 +534,11 @@ hash = "e48315703a5d9dd631055c5e702d3a60464f336d1147b029bb6bc81d236473ec"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "579f910de9c61b1ac53a65586563d3804acdfa7b382015e2bef197e6854ba667"
+hash = "09b94d91be4529b6ff47bbfbeae08cced37684b760a5b186050208749f50c2c4"
 
 [[files]]
 file = "config/fabric/more-villages-mod-config.properties"
-hash = "5661a0cd7e6af37b68dbe286ee4dcbb173c42525e83bf156d907e9e7b71d9a72"
+hash = "ab412b1f130996747d287456a2201d9b083458a2b2fda2afc8f14fc49f5a49f5"
 
 [[files]]
 file = "config/fabrication/block_logo.ini"
@@ -698,7 +698,7 @@ hash = "d4d126cb7e0b19c1918c373153709571f8a8d932b9380c3336e67244e58a2a3f"
 
 [[files]]
 file = "config/indium-renderer.properties"
-hash = "832571ce95e6f8c9104c91a7b5830b77ad8dc2e80aaf7438c0222c0bc9cdd533"
+hash = "0400694c7648ec7ebdac6b648b46cb85ab13d5abb915fbd2d0db824ac2d65886"
 
 [[files]]
 file = "config/indrev/cables.json"
@@ -738,7 +738,7 @@ hash = "9dc99196d37dbb312d5452540846c2c26a133607ba22ecd9f739a456ffd63155"
 
 [[files]]
 file = "config/iris.properties"
-hash = "53d824e0576214e30bfb371baa18f9a84ce3b28abecffa2cdcd674eeb7c3d48f"
+hash = "69edb4d58e434b6da6c6816def1022ed55104914c135426962288fb649b134f6"
 
 [[files]]
 file = "config/iron-jetpacks/client.json5"
@@ -1234,7 +1234,7 @@ hash = "1335a55e8b05de9b0995fa97fa80346754276233600ab1c1efc5f77519ae01ae"
 
 [[files]]
 file = "config/trade.properties"
-hash = "8f3a11ca8d93d043d4c81c4dc908ef6ae789573f756f4e4eb18565d2c67a8527"
+hash = "9d0287b61b7fb0cc19046fc4a80b3d96500ce448ce83da19455d15a0b9d57f78"
 
 [[files]]
 file = "config/universal-graves.json"
@@ -2814,7 +2814,7 @@ hash = "fbafceb4b54b72d57cc82e44fb3485d6c9151b3b90c910009edab01defdef57b"
 
 [[files]]
 file = "kubejs/data/kubejs/recipes/avaritia/extreme/endest_pearl.json"
-hash = "b0328c0377101a8e400e1770ee40f8d000054083a5ebd90f531d18d3c9794dfc"
+hash = "87a3c4045e42975275144e86023d4fa60f883590936b2708b9f2f6ee9723ab5d"
 
 [[files]]
 file = "kubejs/data/kubejs/recipes/avaritia/extreme/infinity_catalyst.json"
@@ -3401,6 +3401,18 @@ file = "kubejs/data/scf/recipes/netherite_funnel.json"
 hash = "6214a4620825eb6e5b6b5179bec62a5a39829443431eda5b1452030fc8c073ac"
 
 [[files]]
+file = "kubejs/data/simpleteleporters/recipes/clear_shard.json"
+hash = "bfcd1a0a2b07c1a21305e12ba249747db1e649b2e3090e835aa1aadfa3281cdf"
+
+[[files]]
+file = "kubejs/data/simpleteleporters/recipes/ender_shard.json"
+hash = "20a36600832aedb5aae0ede50a556b34e0f2ad0cdb93a6028cc19669a83900e6"
+
+[[files]]
+file = "kubejs/data/simpleteleporters/recipes/teleporter.json"
+hash = "2f8d9b811db398280989a6598b7db943294a4200550af2bdb443992a2d967c53"
+
+[[files]]
 file = "kubejs/data/skyutils/dimension/skyutils.json"
 hash = "42ae974a819109f259c47fe3c178bb944b49e9f24410d05b3177195bc27e7505"
 
@@ -3658,7 +3670,7 @@ hash = "ecd5d748aa65a1219e69618c2c8ccd0edb2cc533d38b30a987f7de98f46e5900"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/main_recipes.js"
-hash = "7be52f57d1797771bfdf3c9482ab40e9234dff74391f67a1cad71ccc8b1d0420"
+hash = "30732112bec9fcb72361005b57a9c96a45d501fdbbe030c72e5363c8cc846de7"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/minecraft/shaped.js"
@@ -3702,7 +3714,7 @@ hash = "41c5910442a4f8856804797482c24a33a1f95d50c553e78fcfea5414b9be0960"
 
 [[files]]
 file = "mods/.directory"
-hash = "cd633ce96c59099878f6a0606923a3c5002f61a4de1f31f895bfb7a07f79eeb7"
+hash = "d449ff6031326ebc297300a8cc142436933ca7dbba215d163a96d702bcdd39d3"
 
 [[files]]
 file = "mods/additional-additions.toml"
@@ -4236,7 +4248,7 @@ metafile = true
 
 [[files]]
 file = "mods/irisshaders.toml"
-hash = "f004bdac97ea12119be72ac6334580faec691b79057c70b957ad1ab8339371c6"
+hash = "1af6a9bcc37c179ec0e0ebf7014fed4be33d43ee34405a1808dc7337bd2eea56"
 metafile = true
 
 [[files]]
