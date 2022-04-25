@@ -12,7 +12,7 @@
   "hammer_grass_extra_chance": 20,
   "hammer_podzol_extra_chance": 20,
   "hammer_sand_extra_chance": 20,
-  "hammer_diamond_nugget_chance": 5,
+  "hammer_diamond_nugget_chance": 10,
   "hammer_nether_wart_chance": 10,
   "hammer_netherrack_extra_chance": 20,
   "kiln_lava_cost": 16,

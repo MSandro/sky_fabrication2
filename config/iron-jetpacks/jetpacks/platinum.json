@@ -5,7 +5,7 @@
   "color": "2E857D",
   "armorPoints": 4,
   "enchantability": 12,
-  "craftingMaterial": "'betterend:aeternium_ingot'",
+  "craftingMaterial": "betterend:aeternium_ingot",
   "rarity": 0,
   "capacity": 1.6E7,
   "usage": 720.0,

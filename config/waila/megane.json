@@ -99,7 +99,13 @@
       "modern_industrialization:platinum_sulfuric_solution": 15113845,
       "techreborn:compressed_air": 3751234,
       "techreborn:hydrogen": 595790,
-      "techreborn:lithium": 4289436
+      "techreborn:lithium": 4289436,
+      "modern_industrialization:liquid_air": 7784441,
+      "modern_industrialization:nitrogen": 4493734,
+      "modern_industrialization:argon": 14891431,
+      "modern_industrialization:styrene": 10373106,
+      "modern_industrialization:styrene_butadiene": 10256448,
+      "modern_industrialization:styrene_butadiene_rubber": 6378032
     },
     "blacklist": []
   },
