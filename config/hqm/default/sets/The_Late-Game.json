@@ -40,7 +40,12 @@
         "71d1989c-5278-4dca-a955-af288ad70184"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "modern_industrialization:tungsten_large_plate",
+          "Count": 3
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -83,7 +88,7 @@
       "reward": [
         {
           "id": "kubejs:infinity_ingot",
-          "Count": 8
+          "Count": 2
         }
       ],
       "rewardchoice": [],
@@ -120,11 +125,11 @@
       "reward": [
         {
           "id": "kubejs:infinity_catalyst",
-          "Count": 16
+          "Count": 4
         },
         {
           "id": "kubejs:neutronium_nugget",
-          "Count": 48
+          "Count": 18
         }
       ],
       "rewardchoice": [],
@@ -184,7 +189,7 @@
       "reward": [
         {
           "id": "kubejs:infinity_ingot",
-          "Count": 5
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -263,7 +268,7 @@
       "reward": [
         {
           "id": "modern_industrialization:singularity",
-          "Count": 8
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -299,8 +304,8 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "kubejs:neutronium_ingot",
-          "Count": 1
+          "id": "kubejs:neutronium_nugget",
+          "Count": 5
         }
       ],
       "rewardchoice": [],
@@ -349,7 +354,7 @@
       "reward": [
         {
           "id": "kubejs:infinity_ingot",
-          "Count": 2
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -384,8 +389,8 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "modern_industrialization:quantum_upgrade",
-          "Count": 2
+          "id": "modern_industrialization:turbo_upgrade",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -423,7 +428,7 @@
       "reward": [
         {
           "id": "modern_industrialization:nuke",
-          "Count": 32
+          "Count": 8
         }
       ],
       "rewardchoice": [],
@@ -458,12 +463,8 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "minecraft:netherite_block",
-          "Count": 1
-        },
-        {
           "id": "kubejs:neutronium_nugget",
-          "Count": 16
+          "Count": 4
         }
       ],
       "rewardchoice": [],
@@ -499,10 +500,6 @@
       "reward": [
         {
           "id": "techreborn:uu_matter",
-          "Count": 8
-        },
-        {
-          "id": "modern_industrialization:bucket_uu_matter",
           "Count": 1
         }
       ],
@@ -542,7 +539,7 @@
       "reward": [
         {
           "id": "kubejs:infinity_catalyst",
-          "Count": 8
+          "Count": 4
         }
       ],
       "rewardchoice": [],
@@ -584,7 +581,7 @@
       "reward": [
         {
           "id": "kubejs:infinity_ingot",
-          "Count": 3
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -620,7 +617,7 @@
       "reward": [
         {
           "id": "kubejs:infinity_ingot",
-          "Count": 2
+          "Count": 1
         }
       ],
       "rewardchoice": [],

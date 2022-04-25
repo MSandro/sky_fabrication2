@@ -969,28 +969,32 @@
                 "id": "appliedenergistics2:fluix_crystal_seed",
                 "Count": 1
               },
-              "required": 32
+              "required": 32,
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "appliedenergistics2:certus_crystal_seed",
                 "Count": 1
               },
-              "required": 32
+              "required": 32,
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "appliedenergistics2:fluix_crystal",
                 "Count": 1
               },
-              "required": 16
+              "required": 16,
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
                 "id": "appliedenergistics2:certus_quartz_crystal",
                 "Count": 1
               },
-              "required": 16
+              "required": 16,
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -1718,7 +1722,8 @@
                 "id": "appliedenergistics2:quartz_growth_accelerator",
                 "Count": 1
               },
-              "required": 5
+              "required": 5,
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }

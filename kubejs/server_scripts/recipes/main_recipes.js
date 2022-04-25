@@ -136,7 +136,6 @@ onEvent('recipes', event => {
   event.remove({output: 'techreborn:data_storage_core', type: 'minecraft:crafting_shaped'});
   event.remove({output: 'techreborn:data_storage_chip', type: 'techreborn:assembling_machine'});
   event.remove({output: 'techreborn:advanced_circuit', type: 'minecraft:crafting_shaped'});
-  event.remove({output: 'techreborn:auto_crafting_table', type: 'minecraft:crafting_shaped'});
 
   // MC
   event.remove({output: 'minecraft:wheat_seeds', input: '#resourceful_tools:crack_hammers', type: 'minecraft:crafting_shapeless'});
@@ -146,6 +145,7 @@ onEvent('recipes', event => {
   event.shapeless('minecraft:netherite_ingot', ['modern_industrialization:gold_large_plate',
                                                 'minecraft:netherite_scrap', 'minecraft:netherite_scrap', 'minecraft:netherite_scrap', 'minecraft:netherite_scrap',
                                                 'minecraft:netherite_scrap', 'minecraft:netherite_scrap', 'minecraft:netherite_scrap', 'minecraft:netherite_scrap']);
+  event.shapeless('9x minecraft:netherite_ingot', ['minecraft:netherite_block']);
 
   event.remove({output: 'minecraft:end_crystal'});
   event.shaped('1x minecraft:end_crystal', [
@@ -153,9 +153,9 @@ onEvent('recipes', event => {
     'GCG',
     'GIG'
   ], {
-    I: 'minecraft:ghast_tear',
+    I: 'minecraft:nether_star',
     G: 'minecraft:glass',
-    C: 'wirelessnetworks:entangled_capacitor'
+    C: 'endrem:end_crystal_ingot'
   });
 
   event.shapeless('9x minecraft:charcoal', ['skyutils:charcoal_block'])
