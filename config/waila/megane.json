@@ -105,7 +105,9 @@
       "modern_industrialization:argon": 14891431,
       "modern_industrialization:styrene": 10373106,
       "modern_industrialization:styrene_butadiene": 10256448,
-      "modern_industrialization:styrene_butadiene_rubber": 6378032
+      "modern_industrialization:styrene_butadiene_rubber": 6378032,
+      "modern_industrialization:deuterium": 10099924,
+      "modern_industrialization:tritium": 16722039
     },
     "blacklist": []
   },

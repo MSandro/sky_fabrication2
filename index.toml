@@ -38,7 +38,7 @@ hash = "5ecfdf18a5e93bf4a7efe5e6a9a35db9992cf0d2e282dd0fcb19395132bb276f"
 
 [[files]]
 file = "config/StarrySky.json5"
-hash = "aab9f5f888db50618eea3767cb8590ca52373ade08ad0225d697561ff085bc1f"
+hash = "699bf71089628a3adf4e4033dd8d801f0533739be7e040648b856cc81043780b"
 
 [[files]]
 file = "config/additional-additions-config.json"
@@ -258,7 +258,7 @@ hash = "b27183d6a94a5a4c6d8049c8b240b3d2770efea741fe82fc83f1e4f6741138b1"
 
 [[files]]
 file = "config/awesomedungeon_general_.properties"
-hash = "55c85e77df37fd55026cf7787f9a9427fdbd0835fc37b9f44b82bee9d300488d"
+hash = "6c6f787ce064207a00860ad7294617479d137e7b802cfbdd2057127d151cb37d"
 
 [[files]]
 file = "config/awokenworld.toml"
@@ -534,11 +534,11 @@ hash = "e48315703a5d9dd631055c5e702d3a60464f336d1147b029bb6bc81d236473ec"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "ee8a38c21f9215252268790f107201aa8e7128514e56feee37efbc02a8a23465"
+hash = "2edf7daeed5665e5f1795cb6beb4211963bb9693c51c87af8b8b8686e76413e5"
 
 [[files]]
 file = "config/fabric/more-villages-mod-config.properties"
-hash = "d8f4a7c5e3437474e73139b55bef637808acff2a189593950f84abbc7f92bd37"
+hash = "95d0d41c5ea5f5baab810195dabcb8a1e1ea0d79ffe9e316658611b612569b48"
 
 [[files]]
 file = "config/fabrication/block_logo.ini"
@@ -698,7 +698,7 @@ hash = "d4d126cb7e0b19c1918c373153709571f8a8d932b9380c3336e67244e58a2a3f"
 
 [[files]]
 file = "config/indium-renderer.properties"
-hash = "38f7eee91cc2a3d34e2c9457443dc96d42cd84bac4a7756ae43c4630bcd3050f"
+hash = "0867e1e7a34d553c079b64fb2563d7c03e375c1bb5ed6a061cf9090126966aa5"
 
 [[files]]
 file = "config/indrev/cables.json"
@@ -738,7 +738,7 @@ hash = "9dc99196d37dbb312d5452540846c2c26a133607ba22ecd9f739a456ffd63155"
 
 [[files]]
 file = "config/iris.properties"
-hash = "1a9b71553844a287e63f87ca2113de70b8b9d8f084c42a1f8f94872f458e0896"
+hash = "96004a8a61b07c228de1ccdcd466070af5c8bd60bbadb0f07da7c0d06a83bae9"
 
 [[files]]
 file = "config/iron-jetpacks/client.json5"
@@ -926,7 +926,7 @@ hash = "8fc42c2933be9a3574c0d43b33c1047ff5247f1ad24ae02358cff10e30c537d2"
 
 [[files]]
 file = "config/mtr.json"
-hash = "df84122a521bf3a7c82779e2db8e5192e5ef458fdfc0db6710e0188c002dff06"
+hash = "dc32e6468fa75ef1623405aadcf1ca4c17d16758d033aee4126279c1ace22efd"
 
 [[files]]
 file = "config/mtr_webserver_port.txt"
@@ -1250,7 +1250,7 @@ hash = "640800920130d084dec5a3a7f52c10e18d72ed7faca522b5bcb6bb46d0dcae9b"
 
 [[files]]
 file = "config/waila/megane.json"
-hash = "aa4e51671e4f38884ff74fa94a924ca08c28a0ae3a2aa3b1a88fa297e0cff8b5"
+hash = "a0ece43cca2d05252c78ec83e11e2c6b563da131fc288b06025430cbc5ccc132"
 
 [[files]]
 file = "config/waila/megane_modules.json"
