@@ -182,48 +182,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "fad79351-6e4c-4d6a-a5c9-47d8535b942c",
-      "name": "Replicator",
-      "description": "The Replicator can use UU-Matter to produce Items. It\u0027s one of the most powerful Machines.",
-      "x": 139,
-      "y": 11,
-      "icon": {
-        "id": "modern_industrialization:replicator",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "modern_industrialization:replicator",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "modern_industrialization:bucket_uu_matter",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "19528e02-8e13-444c-a12a-f93e7702f4f2"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "modern_industrialization:bucket_uu_matter",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "9e1dd35d-545a-472b-8535-a995c12cb537",
       "name": "Cables",
       "description": "Energy transportation.",

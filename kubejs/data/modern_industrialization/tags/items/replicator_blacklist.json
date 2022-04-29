@@ -21,6 +21,16 @@
     "kubejs:pileof_neutrons",
     "kubejs:record_fragment",
     "kubejs:neutronium_block",
-    "kubejs:crystal_matrix"
+    "kubejs:crystal_matrix",
+    "modern_industrialization:singularity",
+    "techreborn:crude_storage_unit",
+    "techreborn:basic_storage_unit",
+    "techreborn:advanced_storage_unit",
+    "techreborn:industrial_storage_unit",
+    "techreborn:quantum_storage_unit",
+    "techreborn:basic_tank_unit",
+    "techreborn:advanced_tank_unit",
+    "techreborn:industrial_tank_unit",
+    "techreborn:quantum_tank_unit"
   ]
 }
