@@ -9,6 +9,7 @@
   "saltMaxHeight": 96,
   "saltCount": 6,
   "owlBiomeCategories": [
+    "plains",
     "taiga"
   ],
   "owlWeight": 2,
@@ -30,6 +31,7 @@
   "snakeMinGroupCount": 0,
   "snakeMaxGroupCount": 1,
   "toadBiomeCategories": [
+    "plains",
     "jungle",
     "swamp"
   ],
