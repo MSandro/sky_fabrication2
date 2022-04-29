@@ -52,13 +52,13 @@
 	   so it's not an exact value
 	   Default: 2000
 	*/
-	"sphereDensityOverworld": 4,
+	"sphereDensityOverworld": 100,
 	/*
 	   How much empty blocks should be enforced between individual spheres.
 	   If the distance is too low generation of that one sphere will be cancelled.
 	   Default: 10
 	*/
-	"minDistanceBetweenSpheresOverworld": 512,
+	"minDistanceBetweenSpheresOverworld": 256,
 	/*
 	   How many spheres a system can contain max.
 	   Some will fail because of distance restrictions
