@@ -3181,10 +3181,6 @@ file = "kubejs/data/mobs/loot_tables/entities/shulkey.json"
 hash = "25e5509dea8e17b3977f18ea4cd79447ddd33604d42401f418820ba7b14fd830"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/.directory"
-hash = "129812e6d9be952f1310ec25e6b8578d5cff79d265126ff0444477969be27cdc"
-
-[[files]]
 file = "kubejs/data/modern_industrialization/recipes/armor/smithing/quantum_boots.json"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
