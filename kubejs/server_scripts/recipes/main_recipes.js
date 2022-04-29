@@ -159,6 +159,7 @@ onEvent('recipes', event => {
   });
 
   event.shapeless('9x minecraft:charcoal', ['skyutils:charcoal_block'])
+  event.remove({output: 'modern_industrialization:salt_tiny_dust'})
   event.shapeless('bewitchment:salt', ['modern_industrialization:salt_dust'])
 
   event.remove({output: 'expandedstorage:old_wood_chest'});

@@ -2,18 +2,18 @@
   "type": "artis:biggest_bench_shaped",
   "pattern": [
 		"IIIIIIIII",
-		"INNNNNNNI",
-		"INCCTCCNI",
-		"INCXUXCNI",
-		"INTURUTNI",
-		"INCXUXCNI",
-		"INCCTCCNI",
+		"INUUUUUNI",
+		"INCCCCCNI",
+		"INCXTXCNI",
+		"INCTRTCNI",
+		"INCXTXCNI",
+		"INCCCCCNI",
 		"INNNNNNNI",
 		"IIIIIIIII"
   ],
   "key": {
   	"C": {
-  		"item": "techreborn:uu_matter"
+  		"item": "iron-jetpacks:ultimate_capacitor"
   	},
   	"N": {
   		"item": "kubejs:neutronium_ingot"
@@ -22,7 +22,7 @@
   		"item": "modern_industrialization:quantum_upgrade"
   	},
   	"I": {
-  		"item": "kubejs:infinity_ingot"
+  		"item": "kubejs:infinity_catalyst"
   	},
   	"X": {
   		"item": "modern_industrialization:quantum_circuit"
@@ -30,8 +30,8 @@
   	"R": {
   		"item": "modern_industrialization:quantum_machine_hull"
   	},
-  	"U": {
-  		"item": "modern_industrialization:bucket_uu_matter"
+    "U": {
+  		"item": "techreborn:quantum_solar_panel"
   	}
   },
   "result": {
