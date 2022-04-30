@@ -4399,7 +4399,7 @@ metafile = true
 
 [[files]]
 file = "mods/morecommands.toml"
-hash = "c251eaeb961600e12ec66abeede3b30fa1c17e811edcc62b98f3185a1bf98281"
+hash = "081e3273dd396bbaff086447e40cc040df07e111fef022f8a49b5e1ca228c68d"
 metafile = true
 
 [[files]]
