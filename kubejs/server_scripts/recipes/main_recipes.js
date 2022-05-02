@@ -12,6 +12,7 @@ onEvent('recipes', event => {
 
   // AETHER
   event.remove({output: 'the_aether:wisteria_sign'});
+  event.remove({output: 'the_aether:skyroot_sign'});
 
   // BEWITCHMENT
   event.remove({output: 'bewitchment:juniper_broom'});
@@ -83,6 +84,7 @@ onEvent('recipes', event => {
   event.remove({output: 'valley:rg_pickaxe'});
   event.remove({output: 'valley:rg_shovel'});
   event.remove({output: 'valley:rg_sword'});
+  event.remove({output: 'valley:spike_wall_block'});
 
   // RedBits
   event.remove({output: 'redbits:timer'});

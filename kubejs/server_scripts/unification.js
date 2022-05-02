@@ -109,6 +109,7 @@ function findTagUnification(event, tagName) {
 }
 // Unify common tags
 events.listen("items.tags", event => {
+    console.log(event.get("c:seeds").kjsextras_getAllIds());
     // Regular parts
     MATERIALS.forEach(material => {
         PARTS.forEach(partTagTemplate => {

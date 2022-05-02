@@ -1,12 +1,12 @@
 name = "Sky FABRICation 2"
 author = "MSandro"
-version = "1.1.2a"
+version = "1.1.2b"
 pack-format = "packwiz:1.0.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "1c9581ca9fb40d2f78bfcec4fdbaacb110d03962006c8670b4b208aa15e8115c"
+hash = "516a87a320c3cc0447eff390a7fa106d6184b435e1b29b77686afc55f7e4fe9c"
 
 [versions]
 fabric = "0.13.3"
