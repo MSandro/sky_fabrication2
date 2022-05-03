@@ -4,6 +4,11 @@
 ////////////////////////
 
 onEvent('recipes', event => {
+  // IMPROVED stations
+  event.remove({output: 'improved-stations:blast_furnace_slab'});
+  event.remove({output: 'improved-stations:furnace_slab'});
+  event.remove({output: 'improved-stations:crafting_table_slab'});
+
   // CONFLICTS
   event.remove({output: 'betteranimalsplus:fried_egg', input: 'minecraft:egg'});
   event.remove({output: 'additionaladditions:fried_egg'});
@@ -12,6 +17,7 @@ onEvent('recipes', event => {
 
   // AETHER
   event.remove({output: 'the_aether:wisteria_sign'});
+  event.remove({output: 'the_aether:skyroot_sign'});
 
   // BEWITCHMENT
   event.remove({output: 'bewitchment:juniper_broom'});
@@ -83,6 +89,7 @@ onEvent('recipes', event => {
   event.remove({output: 'valley:rg_pickaxe'});
   event.remove({output: 'valley:rg_shovel'});
   event.remove({output: 'valley:rg_sword'});
+  event.remove({output: 'valley:spike_wall_block'});
 
   // RedBits
   event.remove({output: 'redbits:timer'});
