@@ -847,7 +847,7 @@
                 "Count": 1,
                 "tag": {}
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
@@ -970,7 +970,7 @@
                 "Count": 1
               },
               "required": 32,
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
@@ -978,7 +978,7 @@
                 "Count": 1
               },
               "required": 32,
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
@@ -986,7 +986,7 @@
                 "Count": 1
               },
               "required": 16,
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
@@ -994,7 +994,7 @@
                 "Count": 1
               },
               "required": 16,
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -1723,7 +1723,7 @@
                 "Count": 1
               },
               "required": 5,
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }

@@ -9240,7 +9240,7 @@
                 "id": "bcf:netherite_funnel",
                 "Count": 1
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -9317,7 +9317,7 @@
                 "id": "modern_industrialization:gravichestplate",
                 "Count": 1
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -9810,7 +9810,7 @@
                 "id": "indrev:lazuli_flux_container_mk1",
                 "Count": 1
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }

@@ -391,7 +391,7 @@
                 "Count": 1,
                 "tag": {}
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
@@ -399,7 +399,7 @@
                 "Count": 1,
                 "tag": {}
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
@@ -407,7 +407,7 @@
                 "Count": 1,
                 "tag": {}
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -746,21 +746,21 @@
                   "color2": 0
                 }
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
                 "id": "botania:mana_pool",
                 "Count": 1
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
                 "id": "botania:mana_spreader",
                 "Count": 1
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -969,7 +969,7 @@
                 "id": "botania:lexicon",
                 "Count": 1
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
@@ -978,7 +978,7 @@
                 "tag": {}
               },
               "required": 8,
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -1225,7 +1225,7 @@
                 "id": "botania:apothecary_default",
                 "Count": 1
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
@@ -1275,7 +1275,7 @@
                 "Count": 1,
                 "tag": {}
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }

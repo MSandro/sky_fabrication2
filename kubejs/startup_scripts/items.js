@@ -23,7 +23,7 @@ onEvent('item.registry', event => {
   event.create('golden_singularity').displayName('Golden Singularity').type('basic');
   event.create('iron_singularity').displayName('Iron Singularity').type('basic');
   event.create('lapis_singularity').displayName('Lapis Singularity').type('basic');
-  event.create('nether_quartz_singularity').displayName('Nether Quartz Singularity').type('basic');
+  //event.create('nether_quartz_singularity').displayName('Nether Quartz Singularity').type('basic');
   event.create('redstone_singularity').displayName('Redstone Singularity').type('basic');
   event.create('endest_pearl').displayName('Endest Pearl').type('basic');
   event.create('infinity_catalyst').displayName('Infinity Catalyst').type('basic');

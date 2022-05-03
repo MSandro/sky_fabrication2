@@ -21,7 +21,7 @@
                 "Count": 1
               },
               "required": 25,
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "TAG_FUZZY"
             },
             {
               "item": {
@@ -29,7 +29,7 @@
                 "Count": 1
               },
               "required": 64,
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "TAG_FUZZY"
             }
           ]
         }
@@ -107,7 +107,8 @@
                 "id": "minecraft:wheat_seeds",
                 "Count": 1
               },
-              "required": 4
+              "required": 4,
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -162,7 +163,7 @@
                 "Count": 1
               },
               "required": 32,
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -260,7 +261,7 @@
                 "Count": 1
               },
               "required": 4,
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -337,7 +338,7 @@
                 "id": "kibe:white_sleeping_bag",
                 "Count": 1
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -416,7 +417,7 @@
     {
       "uuid": "3c0b0756-1ef2-4277-a133-3ebc5e11dac9",
       "name": "More Wood and Saplings",
-      "description": "Plant a Sapling and craft a Crafting Slab. By breaking leaves with a stick you can get much more saplings!\n\nHint:\nSpam-Sneak near your saplings to accelerate growth.",
+      "description": "Plant a Sapling and craft a Crafting Station Slab. By breaking leaves with a stick you can get much more saplings!\n\nHint:\nSpam-Sneak near your saplings to accelerate growth.",
       "x": 73,
       "y": 102,
       "icon": {
@@ -432,7 +433,7 @@
                 "id": "improved-stations:crafting_station_slab",
                 "Count": 1
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
@@ -440,7 +441,7 @@
                 "Count": 1
               },
               "required": 36,
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -478,7 +479,7 @@
                 "Count": 1
               },
               "required": 8,
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -681,7 +682,7 @@
                 "id": "minecraft:furnace",
                 "Count": 1
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -767,63 +768,63 @@
                 "id": "minecraft:spruce_sapling",
                 "Count": 1
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:jungle_sapling",
                 "Count": 1
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:melon_seeds",
                 "Count": 1
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:pumpkin_seeds",
                 "Count": 1
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:beetroot_seeds",
                 "Count": 1
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:sugar_cane",
                 "Count": 1
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:sweet_berries",
                 "Count": 1
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:kelp",
                 "Count": 1
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:cactus",
                 "Count": 1
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -942,7 +943,7 @@
                   "Damage": 0
                 }
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
@@ -950,28 +951,28 @@
                 "Count": 1
               },
               "required": 4,
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:gravel",
                 "Count": 1
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:sand",
                 "Count": 1
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:clay_ball",
                 "Count": 1
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
@@ -979,7 +980,7 @@
                 "Count": 1
               },
               "required": 12,
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -1128,7 +1129,7 @@
                 "Count": 1
               },
               "required": 2,
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "TAG_FUZZY"
             },
             {
               "item": {
@@ -1136,7 +1137,7 @@
                 "Count": 1
               },
               "required": 2,
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
@@ -1144,7 +1145,7 @@
                 "Count": 1
               },
               "required": 4,
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "TAG_FUZZY"
             }
           ]
         }
@@ -1266,7 +1267,7 @@
                 "Count": 1
               },
               "required": 2,
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -1336,7 +1337,7 @@
                 "Count": 1
               },
               "required": 8,
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
@@ -1344,7 +1345,7 @@
                 "Count": 1
               },
               "required": 8,
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
@@ -1352,7 +1353,7 @@
                 "Count": 1
               },
               "required": 8,
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -1407,7 +1408,7 @@
                   "Damage": 0
                 }
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -1490,7 +1491,7 @@
                 "Count": 1,
                 "tag": {}
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
@@ -1498,7 +1499,7 @@
                 "Count": 1,
                 "tag": {}
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }

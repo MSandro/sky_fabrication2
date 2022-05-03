@@ -100,7 +100,9 @@
         {"weight": 1, "block": "minecraft:diamond_ore"},
         {"weight": 20, "block": "modern_industrialization:lead_ore"},
         {"weight": 23, "block": "modern_industrialization:bauxite_ore"},
-        {"weight": 11, "block": "modern_industrialization:antimony_ore"}
+        {"weight": 11, "block": "modern_industrialization:antimony_ore"},        
+        {"weight": 7, "block": "modern_industrialization:mozanite_ore"},
+        {"weight": 4, "block": "things:gleaming_ore"}
       ]
     },
     "netherite": {
