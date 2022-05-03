@@ -9,6 +9,45 @@ onEvent('block.right_click', event => {
 		event.player.tell("Sorry, end portals don't work in this dimension.");
 		event.cancel();
 	}
+
+	var cobbleFunnel = "cobblestone, stone, diorite, deepslate, coal";
+	var ironFunnel = "gravel, sand, redstone, copper, iron, silver";
+	var goldFunnel = "clay, granite, lapis, nickel, gold, quartz, tin";
+  var diamondFunnel = "calcite, salt, diamond, lead, bauxite, antimony, mozanite, gleaming powder";
+	var netheriteFunnel = "sky stone, ruby, nikolite, ancient debris, certus quartz, cincinnasite, uranium";
+
+	if (event.player.isCrouching()) {
+		if (event.block.id == 'bcf:cobblestone_funnel') {
+			event.player.tell(" >>> COBBLESTONE FUNNEL <<< ");
+			event.player.tell(cobbleFunnel);
+		}
+		if (event.block.id == 'bcf:iron_funnel') {
+			event.player.tell(" >>> IRON FUNNEL <<< ");
+			event.player.tell(cobbleFunnel);
+			event.player.tell(ironFunnel);
+		}
+		if (event.block.id == 'bcf:gold_funnel') {
+			event.player.tell(" >>> GOLD FUNNEL <<< ");
+			event.player.tell(cobbleFunnel);
+			event.player.tell(ironFunnel);
+			event.player.tell(goldFunnel);
+		}
+		if (event.block.id == 'bcf:diamond_funnel') {
+			event.player.tell(" >>> DIAMOND FUNNEL <<< ");
+			event.player.tell(cobbleFunnel);
+			event.player.tell(ironFunnel);
+			event.player.tell(goldFunnel);
+			event.player.tell(diamondFunnel);
+		}
+		if (event.block.id == 'bcf:netherite_funnel') {
+			event.player.tell(" >>> NETHERITE FUNNEL <<< ");
+			event.player.tell(cobbleFunnel);
+			event.player.tell(ironFunnel);
+			event.player.tell(goldFunnel);
+			event.player.tell(diamondFunnel);
+			event.player.tell(netheriteFunnel);
+		}
+	}
 });
 
 function checkDim(event, id) {
