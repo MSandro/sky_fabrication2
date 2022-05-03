@@ -215,7 +215,7 @@
                 "Count": 1
               },
               "required": 15,
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -1182,7 +1182,7 @@
                 "Count": 1,
                 "tag": {}
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -1268,14 +1268,14 @@
                 "Count": 1
               },
               "required": 4,
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
                 "id": "kibe:void_bucket",
                 "Count": 1
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
@@ -1283,7 +1283,7 @@
                 "Count": 1
               },
               "required": 4,
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
@@ -1291,7 +1291,7 @@
                 "Count": 1,
                 "tag": {}
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -1334,7 +1334,7 @@
                 "Count": 1,
                 "tag": {}
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
@@ -1344,7 +1344,7 @@
                   "Damage": 0
                 }
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }

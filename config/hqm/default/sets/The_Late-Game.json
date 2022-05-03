@@ -239,13 +239,6 @@
             },
             {
               "item": {
-                "id": "kubejs:nether_quartz_singularity",
-                "Count": 1
-              },
-              "required": 8
-            },
-            {
-              "item": {
                 "id": "kubejs:diamond_singularity",
                 "Count": 1
               },

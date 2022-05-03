@@ -29,6 +29,9 @@ onEvent('rei.information', event => {
 })
 
 const DELETED_ITEMS = [
+  "improved-stations:blast_furnace_slab",
+  "improved-stations:furnace_slab",
+  "improved-stations:crafting_table_slab",
 	"spatialharvesters:ore_harvester_1",
 	"spatialharvesters:ore_harvester_2",
 	"spatialharvesters:ore_harvester_3",

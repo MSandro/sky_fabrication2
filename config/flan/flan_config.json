@@ -16,7 +16,7 @@
   ],
   "worldWhitelist": true,
   "claimingItem": "minecraft:golden_shovel",
-  "inspectionItem": "minecraft:stick",
+  "inspectionItem": "minecraft:golden_axe",
   "claimDisplayTime": 1000,
   "permissionLevel": 2,
   "buySellHandler": {

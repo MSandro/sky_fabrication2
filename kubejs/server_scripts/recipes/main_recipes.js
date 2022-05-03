@@ -4,6 +4,11 @@
 ////////////////////////
 
 onEvent('recipes', event => {
+  // IMPROVED stations
+  event.remove({output: 'improved-stations:blast_furnace_slab'});
+  event.remove({output: 'improved-stations:furnace_slab'});
+  event.remove({output: 'improved-stations:crafting_table_slab'});
+
   // CONFLICTS
   event.remove({output: 'betteranimalsplus:fried_egg', input: 'minecraft:egg'});
   event.remove({output: 'additionaladditions:fried_egg'});
