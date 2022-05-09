@@ -53,7 +53,8 @@ onEvent('recipes', event => {
     "resourceful_tools:netherrack_double",
     "resourceful_tools:netherrack_triple",
     "compress:bag_with_blaze_rods",
-    "compress:bag_with_ender_pearls"
+    "compress:bag_with_ender_pearls",
+    "compress:yarn_ball"
   ]
   DelCompressem.forEach(id => event.remove({output: id}));
 

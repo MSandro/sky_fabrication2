@@ -258,7 +258,7 @@ hash = "b27183d6a94a5a4c6d8049c8b240b3d2770efea741fe82fc83f1e4f6741138b1"
 
 [[files]]
 file = "config/awesomedungeon_general_.properties"
-hash = "13085a387a4e1a96a7c4dd2b10b6920f1a368a9fd56c3ebed6df43c8d55fd25b"
+hash = "676969788a25b4411aae2a6481bf29a1fef58065ae2a3878dc4c5e18ef219237"
 
 [[files]]
 file = "config/awokenworld.toml"
@@ -534,11 +534,11 @@ hash = "e48315703a5d9dd631055c5e702d3a60464f336d1147b029bb6bc81d236473ec"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "ad454ce77d732be975bf5741dbd1c5cf2ba1e550b2ad15b9e15aa28f7fa4fd37"
+hash = "a25c5cdf4bb0cc34dba42945af7a054114aca575e38d8eecd1ffa24fbc7103f9"
 
 [[files]]
 file = "config/fabric/more-villages-mod-config.properties"
-hash = "8915984096ee9cffe544f1a41605547c2e157e1d3e39f617bad1806b68cb4e88"
+hash = "aee47feb4064ffcd285ee207c05efdb873857dd0a6375da4f484070550b20000"
 
 [[files]]
 file = "config/fabrication/block_logo.ini"
@@ -682,7 +682,7 @@ hash = "d4d126cb7e0b19c1918c373153709571f8a8d932b9380c3336e67244e58a2a3f"
 
 [[files]]
 file = "config/indium-renderer.properties"
-hash = "b366897485e640d587dc6b066bb84201b159b3134fca167e67cf69f0964beb88"
+hash = "ed8b713e739ab9ce50711cbbfb754f9d43ebfb5411ce89df3c63c64266322d40"
 
 [[files]]
 file = "config/indrev/cables.json"
@@ -722,7 +722,7 @@ hash = "9dc99196d37dbb312d5452540846c2c26a133607ba22ecd9f739a456ffd63155"
 
 [[files]]
 file = "config/iris.properties"
-hash = "fef99fd160cd62936b00b14ee25404e12f20d8065ebacfaafebd25d048982401"
+hash = "7d317f8e5961fbe2faa1e4443014f7ac4d5fa7a8ab6f4848678d164f19f42b22"
 
 [[files]]
 file = "config/iron-jetpacks/client.json5"
@@ -1218,7 +1218,7 @@ hash = "1335a55e8b05de9b0995fa97fa80346754276233600ab1c1efc5f77519ae01ae"
 
 [[files]]
 file = "config/trade.properties"
-hash = "79bf4cf535631acb447540f4672db56aad64c1c879d45a7f7e9117d20c478e81"
+hash = "a426969c5c04991ff2b4c27c8f69435413324f1b486a2960234a6185f7a98f05"
 
 [[files]]
 file = "config/universal-graves.json"
@@ -1234,7 +1234,7 @@ hash = "640800920130d084dec5a3a7f52c10e18d72ed7faca522b5bcb6bb46d0dcae9b"
 
 [[files]]
 file = "config/waila/megane.json"
-hash = "3f46cef4e6bfc35f1b4bc842e6bca54645c7816ead3391ae418f42e7cebff2f5"
+hash = "ff1dd73f1915daecf7aab96781c771685786d60cafdb574ee9ec0c0006640e57"
 
 [[files]]
 file = "config/waila/megane_modules.json"
@@ -2882,11 +2882,11 @@ hash = "5af14444aa3b3d14ab9e196dfe797fc573aeaf30b9a3a9ad84520f69bfcd0bb6"
 
 [[files]]
 file = "kubejs/data/minecraft/loot_tables/blocks/grass.json"
-hash = "3f0a7531934782fcb7dfd3d86b34686f2484e21a23176ad0559aab09c210701f"
+hash = "ab16d1e66d9f5313d7f4886e05062fd66fe80a3a22e445524d7950ddbbc23993"
 
 [[files]]
 file = "kubejs/data/minecraft/loot_tables/blocks/tall_grass.json"
-hash = "3f0a7531934782fcb7dfd3d86b34686f2484e21a23176ad0559aab09c210701f"
+hash = "4e127d69f4b7f4adcf1bdada81b58946e3e4d167e33e9caa5a38fde1c4a21013"
 
 [[files]]
 file = "kubejs/data/minecraft/loot_tables/entities/ender_dragon.json"
@@ -3417,6 +3417,10 @@ file = "kubejs/data/spatialharvesters/recipes/casing.json"
 hash = "b570e597f9e813a472e68701db1c2be48a01c98918dc8ff6a76061b0368a7459"
 
 [[files]]
+file = "kubejs/data/spatialharvesters/recipes/loot_core.json"
+hash = "4b4c585ccf47d63130459124388d8275aa123e7745b8f47b90db96a728b8656d"
+
+[[files]]
 file = "kubejs/data/starry_sky/dimension_type/starry_sky_type.json"
 hash = "5b25294b6046d820005c0f61ad345dd428c14d139800adff683b394ae6144fc3"
 
@@ -3614,7 +3618,7 @@ hash = "9512c4d3ea5c66287e490838f282272e21c3761538264d60a95c346a7d410abc"
 
 [[files]]
 file = "kubejs/server_scripts/interactions.js"
-hash = "c325f10168ff816535f8d5bf89b71bc246272729f154c1e818656d0030ecf051"
+hash = "a9ab98449a22689e354e11353fc4b6e7a2aed3052c15183e6e414532cd203291"
 
 [[files]]
 file = "kubejs/server_scripts/packmode.js"
@@ -3622,7 +3626,7 @@ hash = "6984148a282770491a8a0ac85d21d4cd13d61e50ef13ccd42ea669ad440a979d"
 
 [[files]]
 file = "kubejs/server_scripts/phases.js"
-hash = "5cb0734c651609d10a9f7b7d1a3085be7bf5225dfb58902a91574f66919d8692"
+hash = "1e0a565e29f38c47441cd14920c65fdc07cbd683b67baad171c55fbb9528b5fa"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/KubeJS/food.js"
@@ -3662,7 +3666,7 @@ hash = "ecd5d748aa65a1219e69618c2c8ccd0edb2cc533d38b30a987f7de98f46e5900"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/main_recipes.js"
-hash = "d45ebe18a04930a604ef5362adb734e34b4fbd27c49b466d44ddb9749e1dbe63"
+hash = "a68432e8d90a9a19ea119cf6cd05f9e0a5ce640f74c35fc06a409c7fe88db3d6"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/minecraft/shaped.js"
