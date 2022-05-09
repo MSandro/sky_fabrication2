@@ -1,3 +1,9 @@
+onEvent('block.place', event => {
+	if (event.block.id == 'minecraft:pointed_dripstone') {
+		event.cancel();
+	}
+});
+
 onEvent('block.right_click', event => {
 	fixPhases(event);
 	// disable End-Portal in Starry Sky
