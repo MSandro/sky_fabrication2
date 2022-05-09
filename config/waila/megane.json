@@ -112,7 +112,8 @@
       "modern_industrialization:high_pressure_heavy_water_steam": 7169146,
       "modern_industrialization:cryofluid": 3981544,
       "modern_industrialization:uu_matter": 16711927,
-      "modern_industrialization:helium_plasma": 16775262
+      "modern_industrialization:helium_plasma": 16775262,
+      "modern_industrialization:helium_3": 8642130
     },
     "blacklist": []
   },
