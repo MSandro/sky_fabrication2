@@ -262,7 +262,7 @@ hash = "b27183d6a94a5a4c6d8049c8b240b3d2770efea741fe82fc83f1e4f6741138b1"
 
 [[files]]
 file = "config/awesomedungeon_general_.properties"
-hash = "fb10a6a8ebda8a0ac140d9685b4f33563ddb9650bbc4c7cecad8ae83d29c3eff"
+hash = "2493fafa753f9d2bfa3e9ca5e55d36ec39c61248f701d50ddd401237b9812877"
 
 [[files]]
 file = "config/awokenworld.toml"
@@ -542,11 +542,11 @@ hash = "e48315703a5d9dd631055c5e702d3a60464f336d1147b029bb6bc81d236473ec"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "838bc19b8eea06ef59af709107c97f9c4d5e5f861491816f574627f0a4376bfc"
+hash = "8c2389a52170f78e7549fc6365124b46ffc637b6ba08375132853f241a56a128"
 
 [[files]]
 file = "config/fabric/more-villages-mod-config.properties"
-hash = "e730f2ae0f461d959033c45f7a74a9c2a974e3c5fa1311ebe62b09b6e9f4f96e"
+hash = "9c804d602c536abeaba59db6545a0e4ab1e24480e5b3ca5202bae920a1bfe067"
 
 [[files]]
 file = "config/fabrication/block_logo.ini"
@@ -730,7 +730,7 @@ hash = "d4d126cb7e0b19c1918c373153709571f8a8d932b9380c3336e67244e58a2a3f"
 
 [[files]]
 file = "config/indium-renderer.properties"
-hash = "b0731cf5cb0150a62ab5b06c179dae95dbe5448a9a6d880252ecd67b7618e7e4"
+hash = "877d4e4966dc63fc29379b6c18b4867deef37fb8fbbda4fa9887bf0634d34a18"
 
 [[files]]
 file = "config/indrev/cables.json"
@@ -770,7 +770,7 @@ hash = "9dc99196d37dbb312d5452540846c2c26a133607ba22ecd9f739a456ffd63155"
 
 [[files]]
 file = "config/iris.properties"
-hash = "5a9d16da77e2b77a7c914aba842c3db7ad3824e0268563bf5ae679783e6dfccd"
+hash = "d48201897a2975572ed38f2f28936811e65d019a2b53f04a01653e25270a1306"
 
 [[files]]
 file = "config/iron-jetpacks/client.json5"
@@ -1338,11 +1338,11 @@ hash = "e0269797997761f07fcc96fbdf8d47b5a36dac262d48a7d5eb951c5d490bb17e"
 
 [[files]]
 file = "config/yosbr/config/xaerominimap.txt"
-hash = "8b587abedc737b4dcd41fb74f966112c06d213ff796bf3ebdd4ea1ea9439549b"
+hash = "313a29b76b9784067eeff0542c095e6288672e4a16b7aa1e738785cb03875a82"
 
 [[files]]
 file = "config/yosbr/config/xaerominimap_entities.json"
-hash = "96d0c74eeb69c4b1afa901bd63a6e5fc8861c63eb5a599b0d45146c29a75c8a2"
+hash = "4da3a4e61c8afe08e2b47c5efbe023e8f4455dca8a410440f8f0601e996c13fa"
 
 [[files]]
 file = "config/yosbr/config/xaeropatreon.txt"
