@@ -1,0 +1,13 @@
+name = "Sky Fabricator"
+filename = "skyfabricator-1.0.6a.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "17b8fdff679b7ee92e7274b1d8f3808bb149dbb0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3793719
+project-id = 585625

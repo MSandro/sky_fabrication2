@@ -1,0 +1,32 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/slightguimodifications/background.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = bottom-left
+  shadow = true
+  x = 2
+  actionid = 58539677-ff06-47a6-baac-4e27edf11c021653138193891
+  action = addtext
+  y = -12
+  scale = 1.0
+  alignment = left
+  value = Sky FABRICation 2  v1.1.3
+}
+
