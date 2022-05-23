@@ -4197,9 +4197,8 @@ hash = "f25e4df19544b73c8e38cf438892243e6f6a98be77a41c14bfb75e3ec8b2bf9a"
 metafile = true
 
 [[files]]
-file = "mods/fancymenu-fabric.pw.toml"
-hash = "85859d2006c10b2c98c742afd8b8dbafba4a92172354f52166629926c6c6551d"
-metafile = true
+file = "mods/fancymenu-fabric.toml"
+hash = "1a7e9dc824a32b031fd4bb253402701be70c02e949f5d75bde97bad97e0539b1"
 
 [[files]]
 file = "mods/farmers-delight-fabric.toml"
