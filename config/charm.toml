@@ -122,7 +122,7 @@
 #Drink to give yourself the glowing effect or use as a splash potion to light up other entities.
 "PotionOfPiercingVision Enabled" = true
 #Shows particles at ground level to help locate ores below you.
-"PotionOfSpelunking Enabled" = true
+"PotionOfSpelunking Enabled" = false
 #A tool that rotates blocks. When held in offhand it locks block orientation when placing.
 "Quadrants Enabled" = true
 #Raid horns are sometimes dropped from raid leaders and can be used to call off or start raids.

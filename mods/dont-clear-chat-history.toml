@@ -1,6 +1,6 @@
 name = "Don't Clear Chat History"
 filename = "DCCH-1.17.x.jar"
-side = "client"
+side = "both"
 
 [download]
 url = "https://edge.forgecdn.net/files/3456/37/DCCH-1.17.x.jar"
