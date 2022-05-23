@@ -585,42 +585,6 @@ file = "config/fabrication/yeet_recipes.ini"
 hash = "939cfc95ed4a7480ac08d3f692538a348af72c6db693349c61f93f926976d1f2"
 
 [[files]]
-file = "config/fancymenu/config.txt"
-hash = "f728dd1bebd3fd91187c1ea40475fcd832038752d5c1f03e2cbb2817dc6ec6f1"
-
-[[files]]
-file = "config/fancymenu/customizablemenus.txt"
-hash = "6f839fad9a09709e9c2d1b269218da6a515ea31495575de5bdbc901147740327"
-
-[[files]]
-file = "config/fancymenu/customization/main.txt"
-hash = "e9753de30e1b86569d39b2bfff6f025f9561c645510314555377fe2e0c37fd4c"
-
-[[files]]
-file = "config/fancymenu/locals/de_de.local"
-hash = "362e9a1b4480f5f8f52724f7f678b5899c92b5ac5cd14ddaeda533bb78721195"
-
-[[files]]
-file = "config/fancymenu/locals/en_us.local"
-hash = "4976a9831ba2319b6f00878779f69bbbc6f50e97c39c44f301206f69ad5cbc8d"
-
-[[files]]
-file = "config/fancymenu/locals/pl_pl.local"
-hash = "82ee4c2444f37d9f011b7b945df1f05026e9910f6c02cf900a3b5e17871a81f3"
-
-[[files]]
-file = "config/fancymenu/locals/pt_br.local"
-hash = "c7c049bf3190cc0572bef5fb636fa80d775211962cdbede7bd284d072692eb91"
-
-[[files]]
-file = "config/fancymenu/locals/zh_cn.local"
-hash = "9cee147fc2141820fbbd1db1d43ea0f14e6a265ba1b8958d2e57e8acadfd06bc"
-
-[[files]]
-file = "config/fancymenu/menu_identifiers.db"
-hash = "2e4d40478c0f21c12c3b1065659ef05c592deee93982ec4abac611145be09468"
-
-[[files]]
 file = "config/fast-chest.properties"
 hash = "05da77f8257cfb194d6d448910030c3f67ab6a7e398f95a95378ff795b4be4dc"
 
@@ -1107,30 +1071,6 @@ hash = "53c087786acfe4e9c7c71413cee196180683e2ea6d8272ccc8f64369c393cb00"
 [[files]]
 file = "config/slightguimodifications/background.png"
 hash = "aff3f24c2f3d14ea2ef63d08e08281329e1218ce5a77bd8fb319f65717eae9e6"
-
-[[files]]
-file = "config/slightguimodifications/buttons.png"
-hash = "d57addac0c5a574ca8bf7813aa0578d872f59a8c66019ad98046d9a076637d1e"
-
-[[files]]
-file = "config/slightguimodifications/config.json5"
-hash = "53edd49d3e9cb39f87dc7f6fe3b3f0f48984650a28aac735909246034229da6a"
-
-[[files]]
-file = "config/slightguimodifications/cts.groovy"
-hash = "aef4f6d4c965ec93a8c4c4abc1f3968bd7381556978717bd5e55f6831e924eac"
-
-[[files]]
-file = "config/slightguimodifications/slider.png"
-hash = "9a2ec041aedbdc4bcff444703b4318bb335693c0134520258efae0220ae1c08b"
-
-[[files]]
-file = "config/slightguimodifications/slider_hovered.png"
-hash = "407676137e41d073daafe3720145ee803c2e1bb7a54570b8e27430902a28381b"
-
-[[files]]
-file = "config/slightguimodifications/text_field.png"
-hash = "9d25107e0367135ecdc21376005737342ddc79efec135e224db112c8c910f6d4"
 
 [[files]]
 file = "config/slotlink.json"
