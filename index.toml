@@ -262,7 +262,7 @@ hash = "b27183d6a94a5a4c6d8049c8b240b3d2770efea741fe82fc83f1e4f6741138b1"
 
 [[files]]
 file = "config/awesomedungeon_general_.properties"
-hash = "bc2fb64b7e3d8781cb7d26fd1836ae871de388adec908858ecfe0601c44e18ed"
+hash = "fb10a6a8ebda8a0ac140d9685b4f33563ddb9650bbc4c7cecad8ae83d29c3eff"
 
 [[files]]
 file = "config/awokenworld.toml"
@@ -542,11 +542,11 @@ hash = "e48315703a5d9dd631055c5e702d3a60464f336d1147b029bb6bc81d236473ec"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "3b685d6f6f333415834eddddc3a3615101ac9641ccb46955ee2432f363b204cf"
+hash = "838bc19b8eea06ef59af709107c97f9c4d5e5f861491816f574627f0a4376bfc"
 
 [[files]]
 file = "config/fabric/more-villages-mod-config.properties"
-hash = "a1154e808e6bd7070d8330d7a0b99184961b72189e5daf2086f3bc8d86102db2"
+hash = "e730f2ae0f461d959033c45f7a74a9c2a974e3c5fa1311ebe62b09b6e9f4f96e"
 
 [[files]]
 file = "config/fabrication/block_logo.ini"
@@ -730,7 +730,7 @@ hash = "d4d126cb7e0b19c1918c373153709571f8a8d932b9380c3336e67244e58a2a3f"
 
 [[files]]
 file = "config/indium-renderer.properties"
-hash = "8bd9fdb6ed62135c021c12e111698421736f01dc49764c8da3c958c13d27334c"
+hash = "b0731cf5cb0150a62ab5b06c179dae95dbe5448a9a6d880252ecd67b7618e7e4"
 
 [[files]]
 file = "config/indrev/cables.json"
@@ -770,7 +770,7 @@ hash = "9dc99196d37dbb312d5452540846c2c26a133607ba22ecd9f739a456ffd63155"
 
 [[files]]
 file = "config/iris.properties"
-hash = "97c093b3a6f25e50f21f2c69a3d80e6eace03960e3a9a0fcc0350177ffb218db"
+hash = "5a9d16da77e2b77a7c914aba842c3db7ad3824e0268563bf5ae679783e6dfccd"
 
 [[files]]
 file = "config/iron-jetpacks/client.json5"
@@ -1975,6 +1975,50 @@ hash = "268d80fdc52420d6f9227ac5ac260fc9ac565696d56d639a77e5da46dcf212bb"
 [[files]]
 file = "kubejs/assets/minecraft/textures/gui/options_background.png"
 hash = "3b429b2dca6cc602c06fab11eb1ae52094ea6fe2d42f58d9d71579e601914730"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/background/.directory"
+hash = "aece308a6a3f0f8c5d9131dd2126c39b4ef20a6bab815b93ae04d427ff42e5b2"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_0.png"
+hash = "aff3f24c2f3d14ea2ef63d08e08281329e1218ce5a77bd8fb319f65717eae9e6"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_1.png"
+hash = "aff3f24c2f3d14ea2ef63d08e08281329e1218ce5a77bd8fb319f65717eae9e6"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_2.png"
+hash = "aff3f24c2f3d14ea2ef63d08e08281329e1218ce5a77bd8fb319f65717eae9e6"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_3.png"
+hash = "aff3f24c2f3d14ea2ef63d08e08281329e1218ce5a77bd8fb319f65717eae9e6"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_4.png"
+hash = "aff3f24c2f3d14ea2ef63d08e08281329e1218ce5a77bd8fb319f65717eae9e6"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_5.png"
+hash = "04579f486c46833759ef64237e7059c8bd36f0dc2602c50b11a5705cbae86bf5"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_overlay.png"
+hash = "4cabea349b45c137de6ab4472303fb20fb94b07a119c8926aa54575ffbab91e6"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/edition.png"
+hash = "194ec832f4e79f43a4cfc4da8ea3a136f050d8dff1939052484240703077fdcf"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/minecraft.png"
+hash = "d9047ba45e028dcf3a1385233acf7acb7a77c07510aae169dee72c4090feed5c"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/mojangstudios.png"
+hash = "e5fad435ae22650698042dcc1bb05bb80cafeeab38dfc42ab64ce5141e380637"
 
 [[files]]
 file = "kubejs/client_scripts/script.js"
@@ -4195,10 +4239,6 @@ metafile = true
 file = "mods/fabrication.toml"
 hash = "f25e4df19544b73c8e38cf438892243e6f6a98be77a41c14bfb75e3ec8b2bf9a"
 metafile = true
-
-[[files]]
-file = "mods/fancymenu-fabric.toml"
-hash = "1a7e9dc824a32b031fd4bb253402701be70c02e949f5d75bde97bad97e0539b1"
 
 [[files]]
 file = "mods/farmers-delight-fabric.toml"
