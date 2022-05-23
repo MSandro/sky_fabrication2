@@ -2037,6 +2037,10 @@ file = "kubejs/assets/minecraft/textures/gui/title/mojangstudios.png"
 hash = "e5fad435ae22650698042dcc1bb05bb80cafeeab38dfc42ab64ce5141e380637"
 
 [[files]]
+file = "kubejs/assets/minecraft/textures/gui/widgets.png"
+hash = "d57addac0c5a574ca8bf7813aa0578d872f59a8c66019ad98046d9a076637d1e"
+
+[[files]]
 file = "kubejs/client_scripts/script.js"
 hash = "ff67f7c0ec4afea753b8ea51b244d63aec93a6e4021028127e50291ac89c3295"
 
@@ -4769,11 +4773,6 @@ metafile = true
 [[files]]
 file = "mods/sky-villages-fabric.toml"
 hash = "0a2dcf51d61be885461d7bbe9c11f4aa03a15f00975a57d170ff9d43fcfc39b5"
-metafile = true
-
-[[files]]
-file = "mods/slight-gui-modifications.toml"
-hash = "094fd5f751b855e16f253a2840a7abcb34011f0535089fb3f3cec17ba74d4121"
 metafile = true
 
 [[files]]
