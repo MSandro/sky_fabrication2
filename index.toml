@@ -1313,6 +1313,22 @@ file = "config/white_rabbit/config.json"
 hash = "4cda66bc7068fd4008d0340111678927f8b823dc431d74830183d139aacc3ad1"
 
 [[files]]
+file = "config/xaerominimap.txt"
+hash = "313a29b76b9784067eeff0542c095e6288672e4a16b7aa1e738785cb03875a82"
+
+[[files]]
+file = "config/xaerominimap_entities.json"
+hash = "4da3a4e61c8afe08e2b47c5efbe023e8f4455dca8a410440f8f0601e996c13fa"
+
+[[files]]
+file = "config/xaeropatreon.txt"
+hash = "36a890045fce4aa69f1c550d5a49a62b336cbb7911a7afa6956fcce5d4d9dcb8"
+
+[[files]]
+file = "config/xaeroworldmap.txt"
+hash = "a314971f807a4afcd3572a87695dc5dbaf55a5a7bcaf04c3b282d54ea8587a56"
+
+[[files]]
 file = "config/yosbr/config/diggusmaximus/blacklist.json5"
 hash = "7a20ccfbebca1f6fdd7f0285212874b06f9ada427b8be8da16f4d6e0d8c5fb27"
 
