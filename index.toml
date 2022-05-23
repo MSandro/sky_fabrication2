@@ -262,7 +262,7 @@ hash = "b27183d6a94a5a4c6d8049c8b240b3d2770efea741fe82fc83f1e4f6741138b1"
 
 [[files]]
 file = "config/awesomedungeon_general_.properties"
-hash = "a6cf6170ff0aed18ec09ec2e7a605b0307db8e44321986206bc48105b19dac03"
+hash = "bc2fb64b7e3d8781cb7d26fd1836ae871de388adec908858ecfe0601c44e18ed"
 
 [[files]]
 file = "config/awokenworld.toml"
@@ -429,6 +429,14 @@ file = "config/comforts.json5"
 hash = "ed7f51ef415266a82f33db62ea941c714186525ae15b8820b1db0fd97fc8d170"
 
 [[files]]
+file = "config/commandaliases-client.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "config/commandaliases.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
 file = "config/computercraft-client.toml"
 hash = "20772df2e321ec660a746f6d1a11395b62679c6301c84bacacb2f51ab02a9db1"
 
@@ -475,22 +483,6 @@ hash = "32ebf4c14c536fa1a2627f047629fce6f976e16b64ab09700cf5d13ffe59f690"
 [[files]]
 file = "config/dashloader.json"
 hash = "1b114505c28cedc31030f290a4aa640f665f71e05c95c9851bfb8a816cecfaeb"
-
-[[files]]
-file = "config/diggusmaximus/blacklist.json5"
-hash = "7a20ccfbebca1f6fdd7f0285212874b06f9ada427b8be8da16f4d6e0d8c5fb27"
-
-[[files]]
-file = "config/diggusmaximus/config.json5"
-hash = "a108547ceeb9b42696fd5607fdeeec342081ded0371b5105883aba83ccd9582e"
-
-[[files]]
-file = "config/diggusmaximus/excavatingshapes.json5"
-hash = "8ac4d50ab8fb34d83bc73ba19d55897526f70fca8af327273827429d9384d86b"
-
-[[files]]
-file = "config/diggusmaximus/grouping.json5"
-hash = "ef4721e167e20865ec1b660e75471a86364e6cc653404baefd1d66938d8bb900"
 
 [[files]]
 file = "config/dml-refabricated.json"
@@ -550,11 +542,11 @@ hash = "e48315703a5d9dd631055c5e702d3a60464f336d1147b029bb6bc81d236473ec"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "0cc95fe5c5cdade45896cd3c816e1767e2a34b5df1a3c7baf1985b91fd5c1775"
+hash = "3b685d6f6f333415834eddddc3a3615101ac9641ccb46955ee2432f363b204cf"
 
 [[files]]
 file = "config/fabric/more-villages-mod-config.properties"
-hash = "55ed6173292f4f50efa59d65096eece51f4b5cd81178ebbd85e44a3381f19a49"
+hash = "a1154e808e6bd7070d8330d7a0b99184961b72189e5daf2086f3bc8d86102db2"
 
 [[files]]
 file = "config/fabrication/block_logo.ini"
@@ -638,11 +630,15 @@ hash = "e252e0ec8ce9bc7c8b60c2af88ff26aa70dd951128224edaa8d555e3d82f82ae"
 
 [[files]]
 file = "config/flan/flan_config.json"
-hash = "6cc44c7497aabb9f89dc47c6d289f73897d814da7219cd63f3868cdcf678e6c7"
+hash = "70fca24812d13b66f59e5be27bc1d7051f9b0b6723b76532483f07628ee8c94d"
 
 [[files]]
 file = "config/flan/flan_lang.json"
 hash = "a7ab8742d19158167aa31f91e2231a3ce6af8aa07eb35ae6495239294d80381e"
+
+[[files]]
+file = "config/flan/lang/en_us.json"
+hash = "5d2fec9fa2b13999c7c7ea736474c4616bd1c6f1bc3bf24a68d61510b264ad36"
 
 [[files]]
 file = "config/gargantuan.properties"
@@ -734,7 +730,7 @@ hash = "d4d126cb7e0b19c1918c373153709571f8a8d932b9380c3336e67244e58a2a3f"
 
 [[files]]
 file = "config/indium-renderer.properties"
-hash = "96b638ad8c27dd3f9baf3769977dd8648ea2e4e87993ba08ef55fc319d53f515"
+hash = "8bd9fdb6ed62135c021c12e111698421736f01dc49764c8da3c958c13d27334c"
 
 [[files]]
 file = "config/indrev/cables.json"
@@ -774,7 +770,7 @@ hash = "9dc99196d37dbb312d5452540846c2c26a133607ba22ecd9f739a456ffd63155"
 
 [[files]]
 file = "config/iris.properties"
-hash = "d1ad428f474f617d6dde68d78ce259654988d379b248c1561b1b71c822677e28"
+hash = "97c093b3a6f25e50f21f2c69a3d80e6eace03960e3a9a0fcc0350177ffb218db"
 
 [[files]]
 file = "config/iron-jetpacks/client.json5"
@@ -1065,10 +1061,6 @@ file = "config/ringsofascension.json"
 hash = "a67236653f4a4a8d7d1cd8b3de551d640bba67ba636c419099a454da72e2dc88"
 
 [[files]]
-file = "config/roughlyenoughitems/config.json5"
-hash = "a4abd4d6b904318ae246a85251636e5e4a097baf6e1ea6f420f0e9b7515804f4"
-
-[[files]]
 file = "config/rrp.properties"
 hash = "d2650f4635af9e222eaab3171b88089478a5f0196242784426d67dc2d3690323"
 
@@ -1153,10 +1145,6 @@ file = "config/smoothboot.json"
 hash = "5865d6d3964d017c2bb8b8fd90f059016094abc6b85f3e5781ffa9959fd345c6"
 
 [[files]]
-file = "config/sodium-extra-options.json"
-hash = "e0269797997761f07fcc96fbdf8d47b5a36dac262d48a7d5eb951c5d490bb17e"
-
-[[files]]
 file = "config/sodium-extra.properties"
 hash = "a2f1b47c1eaa119ab34727f1d43c2506cb3d7f17ba8fb4efb49e20c8e0b58e70"
 
@@ -1178,7 +1166,7 @@ hash = "1765bba27ca55cb6124df99c9490edf81a9d4c48773ff37fa5457e2b2c517ef2"
 
 [[files]]
 file = "config/spark/activity.json"
-hash = "506b06713dcc7d94e67c762f04d8b5217c71a669636265bd8dc15b66eb940a00"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/spatialharvesters.conf"
@@ -1211,6 +1199,10 @@ hash = "5acdfefc4ec9c0b498dd6cb7859e397f6c5872ed5ff59f7904492a89387a0d69"
 [[files]]
 file = "config/structureworld/structureworld.json"
 hash = "9914e54c3026db2deb64a743b9f6d64f99a01ede7532be2c3506e779834d22a4"
+
+[[files]]
+file = "config/styled-chat.json"
+hash = "79a836be4dc441f0c2b06d195313e403e81430913ba37d2630f4f402e21caf7a"
 
 [[files]]
 file = "config/sync.json"
@@ -1261,10 +1253,6 @@ file = "config/terrarianslimes.json"
 hash = "97a8ac9fd751f7918ede22b78b374166f917e096f1e796419788042ca3850bbb"
 
 [[files]]
-file = "config/textile_backup.json5"
-hash = "0dffec650a5463de411e25dd6ea58ec2ccaf1342ef710d6dd8166e2aa3535256"
-
-[[files]]
 file = "config/the_bumblezone-main.json5"
 hash = "629ba05bb6ec62268ab442c989200c32d82f48c6306a2a530afd3415b022e251"
 
@@ -1282,7 +1270,7 @@ hash = "1335a55e8b05de9b0995fa97fa80346754276233600ab1c1efc5f77519ae01ae"
 
 [[files]]
 file = "config/trade.properties"
-hash = "5fa24a537df5423065b8267ad8d691edf9361d09517a07464a5cc2c8c4580c39"
+hash = "b228c02cb28f1b36f2bebe114fd5e5f66ec6c5ef4a5aa205ed91b1773dc6e0ba"
 
 [[files]]
 file = "config/universal-graves.json"
@@ -1323,22 +1311,6 @@ hash = "d0a26b9f0bf347fa65489757136645df57ab58a5a9e603444d9a19bfd17d77c0"
 [[files]]
 file = "config/white_rabbit/config.json"
 hash = "4cda66bc7068fd4008d0340111678927f8b823dc431d74830183d139aacc3ad1"
-
-[[files]]
-file = "config/xaerominimap.txt"
-hash = "dba36657e337e5ee2fa13dd3570a3a551340c078bacc74b8ea6c3058533c98f5"
-
-[[files]]
-file = "config/xaerominimap_entities.json"
-hash = "708b95aabe11f4e460248ff337e1a821abf28b3b015a3d3ce87bd6d1a51127ee"
-
-[[files]]
-file = "config/xaeropatreon.txt"
-hash = "36a890045fce4aa69f1c550d5a49a62b336cbb7911a7afa6956fcce5d4d9dcb8"
-
-[[files]]
-file = "config/xaeroworldmap.txt"
-hash = "ebbcb7ee48b9964d9583b043126f1516fd904be0a13b96dbc94374d4daf9bfd8"
 
 [[files]]
 file = "config/yosbr/config/diggusmaximus/blacklist.json5"
