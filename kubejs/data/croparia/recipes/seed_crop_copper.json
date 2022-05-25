@@ -14,21 +14,7 @@
     },
     "S": {
       "tag": "c:seeds"
-    },
-    "P": [
-      {
-        "item": "minecraft:wheat_seeds"
-      },
-      {
-        "item": "minecraft:pumpkin_seeds"
-      },
-      {
-        "item": "minecraft:melon_seeds"
-      },
-      {
-        "item": "minecraft:beetroot_seeds"
-      }
-    ]
+    }
   },
   "result": {
     "item": "croparia:seed_crop_copper"

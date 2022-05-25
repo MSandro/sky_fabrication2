@@ -1367,9 +1367,9 @@
 				// The spawn weight compared to other entities (typically between 6-20)
 				"spawn_weight": 1,
 				// Minimum amount of entities in spawned groups
-				"minimum_group_size": 0,
+				"minimum_group_size": 1,
 				// Maximum amount of entities in spawned groups - Must be greater or equal to min value
-				"maximum_group_size": 0,
+				"maximum_group_size": 1,
 				// Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
 				"spawn_biomes": [
 					"the_aether:aether_wisteria_woods",

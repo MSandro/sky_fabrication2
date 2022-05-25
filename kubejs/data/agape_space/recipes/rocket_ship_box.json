@@ -18,14 +18,24 @@
       "Z": {
         "item": "agape_space:part_engine_crude"
       },
-      "G": {
-        "item": "techreborn:cell",
-        "data": {
-          "require": {
-            "fluid": "techreborn:heliumplasma"
+      "G": [
+        {
+          "item": "techreborn:cell",
+          "data": {
+            "require": {
+              "fluid": "techreborn:heliumplasma"
+            }
+          }
+        },
+        {
+          "item": "techreborn:cell",
+          "data": {
+            "require": {
+              "fluid": "modern_industrialization:helium_plasma"
+            }
           }
         }
-      }
+      ]
     },
     "result": {
       "item": "agape_space:rocket_ship_box",
