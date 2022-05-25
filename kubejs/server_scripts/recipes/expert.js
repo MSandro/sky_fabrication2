@@ -220,5 +220,8 @@ onEvent('recipes', event => {
     event.replaceInput({output: 'expandedstorage:diamond_to_netherite_conversion_kit'}, 'minecraft:netherite_ingot', 'minecraft:netherite_block')
     event.replaceInput({output: 'expandedstorage:gold_to_netherite_conversion_kit'}, 'minecraft:netherite_ingot', 'minecraft:netherite_block')
     event.replaceInput({output: 'expandedstorage:iron_to_netherite_conversion_kit'}, 'minecraft:netherite_ingot', 'minecraft:netherite_block')
+  } else {
+    event.replaceInput({output: 'techreborn:basic_tank_unit'}, 'techreborn:basic_storage_unit', 'modern_industrialization:bronze_tank')
+    event.replaceInput({output: 'spatialharvesters:casing'}, 'modern_industrialization:quantum_upgrade', 'modern_industrialization:quantum_circuit')
   }
 });

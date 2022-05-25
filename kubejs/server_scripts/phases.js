@@ -2,6 +2,7 @@ console.log("Loading up our custom Game Phases script!");
 
 onEvent('gamephases.initialize', event => {
     event.phase('nether')
+        .block('minecraft:nether_portal', 'kubejs:unknown')
         .dimension('minecraft:the_nether');
     event.phase('aether')
         .dimension('the_aether:the_aether');
@@ -16,7 +17,7 @@ onEvent('gamephases.initialize', event => {
         .block('the_aether:blue_portal', 'kubejs:unknown');
     event.phase('block_dripstones')
         .item('minecraft:pointed_dripstone')
-        .block('minecraft:pointed_dripstone', 'minecraft:air');
+        .block('minecraft:pointed_dripstone', 'kubejs:unknown');
 });
 onEvent('server.custom_command', event => {
 		if (event.id == 'GetPhases') {
