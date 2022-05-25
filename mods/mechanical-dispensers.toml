@@ -1,13 +1,13 @@
 name = "Mechanical Dispensers"
-filename = "MechanicalDispensers-3.6.jar"
+filename = "MechanicalDispensers-4.0-1.17-1.17.1.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3507/21/MechanicalDispensers-3.6.jar"
+url = "https://edge.forgecdn.net/files/3777/914/MechanicalDispensers-4.0-1.17-1.17.1.jar"
 hash-format = "murmur2"
-hash = "747080775"
+hash = "2016560669"
 
 [update]
 [update.curseforge]
-file-id = 3507021
+file-id = 3777914
 project-id = 517886

@@ -20,7 +20,7 @@
     "forest"
   ],
   "ravenWeight": 1,
-  "ravenMinGroupCount": 0,
+  "ravenMinGroupCount": 1,
   "ravenMaxGroupCount": 1,
   "snakeBiomeCategories": [
     "plains",
@@ -48,6 +48,6 @@
   "werewolfMinGroupCount": 1,
   "werewolfMaxGroupCount": 1,
   "hellhoundWeight": 1,
-  "hellhoundMinGroupCount": 0,
+  "hellhoundMinGroupCount": 1,
   "hellhoundMaxGroupCount": 1
 }

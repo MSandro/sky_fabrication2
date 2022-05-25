@@ -15,7 +15,7 @@ onEvent('recipes', event => {
   event.remove({output: 'blockus:legacy_stonecutter'});
   event.shapeless('blockus:legacy_stonecutter', ['minecraft:stonecutter']);
 
-  // AETHER
+  // AETHERmodern_industrialization:bronze_tiny_dust
   event.remove({output: 'the_aether:wisteria_sign'});
   event.remove({output: 'the_aether:skyroot_sign'});
 
@@ -132,6 +132,7 @@ onEvent('recipes', event => {
   event.remove({output: 'modern_industrialization:uncooked_steel_dust', type: 'minecraft:crafting_shapeless'})
   event.remove({output: 'modern_industrialization:bronze_dust', type: 'minecraft:crafting_shapeless'})
   event.remove({output: 'modern_industrialization:bronze_tiny_dust', type: 'minecraft:crafting_shapeless'})
+  event.remove({output: 'modern_industrialization:raw_tungsten', type: 'minecraft:crafting_shapeless'})
 
   // TechReborn
   event.remove({output: 'techreborn:chunk_loader'});
@@ -154,6 +155,8 @@ onEvent('recipes', event => {
                                                 'minecraft:netherite_scrap', 'minecraft:netherite_scrap', 'minecraft:netherite_scrap', 'minecraft:netherite_scrap',
                                                 'minecraft:netherite_scrap', 'minecraft:netherite_scrap', 'minecraft:netherite_scrap', 'minecraft:netherite_scrap']);
   event.shapeless('9x minecraft:netherite_ingot', ['minecraft:netherite_block']);
+  event.shapeless('minecraft:glow_lichen', ['minecraft:vine', 'minecraft:glow_ink_sac']);
+
 
   event.remove({output: 'minecraft:end_crystal'});
   event.shaped('1x minecraft:end_crystal', [
