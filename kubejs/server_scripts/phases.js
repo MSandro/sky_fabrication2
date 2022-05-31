@@ -15,9 +15,6 @@ onEvent('gamephases.initialize', event => {
         .dimension('minecraft:the_end');
     event.phase('block_default_aether_portal')
         .block('the_aether:blue_portal', 'kubejs:unknown');
-    event.phase('block_dripstones')
-        .item('minecraft:pointed_dripstone')
-        .block('minecraft:pointed_dripstone', 'kubejs:unknown');
 });
 onEvent('server.custom_command', event => {
 		if (event.id == 'GetPhases') {
