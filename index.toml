@@ -262,7 +262,7 @@ hash = "b27183d6a94a5a4c6d8049c8b240b3d2770efea741fe82fc83f1e4f6741138b1"
 
 [[files]]
 file = "config/awesomedungeon_general_.properties"
-hash = "8186d208ff0a573e1a4d5f3d2c6ca0f6be2ade793d64eaa5cd86bd6b4b6be41c"
+hash = "7fc9ba6b3145204c3a2120ffab336db42d09362f0c22986d7fa3540bfa30a364"
 
 [[files]]
 file = "config/awokenworld.toml"
@@ -542,11 +542,11 @@ hash = "e48315703a5d9dd631055c5e702d3a60464f336d1147b029bb6bc81d236473ec"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "c48a6cc81ed99d54734d6513c252fbfea3bc0ff739ee48ec0b22c5644821857d"
+hash = "a09815a7e217fbc9ac614eff3c890bf1cbe609c74a3c0fce7b3268a5cb7192a8"
 
 [[files]]
 file = "config/fabric/more-villages-mod-config.properties"
-hash = "ffe24dab25a3e6a20d71e86bd835209c1290ed9e0093ef15ac27c0d2ca2cb2be"
+hash = "8f15f9cfb1aae1ef67d5cb3f1833313ab271cd6cf2d84f0394f1032520ff4e7c"
 
 [[files]]
 file = "config/fabrication/block_logo.ini"
@@ -694,7 +694,7 @@ hash = "d4d126cb7e0b19c1918c373153709571f8a8d932b9380c3336e67244e58a2a3f"
 
 [[files]]
 file = "config/indium-renderer.properties"
-hash = "9912edf81f16617a648d6f29d264568d7b92b74eef9770cf97bf896f5c7667e0"
+hash = "c787e957e0cb48461ed06fb1824b4667cb31f5817a7a4dd57453427020019188"
 
 [[files]]
 file = "config/indrev/cables.json"
@@ -734,7 +734,7 @@ hash = "9dc99196d37dbb312d5452540846c2c26a133607ba22ecd9f739a456ffd63155"
 
 [[files]]
 file = "config/iris.properties"
-hash = "067df9bfd8ec2ad98efa787bc2cb86b60af7e824ec37c3978579645361217d08"
+hash = "3d6870d0ef18d435a7969f6a31c5d99bd41437451fa93f318d409744b8173668"
 
 [[files]]
 file = "config/iron-jetpacks/client.json5"
@@ -4195,18 +4195,8 @@ hash = "54326d466b78099c508a5a2b499c4a26f60c679e17b3c069419ca201485e0a07"
 metafile = true
 
 [[files]]
-file = "mods/fiblib.toml"
-hash = "f1368efb6fe771481d82f1d6d607d966fd73e56f248ad36cd79d23d7561b35f4"
-metafile = true
-
-[[files]]
 file = "mods/flan.toml"
 hash = "b54f1dcd5fd70447109d04bba7c602cdc509a1552fca0b1ef581b0a1f23d2be3"
-metafile = true
-
-[[files]]
-file = "mods/game-phases.toml"
-hash = "ca4acd59761ca06d938f6bc3600ecfb99ab74ccd6c6e3223c3e34a1bb1f98a74"
 metafile = true
 
 [[files]]
