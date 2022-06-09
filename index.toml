@@ -265,10 +265,6 @@ file = "config/automated_crafting.json"
 hash = "b27183d6a94a5a4c6d8049c8b240b3d2770efea741fe82fc83f1e4f6741138b1"
 
 [[files]]
-file = "config/awesomedungeon_general_.properties"
-hash = "7f863e5afc7d5fdfcb750777d7e54e74af7179d13a38ad264b42aaaf7dad3029"
-
-[[files]]
 file = "config/awokenworld.toml"
 hash = "587a650385ff35993e0af4964de79b98ddef65964156a3c6886cced37e564644"
 
@@ -497,18 +493,6 @@ file = "config/dml-refabricated.json"
 hash = "c721f5386caeea1c3840045355f58ef2703de01ead1512a5d443a9f388622555"
 
 [[files]]
-file = "config/drippyloadingscreen/config.cfg"
-hash = "eb0cc9dd4f40ed36b39acdd875dbdac476051190f68847a532ecb0d935ebf262"
-
-[[files]]
-file = "config/drippyloadingscreen/customization/default.dllayout"
-hash = "ee9e1b235067b09aecc4e0f5182ece81807bad01ed729f25c6752428b277b9ef"
-
-[[files]]
-file = "config/drippyloadingscreen/locals/en_us.local"
-hash = "7562c210c851a1acfb7a34ad4d6733d6be23a9ff7bf5eaebdb2f0da78e60bc0d"
-
-[[files]]
 file = "config/dynamicfps.toml"
 hash = "37192c981587637ee01f337fa4900b7ba834ae2c7e1f4a612d09876170feaa4b"
 
@@ -550,11 +534,11 @@ hash = "e48315703a5d9dd631055c5e702d3a60464f336d1147b029bb6bc81d236473ec"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "fac3e29c42f18335b82747b1a2423b3a80a2778612401d93d31f420b04586969"
+hash = "9e3e5f4a869cc9a58b390afafa0d002819c205f958265566b1fc7e7606b6aad0"
 
 [[files]]
 file = "config/fabric/more-villages-mod-config.properties"
-hash = "1ffe570bfd5682dd5f2beda65f3cdef5f2331a0a3b180bab4482863240b907f6"
+hash = "afd8fc4c1cdba1b413c57c4e6a2b23a608e38f03fbb80b4f7d708daa140e903b"
 
 [[files]]
 file = "config/fabrication/block_logo.ini"
@@ -702,7 +686,7 @@ hash = "d4d126cb7e0b19c1918c373153709571f8a8d932b9380c3336e67244e58a2a3f"
 
 [[files]]
 file = "config/indium-renderer.properties"
-hash = "56ed31811a73bd48d7d690647e77d1ef06fc4b6896b5892392d435b0de2daa61"
+hash = "0f99e2547581ae0012583520e8def477e543d38594c69808ad7702068323034e"
 
 [[files]]
 file = "config/indrev/cables.json"
@@ -742,7 +726,7 @@ hash = "9dc99196d37dbb312d5452540846c2c26a133607ba22ecd9f739a456ffd63155"
 
 [[files]]
 file = "config/iris.properties"
-hash = "583d180e7063cc1888b1651450f57de1675cfacd6c8469e1a39e34e0c5f5d7ab"
+hash = "f707adabb0cae17efec229ff2a2b961b55fc7d4a472e589286446872d5d30342"
 
 [[files]]
 file = "config/iron-jetpacks/client.json5"
