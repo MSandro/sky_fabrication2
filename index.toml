@@ -1061,10 +1061,6 @@ file = "config/slabhelper/config.json"
 hash = "53c087786acfe4e9c7c71413cee196180683e2ea6d8272ccc8f64369c393cb00"
 
 [[files]]
-file = "config/slightguimodifications/background.png"
-hash = "aff3f24c2f3d14ea2ef63d08e08281329e1218ce5a77bd8fb319f65717eae9e6"
-
-[[files]]
 file = "config/slotlink.json"
 hash = "aece560980c36b1c9dc630a8ec1935100e30425333364111f12ce23618ffe604"
 
