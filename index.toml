@@ -534,11 +534,11 @@ hash = "e48315703a5d9dd631055c5e702d3a60464f336d1147b029bb6bc81d236473ec"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "9e3e5f4a869cc9a58b390afafa0d002819c205f958265566b1fc7e7606b6aad0"
+hash = "70508f97e767175eb903914eba787ab2bdbd898e9f07d00174712a94b983011c"
 
 [[files]]
 file = "config/fabric/more-villages-mod-config.properties"
-hash = "afd8fc4c1cdba1b413c57c4e6a2b23a608e38f03fbb80b4f7d708daa140e903b"
+hash = "b1fdae9e54568d64aa1a7bb4c01f62957cfc4f09d9b7e412bfaf50147dd23e2a"
 
 [[files]]
 file = "config/fabrication/block_logo.ini"
@@ -686,7 +686,7 @@ hash = "d4d126cb7e0b19c1918c373153709571f8a8d932b9380c3336e67244e58a2a3f"
 
 [[files]]
 file = "config/indium-renderer.properties"
-hash = "0f99e2547581ae0012583520e8def477e543d38594c69808ad7702068323034e"
+hash = "92fff4e29de8ea4d4e4ac903b7db0c2112859f7e842f6dffa10d52985088f292"
 
 [[files]]
 file = "config/indrev/cables.json"
@@ -726,7 +726,7 @@ hash = "9dc99196d37dbb312d5452540846c2c26a133607ba22ecd9f739a456ffd63155"
 
 [[files]]
 file = "config/iris.properties"
-hash = "f707adabb0cae17efec229ff2a2b961b55fc7d4a472e589286446872d5d30342"
+hash = "5aaef3581f00bb28c6102b978964193febbd46eb2a908dc97e52abe25aa67207"
 
 [[files]]
 file = "config/iron-jetpacks/client.json5"
@@ -1202,7 +1202,7 @@ hash = "1335a55e8b05de9b0995fa97fa80346754276233600ab1c1efc5f77519ae01ae"
 
 [[files]]
 file = "config/trade.properties"
-hash = "7449117b39dacc9a17be5ac03a9281833d64be8cb11d02c15977e46225980be6"
+hash = "706eaf23358cf00664ba6c1e3619ece85a6440278c0c6d14c0748835bc50a490"
 
 [[files]]
 file = "config/universal-graves.json"
@@ -2949,10 +2949,6 @@ file = "kubejs/data/minecraft/portals/the_aether-portal.json"
 hash = "d42e057d479a03e22ccfb8177223d8a5d931532c2f15549c8e4be07312c3074c"
 
 [[files]]
-file = "kubejs/data/minecraft/recipes/copper_button.json"
-hash = "37849b72b546c0aac9deb127b38efc6322d0688fb57b67c2b1f002a83cbaf6b5"
-
-[[files]]
 file = "kubejs/data/minecraft/recipes/lamp.json"
 hash = "7e0bba7fdd4cc5332af35b91ed9fa3391a45b2f55732e98324c8b1756cab5cb0"
 
@@ -3857,11 +3853,6 @@ hash = "04bec29f504eb82cf67ae96b56e6fc6ee2656cd0cd45136bc37427439a47db3f"
 metafile = true
 
 [[files]]
-file = "mods/awesome-dungeon-fabric.toml"
-hash = "0a1f96bee6f2f59a22bb384df8f9442bbbc2b3145255e0ad30c77ccb694ef32d"
-metafile = true
-
-[[files]]
 file = "mods/badstdout.toml"
 hash = "5409e4d95bc1dfa3d007ae612068ed30df5e9acefe4b88836bd90c94f61e0715"
 metafile = true
@@ -4524,11 +4515,6 @@ metafile = true
 [[files]]
 file = "mods/opentoall.toml"
 hash = "3f86c0ab7761a75639101bd325f96530e16432235d1a26c0948e178abdfccdfa"
-metafile = true
-
-[[files]]
-file = "mods/outvoted.toml"
-hash = "757b1545a68478a927eaf6dbfbb81c1c669a456d9f473f0db73e04181e8d975f"
 metafile = true
 
 [[files]]
