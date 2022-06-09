@@ -1,6 +1,6 @@
 name = "Sodium"
 filename = "sodium-fabric-mc1.17.1-0.3.4+build.13.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
