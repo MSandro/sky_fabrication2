@@ -241,6 +241,10 @@ file = "config/arcanus.json5"
 hash = "75c42acfb056a4a8821e2a7af02d76ed65944dfdfb06f1edc0462b229049d0af"
 
 [[files]]
+file = "config/armor-swap.conf"
+hash = "b4e05b3712207ccfff4d6e996f2b09091f363235b13f23d9d24e4b41b1ac544c"
+
+[[files]]
 file = "config/artis-recrafted.json5"
 hash = "e1bc4a0cd5d859b6a9773f78e390783c68d8ffe659be64b70f0c34ec7f104fd8"
 
@@ -262,7 +266,7 @@ hash = "b27183d6a94a5a4c6d8049c8b240b3d2770efea741fe82fc83f1e4f6741138b1"
 
 [[files]]
 file = "config/awesomedungeon_general_.properties"
-hash = "7fc9ba6b3145204c3a2120ffab336db42d09362f0c22986d7fa3540bfa30a364"
+hash = "7f863e5afc7d5fdfcb750777d7e54e74af7179d13a38ad264b42aaaf7dad3029"
 
 [[files]]
 file = "config/awokenworld.toml"
@@ -330,7 +334,7 @@ hash = "c88c23c520341d800c6403788d500a2c8db1eebf1cb3920f9809b31f00e6558b"
 
 [[files]]
 file = "config/betterend/generator.json"
-hash = "6c3611ffd2e833a0b733e6d298ae2770f28a5d5869b4695e5b0ead8aa7eee1c8"
+hash = "a5a74c5893235e4ee0b3021310d1308934571918bd2a68799be950550d714f74"
 
 [[files]]
 file = "config/betterend/items.json"
@@ -481,6 +485,10 @@ file = "config/dark-enchanting.json5"
 hash = "32ebf4c14c536fa1a2627f047629fce6f976e16b64ab09700cf5d13ffe59f690"
 
 [[files]]
+file = "config/dark-loading-screen.json"
+hash = "119b674ac132974c482a8bb0430354632386ebc5df473b45e153b06988f5a1c3"
+
+[[files]]
 file = "config/dashloader.json"
 hash = "1b114505c28cedc31030f290a4aa640f665f71e05c95c9851bfb8a816cecfaeb"
 
@@ -542,11 +550,11 @@ hash = "e48315703a5d9dd631055c5e702d3a60464f336d1147b029bb6bc81d236473ec"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "a09815a7e217fbc9ac614eff3c890bf1cbe609c74a3c0fce7b3268a5cb7192a8"
+hash = "fac3e29c42f18335b82747b1a2423b3a80a2778612401d93d31f420b04586969"
 
 [[files]]
 file = "config/fabric/more-villages-mod-config.properties"
-hash = "8f15f9cfb1aae1ef67d5cb3f1833313ab271cd6cf2d84f0394f1032520ff4e7c"
+hash = "1ffe570bfd5682dd5f2beda65f3cdef5f2331a0a3b180bab4482863240b907f6"
 
 [[files]]
 file = "config/fabrication/block_logo.ini"
@@ -566,7 +574,7 @@ hash = "14eb4e8cd105c580403c4e5bc6bba831c81aedcf4e6e04485c74e9d3f253689f"
 
 [[files]]
 file = "config/fabrication/features.ini"
-hash = "73ec5ddcf98ff3dc70cbcc9244cba2e145f315f78dd396d150aec32a0eaad5d7"
+hash = "0fa8aa9af38e0b633968f5ed94e7cf2b7437d3d252724848fbdf0f9388da83f3"
 
 [[files]]
 file = "config/fabrication/fscript.ini"
@@ -694,7 +702,7 @@ hash = "d4d126cb7e0b19c1918c373153709571f8a8d932b9380c3336e67244e58a2a3f"
 
 [[files]]
 file = "config/indium-renderer.properties"
-hash = "c787e957e0cb48461ed06fb1824b4667cb31f5817a7a4dd57453427020019188"
+hash = "56ed31811a73bd48d7d690647e77d1ef06fc4b6896b5892392d435b0de2daa61"
 
 [[files]]
 file = "config/indrev/cables.json"
@@ -734,7 +742,7 @@ hash = "9dc99196d37dbb312d5452540846c2c26a133607ba22ecd9f739a456ffd63155"
 
 [[files]]
 file = "config/iris.properties"
-hash = "3d6870d0ef18d435a7969f6a31c5d99bd41437451fa93f318d409744b8173668"
+hash = "583d180e7063cc1888b1651450f57de1675cfacd6c8469e1a39e34e0c5f5d7ab"
 
 [[files]]
 file = "config/iron-jetpacks/client.json5"
@@ -1210,7 +1218,7 @@ hash = "1335a55e8b05de9b0995fa97fa80346754276233600ab1c1efc5f77519ae01ae"
 
 [[files]]
 file = "config/trade.properties"
-hash = "b228c02cb28f1b36f2bebe114fd5e5f66ec6c5ef4a5aa205ed91b1773dc6e0ba"
+hash = "7449117b39dacc9a17be5ac03a9281833d64be8cb11d02c15977e46225980be6"
 
 [[files]]
 file = "config/universal-graves.json"
@@ -3694,7 +3702,7 @@ hash = "9512c4d3ea5c66287e490838f282272e21c3761538264d60a95c346a7d410abc"
 
 [[files]]
 file = "kubejs/server_scripts/interactions.js"
-hash = "a9ab98449a22689e354e11353fc4b6e7a2aed3052c15183e6e414532cd203291"
+hash = "c325f10168ff816535f8d5bf89b71bc246272729f154c1e818656d0030ecf051"
 
 [[files]]
 file = "kubejs/server_scripts/packmode.js"
@@ -3835,6 +3843,11 @@ hash = "0ed739c3b8c499a9a1be8f222b98efa623f4cdfbafd0c0dbd086e626858ce75a"
 metafile = true
 
 [[files]]
+file = "mods/armor-swap.pw.toml"
+hash = "adad602403ed18076e65b39d760e11b31e0c7b41fa133ef8018a8fbeb68b708f"
+metafile = true
+
+[[files]]
 file = "mods/arrp.toml"
 hash = "34d2af081646852e3debde4208621cf0643f05d1ba06a82b95fcc4d20adb41f4"
 metafile = true
@@ -3887,11 +3900,6 @@ metafile = true
 [[files]]
 file = "mods/beaconoverhaul.toml"
 hash = "34f3b95688c9dea523d36af66d240471b76dd1c1eab51b8e89162089388d78ed"
-metafile = true
-
-[[files]]
-file = "mods/better-sodium-video-settings-button.toml"
-hash = "2bf3f97fd9ec2b6b9329db108db86a943eb7d59282b1bebdfa567e01cb6a6dd9"
 metafile = true
 
 [[files]]
@@ -4010,6 +4018,11 @@ hash = "53f5dcd85925ed02b8452825cde83c397729a49cf13c3d9001538a4b2a4376e6"
 metafile = true
 
 [[files]]
+file = "mods/completeconfig.pw.toml"
+hash = "a56dc39a10ab4ce6907f157aa4ed7ad38a0215885dce7b4e0fc071f029b9dd54"
+metafile = true
+
+[[files]]
 file = "mods/compostable-rotten-flesh.toml"
 hash = "b21b1423667b131244630962bc036d8886da3b6dd1db93755803cd72e627d972"
 metafile = true
@@ -4060,6 +4073,11 @@ hash = "4927781ea111305ed947c88c55517fd1caa8373514420dcf6c3cb2e7bb386379"
 metafile = true
 
 [[files]]
+file = "mods/dark-loading-screen.pw.toml"
+hash = "96de4c26408d9df44529d79e1974d6782e4afe95daf03c3dc92abcffb6b4d74a"
+metafile = true
+
+[[files]]
 file = "mods/datapack-portals.toml"
 hash = "9ca03d81b2ce9a0542d9effafbc78deecfa9f0be303089110e93f673ecb6df08"
 metafile = true
@@ -4092,16 +4110,6 @@ metafile = true
 [[files]]
 file = "mods/dispenser-configurator.toml"
 hash = "ac0d2b96b61fa903258434186db411f3eef5d8ac19209afc397d5dd8a9f05001"
-metafile = true
-
-[[files]]
-file = "mods/dont-clear-chat-history.toml"
-hash = "2a1799426d31ac5da9f01cbbd1b611df5b74499ae46d7d1a5e2e4f805db1570c"
-metafile = true
-
-[[files]]
-file = "mods/drippy-loading-screen-fabric.toml"
-hash = "7397da1925e3532aea65617789bff77aac74988277612e0a2b49b2879a7d81cd"
 metafile = true
 
 [[files]]
@@ -4306,7 +4314,7 @@ metafile = true
 
 [[files]]
 file = "mods/irisshaders.toml"
-hash = "4481f1c4cf5eae9f5c9e72eb993fc7353ba9031eefa8d6edaa369d6d23195b79"
+hash = "f5ab64f81260aeeb4e81031804125a9492912b5a888b9a6935d7703482cb3b5b"
 metafile = true
 
 [[files]]
@@ -4620,6 +4628,11 @@ hash = "af45c86c3c964a7f9529695c2d828390563869d5f331905603320eb072def088"
 metafile = true
 
 [[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+hash = "c2e22e2defa964c962367bce77dbb3e0dffb881da9bbb6c94199a0fe7f43096f"
+metafile = true
+
+[[files]]
 file = "mods/repurposed-structures-fabric.toml"
 hash = "acc802d9c067133017e3fbd491d0c51bf9de393ed483dbc34cc61efc9b4559a1"
 metafile = true
@@ -4706,7 +4719,12 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "a2f279ebfabf20d6b54a93d092b42cd459a588f7873c5aec2521ff302693743d"
+hash = "4a092edbbb0d7ae8e5de26045fd44fda2828f7c92c30e5e0c751d1df1f996fb0"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "0f64ffd2a120c4656e34fa74c2ae4d81f9259c416817d0297f3a622f97ccaadc"
 metafile = true
 
 [[files]]
@@ -4860,11 +4878,6 @@ hash = "1cf751b8e3e5e99b897cda6b5d7c9abed2f41a2caff0ac075c86ec1338301c0e"
 metafile = true
 
 [[files]]
-file = "mods/unlimited-dragon-eggs-fabric.toml"
-hash = "71c31a8bb5d8d7bca1032dea635c39675c7852be11d1555cbc436f5c464664a6"
-metafile = true
-
-[[files]]
 file = "mods/valleycraft.toml"
 hash = "96d012d2e97741fb9f211e8d8dba535895c4dcf8c1246ded73617c20a6b006a2"
 metafile = true
@@ -4901,12 +4914,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "5775a2d33551dd7c97a9758316b01ba12d99206c635fbc27bd34ff52f97848c3"
+hash = "4468781954e378058fb84633ef1f2080635c11f4afd75ce234540a14693b18ae"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "8096a56df893b69383549c1e79e5a9771e636bb9a6569b1eee2aab5e8115d52d"
+hash = "b0bc6afab243a4faa5ea34522e0d0ca48ed217265211a90449edb407348d60c3"
 metafile = true
 
 [[files]]

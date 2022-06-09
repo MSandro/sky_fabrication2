@@ -1,0 +1,13 @@
+name = "Armor Swap"
+filename = "armor-swap-0.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f7043a02900ef2aa6a911e07298ded45befe8810"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3416869
+project-id = 513106
