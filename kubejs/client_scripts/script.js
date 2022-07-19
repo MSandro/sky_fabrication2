@@ -231,7 +231,12 @@ const DELETED_ITEMS = [
 	"scf:copper_funnel",
 	"scf:silver_funnel",
 	"scf:bronze_funnel",
-	"simple_pipes:facade"
+	"simple_pipes:facade",
+  "bcf:icon",
+  "bewitchment:juniper_broom",
+  "bewitchment:cypress_broom",
+  "bewitchment:elder_broom",
+  "bewitchment:dragons_blood_broom"
  ];
 events.listen("kjsextras_rei", event => {
     DELETED_ITEMS.forEach(id => event.remove(id));
