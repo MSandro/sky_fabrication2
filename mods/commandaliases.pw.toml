@@ -1,13 +1,13 @@
 name = "Command Aliases (Fabric)"
-filename = "commandaliases-mc1.17.1-0.6.0.jar"
+filename = "commandaliases-0.9.3+mc1.17.1-build.47.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "cd77c8a3531ad326a36ea431414fbd9f67ad15d6"
+hash = "bb99c9f1c3fd9e19f27fe28de84b3ad4bad34b53"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3789448
+file-id = 3873217
 project-id = 409389

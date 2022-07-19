@@ -99,7 +99,7 @@
         {"weight": 23, "block": "modern_industrialization:salt_ore"},
         {"weight": 1, "block": "minecraft:diamond_ore"},
         {"weight": 20, "block": "modern_industrialization:lead_ore"},
-        {"weight": 23, "block": "modern_industrialization:bauxite_ore"},
+        {"weight": 19, "block": "modern_industrialization:bauxite_ore"},
         {"weight": 11, "block": "modern_industrialization:antimony_ore"},
         {"weight": 7, "block": "modern_industrialization:mozanite_ore"},
         {"weight": 4, "block": "things:gleaming_ore"}
@@ -132,7 +132,7 @@
         {"weight": 23, "block": "modern_industrialization:salt_ore"},
         {"weight": 2, "block": "minecraft:diamond_ore"},
         {"weight": 20, "block": "modern_industrialization:lead_ore"},
-        {"weight": 23, "block": "modern_industrialization:bauxite_ore"},
+        {"weight": 19, "block": "modern_industrialization:bauxite_ore"},
         {"weight": 9, "block": "modern_industrialization:antimony_ore"},
         {"weight": 7, "block": "modern_industrialization:mozanite_ore"},
         {"weight": 4, "block": "things:gleaming_ore"},
@@ -141,7 +141,7 @@
         {"weight": 2, "block": "betternether:cincinnasite_ore"},
         {"weight": 1, "block": "appliedenergistics2:deepslate_quartz_ore"},
         {"weight": 1, "block": "minecraft:ancient_debris"},
-        {"weight": 9, "block": "indrev:nikolite_ore"},
+        {"weight": 6, "block": "indrev:nikolite_ore"},
         {"weight": 1, "block": "techreborn:ruby_ore"}
       ]
     }
