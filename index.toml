@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".directory"
+hash = "f2e4f329b5de167780fbb012dc4f024d2f0570eb96920a07ba556f72e0c2ed27"
+
+[[files]]
 file = "config/Adorn.json5"
 hash = "b275477496fee01b0a5c7cfbc87c0a22b1148b2cf36cdb795472a94ceb4ae306"
 
@@ -550,11 +554,11 @@ hash = "e48315703a5d9dd631055c5e702d3a60464f336d1147b029bb6bc81d236473ec"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "ccb8223bc62ebd1784a2f314ffb406825f44494d28d0b63c8a39e69d4f618dac"
+hash = "6b57245e4a867a4be47aac02fe78f90ce94ae7e5eb4dc639130b605503bf4161"
 
 [[files]]
 file = "config/fabric/more-villages-mod-config.properties"
-hash = "e252efc1bef526df6dd291fa3bb8ac34eeb00b977c2726026ea26fe0adac0633"
+hash = "aea222a1aa1bd0fa16a14b145d8e919ddf34efac57c5a1cebc91c5f14c2e5c6b"
 
 [[files]]
 file = "config/fabrication/block_logo.ini"
@@ -574,7 +578,7 @@ hash = "14eb4e8cd105c580403c4e5bc6bba831c81aedcf4e6e04485c74e9d3f253689f"
 
 [[files]]
 file = "config/fabrication/features.ini"
-hash = "0fa8aa9af38e0b633968f5ed94e7cf2b7437d3d252724848fbdf0f9388da83f3"
+hash = "9273dc98fafdcf9d10873a99f3bfba2ac1c38390d80d33305c158322e942380d"
 
 [[files]]
 file = "config/fabrication/fscript.ini"
@@ -587,6 +591,10 @@ hash = "2ebae7286e968620c239e88974ac9da9ce330b64a6a282dc8d727e5c1a1c83d9"
 [[files]]
 file = "config/fabrication/item_despawn.ini"
 hash = "24b26ac0b8ff13889b6b3b00b2309366eb72c36014a9679a82f4cbff46c275f4"
+
+[[files]]
+file = "config/fabrication/taggable_players.ini"
+hash = "fe069b4316f910f2f3b703cedd9930b73eed74c2ae86909f8b43a8ffd3d1af45"
 
 [[files]]
 file = "config/fabrication/yeet_recipes.ini"
@@ -702,7 +710,7 @@ hash = "d4d126cb7e0b19c1918c373153709571f8a8d932b9380c3336e67244e58a2a3f"
 
 [[files]]
 file = "config/indium-renderer.properties"
-hash = "559e7afb6e25ace472731050b8a3c996c4d3bd677b67c96bb8c29c3ed699c8c0"
+hash = "17d60cd01d4e6900de43304f7306314a94fb8ce01d801da5f711815a44e292f7"
 
 [[files]]
 file = "config/indrev/cables.json"
@@ -742,7 +750,7 @@ hash = "9dc99196d37dbb312d5452540846c2c26a133607ba22ecd9f739a456ffd63155"
 
 [[files]]
 file = "config/iris.properties"
-hash = "17c761beefa09701ed567649844b114b546450475ceca1e21b243c48564e35c2"
+hash = "424acfe31e2c816017f8948a5e0bf454fda1bfd746356e371507c155e0f49c2d"
 
 [[files]]
 file = "config/iron-jetpacks/client.json5"
@@ -982,7 +990,7 @@ hash = "2ade18fb864f62722aba7fcef0b9b6112b8d2063b92adbeb144977fd7f7a4dc9"
 
 [[files]]
 file = "config/platforms/common.json5"
-hash = "b1ec95ec3c0551a049c865945dd12754c4b9b797e7feacd80de3648d5f0ac37a"
+hash = "24027e829790e28f94843eeb242cd27695dfeaf8379f359c337de01ff6a8e856"
 
 [[files]]
 file = "config/player-vehicle-desync-fix.json5"
@@ -1094,7 +1102,7 @@ hash = "5865d6d3964d017c2bb8b8fd90f059016094abc6b85f3e5781ffa9959fd345c6"
 
 [[files]]
 file = "config/sodium-extra-options.json"
-hash = "4ed5aea1d6d990d5dbc77e5a1d797d56e0257ac567849252f197c1e4276302f7"
+hash = "aecabe1c5ee05a0ae3747f5f378a5fe5d9746bc4348f7494cdaa464a8bd8ac2c"
 
 [[files]]
 file = "config/sodium-extra.properties"
@@ -1222,7 +1230,7 @@ hash = "1335a55e8b05de9b0995fa97fa80346754276233600ab1c1efc5f77519ae01ae"
 
 [[files]]
 file = "config/trade.properties"
-hash = "22e18b1cd71e66f395f5bd61291c4aae1715ea1c55408c72836202d78bc218fc"
+hash = "7707bb6d9ac30a5eeea14a5ab535ccc09a67d1642483c376e8fbae589006b036"
 
 [[files]]
 file = "config/universal-graves.json"
@@ -1254,7 +1262,7 @@ hash = "aa5f34846d3a196938d30a0dca0dc1ecfe9dbd74f8ddf7ae59bed66d06968731"
 
 [[files]]
 file = "config/wands.json"
-hash = "c70e1756dbd53b76dea702e9b31038d357e4550fca605c8fec29cdf19b230f97"
+hash = "212a6d6b7105f9a6939c47d37359a2b99cabd58ddbf4c54d28201d71391346c6"
 
 [[files]]
 file = "config/waystones/config.json"
@@ -1266,11 +1274,11 @@ hash = "4cda66bc7068fd4008d0340111678927f8b823dc431d74830183d139aacc3ad1"
 
 [[files]]
 file = "config/xaerominimap.txt"
-hash = "7411d605ec51f7f52c55e3add2e796b625fab4ae4551920635e1a3da24751708"
+hash = "5d2debd123bc266bccfa674bb52ca16195b08d0c560ba9a29f2093e399b00e5d"
 
 [[files]]
 file = "config/xaerominimap_entities.json"
-hash = "064b687605cda8d1da0c8085f42f6f16afd7b2f13b6a01894284729d58312ace"
+hash = "91d70887312df8206d99a63bfd04f0a5cbe68723a4a66205e5966a3e6ba4405f"
 
 [[files]]
 file = "config/xaeropatreon.txt"
@@ -2082,7 +2090,7 @@ hash = "9382bce2d80a7b19bcb4d6e926a1eaf996ba929b9c2a319ef66ea04416f60328"
 
 [[files]]
 file = "kubejs/data/artis/recipes/biggest_bench.json"
-hash = "681d3fe073475b08a26cec539343c4ee936e74adc153d34ef230dca927090c51"
+hash = "5c2de669c72201a87ae192d1743dc2d20cea8d56c222ece0e271310189eddfa8"
 
 [[files]]
 file = "kubejs/data/artis/recipes/upgrade_bench.json"
@@ -3970,7 +3978,7 @@ metafile = true
 
 [[files]]
 file = "mods/building-wands.toml"
-hash = "9d227ee6725e013cbe7b793b614fe3e928bfbaf153478c4230ea4ab621567d3e"
+hash = "006b3a1a8190eb763357d534ca27fc8bb84272f129ea06ec9944593f27d0675a"
 metafile = true
 
 [[files]]
@@ -4180,7 +4188,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.toml"
-hash = "31b8ee3e8f34273e2989381dde65b8b13e128b6fed0c244f46af62bb47ac354f"
+hash = "5e0fb026c7bfa446e3398b6297ff4a7223f8b423a829a8543d78174b83063edf"
 metafile = true
 
 [[files]]
@@ -4200,7 +4208,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabrication.toml"
-hash = "f25e4df19544b73c8e38cf438892243e6f6a98be77a41c14bfb75e3ec8b2bf9a"
+hash = "73fd405c1767dbf47a6f54fb88b84bbe962cd1356350471ea9c26ed363009d31"
 metafile = true
 
 [[files]]
@@ -4325,7 +4333,7 @@ metafile = true
 
 [[files]]
 file = "mods/irisshaders.toml"
-hash = "f5ab64f81260aeeb4e81031804125a9492912b5a888b9a6935d7703482cb3b5b"
+hash = "4f11d2d4fe0152c75e48a92de31dc4f2ad3ba2576fdf7385a6c25a7499a5a96e"
 metafile = true
 
 [[files]]
@@ -4425,7 +4433,7 @@ metafile = true
 
 [[files]]
 file = "mods/minecraft-transit-railway.toml"
-hash = "b9003eab69cf934f9a66ba2bb8e75cd63c04b1a206cd846b81e6a4e78bc82d84"
+hash = "285d3895b5e00d96b23ae6893bdf19b8dab3c2fe7238d463cc3ca6b12ed563b0"
 metafile = true
 
 [[files]]
@@ -4450,7 +4458,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.toml"
-hash = "3e521f41ba4646aa399d194bf9ece289511007ea59b5e79b8ff711a082f4a59c"
+hash = "3f0067129ebdd58fb72e2c2cb1e1554420b624050131ebe9e8a2f5d494ba9180"
 metafile = true
 
 [[files]]
@@ -4585,7 +4593,7 @@ metafile = true
 
 [[files]]
 file = "mods/platforms-fabric.toml"
-hash = "b0a289424726cf7cd233adab77f8cf5c4cdfc453a32e137f8c61766ffcb7e7c2"
+hash = "a1b42d0793afc53b762b2e487428e17d92afc35b03b97bbe96dd230343ecc043"
 metafile = true
 
 [[files]]
@@ -4630,7 +4638,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "c2e22e2defa964c962367bce77dbb3e0dffb881da9bbb6c94199a0fe7f43096f"
+hash = "ebb3a5dafe489fd701f2a1f488252d2a6a296e8fb7f2b50a5f87db6d131d1d1e"
 metafile = true
 
 [[files]]
@@ -4675,7 +4683,7 @@ metafile = true
 
 [[files]]
 file = "mods/shetiphiancore-fabric.toml"
-hash = "bc39d4a8381fc810d26b5b136885112452e70508fc06a677d51dc14f7ffeebeb"
+hash = "3e1b9c503808ffa7e499e313ab31e9e99f726c80d1d73c0aa7913df7f06826d8"
 metafile = true
 
 [[files]]
@@ -4720,7 +4728,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "4a092edbbb0d7ae8e5de26045fd44fda2828f7c92c30e5e0c751d1df1f996fb0"
+hash = "af19f314e5bb8fa845f798c50ccdc8f42e5a7f27cf4a54a0197e74d6b59e02af"
 metafile = true
 
 [[files]]
@@ -4905,12 +4913,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "73063c4f24e5df1daba338c3db3fdd0ac1e20c25b652000405d542417dc4ff70"
+hash = "a50161ac8bd4d7db83b2d913427746680b31c496b0b63e197463098c99006c10"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "a9f50244036f1dccd7ee3080af88445d73db0d57bd0dcd2e7eb648bced5d2906"
+hash = "bca09d42645afbffdfd85fa09c4d84d44a4ddf80b8e2cc5a5c843dc0bb84cd1c"
 metafile = true
 
 [[files]]

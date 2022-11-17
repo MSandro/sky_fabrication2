@@ -1,13 +1,13 @@
 name = "Minecraft Transit Railway"
-filename = "MTR-1.17.1-3.0.0-beta-8.jar"
+filename = "MTR-fabric-1.17.1-3.1.9.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3558/684/MTR-1.17.1-3.0.0-beta-8.jar"
-hash-format = "murmur2"
-hash = "1111432664"
+hash-format = "sha1"
+hash = "6d86b9fee88293e6444dfe8c84baabdffeb30da2"
+mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3558684
+file-id = 4087707
 project-id = 266707

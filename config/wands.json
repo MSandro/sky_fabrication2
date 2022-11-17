@@ -4,6 +4,7 @@
   "iron_wand_limit": 49,
   "diamond_wand_limit": 256,
   "netherite_wand_limit": 1024,
+  "creative_wand_limit": 512,
   "stone_wand_durability": 131,
   "iron_wand_durability": 250,
   "diamond_wand_durability": 1561,
@@ -13,8 +14,12 @@
   "allow_wand_to_break": false,
   "allow_offhand_to_break": false,
   "mend_tools": true,
+  "enable_vein_mode": true,
+  "enable_blast_mode": true,
   "wand_mode_display_x_pos": 80.0,
   "wand_mode_display_y_pos": 100.0,
+  "wand_tools_display_x_pos": 0.0,
+  "wand_tools_display_y_pos": 100.0,
   "preview_opacity": 0.8,
   "fancy_preview": true,
   "block_outlines": true,
@@ -46,5 +51,8 @@
   "str_axe_allowed": [],
   "str_shovel_allowed": [],
   "str_hoe_allowed": [],
+  "str_shears_allowed": [
+    "minecraft:moss_block"
+  ],
   "str_denied": []
 }
