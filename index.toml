@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".directory"
-hash = "f2e4f329b5de167780fbb012dc4f024d2f0570eb96920a07ba556f72e0c2ed27"
-
-[[files]]
 file = "config/Adorn.json5"
 hash = "b275477496fee01b0a5c7cfbc87c0a22b1148b2cf36cdb795472a94ceb4ae306"
 
@@ -1951,10 +1947,6 @@ hash = "268d80fdc52420d6f9227ac5ac260fc9ac565696d56d639a77e5da46dcf212bb"
 [[files]]
 file = "kubejs/assets/minecraft/textures/gui/options_background.png"
 hash = "3b429b2dca6cc602c06fab11eb1ae52094ea6fe2d42f58d9d71579e601914730"
-
-[[files]]
-file = "kubejs/assets/minecraft/textures/gui/title/background/.directory"
-hash = "aece308a6a3f0f8c5d9131dd2126c39b4ef20a6bab815b93ae04d427ff42e5b2"
 
 [[files]]
 file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_0.png"
